@@ -30,7 +30,10 @@ export async function installPresentation(){
    const request=new Request(location.origin+url.pathname+url.search,{...init,headers});
    try{
     const response=await execute(request);
-    const setCookie=response.headers.get('set-cookie');if(setCookie){const pair=setCookie.split(';')[0];if(pair==='academy_session=')sessionStorage.removeItem('academy-demo-cookie');else sessionStorage.setItem('academy-demo-cookie',pair)}
+    if(endpoint==='launcher'&&request.method==='POST'&&response.ok){
+     const body=await response.clone().json();
+     if(typeof body.demoSessionToken==='string'&&/^[a-f0-9]{64}$/.test(body.demoSessionToken))sessionStorage.setItem('academy-demo-cookie','academy_session='+body.demoSessionToken);
+    }else if(endpoint==='logout'&&response.ok)sessionStorage.removeItem('academy-demo-cookie');
     return response;
    }catch{ return Response.json({error:'Změna nebyla uložena. Prohlížeč nemá dostupné úložiště nebo je plné. Ulož si text mimo aplikaci a zkus to znovu.'},{status:503}) }
   };

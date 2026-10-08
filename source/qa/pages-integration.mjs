@@ -76,7 +76,8 @@ await test('Browser-local launcher accepts a Request without a network Origin he
 await test('Browser-local session header opens the selected account and rejects malformed tokens',async()=>{
  const opened=await engine(new Request('https://academy.presentation/api/academy/launcher',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({account:'demo-a01'})}));
  assert.equal(opened.status,200);
- const token=opened.headers.get('set-cookie').match(/^academy_session=([a-f0-9]{64})/)[1];
+ const token=(await opened.clone().json()).demoSessionToken;
+ assert.match(token,/^[a-f0-9]{64}$/);
  const bootstrap=await engine(new Request('https://academy.presentation/api/academy/bootstrap',{headers:{'X-Academy-Demo-Session':token}}));
  assert.equal(bootstrap.status,200,(await bootstrap.clone().json()).error);
  assert.equal((await bootstrap.json()).user.id,'demo-a01');
