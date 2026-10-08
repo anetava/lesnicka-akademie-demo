@@ -1,11 +1,11 @@
 {
-  "testedAt": "2026-10-08T10:23:43.976Z",
+  "testedAt": "2026-10-08T11:51:05.731Z",
   "environment": "Node executing actual sql.js WebAssembly, presentation SQLite adapter and academy service. Structured-cloned memory persistence simulates IndexedDB snapshots; every request reconstructs SQLite from persisted bytes.",
   "scope": "Public synthetic demonstration; role checks validate application behavior and are not a security boundary in a client-side application.",
-  "pass": 14,
+  "pass": 15,
   "fail": 0,
-  "loads": 75,
-  "saves": 73,
+  "loads": 78,
+  "saves": 76,
   "checks": [
     {
       "name": "Source invariants: 14 areas, 42 original performance fields, 24 unanswered requirements",
@@ -15,57 +15,62 @@
     {
       "name": "Browser-local launcher accepts a Request without a network Origin header",
       "status": "pass",
-      "ms": 69
+      "ms": 200
+    },
+    {
+      "name": "Browser-local session header opens the selected account and rejects malformed tokens",
+      "status": "pass",
+      "ms": 32
     },
     {
       "name": "SQLite WASM seed and role launcher persist 30 synthetic learners",
       "status": "pass",
-      "ms": 88
+      "ms": 127
     },
     {
       "name": "Role rules reject wrong-role and unassigned requests in the demo logic",
       "status": "pass",
-      "ms": 17
+      "ms": 97
     },
     {
       "name": "D01 explanation and draft survive logout, relogin and engine recreation",
       "status": "pass",
-      "ms": 28
+      "ms": 24
     },
     {
       "name": "D01 duplicate submission creates one attempt and one reward",
       "status": "pass",
-      "ms": 7
+      "ms": 11
     },
     {
       "name": "Instructor return, learner correction, acceptance, portfolio and IVP complete the loop",
       "status": "pass",
-      "ms": 31
+      "ms": 279
     },
     {
       "name": "36 lessons and 108 questions preserve content and six checkpoint links",
       "status": "pass",
-      "ms": 34
+      "ms": 270
     },
     {
       "name": "Quiz gives explained correction and awards points once across repeated attempts",
       "status": "pass",
-      "ms": 28
+      "ms": 70
     },
     {
       "name": "Lesson work is durable, editable, exported and rewarded only once",
       "status": "pass",
-      "ms": 45
+      "ms": 49
     },
     {
       "name": "Attachment bytes survive engine recreation and follow demo ownership rules",
       "status": "pass",
-      "ms": 20
+      "ms": 16
     },
     {
       "name": "Storage failure never reports success and retries preserve one durable operation",
       "status": "pass",
-      "ms": 26
+      "ms": 17
     },
     {
       "name": "Storage failure atomically discards both new attachment and its record",
@@ -75,7 +80,7 @@
     {
       "name": "Persisted SQLite snapshot is consistent and contains no practical qualification",
       "status": "pass",
-      "ms": 11
+      "ms": 12
     }
   ],
   "limitations": [

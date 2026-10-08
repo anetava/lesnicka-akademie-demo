@@ -24,7 +24,12 @@ async function pinnedMission(c:Ctx,user:string,id:string,seen?:string){const d=a
 
 function need(u:User,roles:string[]){if(!roles.includes(u.role))fail(403,'Pro tuto akci nemáte oprávnění.');}
 async function own(c:Ctx,u:User,id:string,allowInstructor=false){const target=await one(c,'SELECT * FROM users WHERE id=? AND active=1',id);if(!target||target.org!==u.org)fail(403,'K tomuto záznamu nemáte přístup.');if(id===u.id)return target;if(allowInstructor&&u.role==='instructor'&&await one(c,'SELECT learner FROM assignments WHERE learner=? AND instructor=?',id,u.id))return target;fail(403,'K tomuto záznamu nemáte přístup.');}
-async function auth(c:Ctx,r:Request){const token=r.headers.get('cookie')?.match(/(?:^|;\s*)academy_session=([a-f0-9]{64})(?:;|$)/)?.[1];if(!token)fail(401,'Nejdříve otevřete svůj demonstrační účet.');const s=await one(c,'SELECT u.*,s.platform FROM sessions s JOIN users u ON u.id=s.user_id WHERE s.token=? AND s.expires>? AND u.active=1',await hash(token!),Date.now());if(!s||s.platform!==c.platform)fail(401,'Relace skončila. Otevřete svůj účet znovu.');return s as User;}
+function sessionToken(c:Ctx,r:Request){
+ const cookie=r.headers.get('cookie')?.match(/(?:^|;\s*)academy_session=([a-f0-9]{64})(?:;|$)/)?.[1];
+ const local=c.platform==='presentation-browser'?r.headers.get('x-academy-demo-session'):null;
+ return local&&/^[a-f0-9]{64}$/.test(local)?local:cookie;
+}
+async function auth(c:Ctx,r:Request){const token=sessionToken(c,r);if(!token)fail(401,'Nejdříve otevřete svůj demonstrační účet.');const s=await one(c,'SELECT u.*,s.platform FROM sessions s JOIN users u ON u.id=s.user_id WHERE s.token=? AND s.expires>? AND u.active=1',await hash(token!),Date.now());if(!s||s.platform!==c.platform)fail(401,'Relace skončila. Otevřete svůj účet znovu.');return s as User;}
 async function readBody(r:{text:()=>Promise<string>}):Promise<Record<string,any>>{const text=await r.text();if(text.length>100000)fail(413,'Požadavek je příliš velký.');let d:any;try{d=JSON.parse(text)}catch{fail(400,'Neplatný formát požadavku.');}if(!d||typeof d!=='object'||Array.isArray(d))fail(400,'Požadavek musí obsahovat pojmenované údaje.');return d;}
 async function seedDemo(c:Ctx){
  const stamp=now();const stmts:any[]=[];
@@ -120,7 +125,7 @@ export async function handleAcademy(r:Request,c:Ctx):Promise<Response>{c={...c,o
    await log(c,u!,'study_work_saved',unit.id);return {ok:true,id,version,updated};
   }));
  }
- if(p[0]==='logout'){if(method!=='POST')fail(405,'Použijte odhlášení.');const t=r.headers.get('cookie')?.match(/academy_session=([a-f0-9]{64})/)?.[1]||'';await run(c,'DELETE FROM sessions WHERE token=?',await hash(t));return json({ok:true},200,{'Set-Cookie':'academy_session=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0'});}
+ if(p[0]==='logout'){if(method!=='POST')fail(405,'Použijte odhlášení.');const t=sessionToken(c,r)||'';await run(c,'DELETE FROM sessions WHERE token=?',await hash(t));return json({ok:true},200,{'Set-Cookie':'academy_session=; Path=/; HttpOnly; SameSite=Strict; Max-Age=0'});}
  if(p[0]==='bootstrap'&&method==='GET'){
   await ensureForestry(c);
   const content=await Promise.all(missions.map(m=>missionContent(c,m.id)));let people:any[]=[];if(u.role==='instructor')people=await rows(c,'SELECT u.* FROM users u JOIN assignments a ON a.learner=u.id WHERE a.instructor=? AND u.org=? AND u.active=1',u.id,u.org);else if(['coordinator','ivp_quality','admin'].includes(u.role))people=await rows(c,"SELECT * FROM users WHERE org=? AND role IN ('learner','graduate') AND active=1",u.org);

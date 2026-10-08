@@ -73,6 +73,16 @@ await test('Browser-local launcher accepts a Request without a network Origin he
  assert.equal(response.status,200,(await response.clone().json()).error);
  assert.equal((await response.json()).user.id,'demo-a01');
 });
+await test('Browser-local session header opens the selected account and rejects malformed tokens',async()=>{
+ const opened=await engine(new Request('https://academy.presentation/api/academy/launcher',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({account:'demo-a01'})}));
+ assert.equal(opened.status,200);
+ const token=opened.headers.get('set-cookie').match(/^academy_session=([a-f0-9]{64})/)[1];
+ const bootstrap=await engine(new Request('https://academy.presentation/api/academy/bootstrap',{headers:{'X-Academy-Demo-Session':token}}));
+ assert.equal(bootstrap.status,200,(await bootstrap.clone().json()).error);
+ assert.equal((await bootstrap.json()).user.id,'demo-a01');
+ const bad=await engine(new Request('https://academy.presentation/api/academy/bootstrap',{headers:{'X-Academy-Demo-Session':'invalid'}}));
+ assert.equal(bad.status,401);
+});
 await test('SQLite WASM seed and role launcher persist 30 synthetic learners',async()=>{
  ok(await request(null,'launcher'));a1=await login('demo-a01');a2=await login('demo-a02');i1=await login('demo-i01');i2=await login('demo-i02');q=await login('demo-q01');
  assert.equal(ok(await request(q,'ivp')).summary.learners,30);assert.notEqual(a1,a2);
