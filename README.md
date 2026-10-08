@@ -22,7 +22,7 @@ Jde o autorskou demonstraci, nikoli o schválený program LČR, odborné oprávn
 
 ## Publikace
 
-Připravené statické soubory jsou v kořeni repozitáře. GitHub Settings → Pages → Deploy from a branch → main → / (root) → Save. Není nutné přidávat hesla, klíče ani placené služby. Dostupnost webu potvrzuje až úspěšné nasazení GitHub Pages.
+Veřejná ukázka se publikuje na `https://anetava.github.io/lesnicka-akademie-demo/` z větve `main` a kořene repozitáře. Není nutné přidávat hesla, klíče ani placené služby. Po změně je třeba vyčkat na úspěšné nasazení GitHub Pages a ověřit vstup do účtu na živé stránce.
 
 ## Vývoj
 
