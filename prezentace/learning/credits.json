@@ -1,0 +1,38 @@
+[
+  {
+    "species": "Picea abies",
+    "source": "https://commons.wikimedia.org/wiki/File:Picea-abies-needles-buds-2010-02-11.jpg",
+    "author": "Sten Porse",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "file": "spruce.jpg",
+    "change": "Zmenšení a komprese JPEG, bez ořezu a barevných úprav."
+  },
+  {
+    "species": "Abies alba",
+    "source": "https://commons.wikimedia.org/wiki/File:Abies_alba_leaf_underside.jpg",
+    "author": "Nefronus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "file": "fir.jpg",
+    "change": "Zmenšení a komprese JPEG, bez ořezu a barevných úprav."
+  },
+  {
+    "species": "Fagus sylvatica",
+    "source": "https://commons.wikimedia.org/wiki/File:Fagus_sylvatica_bud.jpg",
+    "author": "El Grafo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "file": "beech.jpg",
+    "change": "Zmenšení a komprese JPEG, bez ořezu a barevných úprav."
+  },
+  {
+    "species": "Quercus robur",
+    "source": "https://commons.wikimedia.org/wiki/File:Quercus_robur_leaf.jpg",
+    "author": "Dmitry Makeev",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "file": "oak.jpg",
+    "change": "Zmenšení a komprese JPEG, bez ořezu a barevných úprav."
+  }
+]
