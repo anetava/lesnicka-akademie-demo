@@ -24,8 +24,10 @@ Aktualizace: 8. 10. 2026.
 
 Toto je veřejná prezentace se syntetickými údaji, nikoli bezpečný systém pro reálné studenty. Každý návštěvník má vlastní místní data. Role v klientu nejsou bezpečnostní hranicí. Body neudělují kompetenci ani oprávnění. Program vyžaduje odbornou recenzi a doplnění 24 otevřených rozhodnutí.
 
-Statický balíček je připraven pro kořen větve main. Dostupnost veřejného webu zatím není potvrzena. Zbývá zapnout Settings → Pages → Deploy from a branch → main → / (root), počkat na úspěšné nasazení a ověřit skutečný web v prohlížeči.
+GitHub Pages je zapnutý pro `main` a `/ (root)`. První nasazení bylo nefunkční: nahrávací rozhraní zkrátilo soubory nad 600 kB. Živý JavaScript měl 600 062 místo 938 654 bajtů a prohlížeč hlásil syntaktickou chybu; SQLite WASM měl 600 060 místo 659 806 bajtů. Oprava rozdělila výstupní JavaScript do modulů nejvýše 401 kB a WASM do tří ověřeně spojených částí po přibližně 220 kB. Původní neúplné soubory se z publikace odstraní.
 
-## Pokus o nahrání na GitHub
+Po opravě: TypeScript PASS, produkční sestavení PASS, integrační test 13 PASS / 0 FAIL, 74 obnovení a 72 uložení. Živé nasazení a prohlížečový průchod zatím **PENDING**; neoznačovat za dokončené, dokud se skutečný web nespustí a cesta D01 nebude ověřena.
 
-GitHub potvrdil nový veřejný repozitář `anetava/lesnicka-akademie-demo` a oprávnění vlastníka účtu. První pokus připojené aplikace vytvořit soubor však odmítl HTTP 403 `Resource not accessible by integration`. Žádné soubory, stromy ani commity nebyly nahrány. Právo vlastníka účtu neznamená, že stejné právo má instalace aplikace. Přístup je potřeba zkontrolovat u instalace ChatGPT/Codex a povolit konkrétní nový repozitář; pokud je již povolený, zkontrolovat udělená oprávnění aplikace. Po odstranění překážky navázat nahráním připraveného balíčku. Nasazení není dokončené.
+## Repozitář
+
+Veřejný repozitář `anetava/lesnicka-akademie-demo` má povolený přístup připojené aplikace. Původní nahrání vytvořilo commit `bf63e9364195edcd0d31e8e7e6df179e092d1aa6`, ale tři cesty s velkými soubory mají jiné kontrolní součty než místní sestavení. Právě tyto cesty musí nahradit opravené menší soubory a po novém commitu je nutné porovnat SHA každé změněné cesty.

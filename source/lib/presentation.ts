@@ -5,7 +5,14 @@ import second from '../drizzle/0001_clear_grey_gargoyle.sql?raw';
 import third from '../drizzle/0002_tidy_tiger_shark.sql?raw';
 const databaseName='lesnicka-akademie-presentation-v1';
 export async function installPresentation(){
- const SQL=await (window as any).initSqlJs({locateFile:(file:string)=>import.meta.env.BASE_URL+'sql/'+file});
+ const parts=await Promise.all(['sql-wasm.wasm.00','sql-wasm.wasm.01','sql-wasm.wasm.02'].map(async name=>{
+  const response=await fetch(import.meta.env.BASE_URL+'sql/'+name);
+  if(!response.ok)throw Error('Databázová součást se nepodařila načíst: '+name);
+  return new Uint8Array(await response.arrayBuffer());
+ }));
+ const wasmBinary=new Uint8Array(parts.reduce((total,part)=>total+part.length,0));
+ let offset=0;for(const part of parts){wasmBinary.set(part,offset);offset+=part.length}
+ const SQL=await (window as any).initSqlJs({wasmBinary});
  const idb:IDBDatabase=await new Promise((resolve,reject)=>{const r=indexedDB.open(databaseName,1);r.onupgradeneeded=()=>r.result.createObjectStore('state');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)});
  const storage={load:()=>new Promise<any>((resolve,reject)=>{const tx=idb.transaction('state','readonly');const r=tx.objectStore('state').get('academy');tx.oncomplete=()=>resolve(r.result);tx.onerror=()=>reject(tx.error)}),save:(state:any)=>new Promise<void>((resolve,reject)=>{const tx=idb.transaction('state','readwrite');tx.objectStore('state').put(state,'academy');tx.oncomplete=()=>resolve();tx.onabort=tx.onerror=()=>reject(tx.error||Error('Uložení se nezdařilo.'))})};
  const execute=createDemoEngine(SQL,[first,second,third].join('\n'),handleAcademy,storage);

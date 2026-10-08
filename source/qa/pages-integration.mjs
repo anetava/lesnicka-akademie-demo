@@ -28,7 +28,8 @@ compile(read('lib/academy/study/config.ts')+'\nexport const studyUnits='+JSON.st
 fs.copyFileSync(path.join(root,'public/sql/sql-wasm.js'),path.join(out,'sql-wasm.cjs'));
 const require=createRequire(import.meta.url);
 const initSqlJs=require(path.join(out,'sql-wasm.cjs'));
-const SQL=await initSqlJs({locateFile:(file)=>path.join(root,'public/sql',file)});
+const wasmBinary=Buffer.concat([0,1,2].map(i=>fs.readFileSync(path.join(root,`public/sql/sql-wasm.wasm.${String(i).padStart(2,'0')}`))));
+const SQL=await initSqlJs({wasmBinary});
 const {handleAcademy}=await import(path.join(out,'service.mjs'));
 const {createDemoEngine}=await import(path.join(out,'presentation-db.mjs'));
 const schema=fs.readdirSync(path.join(root,'drizzle')).filter(f=>f.endsWith('.sql')).sort().map(f=>read('drizzle/'+f)).join('\n');
