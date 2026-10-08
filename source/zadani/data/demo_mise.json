@@ -1,0 +1,252 @@
+[
+  {
+    "id": "D01",
+    "version": "demo-0.2",
+    "title": "Zadání, kterému rozumím",
+    "status": "demo_only",
+    "source_reference": "S2 §1–2; §3 oblast 1, 13 a 14",
+    "module_id": "M01",
+    "competency_ids": [
+      "C01",
+      "C13",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 6,
+    "lesson_text": "Před zahájením práce potřebuji rozumět cíli, místu, rozsahu a kritériím. Nejasnost se neřeší vlastním odhadem změny zadání. Požádám určenou osobu o upřesnění.",
+    "scenario": "Dostáváte modelové zadání: „Pracujte v označené části.“ Na přiloženém schématu jsou dvě označené části a není uvedeno, které se zadání týká. Jde o výukový model, ne o skutečný pracovní pokyn.",
+    "question": "Co uděláte jako první?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vyberu větší část, aby byla práce hotová rychleji."
+      },
+      {
+        "id": "b",
+        "text": "Před zahájením požádám určenou osobu o upřesnění místa a rozsahu."
+      },
+      {
+        "id": "c",
+        "text": "Začnu tam, kde pracoval předchozí tým."
+      }
+    ],
+    "correct_option_id": "b",
+    "feedback": "Zadání je nejednoznačné. Potvrdit místo a rozsah je součást správného převzetí úkolu, ne projev nedostatečné samostatnosti.",
+    "submission_task": "Napište dvě konkrétní otázky, které by nejasnost vyřešily. Potom vlastními slovy zopakujte doplněné zadání.",
+    "classroom_activity": "Ve dvojici odehrajte krátké předání zadání. Druhý člověk doplní chybějící údaj. Nedochází k práci s nářadím ani v porostu.",
+    "proposed_assessor_guidance": "Účastník identifikoval nejasnost, neměnil sám rozsah a položil konkrétní otázku. Instruktor hodnotí komunikaci v modelu, ne lesnický výkon.",
+    "transfer_task": "V novém příkladu není nejasné místo, ale požadované kritérium výsledku. Účastník má rozpoznat jiný druh mezery.",
+    "reflection_prompt": "Co vám pomohlo rozhodnout a co si chcete ověřit příště?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false
+  },
+  {
+    "id": "D02",
+    "version": "demo-0.2",
+    "title": "Kvalita před zkratkou",
+    "status": "demo_only",
+    "source_reference": "S2 §3 oblast 11–12",
+    "module_id": "M01",
+    "competency_ids": [
+      "C11",
+      "C12"
+    ],
+    "estimated_minutes_proposed": 6,
+    "lesson_text": "Vlastní výsledek porovnávám s předem známými kritérii. Běžnou chybu opravuji pouze v dovoleném rozsahu; závažnější odchylku hlásím. Nezměním kritérium jen kvůli rychlosti.",
+    "scenario": "V čistě modelovém záznamu je povinné uvést provedenou činnost, kontrolu a problém k předání. Chybí kontrola. Kolega navrhne označit vše za hotové, protože už začíná další úloha.",
+    "question": "Jaký postup odpovídá profilu?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Odstraním položku kontroly z formuláře."
+      },
+      {
+        "id": "b",
+        "text": "Označím vše za hotové, ať tým neztrácí čas."
+      },
+      {
+        "id": "c",
+        "text": "Doplním skutečně provedenou kontrolu; pokud ji nemohu doložit, označím ji jako chybějící a předám stav."
+      }
+    ],
+    "correct_option_id": "c",
+    "feedback": "Úplnost evidence se nesmí předstírat. Chybějící kontrola je jiný stav než potvrzený bezchybný výkon.",
+    "submission_task": "Uveďte, co přesně chybí a jaký bude další krok. Nevymýšlejte výsledek neprovedené kontroly.",
+    "classroom_activity": "Účastník porovná dva fiktivní záznamy se zadanými administrativními kritérii. Nejde o hodnocení kvality skutečné výsadby nebo zásahu.",
+    "proposed_assessor_guidance": "Rozlišuje fakta, chybějící důkaz a změnu pravidel. Konkrétní kvalitu terénní činnosti tato mise nepotvrzuje.",
+    "transfer_task": "Nový záznam je úplný, ale obsahuje přiznaný problém. Účastník rozhodne, co předat a co nesmí zakrýt.",
+    "reflection_prompt": "Co vám pomohlo rozhodnout a co si chcete ověřit příště?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false
+  },
+  {
+    "id": "D03",
+    "version": "demo-0.2",
+    "title": "Věcné hlášení z pracoviště",
+    "status": "demo_only",
+    "source_reference": "S2 §3 oblast 1, 12, 14",
+    "module_id": "M01",
+    "competency_ids": [
+      "C12",
+      "C01",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 6,
+    "lesson_text": "Dobrý pracovní záznam je stručný a věcný. Uvádí, co bylo provedeno, co se zjistilo a komu je potřeba informaci předat. Pozorování se neprezentuje jako nepotvrzená odborná diagnóza.",
+    "scenario": "Na fiktivním pracovišti DEMO-Sever byla dokončena část přidělené činnosti. U další části se objevila nejasnost rozsahu, práce tam nezačala a čeká se na upřesnění určenou osobou.",
+    "question": "Která věta je nejvhodnější součástí hlášení?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Všechno hotovo, další podrobnosti nejsou potřeba."
+      },
+      {
+        "id": "b",
+        "text": "Dokončený rozsah uvádím zvlášť; další část čeká na upřesnění zadání."
+      },
+      {
+        "id": "c",
+        "text": "Zadání jsem upravil podle sebe a pokračoval."
+      }
+    ],
+    "correct_option_id": "b",
+    "feedback": "Je potřeba odlišit dokončenou část od té, kde podmínky nejsou vyjasněné. Přesný rozsah se nevymýšlí.",
+    "submission_task": "Vyplňte činnost, stav, zjištěnou nejasnost, komu se předává a další krok. Neznámé údaje označte „k doplnění“.",
+    "classroom_activity": "Partner čte záznam a řekne, zda rozumí, co se má rozhodnout. Účastník nejasnou formulaci opraví.",
+    "proposed_assessor_guidance": "Záznam je věcný, nepředstírá dokončení a umožňuje navázat další krok.",
+    "transfer_task": "Jiný fiktivní záznam obsahuje zjevnou závadu nástroje. Účastník ji popíše bez návrhu nepovolené opravy.",
+    "reflection_prompt": "Co vám pomohlo rozhodnout a co si chcete ověřit příště?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false
+  },
+  {
+    "id": "D04",
+    "version": "demo-0.2",
+    "title": "Pokyn a porozumění",
+    "status": "demo_only",
+    "source_reference": "S2 §5–6; §3 oblast 13",
+    "module_id": "M01",
+    "competency_ids": [
+      "C13",
+      "C09"
+    ],
+    "estimated_minutes_proposed": 6,
+    "lesson_text": "Znalost jednotlivého slova ještě nemusí znamenat porozumění pokynu. Mohu se doptat a vlastními slovy ověřit, co mám udělat. Pracovní a bezpečnostní pokyn neprovádím, pokud mu nerozumím.",
+    "scenario": "Lektor vám předloží modelový pokyn s jedním úmyslně neznámým označením stanoviště. Text neslouží jako skutečný bezpečnostní pokyn. Máte ověřit vlastní porozumění.",
+    "question": "Co je vhodné?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Požádám o vysvětlení označení a zopakuji pokyn vlastními slovy."
+      },
+      {
+        "id": "b",
+        "text": "Přikývnu, aby nebylo vidět, že nerozumím."
+      },
+      {
+        "id": "c",
+        "text": "Spolehnu se pouze na neověřený automatický překlad."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Ověření porozumění je součást pracovní komunikace. Automatický překlad není potvrzením, že je konkrétní bezpečnostní pokyn pochopen.",
+    "submission_task": "Vlastními slovy popište, čemu rozumíte a na co se ještě potřebujete zeptat. Odpověď lze napsat; hlas není povinný.",
+    "classroom_activity": "Krátká dvojice pokyn–zpětné vysvětlení. Anglické a německé pracovní varianty zůstávají šablonou do odborného schválení.",
+    "proposed_assessor_guidance": "Hodnotí se srozumitelné porozumění a doptání, ne přízvuk. Tato jedna mise nenahrazuje dohodnuté vstupní jazykové ověření.",
+    "transfer_task": "Nový příklad má všechna slova známá, ale nejasné pořadí činností. Účastník opět ověřuje význam celého pokynu.",
+    "reflection_prompt": "Co vám pomohlo rozhodnout a co si chcete ověřit příště?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false
+  },
+  {
+    "id": "D05",
+    "version": "demo-0.2",
+    "title": "Včas zastavit a předat",
+    "status": "demo_only",
+    "source_reference": "S2 §1; §3 oblast 9 a 12",
+    "module_id": "M01",
+    "competency_ids": [
+      "C09",
+      "C01",
+      "C12"
+    ],
+    "estimated_minutes_proposed": 6,
+    "lesson_text": "Podmínky se mohou změnit. Když nelze bezpečně pokračovat nebo situace přesahuje mé zadání, přeruším práci a informuji určenou osobu. Nečekám na odměnu, souhlas aplikace ani odpověď AI.",
+    "scenario": "V modelové případové kartě se po zahájení činnosti objeví změna podmínek, kterou účastník neumí bezpečně vyhodnotit. Žádné skutečné riziko se při výuce nevyvolává.",
+    "question": "Která reakce je správně?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pokračuji, dokud aplikace sama nezobrazí zákaz."
+      },
+      {
+        "id": "b",
+        "text": "Dokončím co nejvíce práce, aby se nepřerušila série bodů."
+      },
+      {
+        "id": "c",
+        "text": "Přeruším činnost a postupuji podle schváleného předání určené osobě."
+      }
+    ],
+    "correct_option_id": "c",
+    "feedback": "Bezpečnost a hranice kompetence mají přednost před dokončením úkolu i herním postupem.",
+    "submission_task": "Sepíšte stručné hlášení: co se změnilo, co nyní nedokážete rozhodnout a komu informaci předáváte.",
+    "classroom_activity": "Lektor vede diskusi nad scénářem. Bezpečnostní pracovní postup a reálné kontakty musí později schválit pracoviště.",
+    "proposed_assessor_guidance": "Účastník nepřenesl odpovědnost na aplikaci, rozpoznal potřebu přerušit činnost a předal věcnou informaci.",
+    "transfer_task": "Ve druhém scénáři je závada ve vstupním zadání, ne v počasí. Ověřuje se stejná hranice rozhodování v jiném modelu.",
+    "reflection_prompt": "Co vám pomohlo rozhodnout a co si chcete ověřit příště?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false
+  },
+  {
+    "id": "D06",
+    "version": "demo-0.2",
+    "title": "Společná práce a další krok",
+    "status": "demo_only",
+    "source_reference": "S2 §3 oblast 11, 12 a 14",
+    "module_id": "M01",
+    "competency_ids": [
+      "C14",
+      "C12",
+      "C11"
+    ],
+    "estimated_minutes_proposed": 6,
+    "lesson_text": "Spolupráce znamená respektovat rozdělení odpovědnosti a předávat podstatné informace. Problém skupiny oznámím; neměním svévolně úkoly ostatních.",
+    "scenario": "Dva účastníci mají v modelu rozdělené činnosti. Jeden zjistí překážku, která ovlivní pokračování druhého. Není pověřen měnit celou organizaci práce.",
+    "question": "Co udělá?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bez domluvy přidělí spolužákovi jiný úkol."
+      },
+      {
+        "id": "b",
+        "text": "Věcně předá problém a domluví další krok s osobou, která má příslušnou odpovědnost."
+      },
+      {
+        "id": "c",
+        "text": "Problém zamlčí a zaznamená si jen vlastní body."
+      }
+    ],
+    "correct_option_id": "b",
+    "feedback": "Spolehlivé předání informace a respekt k odpovědnosti patří do profilu stejně jako vlastní provedení práce.",
+    "submission_task": "Uveďte jeden konkrétní krok, který příště zlepšíte, kdo vám pomůže a kdy to zkusíte znovu.",
+    "classroom_activity": "Dvojice předá úkol a krátkou zpětnou vazbu. Účastník může mentora požádat o upřesnění dalšího nácviku.",
+    "proposed_assessor_guidance": "Posuzuje se konkrétní komunikace, nikoli osobnostní nálepka nebo oblíbenost účastníka.",
+    "transfer_task": "V další situaci jiný člověk přebírá rozpracovaný úkol. Účastník určí, které informace musí být předány.",
+    "reflection_prompt": "Co vám pomohlo rozhodnout a co si chcete ověřit příště?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false
+  }
+]

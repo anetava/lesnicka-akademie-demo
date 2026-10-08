@@ -1,0 +1,11 @@
+import legacyMissions from '../../zadani/data/demo_mise.json';
+import brushcutterCheckpoint from './study/checkpoint.json';
+import {forestryMissions} from './forestry-curriculum';
+const missions:any[]=[...forestryMissions,brushcutterCheckpoint,...legacyMissions];
+import competencySource from '../../zadani/data/kompetence_zdroj_v0_1.json';
+import moduleSource from '../../zadani/data/moduly_navrh_v0_2.json';
+import questions from '../../zadani/data/otevrene_otazky.json';
+import seed from '../../zadani/data/demo_seed.json';
+export {missions,competencySource,moduleSource,questions,seed};
+export const roleNames:Record<string,string>={learner:'Účastník',graduate:'Absolvent',instructor:'Instruktor',teacher:'Vyučující',content_expert:'Odborný garant',didactic_reviewer:'Didaktický garant',coordinator:'Koordinace',ivp_quality:'IVP · kvalita',lcr:'LČR · přehled',admin:'Správce'};
+export const dimensions=['Porozumění smyslu','Bezpečné provedení','Kvalita','Samostatnost','Hranice kompetence'];

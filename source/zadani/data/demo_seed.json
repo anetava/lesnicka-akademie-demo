@@ -1,0 +1,339 @@
+{
+  "is_demo": true,
+  "seed_version": "0.2",
+  "credentials_included": false,
+  "organizations": [
+    {
+      "id": "demo-akademie",
+      "name": "Lesnická akademie – DEMO"
+    },
+    {
+      "id": "demo-isolace",
+      "name": "Oddělený test oprávnění – DEMO"
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "demo-2027",
+      "organization_id": "demo-akademie",
+      "label": "Ukázkový běh 2027",
+      "planned_capacity": 30,
+      "grouping": "nepotvrzeno; testovací 15+15 lze zapnout pouze v DEMO"
+    }
+  ],
+  "learners": [
+    {
+      "id": "demo-a01",
+      "display_name": "DEMO A01",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "odevzdá D01 a opraví podle zpětné vazby",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a02",
+      "display_name": "DEMO A02",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "má rozpracované D02",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a03",
+      "display_name": "DEMO A03",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "chybí předpoklad fiktivní praktické události",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a04",
+      "display_name": "DEMO A04",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "ukázka neuzavřené kritické odchylky",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a05",
+      "display_name": "DEMO A05",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "ukázka offline rozepsaného záznamu",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a06",
+      "display_name": "DEMO A06",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "demonstrační absolvent s omezeným archivem",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a07",
+      "display_name": "DEMO A07",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a08",
+      "display_name": "DEMO A08",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a09",
+      "display_name": "DEMO A09",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a10",
+      "display_name": "DEMO A10",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a11",
+      "display_name": "DEMO A11",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a12",
+      "display_name": "DEMO A12",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a13",
+      "display_name": "DEMO A13",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a14",
+      "display_name": "DEMO A14",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a15",
+      "display_name": "DEMO A15",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a16",
+      "display_name": "DEMO A16",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a17",
+      "display_name": "DEMO A17",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a18",
+      "display_name": "DEMO A18",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a19",
+      "display_name": "DEMO A19",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a20",
+      "display_name": "DEMO A20",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a21",
+      "display_name": "DEMO A21",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a22",
+      "display_name": "DEMO A22",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a23",
+      "display_name": "DEMO A23",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a24",
+      "display_name": "DEMO A24",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a25",
+      "display_name": "DEMO A25",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a26",
+      "display_name": "DEMO A26",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a27",
+      "display_name": "DEMO A27",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a28",
+      "display_name": "DEMO A28",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a29",
+      "display_name": "DEMO A29",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    },
+    {
+      "id": "demo-a30",
+      "display_name": "DEMO A30",
+      "organization_id": "demo-akademie",
+      "cohort_id": "demo-2027",
+      "email": null,
+      "scenario": "prázdný syntetický účet pro test kapacity",
+      "is_demo": true
+    }
+  ],
+  "staff": [
+    {
+      "id": "demo-i01",
+      "role": "instructor",
+      "name": "DEMO Instruktor 01"
+    },
+    {
+      "id": "demo-t01",
+      "role": "teacher",
+      "name": "DEMO Vyučující 01"
+    },
+    {
+      "id": "demo-o01",
+      "role": "content_expert",
+      "name": "DEMO Odborný garant"
+    },
+    {
+      "id": "demo-p01",
+      "role": "didactic_reviewer",
+      "name": "DEMO Didaktický garant"
+    },
+    {
+      "id": "demo-c01",
+      "role": "coordinator",
+      "name": "DEMO Koordinace"
+    },
+    {
+      "id": "demo-q01",
+      "role": "ivp_quality",
+      "name": "DEMO IVP kvalita"
+    }
+  ],
+  "workplaces": [
+    {
+      "id": "demo-sever",
+      "name": "DEMO-Sever",
+      "real_location": null,
+      "field_approved": false
+    }
+  ],
+  "program_source_status": "source_draft",
+  "production_awards_enabled": false,
+  "notes": "Účty založí vývojář jen v odděleném demo prostředí. Žádné adresy skutečných osob, univerzální heslo nebo reálné certifikáty."
+}

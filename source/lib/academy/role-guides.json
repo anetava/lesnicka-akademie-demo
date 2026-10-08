@@ -1,0 +1,537 @@
+[
+  {
+    "role": "learner",
+    "title": "Jak se tady učíš",
+    "purpose": "Naučíš se poznat situaci, vybrat postup a vysvětlit proč. Potom si práci nacvičíš s instruktorem.",
+    "steps": [
+      {
+        "title": "Otevři další lekci",
+        "where": "Dnes → další krok / Učení",
+        "action": "Vyber první nebo rozpracovanou lekci. Začínáš Z01; šest bloků vede od základů přes pěstební činnost a prořezávky ke křovinořezu a předání práce.",
+        "done": "Víš, co se v lekci naučíš a jaký vlastní výstup vytvoříš."
+      },
+      {
+        "title": "Pochop, proč to děláš",
+        "where": "Lekce → Pochopím proč",
+        "action": "Přečti tři krátké části a modelový příklad. Tlačítkem Číst / zastavit můžeš text poslouchat. Prohlédni ukázku a slovníček.",
+        "done": "Vlastními slovy vysvětlíš smysl úkolu a jednu typickou chybu."
+      },
+      {
+        "title": "Ověř tři rozhodnutí",
+        "where": "Lekce → Vyzkouším si",
+        "action": "Vyber všechny tři odpovědi a stiskni Ověřit odpovědi. Přečti vysvětlení a oprav chybu. Ověřený výsledek se ukládá v tomto prohlížeči.",
+        "done": "Máš 3/3 správně. Získáš 10 bodů jednou; opakování je bez postihu."
+      },
+      {
+        "title": "Ulož vlastní pracovní výstup",
+        "where": "Lekce → Můj výstup do portfolia",
+        "action": "Podle zadání napiš vlastní krátké řešení a stiskni Uložit do portfolia. Počkej na potvrzení uložení.",
+        "done": "Zápis je v portfoliu a můžeš jej upravit. Za vlastní zápis získáš 5 bodů jednou; kvalitu zatím neposoudil instruktor."
+      },
+      {
+        "title": "Odevzdej souhrnnou misi a přečti radu",
+        "where": "Učení → konec bloku → Souhrnný úkol pro instruktora",
+        "action": "Vyřeš souhrnnou situaci, doplň vlastní odpověď i přenos do podobné situace a odešli instruktorovi. Pokud ji vrátí, přečti konkrétní radu, uprav řešení a znovu odešli.",
+        "done": "Vidíš stav odevzdání a poté hodnocení instruktora. Původní pokus zůstává v historii."
+      },
+      {
+        "title": "Předveď dovednost s instruktorem",
+        "where": "Praxe / Portfolio",
+        "action": "V kartách najdeš, co bude instruktor sledovat. U konkrétní příležitosti ověřte místo, termín a předpoklady. Výkon musí instruktor skutečně pozorovat.",
+        "done": "Je zaznamenané konkrétní pozorování a další krok. Body ani kvíz toto ověření nenahrazují."
+      }
+    ],
+    "boundaries": [
+      "Odevzdání ještě neznamená potvrzený výsledek. Počkej na instruktora.",
+      "Při nejasnosti použij „Potřebuji pomoc“. U rizika při skutečné práci nečekej na aplikaci; obrať se na odpovědnou osobu.",
+      "V této soukromé ukázce používáme vymyšlené účty a podklady. Odborná praxe čeká na schválení."
+    ],
+    "faq": [
+      {
+        "question": "Můžu udělat chybu?",
+        "answer": "Ano. Procvičení můžeš opravit a zkusit znovu. Vysvětlení chyby ti má pomoci porozumět práci."
+      },
+      {
+        "question": "Musím vše dokončit najednou?",
+        "answer": "Ne. Ověřené kvízy a uložené zápisy zůstávají v tomto prohlížeči. Před odchodem stiskni Ověřit odpovědi nebo Uložit do portfolia a počkej na potvrzení."
+      },
+      {
+        "question": "Co znamená „Domluv další nácvik“?",
+        "answer": "Přečti radu instruktora a v „Potřebuji pomoc“ domluv konkrétní krok. Po nácviku můžeš otevřít lekci a použít „Po nácviku upravit odpověď“."
+      },
+      {
+        "question": "Co uvidí instruktor z mých poznámek?",
+        "answer": "Vlastní pracovní zápis z lekce vidí přidělený instruktor. V pohledu instruktora se reflexe zobrazí jen po označení ke sdílení. Veřejná ukázka ale nemá zabezpečené osobní účty; vkládej pouze vymyšlený text."
+      },
+      {
+        "question": "Funguje celá výuka bez připojení?",
+        "answer": "Nové lekce, kvízy a portfolio potřebují připojení k uložení. Při výpadku si text zkopíruj a ulož ho po návratu připojení. Stažitelný starší balíček v Nastavení obsahuje doplňkové mise D01–D06, nikoli všech 36 lekcí."
+      }
+    ],
+    "name": "Účastník",
+    "startPath": "/dnes"
+  },
+  {
+    "role": "instructor",
+    "title": "Jak vedeš účastníka",
+    "purpose": "Posuzuješ odpovědi své skupiny, dáváš použitelnou radu a samostatně zapisuješ pozorování nácviku.",
+    "steps": [
+      {
+        "title": "Najdi čekající odpověď",
+        "where": "Moje skupina → K hodnocení",
+        "action": "Stiskni „Obnovit“ a u vybraného účastníka „Otevřít hodnocení“. Zkontroluj lekci, pokus, vlastní odpověď a odpověď na jinou situaci. Prohlédni původní zadání, zvolenou odpověď, procvičení a „Kritéria této verze“. Nepovinné přílohy najdeš pod odpovědí.",
+        "done": "Víš, co účastník skutečně doložil v tomto pokusu."
+      },
+      {
+        "title": "Napiš konkrétní radu",
+        "where": "Otevřené hodnocení",
+        "action": "Vyplň pět dimenzí. Zapiš konkrétní pozorování, míru podpory a další krok. Například: „Poznal/a jsi chybu u kořenů. Doplň, co ověříš před převzetím výsadby.“",
+        "done": "Účastník z rady pozná, co se mu podařilo a co má udělat dál."
+      },
+      {
+        "title": "Potvrď výsledek",
+        "where": "Hodnocení → Výsledek",
+        "action": "Zvol „Vrátit k doplnění“, „Doporučit další nácvik“ nebo „Uznat pouze modelový výkon“. Stiskni „Zkontrolovat souhrn“ a potom „Potvrdit a uložit hodnocení“.",
+        "done": "Hodnocení je uložené a účastník vidí výsledek i další krok."
+      },
+      {
+        "title": "Veď dohodnutý nácvik",
+        "where": "Pozorování v praxi",
+        "action": "Otevři přidělenou aktivitu. „Ověřit předpoklad“ slouží k záznamu rozsahu a podkladu přípravy. „Zapsat pozorování“ použij pro skutečně pozorovaný modelový výkon podle uvedených kritérií.",
+        "done": "Příprava a pozorování jsou dva oddělené uložené záznamy. Záznam jasně uvádí podporu i další krok."
+      },
+      {
+        "title": "Domluv pomoc",
+        "where": "Mentoring",
+        "action": "Vyber účastníka, doplň téma, další krok, kdo jej zkusí a kdy. Stiskni „Uložit dohodnutý krok“.",
+        "done": "Dohoda je viditelná účastníkovi a jeho přidělenému mentorovi."
+      }
+    ],
+    "boundaries": [
+      "Hodnotíš pouze přidělené účastníky. Ostatní skupiny jsou oddělené.",
+      "Při digitálním hodnocení posuzuj doložené porozumění a rozhodování. Nepotvrzuj fyzický výkon, který jsi nepozoroval/a.",
+      "Kritická bezpečnostní odchylka blokuje uznání. „Nepozorováno“ se nemění na „Splněno“ kvůli dokončení formuláře.",
+      "Oprava již uloženého hodnocení vyžaduje důvod nové revize. Historie zůstává."
+    ],
+    "faq": [
+      {
+        "question": "Kdy zvolit vrácení a kdy další nácvik?",
+        "answer": "Vrať odpověď, když má účastník konkrétně doplnit své vysvětlení. Další nácvik zvol, když potřebuje společnou ukázku nebo další vedený pokus. Vždy napiš přesný další krok."
+      },
+      {
+        "question": "Proč nejde výsledek uznat?",
+        "answer": "Uznání modelového výkonu vyžaduje všech pět dimenzí jako „Splněno v modelu“ a žádnou kritickou odchylku. U pozorování navíc musí být platně doložený předpoklad. Nedoložené položky nezatrhávej."
+      },
+      {
+        "question": "Kdo mi přiděluje praxi?",
+        "answer": "Příležitost vytváří role Koordinace. Instruktor u přidělené aktivity potvrzuje přípravu a zapisuje pozorování."
+      }
+    ],
+    "name": "Instruktor",
+    "startPath": "/tym"
+  },
+  {
+    "role": "coordinator",
+    "title": "Jak organizuješ běh akademie",
+    "purpose": "Hlídáš, kdo potřebuje příležitost k nácviku, plánuješ modelové aktivity a udržuješ návrh harmonogramu.",
+    "steps": [
+      {
+        "title": "Zjisti, kde chybí další krok",
+        "where": "Přehled akademie",
+        "action": "Použij filtry „K hodnocení“, „Chybí příležitost“, „Kritická odchylka“ a „Chybí důkaz“. Rozbal „dohledat záznamy“ u účastníka.",
+        "done": "Máš konkrétní osobu a záznam, kterým se máš zabývat."
+      },
+      {
+        "title": "Naplánuj aktivitu",
+        "where": "Plán praxe → Naplánovat příležitost",
+        "action": "Vyber účastníka a odbornou lekci. Doplň místo a případně navržený termín a hodiny. Potvrď „Uložit příležitost“.",
+        "done": "Aktivita je ve výpisu. U navázané lekce obsahuje její nácvik a pozorovací kritéria; předpoklady čekají na instruktora."
+      },
+      {
+        "title": "Udržuj návrh harmonogramu",
+        "where": "Harmonogram",
+        "action": "Doplň pouze známou variantu délky, rozdělení skupiny a návrhy jednotlivých bloků. Neznámé údaje nech prázdné. Stiskni „Uložit variantu“.",
+        "done": "Návrh je uložený; nejde tím o schválení délky, odborných hodin ani sezónnosti."
+      },
+      {
+        "title": "Sleduj pokračování",
+        "where": "Plán praxe → Pozorování",
+        "action": "V Přehledu akademie stiskni „Obnovit“ a dohledávej chybějící záznamy. Konkrétní radu a další krok otevři v „Plán praxe“ rozbalením pozorování dané aktivity. Odborné parametry najdeš v „Otevřené požadavky“.",
+        "done": "U rozpracovaných věcí víš, co chybí a kdo na to navazuje."
+      },
+      {
+        "title": "Při ukončení účasti uprav přístup",
+        "where": "Nastavení → Životní cyklus DEMO účtů",
+        "action": "Tento krok použij pouze při dohodnutém ukončení účasti. Pro ukončeného účastníka zvol „Absolventský archiv“; pro zrušení přístupu „Deaktivovat“. Přečti potvrzení a vyplň důvod.",
+        "done": "Změna je potvrzená; historie zůstane, aktivní relace a sdílení se zruší."
+      }
+    ],
+    "boundaries": [
+      "Koordinace nehodnotí výkon místo instruktora a neschvaluje odborný obsah.",
+      "Přiřazování nových instruktorů ani zakládání reálných účtů není v tomto DEMO dostupné.",
+      "Nevyplněný termín nebo chybějící příležitost není neúspěch účastníka."
+    ],
+    "faq": [
+      {
+        "question": "Musím vyplnit hodiny a termín?",
+        "answer": "Neznámé údaje mohou zůstat otevřené. Vyplň pouze odůvodněný návrh."
+      },
+      {
+        "question": "Můžu opravit již založenou aktivitu?",
+        "answer": "Současný formulář umí vytvořit příležitost. Úprava nebo zrušení již uložené aktivity v rozhraní zatím není dostupná; nevytvářej bez rozmyslu duplicitní záznam."
+      }
+    ],
+    "name": "Koordinace",
+    "startPath": "/ivp"
+  },
+  {
+    "role": "admin",
+    "title": "Jak spravuješ účty",
+    "purpose": "Spravuješ životní cyklus demonstračních účtů. Plánování a hodnocení mají vlastní role.",
+    "steps": [
+      {
+        "title": "Ověř účet a požadovanou změnu",
+        "where": "Správa DEMO / Nastavení",
+        "action": "V „Životní cyklus DEMO účtů“ najdi správného účastníka a ověř, proč se má přístup změnit.",
+        "done": "Máš správný účet a konkrétní důvod změny."
+      },
+      {
+        "title": "Vyber právě jednu změnu",
+        "where": "Životní cyklus DEMO účtů",
+        "action": "„Absolventský archiv“ použij, pokud má člověk dál číst svou historii. „Deaktivovat“ použij, pokud má ztratit přístup. Jsou to dvě různé možnosti; neprováděj je automaticky po sobě.",
+        "done": "Vybraná možnost odpovídá dohodnutému důvodu změny."
+      },
+      {
+        "title": "Potvrď a zkontroluj změnu",
+        "where": "Potvrzovací okno",
+        "action": "Zkontroluj jméno, zvolenou možnost a její důsledky. Zapiš důvod a stiskni „Potvrdit změnu“. Pokud něco nesedí, použij „Zrušit“.",
+        "done": "Změna je uložená. Historie zůstává; předchozí relace a sdílení jsou ukončené. Absolvent má po novém přihlášení vlastní archiv, deaktivovaný účet přístup nemá."
+      },
+      {
+        "title": "Předávej agendu správné roli",
+        "where": "Jak to funguje → výběr role",
+        "action": "Plánování běhu patří Koordinaci, hodnocení Instruktorovi a přehled kvality roli IVP · kvalita.",
+        "done": "Požadavek řeší role, která má potřebné oprávnění."
+      }
+    ],
+    "boundaries": [
+      "Správce v tomto DEMO nezakládá účty, neposílá pozvánky a nepřiděluje instruktory.",
+      "Správa účtu nepotvrzuje dovednost ani odborné oprávnění.",
+      "Obnovení deaktivovaného účtu není v současném rozhraní dostupné.",
+      "„Změnit pohled“ je funkce návštěvníka veřejné ukázky, nikoli model běžného přihlašování pracovníků."
+    ],
+    "faq": [
+      {
+        "question": "Můžu odsud přizvat další osobu?",
+        "answer": "Ne. Tato obrazovka spravuje syntetické účty. Sdílení přístupu ke skutečné aplikaci se řeší samostatně."
+      },
+      {
+        "question": "Smaže deaktivace výsledky?",
+        "answer": "Ne. Ukončí přístup a sdílení; uložené pokusy a historie zůstávají zachované."
+      }
+    ],
+    "name": "Správce",
+    "startPath": "/nastaveni"
+  },
+  {
+    "role": "teacher",
+    "title": "Jak připravuješ výukový obsah",
+    "purpose": "Vytváříš novou verzi lekce, předáváš ji dvěma garantům a po jejich recenzích ji zveřejňuješ pro DEMO.",
+    "steps": [
+      {
+        "title": "Vyber lekci k úpravě",
+        "where": "Tvorba obsahu",
+        "action": "U správné lekce zvol „Vytvořit novou verzi“. Původní verze a již rozpracované pokusy se nepřepisují.",
+        "done": "Máš otevřený editor nové verze správné lekce."
+      },
+      {
+        "title": "Propoj vysvětlení a úkol",
+        "where": "Editor",
+        "action": "Uprav název, přípravu, situaci, očekávaný výstup, přenos a kritéria. U odborné lekce zkontroluj také výkladové karty, ukázky, cvičení s klíči, pracovní kartu, praxi a zdroje.",
+        "done": "Vysvětlení připravuje na cvičení a vlastní úkol. Každá správná odpověď má odůvodnění."
+      },
+      {
+        "title": "Zkontroluj podobu pro účastníka",
+        "where": "Náhled účastníka",
+        "action": "Přečti náhled očima začátečníka. Ověř zejména cíl, srozumitelnou situaci a co má odevzdat. Náhled není úplný test všech ovládacích kroků.",
+        "done": "Učivo a zadání jsou srozumitelné bez dodatečného hádání."
+      },
+      {
+        "title": "Předej přesnou verzi k recenzi",
+        "where": "Editor → Uložit novou verzi k recenzi",
+        "action": "Ulož kompletní návrh. Nejprve jej posoudí odborný garant, potom didaktický garant.",
+        "done": "Nová verze má stav „Odborná recenze“. Ještě není zveřejněná."
+      },
+      {
+        "title": "Zveřejni schválenou DEMO verzi",
+        "where": "Tvorba obsahu",
+        "action": "Po obou recenzích zkontroluj jejich závěry a stiskni „Zveřejnit pro DEMO“.",
+        "done": "Přesná verze má stav „Zveřejněno pro DEMO“. Starší pokusy zůstávají připnuté ke svému zadání."
+      }
+    ],
+    "boundaries": [
+      "Odborné postupy a parametry nesmí vzniknout domněnkou. Každé odborné tvrzení musí mít odpovídající podklad.",
+      "Autor nerecenzuje vlastní verzi. Recenze platí jen pro konkrétní verzi.",
+      "Pevné fotografie a schémata základní revize se automaticky nepřebírají do textově změněné verze.",
+      "Dvě DEMO recenze nenahrazují schválení ostrého programu LČR / ČZU."
+    ],
+    "faq": [
+      {
+        "question": "Změní nová verze staré odevzdání?",
+        "answer": "Ne. Původní pokus i jeho zadání zůstávají zachované."
+      },
+      {
+        "question": "Co když garant najde chybu?",
+        "answer": "Oprav ji v nové verzi a nech ji znovu projít recenzemi. Současné rozhraní nemá samostatné vrácení obsahu s připomínkami; domluv je s garantem mimo tento formulář."
+      }
+    ],
+    "name": "Vyučující",
+    "startPath": "/obsah"
+  },
+  {
+    "role": "content_expert",
+    "title": "Jak děláš odbornou recenzi",
+    "purpose": "Ověřuješ věcnou správnost, odborné zdroje a hranice konkrétní verze lekce.",
+    "steps": [
+      {
+        "title": "Otevři čekající odbornou recenzi",
+        "where": "Recenze obsahu",
+        "action": "Najdi verzi ve stavu „Odborná recenze“ a zvol „Otevřít recenzi“.",
+        "done": "Kontroluješ správnou lekci a přesné číslo verze."
+      },
+      {
+        "title": "Zkontroluj celý odborný řetězec",
+        "where": "Recenze",
+        "action": "Projdi přípravu, modelovou situaci, vlastní výstup, přenos, klíče cvičení, vysvětlení, kritéria a zdroje. Rozlišuj modelový příklad od místního pracovního předpisu.",
+        "done": "Umíš doložit správnost tvrzení i správné odpovědi a víš, co zůstává otevřené."
+      },
+      {
+        "title": "Zapiš rozsah recenze",
+        "where": "Rozsah a závěr recenze",
+        "action": "Napiš, co jsi ověřil/a, z jakých podkladů a pro jaký modelový rozsah. Neodstraňuj otevřené požadavky bez skutečného rozhodnutí.",
+        "done": "Závěr je konkrétní a vztahuje se jen k této verzi."
+      },
+      {
+        "title": "Potvrď pouze vyhovující verzi",
+        "where": "Potvrdit recenzi pouze pro DEMO",
+        "action": "Potvrď až po vyřešení zásadních odborných nejasností. Při vadě verzi nepotvrzuj a domluv opravu s autorem.",
+        "done": "Po potvrzení je verze předaná do didaktické recenze. Zatím není zveřejněná."
+      }
+    ],
+    "boundaries": [
+      "Neschvaluješ vlastní autorskou verzi.",
+      "V této ukázce se neuděluje ostré schválení programu.",
+      "Samostatné vrácení s připomínkami v rozhraní zatím není; nesouhlas se neukládá tlačítkem pro schválení."
+    ],
+    "faq": [
+      {
+        "question": "Musím schválit, abych zapsal/a výhradu?",
+        "answer": "Ne. Tlačítko znamená souhlas s DEMO verzí. Pokud zásadní výhrada trvá, nepotvrzuj jej a předej ji autorovi."
+      },
+      {
+        "question": "Zpřístupní moje recenze lekci účastníkům?",
+        "answer": "Ne. Následuje samostatná didaktická recenze a zveřejnění vyučujícím."
+      }
+    ],
+    "name": "Odborný garant",
+    "startPath": "/obsah"
+  },
+  {
+    "role": "didactic_reviewer",
+    "title": "Jak děláš didaktickou recenzi",
+    "purpose": "Ověřuješ, že lekce učí mladého začátečníka porozumět práci a přenést učení do další situace.",
+    "steps": [
+      {
+        "title": "Otevři verzi po odborné recenzi",
+        "where": "Recenze obsahu",
+        "action": "Najdi stav „Didaktická recenze“ a zvol „Otevřít recenzi“. Přečti i předchozí odborný závěr.",
+        "done": "Posuzuješ přesnou verzi, která již prošla odbornou recenzí."
+      },
+      {
+        "title": "Projdi cestu začátečníka",
+        "where": "Recenze",
+        "action": "Ověř viditelný cíl, krátké vysvětlení, srozumitelnou ukázku, přiměřené cvičení a konkrétní vlastní výstup. Ptej se: může účastník bez hádání poznat, co má udělat?",
+        "done": "Každý krok má účel a navazuje na předchozí. Důležité slovo je vysvětlené při prvním použití."
+      },
+      {
+        "title": "Ověř zpětnou vazbu a přenos",
+        "where": "Cvičení, očekávaný výstup a kritéria",
+        "action": "Zkontroluj, zda vysvětlení chyby pomáhá rozhodnout příště, zda jiná situace není jen opis a zda instruktor hodnotí pouze doložený výkon.",
+        "done": "Lekce ověřuje porozumění a dává možnost opravy, nikoli pouze kliknutí na správné tlačítko."
+      },
+      {
+        "title": "Zapiš závěr a potvrď",
+        "where": "Rozsah a závěr recenze",
+        "action": "Uveď prověřený rozsah. Vyhovující verzi potvrď tlačítkem „Potvrdit recenzi pouze pro DEMO“. Nevyhovující verzi nepotvrzuj a domluv opravu s autorem.",
+        "done": "Verze má obě DEMO recenze. Zveřejnit ji musí ještě vyučující."
+      }
+    ],
+    "boundaries": [
+      "Recenze posuzuje danou verzi; není důkazem účinnosti výuky na skutečných účastnících.",
+      "Text ani potvrzení digitálního úkolu nedokazují praktické provedení v lese.",
+      "Současné rozhraní nemá samostatné vrácení s připomínkami."
+    ],
+    "faq": [
+      {
+        "question": "Co je dobrá krátká odpověď?",
+        "answer": "Konkrétní rozhodnutí a jeho důvod. Délka textu ani odborně znějící slova samy nedokazují porozumění."
+      },
+      {
+        "question": "Musí účastník vše přečíst najednou?",
+        "answer": "Ne. Výklad se má členit do krátkých kroků a účastník se musí umět vrátit k ukázce nebo požádat o pomoc."
+      }
+    ],
+    "name": "Didaktický garant",
+    "startPath": "/obsah"
+  },
+  {
+    "role": "ivp_quality",
+    "title": "Jak sleduješ kvalitu průchodu",
+    "purpose": "Dohledáváš, kde učení stojí, komu chybí příležitost a které záznamy potřebují navazující řešení.",
+    "steps": [
+      {
+        "title": "Přečti přehled běhu",
+        "where": "Přehled akademie",
+        "action": "Stiskni „Obnovit“. Zkontroluj čekající hodnocení, chybějící příležitosti a otevřené kritické odchylky.",
+        "done": "Rozlišuješ problém v organizaci, v doložení výsledku a v hodnocení."
+      },
+      {
+        "title": "Dohledávej konkrétní záznam",
+        "where": "Filtry přehledu",
+        "action": "Použij „K hodnocení“, „Chybí příležitost“, „Kritická odchylka“ nebo „Chybí důkaz“. U účastníka rozbal „dohledat záznamy“.",
+        "done": "Máš ID konkrétního pokusu, aktivity nebo pozorování a jeho stav."
+      },
+      {
+        "title": "Zkontroluj podmínky a návaznost",
+        "where": "Přehled praxe · Otevřené požadavky",
+        "action": "Prohlédni příležitosti a chybějící předpoklady. Otevřené požadavky porovnej s tím, co je v programu skutečně potvrzené.",
+        "done": "Nevydáváš naplánovanou příležitost nebo počet hodin za ověřený výkon."
+      },
+      {
+        "title": "Předej zjištění odpovědné roli",
+        "where": "Přehled akademie",
+        "action": "Chybějící příležitost řeš s Koordinací, čekající hodnocení s Instruktorem a odborný parametr s garantem. V historii rozhodných změn ověř aktéra, čas a ID záznamu.",
+        "done": "Zjištění má konkrétní podklad a navazujícího řešitele."
+      },
+      {
+        "title": "Vyexportuj souhrn",
+        "where": "Exportovat agregovaný přehled",
+        "action": "Stáhni souhrn aktuálního stavu a návrhu harmonogramu.",
+        "done": "Máš agregovaný export DEMO; nejde o osvědčení ani žebříček účastníků."
+      }
+    ],
+    "boundaries": [
+      "Tato role čte a kontroluje. Nepřepisuje hodnocení, nevytváří praxi a nespravuje účty.",
+      "Historie v obrazovce ukazuje nejvýše posledních 80 rozhodných změn.",
+      "Chybějící příležitost není chyba účastníka a digitální přijetí není ověřená praktická způsobilost."
+    ],
+    "faq": [
+      {
+        "question": "Můžu hodnocení opravit za instruktora?",
+        "answer": "Ne. Zjištění předej přidělenému instruktorovi; novou revizi ukládá pod svým účtem a s důvodem."
+      },
+      {
+        "question": "Co obsahuje export?",
+        "answer": "Agregované počty, návrh organizace běhu a čas exportu. Nejde o úplný export osobních portfolií."
+      }
+    ],
+    "name": "IVP · kvalita",
+    "startPath": "/ivp"
+  },
+  {
+    "role": "lcr",
+    "title": "Jak čteš přehled pro LČR",
+    "purpose": "Sleduješ souhrnný stav akademie a co zaměstnavatel musí odborně doplnit.",
+    "steps": [
+      {
+        "title": "Otevři souhrn",
+        "where": "Přehled akademie",
+        "action": "Stiskni „Obnovit“. Prohlédni počty účastníků, čekajících hodnocení, chybějících příležitostí a kritických odchylek.",
+        "done": "Znáš souhrnný stav bez vstupu do osobních odpovědí účastníků."
+      },
+      {
+        "title": "Přečti hranice programu",
+        "where": "Přehled akademie → Připravenost programu",
+        "action": "Ověř, co je pouze digitální příprava a které praktické podmínky ještě čekají na schválení.",
+        "done": "Počty lekcí nebo odevzdání nezaměňuješ za praktickou způsobilost."
+      },
+      {
+        "title": "Projdi požadavky zaměstnavatele",
+        "where": "Otevřené požadavky",
+        "action": "Pro každý bod zkontroluj otázku, navrženého vlastníka a co odpověď blokuje. Připrav doložené odborné rozhodnutí pro koordinaci a garanty.",
+        "done": "Víš, který údaj nebo rozhodnutí je potřeba doplnit. Registr se v této obrazovce needituje."
+      },
+      {
+        "title": "Stáhni podklad pro jednání",
+        "where": "Exportovat agregovaný přehled",
+        "action": "Vyexportuj aktuální souhrn a návrh harmonogramu.",
+        "done": "Máš konkrétní podklad pro domluvu o dalším kroku."
+      }
+    ],
+    "boundaries": [
+      "Pohled LČR obsahuje agregace; jmenné tabulky a osobní odevzdání jsou skryté.",
+      "Role nepřepisuje výuku, nehodnotí účastníky a neukládá odpovědi do registru otevřených požadavků.",
+      "Obsah soukromé ukázky není finálně schválený program LČR."
+    ],
+    "faq": [
+      {
+        "question": "Kde uvidím jednotlivé účastníky?",
+        "answer": "Tento pohled je záměrně souhrnný. Osobní podrobnosti mají pověřené vzdělávací role podle svých oprávnění."
+      },
+      {
+        "question": "Můžu zde schválit celý program?",
+        "answer": "Ne. Tato obrazovka slouží k přehledu. Odborné doplnění a provozní schválení zůstávají samostatným procesem."
+      }
+    ],
+    "name": "LČR · přehled",
+    "startPath": "/ivp"
+  },
+  {
+    "role": "graduate",
+    "title": "Jak pracuješ se svým archivem",
+    "purpose": "Vracíš se ke svým odpovědím a radám, vybíráš uložené výsledky a spravuješ jejich sdílení.",
+    "steps": [
+      {
+        "title": "Najdi uloženou práci",
+        "where": "Můj archiv",
+        "action": "Otevři příslušný úkol a rozbal „Zobrazit odpověď a historii“.",
+        "done": "Vidíš vlastní odevzdání, hodnocení a doporučený další krok."
+      },
+      {
+        "title": "Vyber, co chceš stáhnout",
+        "where": "Můj archiv → zaškrtávací políčka",
+        "action": "Označ konkrétní položky a stiskni „Exportovat výběr“.",
+        "done": "Stažený soubor obsahuje pouze vybrané záznamy."
+      },
+      {
+        "title": "Volitelně vytvoř omezené sdílení",
+        "where": "Exportovat výběr",
+        "action": "Vyber položky a vytvoř časově omezený odkaz. Počítej s tím, že soukromý přístup k celému DEMO zůstává zachovaný.",
+        "done": "Vznikl odkaz na vybrané položky s uvedeným koncem platnosti."
+      },
+      {
+        "title": "Ukonči sdílení",
+        "where": "Správa sdílení",
+        "action": "U konkrétního odkazu stiskni „Zrušit sdílení“.",
+        "done": "Odkaz již neumožní nový přístup. Již stažené kopie nelze zpětně stáhnout."
+      }
+    ],
+    "boundaries": [
+      "Absolvent už neodevzdává nové úkoly ani nepřidává vlastní záznam návštěvy.",
+      "Přechod do archivu nemaže historii, ale neuděluje osvědčení ani pracovní oprávnění.",
+      "Sdílený odkaz sám neotevírá přístup cizí osobě do soukromé aplikace."
+    ],
+    "faq": [
+      {
+        "question": "Jsou v exportu soukromé poznámky?",
+        "answer": "Ne. Osobní reflexe se do výběrového exportu a sdílení nepřidávají."
+      },
+      {
+        "question": "Kde upravím starou odpověď?",
+        "answer": "Absolventský archiv zachovává hotovou historii. Nové odevzdání ani úprava dřívějšího pokusu v této roli není dostupná."
+      }
+    ],
+    "name": "Absolvent",
+    "startPath": "/portfolio"
+  }
+]

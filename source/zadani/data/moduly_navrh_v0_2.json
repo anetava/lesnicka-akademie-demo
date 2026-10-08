@@ -1,0 +1,149 @@
+{
+  "status": "proposal",
+  "modules": [
+    {
+      "id": "M01",
+      "name": "Zadání, orientace a bezpečný začátek",
+      "competency_ids": [
+        "C01",
+        "C09",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "status": "proposal",
+      "hours_theory": null,
+      "hours_practice": null,
+      "season_windows": null,
+      "mandatory_for_award": null,
+      "production_enabled": false,
+      "approval_note": "Výchozí modelové mise; provozní pravidla a vstupní ověření schválit."
+    },
+    {
+      "id": "M02",
+      "name": "Obnova lesa a výsadba",
+      "competency_ids": [
+        "C02",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "status": "proposal",
+      "hours_theory": null,
+      "hours_practice": null,
+      "season_windows": null,
+      "mandatory_for_award": null,
+      "production_enabled": false,
+      "approval_note": "Praktické činnosti a sezónní možnosti doplní LČR a Lesy ČZU."
+    },
+    {
+      "id": "M03",
+      "name": "Péče o kultury a ochrana porostů",
+      "competency_ids": [
+        "C03",
+        "C06",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "status": "proposal",
+      "hours_theory": null,
+      "hours_practice": null,
+      "season_windows": null,
+      "mandatory_for_award": null,
+      "production_enabled": false,
+      "approval_note": "Rozsah mechanické ochrany doplnit; chemické zásahy nepřidávat automaticky."
+    },
+    {
+      "id": "M04",
+      "name": "Výchova mladých porostů",
+      "competency_ids": [
+        "C04",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "status": "proposal",
+      "hours_theory": null,
+      "hours_practice": null,
+      "season_windows": null,
+      "mandatory_for_award": null,
+      "production_enabled": false,
+      "approval_note": "Praktický nácvik až s konkrétními kritérii a podmínkami."
+    },
+    {
+      "id": "M05",
+      "name": "Probírky – rozsah k doplnění",
+      "competency_ids": [
+        "C05",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "status": "proposal",
+      "hours_theory": null,
+      "hours_practice": null,
+      "season_windows": null,
+      "mandatory_for_award": null,
+      "production_enabled": false,
+      "approval_note": "Blokováno pro ostrou praxi do vymezení LČR."
+    },
+    {
+      "id": "M06",
+      "name": "Klest a jednoduché provozní práce",
+      "competency_ids": [
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "status": "proposal",
+      "hours_theory": null,
+      "hours_practice": null,
+      "season_windows": null,
+      "mandatory_for_award": null,
+      "production_enabled": false,
+      "approval_note": "Konkrétní katalog úkolů čeká na zadání LČR."
+    },
+    {
+      "id": "M07",
+      "name": "Nářadí a malá mechanizace",
+      "competency_ids": [
+        "C08",
+        "C09",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "status": "proposal",
+      "hours_theory": null,
+      "hours_practice": null,
+      "season_windows": null,
+      "mandatory_for_award": null,
+      "production_enabled": false,
+      "approval_note": "Podmíněné větve podle prostředku, údržby a ověřených předpokladů."
+    }
+  ],
+  "note": "Sedm navigačních bloků je nový návrh. Nenahrazuje 14 původních oblastí ani není finálním sylabem."
+}

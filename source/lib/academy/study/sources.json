@@ -1,0 +1,524 @@
+[
+  {
+    "id": "F-S1",
+    "title": "Spolupráce ČZU a Lesů České republiky — pracovní podklad k Pilíři 1",
+    "publisher": "Uživatelem dodaný pracovní podklad ČZU / LČR",
+    "url": null,
+    "section": "2.1 smysl programu; 2.8 jazyková příprava; 3–5 výuka, hodnocení a kontrola praxe",
+    "checkedAt": "2026-10-08",
+    "scope": "Pracovní podklad není ve veřejné ukázce přiložen. Koncepční zadání z jednání 16. 9. 2026; podklad pro autorské lekce, nikoli finální provozní schválení."
+  },
+  {
+    "id": "F-S2",
+    "title": "Pilíř 1 — Profil absolventa, pracovní verze 0.1",
+    "publisher": "Uživatelem dodaný pracovní návrh",
+    "url": null,
+    "section": "1–2 hranice samostatnosti; 3 oblasti C01–C14",
+    "checkedAt": "2026-10-08",
+    "scope": "Pracovní podklad není ve veřejné ukázce přiložen. Zachovaných 14 kompetencí a hranic původního návrhu. Scénáře, otázky, příklady a EN/DE věty jsou nově autorsky vytvořené; text neprohlašuje praktickou způsobilost."
+  },
+  {
+    "id": "F-LCR-PEST",
+    "title": "Pěstování lesů",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/pece-o-les/pestovani-lesu/",
+    "section": "Základní strategie a opatření při pěstování lesů",
+    "checkedAt": "2026-10-08",
+    "scope": "Obecný účel pěstování: stabilita, pestrost, produkce a obnova. Nepřebírány výměry ani jiné časově proměnlivé souhrnné údaje."
+  },
+  {
+    "id": "F-MEN-SM",
+    "title": "Pěstování v heslech — Smrk ztepilý",
+    "publisher": "Mendelova univerzita v Brně",
+    "url": "https://www.rumex.mendelu.cz/uzpl/pestovani_v_heslech/vychodiska/dreviny/drev_sm.html",
+    "section": "Jehlice; Šišky",
+    "checkedAt": "2026-10-08",
+    "scope": "Pouze morfologické znaky pro porovnání smrku a jedle. Starší technologická doporučení a číselné parametry nepřebírány."
+  },
+  {
+    "id": "F-MEN-JD",
+    "title": "Pěstování v heslech — Jedle bělokorá",
+    "publisher": "Mendelova univerzita v Brně",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/vychodiska/dreviny/drev_jd.html",
+    "section": "Jehlice; Šišky",
+    "checkedAt": "2026-10-08",
+    "scope": "Ploché jehlice, spodní světlé proužky a orientace šišek. Není univerzálním určovacím klíčem ke všem jehličnanům."
+  },
+  {
+    "id": "F-MEN-BK",
+    "title": "Pěstování v heslech — Buk lesní",
+    "publisher": "Mendelova univerzita v Brně",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/vychodiska/dreviny/drev_bk.html",
+    "section": "Pupeny; Listy",
+    "checkedAt": "2026-10-08",
+    "scope": "Tvar listů a pupenů pro začátečnické porovnání buku s dubem letním. Nepřebírány parametry pěstování."
+  },
+  {
+    "id": "F-MEN-DB",
+    "title": "Pěstování v heslech — Dub letní",
+    "publisher": "Mendelova univerzita v Brně",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/vychodiska/dreviny/drev_dbl.html",
+    "section": "Pupeny; Listy; Plody",
+    "checkedAt": "2026-10-08",
+    "scope": "Rozlišovací znaky dubu letního ve srovnání s bukem; není návodem k rozlišení všech druhů dubů."
+  },
+  {
+    "id": "F-ZZS-155",
+    "title": "Volání na linku 155",
+    "publisher": "Zdravotnická záchranná služba hl. m. Prahy",
+    "url": "https://www.zzshmp.cz/prvni-pomoc/volani-na-linku-155/",
+    "section": "Celý stručný návod: číslo, údaje pro operátora, popis pozorování, vedení hovoru",
+    "checkedAt": "2026-10-08",
+    "scope": "Přivolání zdravotnické pomoci. Lekce nevyučuje zdravotnické ošetření; modelový hovor se neprovádí na skutečné tísňové lince."
+  },
+  {
+    "id": "F-ZZS-ORIENT",
+    "title": "Orientační body",
+    "publisher": "Zdravotnická záchranná služba hl. m. Prahy",
+    "url": "https://www.zzshmp.cz/prvni-pomoc/orientacni-body/",
+    "section": "Seznam využitelných orientačních bodů; úvod o rozdílech mezi kraji",
+    "checkedAt": "2026-10-08",
+    "scope": "Možnosti upřesnění polohy; konkrétní použitelnost bodu a polohu je potřeba ověřit na místě."
+  },
+  {
+    "id": "F-LCR-BODY",
+    "title": "Při ohlášení nenadálé události v lese slouží body záchrany",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/en/tiskova-zprava/pri-ohlaseni-nenadale-udalosti-v-lese-slouzi-body-zachrany/",
+    "section": "Tisková zpráva 10. 5. 2019, první tři odstavce",
+    "checkedAt": "2026-10-08",
+    "scope": "Princip označeného místa a identifikačního kódu. Historické počty bodů ani aktuální pokrytí nepřebírány."
+  },
+  {
+    "id": "F-LCR-BIOTOP",
+    "title": "Biotopové stromy",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/pece-o-les/ochrana-prirody-u-lcr/biotopove-stromy/",
+    "section": "Úvodní popis biologického významu; Program biotopových stromů; upozornění na stav ponechávaných stromů",
+    "checkedAt": "2026-10-08",
+    "scope": "Význam a zelená vlnovka programu LČR. Není univerzálním značením všech vlastníků ani oprávněním účastníka měnit management biotopového stromu."
+  },
+  {
+    "id": "MEN-OBN",
+    "title": "Pěstování lesů v heslech — Obnova lesa",
+    "publisher": "LDF MENDELU (projekt tehdejší MZLU)",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/obnova/obnova.html",
+    "section": "Vymezení přirozené, umělé a kombinované obnovy.",
+    "checkedAt": "2026-10-08",
+    "scope": "Projekt 2001 vycházející z odborné příručky 1996. Stabilní terminologie obnovy; žádné aktuální provozní nebo právní požadavky."
+  },
+  {
+    "id": "MEN-PRIR",
+    "title": "Pěstování lesů v heslech — Přirozená obnova",
+    "publisher": "LDF MENDELU (projekt tehdejší MZLU)",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/obnova/obn_prir.html",
+    "section": "Přirozená obnova semenná a vegetativní; podmínky vzniku obnovy.",
+    "checkedAt": "2026-10-08",
+    "scope": "Projekt 2001. Zdroj semen a podmínky obnovy; bez převodu pěstitelských modelů na samostatné rozhodování pracovníka."
+  },
+  {
+    "id": "MEN-STUPNE",
+    "title": "Pěstování lesů v heslech — Růstové stupně porostu",
+    "publisher": "LDF MENDELU (projekt tehdejší MZLU)",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/vychodiska/struktura/strukt_rust_stupne.html",
+    "section": "Nálet, nárost, kultura a mlazina.",
+    "checkedAt": "2026-10-08",
+    "scope": "Projekt 2001. Rozlišení původu a vývoje mladého porostu; nepřebírány číselné hranice stupňů."
+  },
+  {
+    "id": "VUL-OBN-2023",
+    "title": "Pěstební postupy obnovy a výchovy lesa pro drobné vlastníky",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/files/uploads/2024/05/LP_11_2023.pdf",
+    "section": "Obnova lesa, tištěné s. 15–19, zejména s. 18; péče o kultury, s. 22.",
+    "checkedAt": "2026-10-08",
+    "scope": "Jiří Novák, David Dušek, Jan Bartoš, Dušan Kacálek, Jiří Souček; Lesnický průvodce 11/2023. Přirozená a umělá obnova, prostor pro kořeny a péče. Nepřebírány právní lhůty, počty, místní druhová skladba ani kalendář výsadby."
+  },
+  {
+    "id": "VUL-PRIP-2022",
+    "title": "Využití přípravných dřevin ve směsích a zásady pro první výchovné zásahy v těchto porostech",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/files/uploads/2023/07/LP_11_2022.pdf",
+    "section": "Přirozená a kombinovaná obnova s přípravnými dřevinami, tištěné s. 9–12.",
+    "checkedAt": "2026-10-08",
+    "scope": "David Dušek, Jan Leugner, Jiří Souček, Jiří Novák, Dušan Kacálek; Lesnický průvodce 11/2022. Role přípravných dřevin; žádný vlastní návrh intenzity zásahu."
+  },
+  {
+    "id": "VUL-KVAL-LAB",
+    "title": "Zkušební laboratoř č. 1175.2 Školkařská kontrola",
+    "publisher": "VÚLHM — Výzkumná stanice Opočno",
+    "url": "https://www.vulhm.cz/o-ustavu/seznam-utvaru/pestovani-lesa-vs-opocno/zkusebni-laborator-c-1175-2-skolkarska-kontrola/",
+    "section": "Úvod o morfologické a fyziologické kvalitě; odstavec o paralelních kontrolních výsadbách.",
+    "checkedAt": "2026-10-08",
+    "scope": "Poslední revize stránky 22. 2. 2026. Rozlišení kvality a odborné zjišťování příčin nezdaru. Pracovník podle lekce sám nepotvrzuje laboratorní kvalitu ani soulad s normou."
+  },
+  {
+    "id": "VUL-VADY-2019",
+    "title": "Optimalizace morfologické kvality sadebního materiálu pro obnovu lesa",
+    "publisher": "VÚLHM — Výzkumná stanice Opočno",
+    "url": "https://www.vulhm.cz/files/uploads/2019/11/Vady-smld-web_2.pdf",
+    "section": "Oddíly 2.1.4 a 2.3; přehled znaků a vad, zejména tištěné s. 22–26.",
+    "checkedAt": "2026-10-08",
+    "scope": "Přemysl Němec, Jarmila Nárovcová, Václav Nárovec, Luďka Čížková, Petr Martinec; aktualizované elektronické vydání 21. 11. 2019. Pozorovatelné morfologické znaky; návrhy optimalizace nepředkládány jako současná závazná norma ani přejímací limity."
+  },
+  {
+    "id": "VUL-MAN-2010",
+    "title": "Manipulace se sadebním materiálem lesních dřevin od vyzvednutí ve školce až po výsadbu",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/files/uploads/2019/03/LP_5_10_pro_web-2.pdf",
+    "section": "Oddíly 4.4–4.9, tištěné s. 17–25: uložení, přeprava, výsadba a krytokořenný materiál.",
+    "checkedAt": "2026-10-08",
+    "scope": "Antonín Jurásek, Jarmila Martincová, Jan Leugner; Lesnický průvodce 5/2010. Fyziologické důvody ochrany a obecné chyby manipulace; bez vlastních skladovacích dob, teplot či receptu zavlažování."
+  },
+  {
+    "id": "LCR-JARO-2012",
+    "title": "Jaro — zásadní období v obnově lesa",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/casopis-clanek/jaro-zasadni-obdobi-v-obnove-lesa/",
+    "section": "Část o péči o sadební materiál a správném zasazení kořenů.",
+    "checkedAt": "2026-10-08",
+    "scope": "14. 4. 2012. Ochrana jemných kořenů a přiměřené pracovní množství. Historický odborný článek; nepoužit jako dnešní místní pracovní předpis ani obecný kalendář výsadby."
+  },
+  {
+    "id": "VUL-SUCHO",
+    "title": "Je vůči vysychání odolnější bříza nebo osika?",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/je-vuci-vysychani-odolnejsi-briza-nebo-osika/",
+    "section": "Odstavec o nechráněných kořenech a skrytých následcích ztráty vody.",
+    "checkedAt": "2026-10-08",
+    "scope": "20. 10. 2020, vlastní výzkum Jarmily Martincové a Jana Leugnera, Zprávy lesnického výzkumu 3/2020. Přenesen pouze obecný význam vysychání; žádné časové tolerance ani pokusné procentní ztráty."
+  },
+  {
+    "id": "VUL-BOR-2018",
+    "title": "Metodika přeměny a přestavby borových monokultur na stanovištích přirozených smíšených porostů",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/files/uploads/2019/03/LP_15_2018-1.pdf",
+    "section": "Oddíl 4.3 Příprava půdy, tištěná s. 18; oddíl 4.4 Síje, s. 19–21.",
+    "checkedAt": "2026-10-08",
+    "scope": "Jiří Souček, Ondřej Špulák, David Dušek; Lesnický průvodce 15/2018. Pouze principy přípravy, organické hmoty a závislosti síje na druhu a podmínkách. Borové postupy se nepřenášejí jako univerzální recept."
+  },
+  {
+    "id": "CLS-KRYT-2013",
+    "title": "Certifikace PEFC — trvale udržitelné hospodaření v lesích ČR. Krytokořenný sadební materiál",
+    "publisher": "Česká lesnická společnost; autorská odborná stať MENDELU",
+    "url": "https://www.cesles.cz/images/soubory/SZIF2013/Certifikace_PEFC_1364/cls_sbornik_vnitrek1a.pdf",
+    "section": "Oldřich Mauer: Výsadba krytokořenného sadebního materiálu lesních dřevin, tištěná s. 40 a zásady s. 42–43.",
+    "checkedAt": "2026-10-08",
+    "scope": "Sborník 2013. Význam kořenového balu, jeho deformace, stěny otvoru a kontakt s půdou. Nepřebírány pokusné rozměry, časové tolerance, aktuální certifikační pravidla ani schválení akademie."
+  },
+  {
+    "id": "NSK-PEST-2022",
+    "title": "Lesní dělník/dělnice v pěstební činnosti, 41-084-E — hodnoticí standard",
+    "publisher": "Národní soustava kvalifikací; autorizující orgán Ministerstvo zemědělství",
+    "url": "https://narodnikvalifikace.cz/kvalifikace-1199-Lesni_delnik_delnice_v_pestebni_cinnosti/revize-3823/hodnotici-standard",
+    "section": "Péče o sadební materiál před výsadbou a vlastní výsadba nových lesních kultur; Ochrana lesa; Realizace ostatních činností.",
+    "checkedAt": "2026-10-08",
+    "scope": "Platnost od 21. 10. 2022 do neomezeně, ověřeno na aktuální stránce. Pouze ukotvení pracovních činností a praktického předvedení. Online kvíz ani úkol nejsou zkouškou, certifikací či oprávněním k chemické práci."
+  },
+  {
+    "id": "L02",
+    "title": "Otázky a odpovědi",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/vsechny-otazky-odpovedi/",
+    "section": "Otázka Co mám dělat, když mi sazenice zarůstají trávou a keři?; pouze mechanické způsoby péče.",
+    "checkedAt": "2026-10-08",
+    "scope": "Nedatováno. Význam buřeně, ožínání a ošlapávání; bez kalendářních a chemických doporučení."
+  },
+  {
+    "id": "P-L04",
+    "title": "Optimalizace ochrany proti buřeni pro podmínky hospodářství živných a oglejených stanovišť",
+    "publisher": "LDF MENDELU; Grantová služba Lesů ČR",
+    "url": "https://lesycr.cz/wp-content/uploads/2018/02/Optimalizace_ochrany_proti_bureni.pdf",
+    "section": "Úvod, tištěné s. 2–4; oddíl 8.2, s. 72–73.",
+    "checkedAt": "2026-10-08",
+    "scope": "Petr Čermák a kol., prosinec 2017. Konkurence vegetace, souvislost krytu a mikroklimatu, dohledání stromků; nepřebírány rozměry, intenzity ani chemické postupy."
+  },
+  {
+    "id": "V05",
+    "title": "Metodika pro hospodaření v lesích malých vlastníků pro zvýšení biodiverzity využitím plodonosných a rychlerostoucích dřevin a možnosti ochrany výsadeb proti škodám zvěří a hlodavci",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/files/uploads/2025/05/LP_7_2024.pdf",
+    "section": "Oddíl 5.1, mechanická ochrana, tištěné s. 35–37.",
+    "checkedAt": "2026-10-08",
+    "scope": "František Havránek a kol., Lesnický průvodce 7/2024. Rozdílné ochranné prostředky, místní podmínky a nutnost kontroly oplocenek; bez montážních rozměrů a chemie."
+  },
+  {
+    "id": "P-L05",
+    "title": "Často kladené dotazy drobných vlastníků lesa",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/otazky-odpovedi/nejcastejsi-dotazy-drobnych-vlastniku-lesa/",
+    "section": "Otázky Jak ochráním vysazené stromečky proti okusu zvěří? a Proč mně usychají letošní a loňské sazenice?",
+    "checkedAt": "2026-10-08",
+    "scope": "Nedatováno. Pouze rozlišení mechanických ochran a skutečnost, že usychání může mít různé příčiny. Dobová chemická doporučení a právní informace nepoužity."
+  },
+  {
+    "id": "M04",
+    "title": "Atlas poškození dřevin — Poškození zvěří",
+    "publisher": "Ústav ochrany lesa a myslivosti LDF MENDELU",
+    "url": "https://rumex.mendelu.cz/atlasposkozenidrevin/index.php/poskozeni-zveri/",
+    "section": "Oddíly Ohryz a loupání; Okus.",
+    "checkedAt": "2026-10-08",
+    "scope": "Heslo bez vlastního data. Pozorovatelné znaky poškození a omezení určení původce. Vlastní návrh struktury hlášení navazuje na kompetenci C12."
+  },
+  {
+    "id": "V07",
+    "title": "Doporučené metody nakládání s těžebními zbytky v lesních porostech s významnou produkční funkcí z hlediska udržitelnosti bilance hlavních živin",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/files/uploads/2021/11/LP_3_2021.pdf",
+    "section": "Oddíl 2.1, tištěná s. 8; oddíl 2.4, s. 44–47.",
+    "checkedAt": "2026-10-08",
+    "scope": "Vít Šrámek a kol., Lesnický průvodce 3/2021. Živinový význam částí stromu a stanovištní podmíněnost odvozu; bez číselných podílů a půdních prahů."
+  },
+  {
+    "id": "P-L06",
+    "title": "Těžební zbytky – nové příjmy Lesů ČR",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/tiskova-zprava/tezebni-zbytky-nove-prijmy-lesu-cr/",
+    "section": "Doplňující informace: účel úklidu, ukládání do hromad či řad a ponechání k zetlení.",
+    "checkedAt": "2026-10-08",
+    "scope": "Historický provozní článek z 13. 10. 2010. Pouze příklady způsobů a důvodů nakládání s klestem; neprezentuje dnešní podnikový předpis, ceny ani pálení."
+  },
+  {
+    "id": "V08",
+    "title": "Hospodářské postupy pro zachování hydrických funkcí lesů v oblastech postižených kůrovcovou kalamitou",
+    "publisher": "VÚLHM",
+    "url": "https://www.vulhm.cz/files/uploads/2026/03/LP-9-2025.pdf",
+    "section": "Ponechávání mrtvého dřeva a těžebních zbytků po kalamitních těžbách, tištěné s. 33–35.",
+    "checkedAt": "2026-10-08",
+    "scope": "David Dušek, Ondřej Špulák, Lesnický průvodce 9/2025. Půdní kryt, odtok, vsak, ochranný klest a místní posouzení dřeva u vody; bez rozměrů a objemových doporučení."
+  },
+  {
+    "id": "L03",
+    "title": "Biotopové stromy",
+    "publisher": "Lesy České republiky, s. p.",
+    "url": "https://lesycr.cz/pece-o-les/ochrana-prirody-u-lcr/biotopove-stromy/",
+    "section": "Úvodní odstavce a Program biotopových stromů.",
+    "checkedAt": "2026-10-08",
+    "scope": "Nedatováno. Význam dutin a tlejícího dřeva, zelená vlnovka specifická pro program LČR; bez plošných nebo početních pravidel."
+  },
+  {
+    "id": "k-stihl-navody",
+    "title": "Návody k použití produktů STIHL",
+    "publisher": "STIHL",
+    "url": "https://www.stihl.cz/cs/sluzby-a-akce/navody-k-pouziti/stihl-fs-38-41400122353",
+    "section": "Upozornění k dohledávání modelu a odlišnosti revizí návodů; stránka bez stabilního data",
+    "checkedAt": "2026-10-08",
+    "scope": "Pouze identifikace správného návodu. FS38 zde není výukovou sestavou pro lesní prořezávku."
+  },
+  {
+    "id": "k-husq-manual-555",
+    "title": "555FX, 555FXT, 555RXT, 555FRM — Návod k použití",
+    "publisher": "Husqvarna",
+    "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000092091/doc000223474/OM/4oWIYuyakwtXxwcQ1bfsNGRXLFc",
+    "section": "Revize1346-007 z22.8.2023; české tištěné str.110–144: použití110, bezpečnost113–120, OOPP115, zpětný vrh127, příslušenství142–144",
+    "checkedAt": "2026-10-08",
+    "scope": "Modelový příklad jedné řady, nikoli univerzální startovací, montážní či pracovní návod. Zdroj dohledán z oficiální podpory555RXT, zveřejnění22.10.2023."
+  },
+  {
+    "id": "k-stihl-doraz",
+    "title": "Doraz pro pilový kotouč",
+    "publisher": "STIHL",
+    "url": "https://www.stihl.cz/cs/ap/doraz-pilovy-kotouc-598",
+    "section": "Kompatibilní stroje a upozornění k pilovým kotoučům; bez data článku",
+    "checkedAt": "2026-10-08",
+    "scope": "Dokládá význam správného krytu/dorazu u uvedených modelů STIHL. Nepřenášet na ostatní stroje bez jejich návodu."
+  },
+  {
+    "id": "k-suip-skoleni",
+    "title": "Otázky a odpovědi — Školení k BOZP u obsluhy řetězové pily a křovinořezu",
+    "publisher": "Státní úřad inspekce práce",
+    "url": "https://suip.gov.cz/bezpecnost-prace-otazky-a-odpovedi",
+    "section": "Oddíl Školení k BOZP u obsluhy řetězové pily a křovinořezu; bez data článku",
+    "checkedAt": "2026-10-08",
+    "scope": "Oficiální výklad absence univerzálního zákonného průkazu, povinností zaměstnavatele a návodů. Věkový výrok v odpovědi se týká řetězové pily; není obecným povolením křovinořezu mladistvým."
+  },
+  {
+    "id": "k-mpsv-180",
+    "title": "Vyhláška č.180/2015Sb., o zakázaných pracích a pracovištích",
+    "publisher": "Ministerstvo zdravotnictví; úplný text zpřístupňuje MPSV",
+    "url": "https://ppropo.mpsv.cz/vyhlaska_180_2015",
+    "section": "§5 odst.1–4, §6; vydáno9.7.2015, účinnost1.9.2015",
+    "checkedAt": "2026-10-08",
+    "scope": "Zákazy prací mladistvým a jen vyjmenované výjimky přípravy na povolání. Pro konkrétní praktickou práci nutno posoudit všechny relevantní podmínky; souhlas dospělého nestačí. MPSV ji nadále uvádí v přehledu aktualizovaném3.6.2026."
+  },
+  {
+    "id": "k-mpsv-zp",
+    "title": "Zákon č.262/2006Sb., zákoník práce",
+    "publisher": "Česká republika; úplný text zpřístupňuje MPSV",
+    "url": "https://ppropo.mpsv.cz/zakon_262_2006",
+    "section": "§103, §244, §246 a §247; souběžně ověřen výpis e-Sbírky se zněním29.8.2026",
+    "checkedAt": "2026-10-08",
+    "scope": "Školení, zdravotní způsobilost a podmínky práce mladistvých. Výukový test nenahrazuje posouzení konkrétní práce."
+  },
+  {
+    "id": "k-nv-339",
+    "title": "Nařízení vlády č.339/2017Sb., o bližších požadavcích na způsob organizace práce a pracovních postupů při práci v lese a na pracovištích obdobného charakteru",
+    "publisher": "Vláda České republiky",
+    "url": "https://e-sbirka.gov.cz/sb/2017/339",
+    "section": "§2, §3, §5 odst.1–2 a §8 odst.1; vydáno18.9.2017, vyhlášeno19.10.2017, účinnost1.1.2018",
+    "checkedAt": "2026-10-08",
+    "scope": "Zákonný poloměr15m nebo větší požadavek výrobce; přecházení, přeprava a organizace práce. E-Sbírka byla dosažitelná, ale rešeršní nástroj nevrátil tělo. Znění§5 kontrolováno v reprodukci https://www.zakonyprolidi.cz/cs/2017-339, identita a účinnost u PSP; aktuální použití u SÚIP. Neoznačovat jako úplné technické ověření konsolidace e-Sbírky."
+  },
+  {
+    "id": "k-husq-udrzba",
+    "title": "Příručka k údržbě křovinořezu: zachovejte optimální výkon křovinořezu",
+    "publisher": "Husqvarna",
+    "url": "https://www.husqvarna.com/cz/support/articles/prirucka-k-udrzbe-krovinorezu-zachovejte-optimalni-vykon-krovinorezu-ka-70187/",
+    "section": "Před každým použitím; Akumulátorový křovinořez; Údržba u prodejce; datum textu nezachyceno",
+    "checkedAt": "2026-10-08",
+    "scope": "Kontroly, zajištění akumulátorového pohonu a hranice servisních prací. Číselné intervaly článku nejsou převzaty jako obecné pravidlo."
+  },
+  {
+    "id": "k-stihl-oci",
+    "title": "Ochrana obličeje/sluchu, s nylonovou mřížkou",
+    "publisher": "STIHL",
+    "url": "https://www.stihl.cz/cs/ap/ochrana-obliceje-sluchu-s-nylonovou-mrizkou-2472",
+    "section": "Upozornění na dodatečnou ochranu očí při práci s křovinořezy; bez data",
+    "checkedAt": "2026-10-08",
+    "scope": "Konkrétní bezpečnostní pokyn k síťovému štítu. Nejde o úplný seznam OOPP pro všechny stroje a pracoviště."
+  },
+  {
+    "id": "k-lcr-postupy",
+    "title": "Pracovní postupy a zásady bezpečné práce při lesnických činnostech u podniku Lesy České republiky,s.p.",
+    "publisher": "Lesy České republiky,s.p.",
+    "url": "https://lesycr.cz/wp-content/uploads/2023/06/Pracovn%C3%AD-postupy-2023.pdf",
+    "section": "Aktualizace květen2023; str.11–12 ruční nářadí, str.24–31 křovinořez",
+    "checkedAt": "2026-10-08",
+    "scope": "Primární podnikový pracovní postup, nikoli obecná právní úprava. Věk nad18 a podnikové kvalifikační podmínky nesmějí být zobecněny. Dokument v příloze14.1 stále cituje zrušené NV28/2002; právní stav se ověřuje samostatně."
+  },
+  {
+    "id": "k-husq-start",
+    "title": "Jak nastartovat benzínový křovinořez",
+    "publisher": "Husqvarna",
+    "url": "https://www.husqvarna.com/cz/podpora/husqvarna-self-service/jak-nastartovat-benzinovy-krovinorez-ka-70320/",
+    "section": "11.8.2026; Bezpečnost na prvním místě",
+    "checkedAt": "2026-10-08",
+    "scope": "Podpůrný zdroj pro stabilní oporu a volný nástroj při spouštění. Přesná sekvence ovládání se bere z návodu přiděleného modelu."
+  },
+  {
+    "id": "k-husq-skladovani",
+    "title": "Jak skladovat vyžínač a křovinořez přes zimu",
+    "publisher": "Husqvarna",
+    "url": "https://www.husqvarna.com/cz/support/articles/jak-skladovat-vyzinac-a-krovinorez-pres-zimu-ka-70188/",
+    "section": "11.8.2026; Bezpečnost na prvním místě; Očistěte stroj; benzínové a akumulátorové modely",
+    "checkedAt": "2026-10-08",
+    "scope": "Vysvětlení zajištění, vychladnutí a čištění. Teploty, stav nabití, palivo a delší uložení musí odpovídat konkrétním návodům."
+  },
+  {
+    "id": "k-husq-ostreni",
+    "title": "Jak naostřit nůž na trávu křovinořezu",
+    "publisher": "Husqvarna",
+    "url": "https://www.husqvarna.com/cz/support/articles/jak-naostrit-nuz-na-travu-krovinorezu-ka-70171/",
+    "section": "Zkontrolujte nůž; Nůž musí být vyvážený; Nikdy nepoužívejte poškozený nůž; datum článku nezachyceno",
+    "checkedAt": "2026-10-08",
+    "scope": "Týká se nože na trávu; nepublikujeme univerzální úhly a postup ostření pilového kotouče. Prasklý či ohnutý nůž se neopravuje improvizací."
+  },
+  {
+    "id": "k-stihl-udrzba",
+    "title": "Tipy pro údržbu vyžínače či křovinořezu",
+    "publisher": "STIHL",
+    "url": "https://www.stihl.cz/cs/prakticke-tipy/technika-prace-a-udrzba-zarizeni/tipy-pro-praci-s-vyzinaci-krovinorezy/udrzba-vyzinace-krovinorezu",
+    "section": "Pravidelná údržba a péče o vyžínač či křovinořez; bez ověřeného data článku",
+    "checkedAt": "2026-10-08",
+    "scope": "Kontrola ochranných dílů, chlazení a odlišnost servisních zásahů. Uvedené intervaly nejsou univerzálním předpisem pro různé stroje."
+  },
+  {
+    "id": "k-husq-ztrata",
+    "title": "Vyžínač či křovinořez ztrácí při sečení výkon. Co zkontrolovat?",
+    "publisher": "Husqvarna",
+    "url": "https://www.husqvarna.com/cz/podpora/husqvarna-self-service/vyzinac-ci-krovinorez-ztraci-pri-seceni-vykon-co-zkontrolovat-ka-70181/",
+    "section": "Vzduchový filtr; Ucpaný palivový systém; Přehřátý motor; Kdy byste měli přestat stroj používat?; bez ověřeného data textu",
+    "checkedAt": "2026-10-08",
+    "scope": "Podklady pro rozpoznání příznaků a přerušení používání. Nenahrazuje diagnózu konkrétního stroje."
+  },
+  {
+    "id": "k-husq-plny-plyn",
+    "title": "Proč můj dvoudobý vyžínač a křovinořez neběží na plný plyn?",
+    "publisher": "Husqvarna",
+    "url": "https://www.husqvarna.com/cz/support/articles/proc-muj-dvoudoby-vyzinac-a-krovinorez-nebezi-na-plny-plyn-ka-70182/",
+    "section": "Běžné příčiny a opravy; přívod paliva a vzduchu; bez ověřeného data textu",
+    "checkedAt": "2026-10-08",
+    "scope": "Dokládá více možných příčin podobného projevu dvoudobého stroje. Není oprávněním účastníka k seřizování nebo opravám."
+  },
+  {
+    "id": "r-csu-lesnictvi",
+    "title": "Metodika statistiky lesnictví",
+    "publisher": "Český statistický úřad",
+    "url": "https://csu.gov.cz/metodika-statistiky-lesnictvi",
+    "section": "IV. Přehled základních publikovaných ukazatelů: definice prořezávek a probírek; aktualizováno 1. 6. 2026.",
+    "checkedAt": "2026-10-08",
+    "scope": "Terminologické rozlišení prořezávky a probírky. Statistická definice není pracovním předpisem ani měřítkem intenzity zásahu."
+  },
+  {
+    "id": "r-vulhm-hydricke-2025",
+    "title": "Hospodářské postupy pro zachování hydrických funkcí lesů v oblastech postižených kůrovcovou kalamitou, Lesnický průvodce 9/2025",
+    "publisher": "Výzkumný ústav lesního hospodářství a myslivosti, v. v. i.; David Dušek a Ondřej Špulák",
+    "url": "https://www.vulhm.cz/files/uploads/2026/03/LP-9-2025.pdf",
+    "section": "Postupy výchovy porostů, tištěné s. 32–33 (PDF indexy 31–32); vydáno 2025.",
+    "checkedAt": "2026-10-08",
+    "scope": "Konkurence, koruny, stabilita a závislost zásahu na dřevinách, stavu porostu a cíli. Nepřebírány číselné modely ani hydrologické odhady. V R01 a R06 použit pouze stručný věcný základ; případy a kontrolní postupy jsou autorská didaktická syntéza."
+  },
+  {
+    "id": "r-mendelu-vyber",
+    "title": "Pěstování lesa v heslech — Pěstební výběr",
+    "publisher": "Mendelova univerzita v Brně, Ústav zakládání a pěstění lesů",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/vychova/vych_pest_vyber.html",
+    "section": "Hesla Pěstební výběr, Výběr záporný, Výběr jednotlivý a Výběr kombinovaný; stránka bez data.",
+    "checkedAt": "2026-10-08",
+    "scope": "Pojmy kladného, záporného, individuálního a kombinovaného výběru a jejich kritéria. Bez normativních rozestupů, počtů a právních tvrzení."
+  },
+  {
+    "id": "r-vulhm-malolesy-2023",
+    "title": "Pěstební postupy obnovy a výchovy lesa pro drobné vlastníky, Lesnický průvodce 11/2023",
+    "publisher": "Výzkumný ústav lesního hospodářství a myslivosti, v. v. i.; Jiří Novák a kol.",
+    "url": "https://www.vulhm.cz/files/uploads/2024/05/LP_11_2023.pdf",
+    "section": "Kapitola 3.3, Výchova lesa a Opatření v mlazinách (prořezávky), tištěné s. 21–25, zejména s. 23–24; vydáno 2023.",
+    "checkedAt": "2026-10-08",
+    "scope": "Role žádoucí příměsi a náletových dřevin, kryt, místní přizpůsobení intenzity a konzultace vyznačení. Právní údaje nepřebírány: publikace sama na s. 6 upozorňuje na tehdy připravovanou novelu. Referenční úsek a zápisy R04 jsou vlastní výukový postup, nikoli citovaná obecná povinnost."
+  },
+  {
+    "id": "r-mendelu-vychova",
+    "title": "Pěstování lesa v heslech — Péče o porosty: obecné pojmy",
+    "publisher": "Mendelova univerzita v Brně, Ústav zakládání a pěstění lesů",
+    "url": "https://rumex.mendelu.cz/uzpl/pestovani_v_heslech/vychova/vych_pojmy.html",
+    "section": "Hesla Výchova porostů a Model porostní výchovy; stránka bez data.",
+    "checkedAt": "2026-10-08",
+    "scope": "Vazba výchovného modelu na cíl, dřevinu, podmínky a ohrožení; načasování, intenzita a způsob výběru. Podpora obecného rámce R04 a R06, nikoli zdroj detailního organizačního postupu."
+  },
+  {
+    "id": "r-vulhm-biodiverzita",
+    "title": "Vědci pomáhají vlastníkům řešit obnovu lesa na kalamitních holinách",
+    "publisher": "Výzkumný ústav lesního hospodářství a myslivosti, v. v. i.",
+    "url": "https://www.vulhm.cz/vedci-pomahaji-vlastnikum-resit-obnovu-lesa-na-kalamitnich-holinach/",
+    "section": "Odstavce Při obnově lesa bylo také dbáno… a Pestrá skladba dřevin…; bez viditelného data, popis projektu 2022–2024.",
+    "checkedAt": "2026-10-08",
+    "scope": "Ekologický význam pestré skladby, habitatových stromů a mrtvého dřeva. Nejde o technický návod k řezání nebo univerzální zákaz manipulace; případy hlášení a kontroly R05 jsou vlastní didaktická syntéza."
+  },
+  {
+    "id": "k-nv-339-register",
+    "title": "Sbírka zákonů č. 339/2017 — reprodukce v Registru smluv",
+    "publisher": "Vláda ČR; příloha zveřejněná Městskými lesy Opava",
+    "url": "https://smlouvy.gov.cz/smlouva/soubor/34375063/Dodatek%20%C4%8D.%201%20k%20R%C3%A1mcov%C3%A9%20smlouv%C4%9B%20o%20d%C3%ADlo%20%C4%8D.%2012-2024.pdf?backlink=3pecj",
+    "section": "Tištěná strana 3620, strana 5/12 PDF: § 5 odst. 1 písm. d), e) a § 5 odst. 2.",
+    "checkedAt": "2026-10-08",
+    "scope": "Ověřená reprodukce vyhlášeného znění na úředním serveru. Potvrzuje 50 m s výhradou návodu a podmínek pracoviště; poloměr 15 m nebo větší požadavek výrobce. Aktuální právní podmínky ověřuje zaměstnavatel."
+  },
+  {
+    "id": "I-BC-ASSESS",
+    "title": "Stand Tending Worker Assessment",
+    "publisher": "BC Forest Safety Council · Kanada",
+    "url": "https://www.bcforestsafe.org/wp-content/uploads/2022/01/Stand-Tending-Worker-Assessment.pdf",
+    "section": "Struktura otázek a pozorování při péči o porosty.",
+    "checkedAt": "2026-10-08",
+    "scope": "Inspirace metodou ověřování: vědět, vysvětlit a předvést. Zahraniční technické nebo právní parametry nejsou převzaty do českých pracovních postupů."
+  },
+  {
+    "id": "I-NZ-COMP",
+    "title": "Apprenticeship structure · učení při práci",
+    "publisher": "Competenz · Nový Zéland",
+    "url": "https://www.competenz.org.nz/guides/apprenticeship-structure",
+    "section": "Assessment, eAssessments, evidence collection, feedback.",
+    "checkedAt": "2026-10-08",
+    "scope": "Inspirace propojením okamžitého procvičení, lidského hodnocení, důkazů a opravy. Zahraniční kvalifikace ani certifikační pravidla se akademii nepřisuzují."
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "Q01",
+    "owner_proposed": "LČR",
+    "question": "Úplný seznam odborných témat, úkolů a priorit",
+    "source": "S1 §2.7; §11",
+    "blocks": "Konečný sylabus a povinné výsledky",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q02",
+    "owner_proposed": "LČR + Lesy ČZU",
+    "question": "Konkrétní kritéria kvality, povolené varianty a kritické chyby jednotlivých úkolů",
+    "source": "S2 §2–3; §9",
+    "blocks": "Ostré praktické hodnocení",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q03",
+    "owner_proposed": "LČR",
+    "question": "Rozsah probírek a samostatného výběru stromů",
+    "source": "S2 §3 oblast 5",
+    "blocks": "Praktické mise M05",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q04",
+    "owner_proposed": "LČR + odborný garant",
+    "question": "Rozsah těžební činnosti oproti zatím užšímu profilu S2",
+    "source": "S1 §2.7; S2 §3",
+    "blocks": "Založení případného dalšího obsahu",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q05",
+    "owner_proposed": "LČR + pověřený odborník",
+    "question": "Prostředky, činnosti a přesné požadované předpoklady včetně způsobu ověření",
+    "source": "S2 §7; oblast 8",
+    "blocks": "Zařazení do příslušné praxe",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q06",
+    "owner_proposed": "LČR",
+    "question": "Zda vůbec patří do programu chemické zásahy",
+    "source": "S2 §3 oblast 6",
+    "blocks": "Případná podmíněná větev",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q07",
+    "owner_proposed": "LČR",
+    "question": "Přesný rozsah klestu, pomocných prací a běžné údržby",
+    "source": "S2 §3 oblast 7",
+    "blocks": "Katalog M06",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q08",
+    "owner_proposed": "LČR + IVP",
+    "question": "Způsob ověření porozumění českým pracovním a bezpečnostním pokynům",
+    "source": "S2 §6",
+    "blocks": "Vstup do skutečných praktických činností",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q09",
+    "owner_proposed": "LČR + odborní lektoři",
+    "question": "Vymezená terminologie a situace v angličtině a němčině",
+    "source": "S2 §3 oblast 13; §5",
+    "blocks": "Finální jazykové materiály",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q10",
+    "owner_proposed": "Lesy ČZU + LČR",
+    "question": "Sezónní okna, pracoviště, porosty, personál a kapacity",
+    "source": "S1 §11",
+    "blocks": "Potvrzený harmonogram praxe",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q11",
+    "owner_proposed": "IVP + LČR",
+    "question": "Volba délky programu a organizace bloků",
+    "source": "S1 §2.4–2.5",
+    "blocks": "Konečný kalendář a rozsah",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q12",
+    "owner_proposed": "IVP + pracoviště",
+    "question": "Organizace 30 osob, varianta 15 + 15 a vedení konkrétních činností",
+    "source": "S1 §2.3",
+    "blocks": "Reálný plán skupin",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q13",
+    "owner_proposed": "Odborný garant + IVP",
+    "question": "Počet a rozmanitost pozorování, opravné pokusy, závěrečné ověření",
+    "source": "S2 §8–9; S1 §4",
+    "blocks": "Pravidla uznání kompetencí",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q14",
+    "owner_proposed": "ČZU + LČR",
+    "question": "Formální status, podmínky ukončení, vydavatel a podoba mikrocertifikátu",
+    "source": "S1 §7–9",
+    "blocks": "Vydání skutečného dokladu",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q15",
+    "owner_proposed": "ČZU + partneři",
+    "question": "NSK, akceptace u zaměstnavatelů a zahraniční vztahy",
+    "source": "S1 §7–8",
+    "blocks": "Tvrzení o formálním uznání",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q16",
+    "owner_proposed": "LČR + IVP",
+    "question": "Rozhraní vzdělávání, pracovního výkonu a potřebné evidence",
+    "source": "S1 §2.6",
+    "blocks": "Provozní formuláře a vhodné hodnocení",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q17",
+    "owner_proposed": "LČR + Lesy ČZU",
+    "question": "Určené kontakty, eskalace nejasnosti, nouzový a náhradní postup",
+    "source": "S2 §1, oblast 9 a 12",
+    "blocks": "Skutečný režim v terénu",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q18",
+    "owner_proposed": "IVP + vedení programu",
+    "question": "Pověření odborných a metodických rolí a zastupitelnost",
+    "source": "S1 §2.9; §5; §10",
+    "blocks": "Schvalování pro skutečný běh",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q19",
+    "owner_proposed": "Odpovědné pracoviště ČZU/LČR",
+    "question": "Práce s údaji, hostování, účely, přístupy, uchování a pravidla AI",
+    "source": "Nový provozní požadavek",
+    "blocks": "Reální uživatelé a data",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q20",
+    "owner_proposed": "IVP + provozovatel",
+    "question": "Délka a rozsah absolventského přístupu, export a financování provozu",
+    "source": "S4 – nový požadavek",
+    "blocks": "Dlouhodobý příslib účastníkům",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q21",
+    "owner_proposed": "IVP + odborní garanti",
+    "question": "Schválené materiály, autoři, reference a práva k fotografiím/videozáznamům",
+    "source": "Nový obsahový požadavek",
+    "blocks": "Publikace odborných lekcí",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q22",
+    "owner_proposed": "Vedení programu",
+    "question": "Doména, hosting, podpora, servisní dostupnost a rozpočtové limity",
+    "source": "Nový technický požadavek",
+    "blocks": "Veřejná/pilotní infrastruktura",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q23",
+    "owner_proposed": "IVP + odborní garanti",
+    "question": "Schválení gamifikace, osobních cílů a způsobu reflexe",
+    "source": "S4 – nový návrh",
+    "blocks": "Skutečné odměňování v učení",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  },
+  {
+    "id": "Q24",
+    "owner_proposed": "IVP + LČR",
+    "question": "Cíle a ukazatele kvality prvního běhu a způsob vyhodnocení",
+    "source": "S1 §10; nový návrh",
+    "blocks": "Hodnocení přínosu a rozhodnutí o rozšíření",
+    "blocks_local_demo_build": false,
+    "status": "open",
+    "answer": null
+  }
+]

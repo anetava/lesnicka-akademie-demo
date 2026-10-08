@@ -1,0 +1,43 @@
+{
+  "id": "K01",
+  "version": "study-2026-10-08",
+  "title": "Křovinořez: moje karta přípravy",
+  "status": "demo_only",
+  "source_reference": "Jednotky K01–K06; návod konkrétního stroje, NV 339/2017 a SÚIP, podklady v knihovně",
+  "module_id": "M07",
+  "competency_ids": [
+    "C08",
+    "C09",
+    "C12",
+    "C14"
+  ],
+  "estimated_minutes_proposed": 12,
+  "lesson_text": "Příprava spojuje konkrétní stroj, předepsané osazení, jeho návod, ochranné vybavení, stav pracoviště a domluvu. Než začneš, musíš mít skutečně ověřené předpoklady pro danou činnost a instruktáž. Tato mise je písemný model; ke spuštění stroje neopravňuje. Před ní projdi šest lekcí bloku K.",
+  "scenario": "Přebíráš modelový křovinořez. K přístroji je přiložen návod, ale na stroji je jiný řezný nástroj než v připravené kartě. Ochranný kryt má zjevnou prasklinu. Poblíž zamýšleného pracoviště vede používaná cesta.",
+  "question": "Co uděláš před dalším krokem?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Spustím stroj a vyzkouším, zda prasklina ovlivňuje chod."
+    },
+    {
+      "id": "b",
+      "text": "Záměnu nástroje považuji za správnou, protože jej použil kolega."
+    },
+    {
+      "id": "c",
+      "text": "Stroj nepoužiji; předám závadu a nejasné osazení, ověřím návod a dohodu o pracovišti."
+    }
+  ],
+  "correct_option_id": "c",
+  "feedback": "Zjevná závada a nejasná kombinace osazení nejsou podmínky pro zkušební práci. Vedení práce musí vyřešit i bezpečný prostor u cesty podle právních požadavků a konkrétního návodu.",
+  "submission_task": "Sestav kartu přípravy: co ověříš u konkrétního stroje, jak popíšeš a předáš závadu, jak zjistíš podmínky pracoviště a koho požádáš o rozhodnutí. Přidej, jak ověříš vybavení a domluvu v týmu.",
+  "classroom_activity": "Na vypnutém a bezpečně zajištěném prostředku ukáže instruktor identifikaci stroje a příslušný návod. Student vysvětlí kontrolní kartu. Obsluha není součástí tohoto písemného úkolu.",
+  "proposed_assessor_guidance": "Posuď propojení návodu, předepsaného osazení, závady a organizace prostoru. Vyžaduj konkrétní další krok. Neuznávej písemnou kartu jako obsluhu ani předpoklad samostatné činnosti.",
+  "transfer_task": "Na připravené pracoviště přichází další člověk. Vysvětli, jak tuto změnu řešíš podle domluvy a návodu, kdo musí dostat zprávu a co musí být splněno před pokračováním.",
+  "reflection_prompt": "Která položka kontroly se nejsnáze přehlédne? Jak ji příště ověříš?",
+  "evidence_scope": "classroom_scenario_only",
+  "confirms_real_practical_competence": false,
+  "requires_real_tools": false,
+  "production_enabled": false
+}

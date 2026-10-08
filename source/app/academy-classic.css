@@ -1,0 +1,369 @@
+/* Modern classic: a unified petrol and gold academy. */
+:root {
+  --background: #f2f5f7;
+  --foreground: #12364a;
+  --primary: #12364a;
+  --primary-foreground: #ffffff;
+  --accent: #e7eef2;
+  --accent-foreground: #12364a;
+  --ring: #98762d;
+  --sidebar: #0d2c3d;
+  --sidebar-foreground: #f5f7f8;
+  --sidebar-primary: #d7b665;
+  --sidebar-primary-foreground: #102f41;
+  --sidebar-accent: #214a60;
+  --sidebar-accent-foreground: #fff;
+  --academy-ink: #12364a;
+  --academy-forest: #12364a;
+  --academy-lime: #d7b665;
+  --academy-gold: #d7b665;
+  --academy-serif: Georgia, "Times New Roman", serif;
+  --academy-brass: #d7b665;
+  --academy-brass-dark: #75623b;
+  --academy-hairline: #c8b98f;
+}
+
+/* Display type has character; working text and controls stay sans serif. */
+.learner-heading h1,
+.guided-title h1,
+.guide-heading h1,
+.page-heading h1,
+.forest-track-heading h2,
+.guide-section-heading h2,
+.guide-statuses h2,
+.guide-faq h2,
+.guide-feedback-example h2,
+.stage-head h2,
+.practice-phase-heading h2,
+.example-heading h3 {
+  font-family: var(--academy-serif);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -.025em;
+  line-height: 1.2;
+}
+.learner-heading h1 { font-size: clamp(2rem, 3.2vw, 3rem); }
+.guided-title h1, .guide-heading h1, .page-heading h1 {
+  font-size: clamp(1.9rem, 3vw, 2.8rem);
+}
+.forest-track-heading h2 { font-size: clamp(1.7rem, 2.4vw, 2.2rem); }
+.guide-section-heading h2, .guide-statuses h2, .guide-faq h2,
+.guide-feedback-example h2 { font-size: 1.55rem; }
+.stage-head h2 { font-size: clamp(1.5rem, 2.3vw, 1.95rem); }
+.example-heading h3, .practice-phase-heading h2 { font-size: 1.65rem; }
+.learner-heading, .guide-heading {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #b9ccd6;
+}
+.guide-heading .kicker { color: #526b79; font-size: .8125rem; }
+.section-icon, .guided-title .task-symbol {
+  border-radius: 50%;
+  border-color: var(--academy-hairline);
+  background: #fff;
+  color: #234d62;
+  box-shadow: inset 0 0 0 4px #fff, inset 0 0 0 5px #e7e1d4;
+}
+.brand-side { gap: .8rem; }
+.brand-side > svg { color: #d7c594; stroke-width: 1.5; }
+.brand-side b {
+  font-family: var(--academy-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: .08em;
+}
+.academy-sidebar .nav-item { border-radius: 6px!important; }
+.academy-sidebar .side-note { border-top-color: #c8af7957; }
+.topbar { border-bottom-color: #d2dfe5; }
+
+/* The three-part motto becomes the Academy's restrained signature. */
+.method-banner {
+  border: 1px solid #b49551;
+  border-radius: 12px;
+  padding: 1.65rem 1.85rem 1.9rem;
+  box-shadow: inset 0 0 0 5px #12364a, inset 0 0 0 6px #c8af7940;
+}
+.method-banner .method-eyebrow {
+  border-bottom-color: #c8af7957;
+  color: #d2dfe5;
+  font-size: .75rem;
+  letter-spacing: .11em;
+}
+.method-banner .method-eyebrow > span:last-child,
+.method-banner .method-mark { color: #dec997; }
+.method-banner .method-mark > span {
+  color: #dec997;
+  font-family: var(--academy-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.method-banner .method-phases > li+li { border-color: #c8af794d; }
+.method-banner .method-copy > strong {
+  color: #fffdf5;
+  font-family: var(--academy-serif);
+  font-weight: 400;
+  font-size: clamp(1.55rem, 2.55vw, 2.3rem);
+  letter-spacing: -.03em;
+  line-height: 1.2;
+}
+.method-banner .method-copy > p { color: #d2dfe5; }
+.method-compact { border-radius: 9px; }
+.method-compact .method-current { border-radius: 5px; }
+
+/* The panel in the user's reference: same petrol, richer hierarchy. */
+.guide-handoff {
+  background: #12364a;
+  color: #eff5f5;
+  border: 1px solid #526b79;
+  border-radius: 12px;
+  padding: 1.65rem 1.5rem;
+  box-shadow: inset 0 0 0 5px #12364a, inset 0 0 0 6px #c8af7945, 0 12px 26px #12364a0d;
+}
+.handoff-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: .85rem;
+  padding: .3rem 0 1.4rem;
+}
+.handoff-heading > div { min-width: 0; }
+.handoff-emblem {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: #dfcb9b;
+  border: 1px solid #c8af7999;
+  border-radius: 50%;
+}
+.handoff-emblem svg { width: 24px; height: 24px; stroke-width: 1.5; }
+.handoff-heading p {
+  margin: 0 0 .5rem;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  line-height: 1.5;
+  color: #dfcb9b;
+}
+.guide-handoff .handoff-heading h2 {
+  font-family: var(--academy-serif);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 2.2vw, 1.95rem);
+  letter-spacing: -.025em;
+  line-height: 1.2;
+  margin: 0;
+  color: #fffdf6;
+  text-wrap: balance;
+}
+.guide-handoff .handoff-roles { margin: 0; }
+.guide-handoff .handoff-roles > div {
+  border-top: 1px solid #c8af7954;
+  padding: 1.25rem 0;
+}
+.guide-handoff .handoff-roles > div:last-child { padding-bottom: .35rem; }
+.guide-handoff .handoff-roles dt {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
+  gap: .7rem;
+  align-items: center;
+  color: #eaf0f3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.handoff-role-icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  color: #d7c593;
+}
+.handoff-role-icon svg { width: 23px; height: 23px; stroke-width: 1.5; }
+.handoff-role-index {
+  font-family: var(--academy-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #dec997;
+}
+.guide-handoff .handoff-roles dd {
+  margin: .4rem 0 0 calc(34px + .7rem);
+  color: #e0eaed;
+  font-size: 1rem;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+/* Quiet borders, crisp actions, generous reading space. */
+.guide-photo { border-radius: 10px; border-color: #b9ccd6; }
+.guide-photo figcaption { border-top: 1px solid #d7d8cc; padding: 1rem; }
+.guide-steps { gap: .8rem; }
+.guide-steps details { border-radius: 9px; border-color: #b9ccd6; }
+.guide-steps details[open] { border-color: #9b936f; box-shadow: 0 4px 14px #12364a05; }
+.guide-step-number {
+  font-family: var(--academy-serif);
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 1px solid #cfc3a3;
+  border-radius: 50%;
+  background: #fff;
+  color: #234d62;
+}
+.guide-steps details[open] .guide-step-number { border-color: #234d62; }
+.guide-step-result { border-radius: 6px; border-left: 2px solid #a39970; }
+.guide-entry, .guide-boundaries, .guide-method, .guide-feedback-example,
+.guide-statuses article { border-radius: 9px; }
+.guide-entry > span { border-radius: 50%; background: #eaf0f3; border: 1px solid #d7cfb7; }
+.guide-selector { border-color: #b9ccd6; }
+.guide-faq > details { border-color: #b9ccd6; }
+.forest-academy .current-task { border-radius: 10px; border-color: #b9ccd6; }
+.forest-academy .current-task h2 {
+  font-family: var(--academy-serif);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 2.4vw, 2rem);
+  line-height: 1.25;
+  letter-spacing: -.025em;
+}
+.forest-academy .progress-pod, .forest-academy .task-tile { border-radius: 10px; }
+.forest-track-heading { border-bottom: 1px solid #b9ccd6; padding-bottom: 1rem; }
+.forest-track-heading > span { border-radius: 50%; border: 1px solid #c8bb97; background: #fff; }
+.task-symbol { border-radius: 8px; }
+.forest-work-order, .forest-worked-example, .forest-practice-brief,
+.lesson-stage, .lesson-continue { border-radius: 10px; }
+.forest-work-order { border-left-width: 3px; }
+.stage-head { border-bottom-color: #b9ccd6; }
+.stage-head .stage-number {
+  border-radius: 50%;
+  font-family: var(--academy-serif);
+  font-weight: 400;
+  border: 1px solid #b49551;
+}
+.lesson-continue { border: 1px solid #b49551; }
+.workspace button[data-slot=button], .wide-dialog button[data-slot=button] {
+  border-radius: 6px;
+  min-height: 44px;
+}
+.academy-guide button[data-slot=button] { padding: .7rem 1.15rem; }
+
+@media (max-width:1050px) {
+  .method-banner .method-copy > strong { font-size: 1.65rem; }
+  .guide-handoff { padding: 1.5rem 1.25rem; }
+  .handoff-heading { gap: .7rem; }
+  .handoff-emblem { width: 38px; height: 38px; }
+}
+@media (max-width:700px) {
+  .learner-heading, .guide-heading { padding-bottom: 1rem; }
+  .method-banner { padding: 1.3rem; }
+  .method-banner .method-copy > strong { font-size: 1.65rem; }
+  .method-banner .method-mark > span { font-size: 1rem; }
+  .guide-handoff { padding: 1.4rem 1.25rem; }
+  .guide-handoff .handoff-heading h2 { font-size: 1.8rem; }
+  .handoff-heading { padding-bottom: 1.15rem; }
+  .guide-handoff .handoff-roles dd { margin-left: 0; }
+  .guide-handoff .handoff-roles > div { padding: 1rem 0; }
+  .guide-handoff .handoff-roles dt { font-size: 1.05rem; }
+  .guide-section-heading h2, .guide-statuses h2, .guide-faq h2 { font-size: 1.4rem; }
+  .example-heading h3, .practice-phase-heading h2 { font-size: 1.5rem; }
+}
+@media (forced-colors:active) {
+  .handoff-emblem, .guide-handoff, .method-banner { border-color: CanvasText; }
+}
+
+/* One confident identity throughout the working academy. */
+.academy-sidebar [data-sidebar=sidebar]{background:#0d2c3d;border-right:1px solid #a88845;padding-top:20px}
+.brand-side{border-bottom:1px solid #d7b66555;padding-bottom:19px;width:100%;align-items:center}
+.brand-side>svg{color:#e4c679;width:38px;height:38px;stroke-width:1.8;flex-shrink:0}
+.brand-side b{font-weight:700;letter-spacing:.065em;font-size:1.25rem;color:#fff8e7}
+.brand-side>span{font-size:.75rem;letter-spacing:.14em;color:#dcc382}
+.academy-sidebar .nav-item{border-radius:4px!important;font-weight:600}
+.academy-sidebar .nav-item[data-active=true]{background:#d7b665!important;color:#102f41!important;box-shadow:inset 3px 0 #ffebb7;font-weight:750}
+.academy-sidebar .nav-item:not([data-active=true]):hover{background:#214a60;color:#fff}
+.academy-sidebar .side-caption,.academy-sidebar .side-note>span{color:#b9cdd8}
+.academy-sidebar .side-note p{color:#e6edf1}
+.academy-sidebar .side-note p svg{color:#d7b665}
+.academy-sidebar .avatar{background:#224b60;color:#fff;border:1px solid #a88b51}
+.academy-sidebar .account-side small{color:#bfd2dc}
+.academy-sidebar [data-sidebar=footer] [data-sidebar=menu-button]:hover{background:#214a60;color:#fff}
+.topbar{background:#12364a;color:#f6f8fa;border-bottom:2px solid #b99a53}
+.topbar .demo-pill{border-color:#c7a85e;color:#ecd08b;background:transparent}
+.topbar button[data-slot=button]{color:#f6f8fa;background:transparent;border-color:#9c874e}
+.topbar button[data-slot=button]:hover{background:#254f65;color:#fff}
+.topbar button.view-switch[data-slot=button]{border:1px solid #c7a85e;color:#f1d690}
+.topbar button:focus-visible{outline-color:#f2d38a}
+.learner-heading h1,.guided-title h1,.guide-heading h1,.page-heading h1{font-weight:700;letter-spacing:-.03em;color:#12364a}
+.learner-heading .kicker,.guided-title .kicker,.guide-heading .kicker{color:#5f4c22;font-weight:800}
+.learner-heading,.guide-heading{border-bottom-color:#bfa66a}
+.section-icon,.guided-title .task-symbol{border:1px solid #b8974d;color:#12364a;background:#fff;box-shadow:inset 0 0 0 4px #fff,inset 0 0 0 5px #ded1ad}
+.method-banner{background:#12364a;border:1px solid #c9a657;border-radius:6px;box-shadow:inset 0 0 0 5px #12364a,inset 0 0 0 6px #d7b66577,0 10px 24px #12364a12;padding-top:1.8rem}
+.method-banner .method-eyebrow{color:#e4edf2;border-color:#d7b66570}
+.method-banner .method-eyebrow>span:last-child,.method-banner .method-mark,.method-banner .method-mark>span{color:#edce86}
+.method-banner .method-mark>svg{stroke-width:1.8}
+.method-banner .method-copy>strong{font-weight:700;font-size:clamp(1.6rem,2.55vw,2.3rem);color:#fff9e9;line-height:1.18}
+.method-banner .method-copy>p{color:#d7e4eb;font-size:1rem;line-height:1.55}
+.method-banner .method-phases>li+li{border-color:#d7b66566}
+.learning-compass{background:#f2f5f7}
+.method-compact{background:#12364a;border:1px solid #a78949;border-radius:6px}
+.method-compact .method-current{background:#d7b665;color:#102f41;border-radius:3px}
+.method-compact .method-current .method-mark{color:#102f41}
+.method-context{color:#e5eef3;border-color:#d7b66555}
+.method-context>span{color:#edce86}
+.forest-academy .current-task{border:1px solid #b4c6d0;border-top:4px solid #12364a;border-radius:6px;box-shadow:0 5px 16px #12364a08}
+.forest-academy .current-task h2{font-weight:700;color:#12364a}
+.forest-academy .current-caption{color:#12364a}
+.forest-academy .start-task-button{background:#d7b665!important;color:#102f41!important;border:1px solid #a7863b;font-weight:750}
+.forest-academy .start-task-button:hover{background:#e8ca80!important}
+.forest-academy .task-revision{border-left-color:#ad8331}
+.forest-academy .progress-pod{background:#e7eef2;border:1px solid #b6cbd6;border-radius:6px}
+.forest-academy .progress-pod>strong{color:#12364a}
+.forest-track-heading h2,.guide-section-heading h2,.guide-statuses h2,.guide-faq h2,.stage-head h2,.practice-phase-heading h2{font-weight:700;color:#12364a}
+.forest-track-heading{border-bottom-color:#bba16a}
+.forest-track-heading>span{color:#12364a;border-color:#b8974d}
+.forest-academy .task-tile{border-radius:6px;border-color:#bcced7;border-top:2px solid #12364a}
+.forest-academy .task-tile:hover{border-color:#a1803b;box-shadow:0 5px 16px #12364a0d}
+.task-symbol,.task-tile:nth-child(2) .task-symbol,.task-tile:nth-child(3) .task-symbol,.task-tile:nth-child(5) .task-symbol,.task-tile:nth-child(6) .task-symbol{background:#edf2f5;color:#12364a;border-radius:5px}
+.task-status{color:#31546a}
+.task-returned .task-status{color:#805819}
+.lesson-stepper button{border-radius:5px}
+.lesson-stepper .current{color:#12364a;border-color:#b1914a;box-shadow:inset 0 -3px #b1914a}
+.lesson-stepper .current>span{background:#d7b665;color:#102f41}
+.lesson-stepper .visited{background:#e3edf2;color:#12364a}
+.lesson-stage{border-radius:6px;border-color:#c4d3da}
+.stage-head{border-color:#c6b282}
+.stage-head .stage-number{background:#12364a;color:#ecd08b;border-color:#b1914a;font-weight:700}
+.lesson-continue{background:#12364a;border-color:#b1914a;border-radius:6px}
+.lesson-continue span{color:#ebce8c}
+.lesson-continue p{color:#d7e4eb}
+.lesson-continue .lesson-primary{background:#d7b665;color:#102f41;font-weight:750;border:1px solid #d7b665}
+.lesson-continue .lesson-primary:hover{background:#e8ca80}
+.forest-worked-example{background:#eaf1f5;border-color:#b7ceda;border-radius:6px}
+.example-heading>span{background:#12364a;color:#edce86;border-radius:5px}
+.example-heading h3{color:#12364a;font-weight:700}
+.worked-decision{border-left:3px solid #b49753}
+.worked-why{background:#f7f9fa}
+.forest-work-order{border-left-color:#b1914a;border-radius:6px}
+.work-order-icon{background:#12364a;color:#edce86;border-radius:5px}
+.guide-handoff{border-color:#c5a254;border-radius:6px;box-shadow:inset 0 0 0 5px #12364a,inset 0 0 0 6px #d7b66570,0 10px 22px #12364a12}
+.guide-handoff .handoff-heading h2{font-weight:700;color:#fff9e9}
+.handoff-emblem,.handoff-role-icon,.handoff-role-index,.handoff-heading p{color:#ebca7e}
+.handoff-emblem{border-color:#c5a254}
+.guide-handoff .handoff-roles>div{border-color:#d7b66566}
+.guide-steps details{border-radius:6px;border-color:#c0cfd7}
+.guide-steps details[open]{border-color:#ae8c44;border-left:3px solid #ae8c44}
+.guide-steps details[open] .guide-step-number{background:#12364a;color:#edce86;border-color:#12364a;font-weight:700}
+.guide-step-result{background:#edf3f6;border-left-color:#ac8b44}
+.guide-step-result svg,.guide-step-result b{color:#17465c}
+.guide-entry>span{background:#12364a;border-color:#b1914a;color:#edce86}
+.guide-entry,.guide-boundaries,.guide-method,.guide-feedback-example,.guide-statuses article{border-radius:6px}
+.mentor-next{background:#fcf5e4;border-color:#b4944d}
+.mentor-next b,.mentor-next>svg{color:#735716}
+.status-returned,.status-practice{background:#fff1d6;color:#7f5619}
+.status-not_met{background:#fff0ef;color:#822d30}
+[data-sonner-toaster][data-theme] [data-sonner-toast][data-type=success]{background:#eaf1f5;border-color:#b4cbd6;color:#12364a}
+.mobile-nav{border-top-color:#b8984e}
+.mobile-nav button.active{color:#12364a;background:#f7edd5;border-radius:4px}
+.entry-forest{border:1px solid #b49551;border-radius:8px;background-color:#12364a}
+.entry-forest h2{font-family:var(--academy-serif);font-weight:700}
+.login-card,.login-icon{border-radius:6px}
+.login-learner{border-color:#b1914a;box-shadow:inset 3px 0 #d7b665}
+.login-learner .login-icon{background:#12364a;color:#edce86}
+@media(max-width:1050px){.method-banner .method-copy>strong{font-size:1.65rem}}
+@media(max-width:700px){.method-banner{padding:1.3rem}.method-banner .method-copy>strong{font-size:1.65rem}.method-banner .method-phases>li+li{border-color:#d7b66566}.brand-side b{font-size:1.15rem}}
