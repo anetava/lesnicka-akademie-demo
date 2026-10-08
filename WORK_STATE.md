@@ -1,33 +1,33 @@
-# Lesnická akademie - oddělená prezentační revize
+# Lesnická akademie – samostatná prezentační verze
 
-Aktualizace: 8. 10. 2026. Základ: `d45f483d707a06dad7b40a7b1da313328ded75eb`.
-Větev: `prezentace-odborne-upravy-20261008`. Hlavní větev a zveřejněná aplikace nebyly touto revizí změněny.
+Aktualizace: 8. 10. 2026. Původní základ: d45f483d707a06dad7b40a7b1da313328ded75eb.
+Zdrojová větev: prezentace-odborne-upravy-20261008.
+Cíl nasazení: https://anetava.github.io/lesnicka-akademie-demo/prezentace/
+Původní aplikace v kořenové složce se zachovává; nová sestava je v samostatné složce prezentace/.
 
-## Připravené změny
+## Obsah a metodika
 
-- Profesní česká terminologie v 36 lekcích, 10 odborných misích, šesti komunikačních misích, pracovních kartách a průvodcích. Zachováno 108 rozhodovacích otázek a 36 výstupů. Doplněn slovník 30 pojmů s anglickými ekvivalenty podle dodaného studijního slovníku.
-- Původní autoritativní profil 14 oblastí je beze změny. Prezentační znění používá samostatný odvozený profil.
-- Veřejná navigace ani API neobsahují registr 24 otevřených otázek. Původní soubor zůstává zachován a žádná odpověď nebyla označena za schválenou. Samostatný interní registr byl předán uživatelce mimo aplikaci.
-- Z výuky a prezentačních pohledů odstraněny pracovní zdroje a zmínky osobních jmen. Povinné licence fotografií jsou zachovány.
-- Role L01 otevírá „Dohled nad vzděláváním LČR“ s agregovanými ukazateli a exportem. Nezobrazuje jednotlivé odpovědi ani jmenné hodnocení.
-- Přímý přepínač všech demonstračních účtů v záhlaví a přepínací dialog pro užší obrazovky.
-- Samostatný název databáze IndexedDB chrání původní ukázkové záznamy. Relativní cesty umožňují oddělené umístění aplikace.
-- Opravena recenze změněného odborného učiva po skrytí zdrojů. Odborná a didaktická recenze zůstávají povinné před zveřejněním verze uvnitř demonstrace.
-- Vytvořena osmistránková prezentační PDF příloha a nabídka „Akademie pro odborníky z praxe - efektivní učení v éře AI“. Soubor neobsahuje osobní jména ani interní citace. AI není v demonstraci zapojena.
+- 72 lekcí a 216 rozhodovacích úloh ve třech samostatných předmětech: lesnictví 48 lekcí, angličtina 12, komunikace a profesní dovednosti 12.
+- Lesnická výuka je označena bordovou, angličtina a komunikace nebeskou modrou. Každý předmět má vlastní přímou navigaci, přehled pokroku a souhrnné výstupy.
+- Doplněny menší probírky v tyčovině a dospívající kmenovině, rozlišení vývojových fází, příprava motomanuální těžby, surové dříví, výřezy, sortimenty a technická péče.
+- Angličtina obsahuje odborné pojmy podle dodaného školního slovníku, původní modelové dialogy, kvízy a vlastní dvojjazyčné výstupy. Čtení anglické věty používá hlas dostupný v prohlížeči.
+- Samostatná komunikace vymezuje prostor pro výuku IVP: pokyn, spolupráce, různorodý tým, zpětná vazba, reflexe, plán a portfolio. Institucionální garance je návrh k potvrzení, nikoli dohodnutý závazek.
+- Časová dotace je autorský návrh: 180 hodin lesnictví, 24 angličtiny, 24 komunikace a 12 závěrečného ověření; celkem 240 vyučovacích hodin po 45 minutách. Doplňková pracovní čeština 0–24 hodin podle individuálního zjištění. Nejde o dotaci celého učebního oboru.
+- Přesné názvy pro inspiraci: 41-56-E/01 Lesnické práce; 41-56-H/01 Lesní mechanizátor; 41-55-H/01 Opravář zemědělských strojů; 41-56-H/02 Opravář lesnických strojů. Relevantní platná NSK: Mechanizátor/mechanizátorka pro pěstební činnost 41-022-H a Těžař/těžařka dříví motomanuální 41-090-H. Název „Operátor lesní výroby“ nebyl doložen jako přesná aktuální formální kvalifikace.
+- Celkem 23 modelových misí, 12 souhrnných vazeb bloků; nový předmět využívá stávající ukládání, hodnocení a portfolio.
+- Zachovány původní autoritativní soubory 14 oblastí a 24 otevřených rozhodnutí. Interní registr ani pracovní zdroje nejsou součástí veřejného rozhraní/API. Licence fotografií se zachovávají.
+- Souhrnná role L01 „Dohled nad vzděláváním LČR“ ukazuje agregace odděleně podle předmětů.
+- Databáze, lokální klíče a klíč přihlášení prezentační verze jsou odděleny od původní ukázky.
 
-## Ověření
+## Ověření před nasazením
 
 - TypeScript: PASS.
-- Produkční sestavení Vite: PASS. Skript sql.js se dodává jako samostatná původní veřejná součást; upozornění Vite o klasickém skriptu není chybou sestavení.
-- Integrační testy: **17 PASS / 0 FAIL**, 95 obnovení databáze, 93 uložení. Testuje se skutečný SQLite WASM a aplikační služba s obnovením uloženého stavu při každém požadavku.
-- Ověřen cyklus odevzdání, vrácení, opravy, potvrzení a portfolia; jednorázové body; přílohy; atomicita neúspěšného uložení; souhrnná role LČR a dvojstupňová recenze učiva bez zdrojů.
-- Kontrolní součty původních 14 oblastí a 24 otevřených otázek: PASS.
-- Textová kontrola sestavení na Aneta, Radka, otevřený registr, interní vlastníky a značky S1/S2: žádný výskyt.
-- PDF: 8 stran, všechny vizuálně ověřeny po renderování; pokryto 24 původních témat. Stavy v PDF neznamenají provozní schválení.
-- **Browser QA: NOT RUN.** Cloudový prohlížeč nedosáhne na lokální náhled (ERR_CONNECTION_REFUSED). Místní browser runtime není instalován. Rozvržení, nativní IndexedDB, přepínač účtů v DOM, mobilní zobrazení a stahování vyžadují navazující test na samostatném povoleném náhledu. Žádný takový test není označen PASS.
+- Produkční sestavení Vite: PASS; původní klasický sql.js skript je dodán samostatně.
+- Integrační testy: 18 PASS / 0 FAIL; 116 obnovení a 114 uložení skutečné SQLite WASM databáze.
+- Ověřeny původní i nové cykly odevzdání, hodnocení a portfolia; oddělený pokrok angličtiny a komunikace; jednorázové body; přílohy; atomická obnova po selhání ukládání; role LČR a dvě recenze učiva.
+- Kontrolní součty původních podkladů: PASS.
+- Živé ověření prohlížeče: čeká na dokončení samostatného nasazení; zatím není označeno PASS.
 
-## Zbývá před skutečným provozem
+## Provozní rozsah
 
-Bezpečné osobní přihlášení a serverové role, sdílená databáze pro různá zařízení, zálohování, správa skutečných účastníků, odborné schválení programu a praktických kritérií, provozní odpovědnosti a dohoda k dosud otevřeným otázkám. Současná role L01 je veřejně přepínatelná demonstrační role, nikoli soukromý účet vedení.
-
-Zveřejnění upravené verze zatím není provedeno. Další krok: uživatelka posoudí přílohu a rozsah změn; samostatné nasazení a živé ověření se provede až podle jejího navazujícího pokynu. Původní veřejná ukázka se zachová.
+Samostatný web funguje bez otevřeného ChatGPT Work. Jde o prezentační demonstraci s veřejně přepínatelnými syntetickými účty a místním úložištěm prohlížeče. Skutečný sdílený provoz vyžaduje osobní přihlášení, serverová oprávnění, společnou databázi, zálohy a potvrzené odborné i organizační podmínky. Online body ani dokončení lekcí nevydávají osvědčení praktické způsobilosti.

@@ -115,7 +115,8 @@
         "Položí otázku, která upřesňuje provedení."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "Z02",
@@ -233,7 +234,8 @@
         "Oddělí určení druhu od zadání zásahu."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "Z03",
@@ -351,7 +353,8 @@
         "Nejasný nález nechá ověřit před odstraněním."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "Z04",
@@ -470,7 +473,8 @@
         "Položí konkrétní otázku na závaznou hranici."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "Z05",
@@ -589,7 +593,8 @@
         "Rozpozná změnu, která vyžaduje nové posouzení."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "Z06",
@@ -707,7 +712,8 @@
         "Ověřuje konkrétní činnost nebo místo, nikoli jen jednotlivé slovo."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "O01",
@@ -821,7 +827,8 @@
         "Výslovně zachová zmlazení a váže rozsah výsadby na mapu, označení nebo ukázku."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "O02",
@@ -934,7 +941,8 @@
         "Nezamění pozorované poškození za potvrzenou příčinu ani svévolné rozhodnutí o celé dodávce."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "O03",
@@ -1047,7 +1055,8 @@
         "Důvody propojí s vysycháním, přehříváním nebo mechanickým poškozením, nikoli jen s pořádkem."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "O04",
@@ -1161,7 +1170,8 @@
         "Výslovně ověří uložení kořenů bez ohnutí a respektuje ponechané zmlazení či půdní kryt."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "O05",
@@ -1273,7 +1283,8 @@
         "Opravu vztáhne ke správnému provedení a následné kontrole, nikoli pouze k rychlejšímu pracovnímu tempu."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "O06",
@@ -1387,7 +1398,8 @@
         "Nepřipíše neověřenou příčinu a nevydává úsek za celou plochu."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "P01",
@@ -1505,7 +1517,8 @@
         "Kontrola popisuje uvolnění i nepoškozený stav."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "P02",
@@ -1622,7 +1635,8 @@
         "Výsledek opravy vztahujete ke konkrétnímu montážnímu vzoru."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "P03",
@@ -1740,7 +1754,8 @@
         "Uvádíte, co bude nutné po opravě ověřit."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "P04",
@@ -1858,7 +1873,8 @@
         "Dokumentace zahrnuje detail i souvislost s okolím."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "P05",
@@ -1976,7 +1992,8 @@
         "Ověřujete stav zachovávaného zmlazení."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "P06",
@@ -2094,7 +2111,8 @@
         "Záznam nezaměňuje označení prvku s oprávněním měnit jeho určení."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "R01",
@@ -2207,7 +2225,8 @@
         "Obsahuje konkrétní bod k ověření a nezavádí vlastní číselný předpis."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "R02",
@@ -2320,7 +2339,8 @@
         "Žádá rozhodnutí o konkrétním případu a nezaměňuje dotaz za svévolnou změnu výběru."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "R03",
@@ -2433,7 +2453,8 @@
         "U kladného výběru jmenuje podporovaný strom, nikoli pouze strom odstraňovaný."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "R04",
@@ -2547,7 +2568,8 @@
         "Formuluje otázku k zadání a ověřitelný znak výsledku."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "R05",
@@ -2661,7 +2683,8 @@
         "Obsahuje konkrétní otázku k postupu u obou míst."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "R06",
@@ -2775,7 +2798,8 @@
         "Přiřazuje místům jasný další krok bez vlastního rozšiřování práce."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "K01",
@@ -2888,7 +2912,8 @@
         "Rozlišujete nástroj a související ochranné díly."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "K02",
@@ -3000,7 +3025,8 @@
         "Každé vadě přiřadíte srozumitelný důvod a správné rozhodnutí."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "K03",
@@ -3113,7 +3139,8 @@
         "Navrhujete konkrétní zachycení vstupu a přerušení práce."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "K04",
@@ -3225,7 +3252,8 @@
         "Rozlišujete zastavení pohybu a přípravu na přepravu."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "K05",
@@ -3337,7 +3365,8 @@
         "Uvádíte zajištění energie a jasnou hranici vlastního zásahu."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "K06",
@@ -3450,7 +3479,8 @@
         "Je jasné, zda lze stroj použít a komu se předává informace."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "S01",
@@ -3569,7 +3599,8 @@
         "Rozliší nahlášení od odstranění problému."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "S02",
@@ -3688,7 +3719,8 @@
         "Počítá s přečtením kódu a otázkami operátora."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "S03",
@@ -3807,7 +3839,8 @@
         "Navrhne konkrétní kontrolu a dohodu o nápravě."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "S04",
@@ -3925,7 +3958,8 @@
         "Předá nevyřešenou opravu odpovědné osobě."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "S05",
@@ -4043,7 +4077,8 @@
         "Vyžádá si konkrétní potvrzení, nikoli jen obecný souhlas."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   },
   {
     "id": "S06",
@@ -4165,6 +4200,7 @@
         "Předá konkrétní otázku k ochraně a bezpečnosti okraje."
       ]
     },
-    "sourceIds": []
+    "sourceIds": [],
+    "subject": "forestry"
   }
 ]

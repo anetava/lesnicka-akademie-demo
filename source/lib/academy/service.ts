@@ -1,4 +1,4 @@
-import {studyUnits,studySources,studyBlocks,practiceCards,studyVersion,safeStudyUnit} from './study/catalog';
+import {subjects,studyUnits,studySources,studyBlocks,practiceCards,studyVersion,safeStudyUnit} from './study/catalog';
 import {missions,competencySource,moduleSource,questions,seed,roleNames} from './catalog';
 type DB={prepare:(s:string)=>any,batch:(s:any[])=>Promise<any[]>};
 type Ctx={DB:DB,BUCKET:any,launcherAllowed:boolean,platform:string,operation?:string,transactionMode?:boolean};
@@ -100,8 +100,8 @@ export async function handleAcademy(r:Request,c:Ctx):Promise<Response>{c={...c,o
  if(p[0]==='study-overview'&&method==='GET'){
   need(u,['instructor','ivp_quality','coordinator','lcr']);
   const people=u.role==='instructor'?await rows(c,'SELECT u.id,u.name FROM users u JOIN assignments a ON a.learner=u.id WHERE a.instructor=? AND u.org=? AND u.active=1',u.id,u.org):await rows(c,"SELECT id,name FROM users WHERE org=? AND role IN ('learner','graduate') AND active=1",u.org);
-  const details=[];for(const person of people){const p=await rows(c,'SELECT unit,best_score,passed,attempts FROM study_progress WHERE user_id=? AND content_version=?',person.id,studyVersion);const works=await rows(c,'SELECT unit FROM study_work WHERE user_id=? AND content_version=?',person.id,studyVersion);details.push({...person,started:p.length,passed:p.filter((x:any)=>x.passed).length,works:works.length,needsPractice:p.filter((x:any)=>!x.passed).map((x:any)=>x.unit)});}
-  return json({units:studyUnits.length,people:u.role==='lcr'?[]:details,summary:{learners:people.length,started:details.reduce((n,x)=>n+x.started,0),passed:details.reduce((n,x)=>n+x.passed,0),works:details.reduce((n,x)=>n+x.works,0)}});
+  const details=[];for(const person of people){const p=await rows(c,'SELECT unit,best_score,passed,attempts FROM study_progress WHERE user_id=? AND content_version=?',person.id,studyVersion);const works=await rows(c,'SELECT unit FROM study_work WHERE user_id=? AND content_version=?',person.id,studyVersion);details.push({...person,subjects:subjects.map(s=>{const ids=new Set(studyUnits.filter(u=>u.subject===s.id).map(u=>u.id));return {subject:s.id,started:p.filter((x:any)=>ids.has(x.unit)).length,passed:p.filter((x:any)=>ids.has(x.unit)&&x.passed).length,works:works.filter((x:any)=>ids.has(x.unit)).length}}),started:p.length,passed:p.filter((x:any)=>x.passed).length,works:works.length,needsPractice:p.filter((x:any)=>!x.passed).map((x:any)=>x.unit)});}
+  return json({units:studyUnits.length,people:u.role==='lcr'?[]:details,summary:{subjects:subjects.map(s=>({subject:s.id,started:details.reduce((n,x)=>n+(x.subjects.find(t=>t.subject===s.id)?.started||0),0),passed:details.reduce((n,x)=>n+(x.subjects.find(t=>t.subject===s.id)?.passed||0),0),works:details.reduce((n,x)=>n+(x.subjects.find(t=>t.subject===s.id)?.works||0),0)})),learners:people.length,started:details.reduce((n,x)=>n+x.started,0),passed:details.reduce((n,x)=>n+x.passed,0),works:details.reduce((n,x)=>n+x.works,0)}});
  }
  if(['study-check','study-work'].includes(p[0])&&method==='POST'){
   need(u,['learner']);const b:any=await readBody(r);const unit=studyUnits.find(x=>x.id===b.unit);if(!unit)fail(404,'Lekce nebyla nalezena.');if(b.contentVersion!==studyVersion)fail(409,'Obsah lekce se změnil. Otevřete aktuální verzi.');

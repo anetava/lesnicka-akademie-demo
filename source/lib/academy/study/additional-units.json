@@ -1,0 +1,4550 @@
+[
+  {
+    "id": "T01",
+    "block": "T",
+    "subject": "forestry",
+    "title": "Vývojové fáze porostu a výchovný zásah",
+    "goal": "Rozlište prořezávku a probírku v konkrétním porostu.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Rozlište prořezávku a probírku v konkrétním porostu. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Tyčkovina, tyčovina a kmenovina označují vývojové fáze porostu. Označení fáze samo neurčuje pracovní postup. Před zahájením se posuzuje druhová skladba, stav porostu, stanoviště a konkrétní zadání. Dospívající kmenovina není souhrnný název pro každý porost vhodný k probírce."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Prořezávka je výchovný zásah v mladém porostu, při němž se upravuje druhová skladba a prostorové vztahy. Probírka navazuje ve vyspělejších porostech a může poskytovat využitelné dříví. Rozhodující je pěstební cíl a určený způsob zásahu, nikoli pouze velikost použitého stroje."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Vedoucí označil úkol jako prořezávku, sousední plocha je tyčovina určená k probírce.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Vedoucí označil úkol jako prořezávku, sousední plocha je tyčovina určená k probírce.",
+      "response": "Ověřím hranici obou ploch, druh zásahu a platné vyznačení; změnu zadání si nechám potvrdit.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Pouze průměr stromů.",
+      "Pouze dostupnost motorové pily.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "prořezávka",
+        "meaning": "Výchovný zásah v mladých porostech."
+      },
+      {
+        "term": "probírka",
+        "meaning": "Výchovný zásah ve vyspělejším porostu."
+      },
+      {
+        "term": "tyčovina",
+        "meaning": "Vývojová fáze porostu navazující na tyčkovinu."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co ověříte při přechodu do jiné vývojové fáze porostu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Zadání, pěstební cíl, vyznačení a podmínky zásahu."
+          },
+          {
+            "id": "b",
+            "text": "Pouze průměr stromů."
+          },
+          {
+            "id": "c",
+            "text": "Pouze dostupnost motorové pily."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Prořezávka je výchovný zásah v mladém porostu, při němž se upravuje druhová skladba a prostorové vztahy. Probírka navazuje ve vyspělejších porostech a může poskytovat využitelné dříví. Rozhodující je pěstební cíl a určený způsob zásahu, nikoli pouze velikost použitého stroje."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Ověřím hranici obou ploch, druh zásahu a platné vyznačení; změnu zadání si nechám potvrdit."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Tyčkovina, tyčovina a kmenovina označují vývojové fáze porostu. Označení fáze samo neurčuje pracovní postup. Před zahájením se posuzuje druhová skladba, stav porostu, stanoviště a konkrétní zadání. Dospívající kmenovina není souhrnný název pro každý porost vhodný k probírce."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Vývojové fáze porostu a výchovný zásah",
+      "prompt": "Rozlište prořezávku a probírku v konkrétním porostu. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "T02",
+    "block": "T",
+    "subject": "forestry",
+    "title": "Pracovní zadání a vyznačení probírky",
+    "goal": "Převezměte zadání menší probírky a rozpoznejte hranici své odpovědnosti.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Převezměte zadání menší probírky a rozpoznejte hranici své odpovědnosti. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Pracovní zadání uvádí místo, rozsah a účel probírky, vyznačení, požadovanou kvalitu a způsob předání. Účastník musí porozumět tomu, které stromy a úseky jsou součástí úkolu. Nejasné označení nesmí nahrazovat vlastním odhadem. Předvedení na referenčním místě pomáhá ověřit společné porozumění."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Výběr stromů pro zásah souvisí s pěstebním cílem a pravomocí pověřené osoby. Pracovník provádějící zadaný úkon neprovádí svévolnou změnu intenzity probírky. Při nesouladu mezi pokynem a vyznačením se dotčená část práce pozastaví a požádá se o vysvětlení."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Na části tyčoviny nelze vyznačení jednoznačně přečíst.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Na části tyčoviny nelze vyznačení jednoznačně přečíst.",
+      "response": "Uvedu přesné místo nejasnosti a vyžádám si kontrolu vyznačení před pokračováním.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Zvolím vlastní intenzitu zásahu.",
+      "Odstraním všechny slabší stromy.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "vyznačení",
+        "meaning": "Označení určených stromů nebo hranic zásahu."
+      },
+      {
+        "term": "pěstební cíl",
+        "meaning": "Požadovaný směr vývoje porostu."
+      },
+      {
+        "term": "intenzita zásahu",
+        "meaning": "Rozsah výchovného zásahu stanovený zadáním."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jak postupujete při nejasném vyznačení?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vyžádám si upřesnění odpovědnou osobou."
+          },
+          {
+            "id": "b",
+            "text": "Zvolím vlastní intenzitu zásahu."
+          },
+          {
+            "id": "c",
+            "text": "Odstraním všechny slabší stromy."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Výběr stromů pro zásah souvisí s pěstebním cílem a pravomocí pověřené osoby. Pracovník provádějící zadaný úkon neprovádí svévolnou změnu intenzity probírky. Při nesouladu mezi pokynem a vyznačením se dotčená část práce pozastaví a požádá se o vysvětlení."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Uvedu přesné místo nejasnosti a vyžádám si kontrolu vyznačení před pokračováním."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Pracovní zadání uvádí místo, rozsah a účel probírky, vyznačení, požadovanou kvalitu a způsob předání. Účastník musí porozumět tomu, které stromy a úseky jsou součástí úkolu. Nejasné označení nesmí nahrazovat vlastním odhadem. Předvedení na referenčním místě pomáhá ověřit společné porozumění."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Pracovní zadání a vyznačení probírky",
+      "prompt": "Převezměte zadání menší probírky a rozpoznejte hranici své odpovědnosti. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "T03",
+    "block": "T",
+    "subject": "forestry",
+    "title": "Ochrana ponechaného porostu při probírce",
+    "goal": "Rozpoznejte poškození ponechaných stromů, půdy a přirozené obnovy.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Rozpoznejte poškození ponechaných stromů, půdy a přirozené obnovy. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Kvalita probírky se hodnotí také podle stavu ponechaného porostu. Kontroluje se mechanické poškození kmenů, kořenových náběhů, korun a obnovy. Záznam musí rozlišit zjištěný stav před prací a změny vzniklé při konkrétním zásahu. Vhodné je porovnat referenční místo před zahájením a při předání."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Organizace pohybu pracovníků a prostředků respektuje určené trasy, stav půdy a citlivá místa. Při zjištění odchylky pracovník popíše rozsah a místo, chrání ostatní porost a předá informaci vedoucímu. Nezakrývá škodu přesunem materiálu a nerozšiřuje zásah za hranice zadání."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „U ponechaného buku zjistíte čerstvé poškození kůry.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "U ponechaného buku zjistíte čerstvé poškození kůry.",
+      "response": "Zaznamenám místo a rozsah poškození, předám zjištění a domluvím úpravu organizace práce.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Jen počet odstraněných stromů.",
+      "Jen rychlost dokončení.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "ponechaný porost",
+        "meaning": "Stromy zachované po zásahu."
+      },
+      {
+        "term": "kořenový náběh",
+        "meaning": "Rozšířená část při přechodu kmene v kořeny."
+      },
+      {
+        "term": "přirozená obnova",
+        "meaning": "Vznik nové generace porostu přirozenými procesy."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co patří do kontroly kvality probírky?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Také stav ponechaného porostu, obnovy a půdy."
+          },
+          {
+            "id": "b",
+            "text": "Jen počet odstraněných stromů."
+          },
+          {
+            "id": "c",
+            "text": "Jen rychlost dokončení."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Organizace pohybu pracovníků a prostředků respektuje určené trasy, stav půdy a citlivá místa. Při zjištění odchylky pracovník popíše rozsah a místo, chrání ostatní porost a předá informaci vedoucímu. Nezakrývá škodu přesunem materiálu a nerozšiřuje zásah za hranice zadání."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Zaznamenám místo a rozsah poškození, předám zjištění a domluvím úpravu organizace práce."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Kvalita probírky se hodnotí také podle stavu ponechaného porostu. Kontroluje se mechanické poškození kmenů, kořenových náběhů, korun a obnovy. Záznam musí rozlišit zjištěný stav před prací a změny vzniklé při konkrétním zásahu. Vhodné je porovnat referenční místo před zahájením a při předání."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Ochrana ponechaného porostu při probírce",
+      "prompt": "Rozpoznejte poškození ponechaných stromů, půdy a přirozené obnovy. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "T04",
+    "block": "T",
+    "subject": "forestry",
+    "title": "Motomanuální těžba: příprava a předpoklady",
+    "goal": "Sestavte kontrolu podmínek před vedeným nácvikem.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Sestavte kontrolu podmínek před vedeným nácvikem. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Motomanuální těžba využívá ruční motorovou řetězovou pilu. Písemná příprava ověřuje porozumění úkolu, návodu, ochrannému vybavení, organizaci pracoviště a komunikaci. Samotná znalost těchto pojmů nenahrazuje instruktáž a praktické ověření. Konkrétní činnost určuje pověřený instruktor podle podmínek pracoviště."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Před nácvikem se ověřují skutečné předpoklady účastníka, stav prostředku a dohoda v týmu. Zjištěná závada nebo nerozumění pracovním pokynům musí být vyřešeny před zahájením. Výukový text neobsahuje univerzální techniku kácení; tu nelze přenášet mezi různými stromy a podmínkami bez odborného vedení."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Účastník vyřešil kvíz, ale dosud neabsolvoval instruktáž na konkrétním prostředku.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Účastník vyřešil kvíz, ale dosud neabsolvoval instruktáž na konkrétním prostředku.",
+      "response": "Domluvím instruktáž a ověření předpokladů; online výsledek nepovažuji za oprávnění k samostatné obsluze.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Oprávnění samostatně kácet.",
+      "Splnění celé profesní kvalifikace.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "motomanuální těžba",
+        "meaning": "Těžební činnost s ruční motorovou řetězovou pilou."
+      },
+      {
+        "term": "instruktáž",
+        "meaning": "Seznámení s konkrétní činností a podmínkami."
+      },
+      {
+        "term": "pracoviště",
+        "meaning": "Prostor určený pro výkon zadané práce."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co potvrzuje úspěšné vyřešení této lekce?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Porozumění modelové přípravě, nikoli praktickou způsobilost."
+          },
+          {
+            "id": "b",
+            "text": "Oprávnění samostatně kácet."
+          },
+          {
+            "id": "c",
+            "text": "Splnění celé profesní kvalifikace."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Před nácvikem se ověřují skutečné předpoklady účastníka, stav prostředku a dohoda v týmu. Zjištěná závada nebo nerozumění pracovním pokynům musí být vyřešeny před zahájením. Výukový text neobsahuje univerzální techniku kácení; tu nelze přenášet mezi různými stromy a podmínkami bez odborného vedení."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Domluvím instruktáž a ověření předpokladů; online výsledek nepovažuji za oprávnění k samostatné obsluze."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Motomanuální těžba využívá ruční motorovou řetězovou pilu. Písemná příprava ověřuje porozumění úkolu, návodu, ochrannému vybavení, organizaci pracoviště a komunikaci. Samotná znalost těchto pojmů nenahrazuje instruktáž a praktické ověření. Konkrétní činnost určuje pověřený instruktor podle podmínek pracoviště."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Motomanuální těžba: příprava a předpoklady",
+      "prompt": "Sestavte kontrolu podmínek před vedeným nácvikem. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "T05",
+    "block": "T",
+    "subject": "forestry",
+    "title": "Surové dříví, výřezy a sortimenty",
+    "goal": "Používejte přesnou dřevařskou terminologii při evidenci výsledku.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Používejte přesnou dřevařskou terminologii při evidenci výsledku. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Surové dříví je materiál získaný těžbou před dalším průmyslovým zpracováním. Výřez je část kmene vymezená příčnými řezy. Sortiment vyjadřuje určené požadavky na rozměry, jakost a využití. Řezivo vzniká pořezem; není synonymem pro každý výřez ani pro surové dříví."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Při měření a třídění se vychází z určených pravidel odběratele a pracovního zadání. Pracovník zaznamená rozměr, jednotku a identifikaci podle formuláře. Nesmí zaměňovat délku, tloušťku a objem ani vlastní orientační odhad uvádět jako potvrzené měření. Nejistou jakost předá k posouzení."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Ve výkazu je kulatina nesprávně označena jako řezivo.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Ve výkazu je kulatina nesprávně označena jako řezivo.",
+      "response": "Opravím označení podle skutečného produktu a ověřím údaje pro zařazení do sortimentu.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Výřez a řezivo jsou vždy totéž.",
+      "Sortiment znamená pouze dřevinu.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "surové dříví",
+        "meaning": "Dříví před průmyslovým zpracováním."
+      },
+      {
+        "term": "výřez",
+        "meaning": "Část kmene vymezená příčnými řezy."
+      },
+      {
+        "term": "řezivo",
+        "meaning": "Produkt vzniklý pořezem dříví."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Které tvrzení správně rozlišuje produkty?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Řezivo vzniká pořezem; výřez je část kmene."
+          },
+          {
+            "id": "b",
+            "text": "Výřez a řezivo jsou vždy totéž."
+          },
+          {
+            "id": "c",
+            "text": "Sortiment znamená pouze dřevinu."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Při měření a třídění se vychází z určených pravidel odběratele a pracovního zadání. Pracovník zaznamená rozměr, jednotku a identifikaci podle formuláře. Nesmí zaměňovat délku, tloušťku a objem ani vlastní orientační odhad uvádět jako potvrzené měření. Nejistou jakost předá k posouzení."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Opravím označení podle skutečného produktu a ověřím údaje pro zařazení do sortimentu."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Surové dříví je materiál získaný těžbou před dalším průmyslovým zpracováním. Výřez je část kmene vymezená příčnými řezy. Sortiment vyjadřuje určené požadavky na rozměry, jakost a využití. Řezivo vzniká pořezem; není synonymem pro každý výřez ani pro surové dříví."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Surové dříví, výřezy a sortimenty",
+      "prompt": "Používejte přesnou dřevařskou terminologii při evidenci výsledku. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "T06",
+    "block": "T",
+    "subject": "forestry",
+    "title": "Kontrola a předání menší probírky",
+    "goal": "Doložte výsledek zásahu, kvalitu a navazující úkol.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Doložte výsledek zásahu, kvalitu a navazující úkol. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Předání probírky zahrnuje rozsah skutečně provedené práce, splnění zadání a zjištěné odchylky. Porovnává se vyznačení, referenční ukázka, stav ponechaného porostu a evidence dříví. Záznam musí umožnit dohledat plochu a konkrétní pozorování. Obecné vyjádření „vše je hotové“ k odbornému předání nestačí."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Vedoucí posuzuje, zda je potřebná náprava nebo navazující kontrola. Pracovník rozlišuje vlastní pozorování, orientační odhad a odborně potvrzený údaj. Do portfolia zaznamenává, co skutečně předvedl a s jakou podporou. Modelová situace z aplikace zůstává odlišena od pozorování na pracovišti."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Zadaná část tyčoviny je dokončena, u okraje zůstalo nejasné vyznačení.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Zadaná část tyčoviny je dokončena, u okraje zůstalo nejasné vyznačení.",
+      "response": "Předám dokončený rozsah a zvlášť označím neprovedenou část s důvodem a žádostí o rozhodnutí.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Označím celou plochu jako hotovou.",
+      "Nejasnou část v záznamu vynechám.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "pracovní výkaz",
+        "meaning": "Záznam skutečně provedené práce."
+      },
+      {
+        "term": "odchylka",
+        "meaning": "Rozdíl proti zadání nebo požadované kvalitě."
+      },
+      {
+        "term": "referenční ukázka",
+        "meaning": "Dohodnutý vzor pro porovnání provedení."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jak předáte částečně dokončenou práci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Oddělím dokončený rozsah, nejasnost a další domluvený krok."
+          },
+          {
+            "id": "b",
+            "text": "Označím celou plochu jako hotovou."
+          },
+          {
+            "id": "c",
+            "text": "Nejasnou část v záznamu vynechám."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Vedoucí posuzuje, zda je potřebná náprava nebo navazující kontrola. Pracovník rozlišuje vlastní pozorování, orientační odhad a odborně potvrzený údaj. Do portfolia zaznamenává, co skutečně předvedl a s jakou podporou. Modelová situace z aplikace zůstává odlišena od pozorování na pracovišti."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Předám dokončený rozsah a zvlášť označím neprovedenou část s důvodem a žádostí o rozhodnutí."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Předání probírky zahrnuje rozsah skutečně provedené práce, splnění zadání a zjištěné odchylky. Porovnává se vyznačení, referenční ukázka, stav ponechaného porostu a evidence dříví. Záznam musí umožnit dohledat plochu a konkrétní pozorování. Obecné vyjádření „vše je hotové“ k odbornému předání nestačí."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Kontrola a předání menší probírky",
+      "prompt": "Doložte výsledek zásahu, kvalitu a navazující úkol. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "V01",
+    "block": "V",
+    "subject": "forestry",
+    "title": "Mechanizační prostředky v pěstební činnosti",
+    "goal": "Přiřaďte prostředek k operaci a podmínkám použití.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Přiřaďte prostředek k operaci a podmínkám použití. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Mechanizační prostředek se volí podle konkrétní operace, terénu a požadované kvality. Ve výuce se rozlišuje nářadí, malá mechanizace, traktor a nesené či připojené zařízení. Podobný vzhled neznamená stejný účel. Vždy je důležité označení typu, návod a schválená konfigurace pro danou činnost."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Účastník vysvětlí, k čemu prostředek slouží, co ověří před použitím a komu předá nejistotu. Inspirace oborem Lesní mechanizátor doplňuje porozumění strojům, ale krátký program nepokrývá všechny činnosti tohoto oboru. Obsluhu jiného zařízení nelze odvozovat pouze ze zkušenosti s křovinořezem."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Pro přípravu půdy je k dispozici jiný typ zařízení než v pracovním pokynu.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Pro přípravu půdy je k dispozici jiný typ zařízení než v pracovním pokynu.",
+      "response": "Ověřím určení a schválenou konfiguraci; požádám o potvrzení vhodného prostředku.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Jen podle výkonu motoru.",
+      "Jen podle toho, který je nejblíže.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "mechanizační prostředek",
+        "meaning": "Stroj nebo zařízení usnadňující pracovní operaci."
+      },
+      {
+        "term": "nesené zařízení",
+        "meaning": "Zařízení nesené určeným základním strojem."
+      },
+      {
+        "term": "konfigurace",
+        "meaning": "Konkrétní schválená sestava prostředku."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Podle čeho vybíráte mechanizační prostředek?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Podle operace, podmínek, návodu a určeného použití."
+          },
+          {
+            "id": "b",
+            "text": "Jen podle výkonu motoru."
+          },
+          {
+            "id": "c",
+            "text": "Jen podle toho, který je nejblíže."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Účastník vysvětlí, k čemu prostředek slouží, co ověří před použitím a komu předá nejistotu. Inspirace oborem Lesní mechanizátor doplňuje porozumění strojům, ale krátký program nepokrývá všechny činnosti tohoto oboru. Obsluhu jiného zařízení nelze odvozovat pouze ze zkušenosti s křovinořezem."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Ověřím určení a schválenou konfiguraci; požádám o potvrzení vhodného prostředku."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Mechanizační prostředek se volí podle konkrétní operace, terénu a požadované kvality. Ve výuce se rozlišuje nářadí, malá mechanizace, traktor a nesené či připojené zařízení. Podobný vzhled neznamená stejný účel. Vždy je důležité označení typu, návod a schválená konfigurace pro danou činnost."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Mechanizační prostředky v pěstební činnosti",
+      "prompt": "Přiřaďte prostředek k operaci a podmínkám použití. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "V02",
+    "block": "V",
+    "subject": "forestry",
+    "title": "Technická dokumentace a označení stroje",
+    "goal": "Vyhledejte správný návod a ověřte shodu prostředku.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Vyhledejte správný návod a ověřte shodu prostředku. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Technická dokumentace musí odpovídat konkrétnímu typu prostředku a jeho vybavení. Pracovník identifikuje stroj podle určeného označení a porovná údaje s návodem. Nestačí použít příručku podobného modelu. Výuková karta poskytuje orientaci, ale závazné pokyny k obsluze a údržbě se hledají v příslušné dokumentaci."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "V návodu se vyhledává určené použití, kontroly, omezení a plán údržby. Nejasný údaj se nepřekládá odhadem, zejména jde-li o bezpečnostní podmínky. Záznam o ověření uvádí, který dokument byl použit a co z něj bylo zjištěno. Chybějící nebo nečitelná dokumentace se hlásí pověřené osobě."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Návod uvádí jiné označení typu než štítek stroje.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Návod uvádí jiné označení typu než štítek stroje.",
+      "response": "Před použitím vyžádám dokumentaci odpovídající skutečnému typu a vybavení.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Jakýkoli návod stejné značky.",
+      "Pouze obecný pracovní list.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "návod k obsluze",
+        "meaning": "Dokument s pokyny pro konkrétní prostředek."
+      },
+      {
+        "term": "typové označení",
+        "meaning": "Identifikace typu stroje."
+      },
+      {
+        "term": "plán údržby",
+        "meaning": "Určené kontroly a úkony v předepsaných intervalech."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Který návod použijete?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Návod odpovídající konkrétnímu typu a vybavení."
+          },
+          {
+            "id": "b",
+            "text": "Jakýkoli návod stejné značky."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecný pracovní list."
+          }
+        ],
+        "correct": "a",
+        "explanation": "V návodu se vyhledává určené použití, kontroly, omezení a plán údržby. Nejasný údaj se nepřekládá odhadem, zejména jde-li o bezpečnostní podmínky. Záznam o ověření uvádí, který dokument byl použit a co z něj bylo zjištěno. Chybějící nebo nečitelná dokumentace se hlásí pověřené osobě."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Před použitím vyžádám dokumentaci odpovídající skutečnému typu a vybavení."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Technická dokumentace musí odpovídat konkrétnímu typu prostředku a jeho vybavení. Pracovník identifikuje stroj podle určeného označení a porovná údaje s návodem. Nestačí použít příručku podobného modelu. Výuková karta poskytuje orientaci, ale závazné pokyny k obsluze a údržbě se hledají v příslušné dokumentaci."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Technická dokumentace a označení stroje",
+      "prompt": "Vyhledejte správný návod a ověřte shodu prostředku. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "V03",
+    "block": "V",
+    "subject": "forestry",
+    "title": "Kontrola stroje před použitím",
+    "goal": "Rozlište způsobilý prostředek a závadu vyžadující předání.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Rozlište způsobilý prostředek a závadu vyžadující předání. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Kontrola před použitím vychází z návodu konkrétního stroje a pracovního postupu. Účastník v modelu uvede kontrolované položky, způsob zaznamenání zjištění a odpovědnou osobu. Nejde o univerzální seznam pro všechny prostředky. Kontrola má být doložitelná a zjevná závada nesmí být přehlédnuta kvůli termínu dokončení."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Bezpečnostní a ochranné prvky musí odpovídat předepsané sestavě. Pokud je zjištěno poškození nebo není jasné osazení, prostředek se nepoužije do vyřešení závady. Pracovník nezaměňuje zkušební spuštění za odborné posouzení stavu. Rozsah povolené kontroly a zajištění stanoví návod a instruktor."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Ochranný prvek má viditelné poškození.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Ochranný prvek má viditelné poškození.",
+      "response": "Zjištění zaznamenám, prostředek předám určené osobě a neprovádím zkušební práci.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Ověřím ho při práci.",
+      "Odstraním ho, aby nepřekážel.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "kontrola před použitím",
+        "meaning": "Ověření určených podmínek před zahájením."
+      },
+      {
+        "term": "ochranný prvek",
+        "meaning": "Součást určená k ochraně při použití."
+      },
+      {
+        "term": "závada",
+        "meaning": "Zjištěný nevyhovující stav prostředku."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jak řešíte zjevně poškozený ochranný prvek?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Prostředek nepoužiji a závadu předám."
+          },
+          {
+            "id": "b",
+            "text": "Ověřím ho při práci."
+          },
+          {
+            "id": "c",
+            "text": "Odstraním ho, aby nepřekážel."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Bezpečnostní a ochranné prvky musí odpovídat předepsané sestavě. Pokud je zjištěno poškození nebo není jasné osazení, prostředek se nepoužije do vyřešení závady. Pracovník nezaměňuje zkušební spuštění za odborné posouzení stavu. Rozsah povolené kontroly a zajištění stanoví návod a instruktor."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Zjištění zaznamenám, prostředek předám určené osobě a neprovádím zkušební práci."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Kontrola před použitím vychází z návodu konkrétního stroje a pracovního postupu. Účastník v modelu uvede kontrolované položky, způsob zaznamenání zjištění a odpovědnou osobu. Nejde o univerzální seznam pro všechny prostředky. Kontrola má být doložitelná a zjevná závada nesmí být přehlédnuta kvůli termínu dokončení."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Kontrola stroje před použitím",
+      "prompt": "Rozlište způsobilý prostředek a závadu vyžadující předání. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "V04",
+    "block": "V",
+    "subject": "forestry",
+    "title": "Ošetřování a běžná údržba prostředků",
+    "goal": "Rozlište dovolenou údržbu a zásah patřící odbornému servisu.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Rozlište dovolenou údržbu a zásah patřící odbornému servisu. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Ošetřování a běžná údržba zachovávají stav prostředku podle dokumentace. Účastník popíše úkon, jeho interval a podmínky provedení. Použije konkrétní návod a předchozí instruktáž. Skutečnost, že byl úkon předveden u jiného stroje, neznamená oprávnění provést ho automaticky na nové sestavě."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Oprava je od údržby odlišena podle rozsahu a určené odpovědnosti. Obsah inspirovaný opravárenskými obory učí technickému porozumění a předání závady; nepřipravuje v plném rozsahu kvalifikovaného opraváře. Zásahy do prvků, které pracovník není pověřen opravovat, předává odbornému pracovníkovi."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Po běžné kontrole přetrvává závada, pro kterou nemáte stanovený postup.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Po běžné kontrole přetrvává závada, pro kterou nemáte stanovený postup.",
+      "response": "Zaznamenám dosavadní zjištění a požádám o odborné posouzení bez neautorizované opravy.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Pouze osobní zkušenost.",
+      "Pouze dostupnost nářadí.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "ošetřování",
+        "meaning": "Péče zachovávající vhodný stav prostředku."
+      },
+      {
+        "term": "běžná údržba",
+        "meaning": "Předepsané úkony v určeném rozsahu."
+      },
+      {
+        "term": "oprava",
+        "meaning": "Odstranění závady podle odborného postupu."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co určuje rozsah vlastní údržby?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Návod, instruktáž a stanovené pověření."
+          },
+          {
+            "id": "b",
+            "text": "Pouze osobní zkušenost."
+          },
+          {
+            "id": "c",
+            "text": "Pouze dostupnost nářadí."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Oprava je od údržby odlišena podle rozsahu a určené odpovědnosti. Obsah inspirovaný opravárenskými obory učí technickému porozumění a předání závady; nepřipravuje v plném rozsahu kvalifikovaného opraváře. Zásahy do prvků, které pracovník není pověřen opravovat, předává odbornému pracovníkovi."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Zaznamenám dosavadní zjištění a požádám o odborné posouzení bez neautorizované opravy."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Ošetřování a běžná údržba zachovávají stav prostředku podle dokumentace. Účastník popíše úkon, jeho interval a podmínky provedení. Použije konkrétní návod a předchozí instruktáž. Skutečnost, že byl úkon předveden u jiného stroje, neznamená oprávnění provést ho automaticky na nové sestavě."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Ošetřování a běžná údržba prostředků",
+      "prompt": "Rozlište dovolenou údržbu a zásah patřící odbornému servisu. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "V05",
+    "block": "V",
+    "subject": "forestry",
+    "title": "Popis závady a předání servisu",
+    "goal": "Vytvořte technicky věcný záznam bez domýšlení příčiny.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Vytvořte technicky věcný záznam bez domýšlení příčiny. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Popis závady obsahuje identifikaci prostředku, pozorovaný projev, okolnosti a provedenou kontrolu v dovoleném rozsahu. Rozlišuje se pozorování a domněnka o příčině. Vyjádření „stroj nefunguje“ je příliš obecné. Přesný záznam pomůže určené osobě rozhodnout o dalším odborném posouzení."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Pracovník uvede, kdy byl projev zjištěn, zda se opakoval a jak byl prostředek předán. Nemá-li údaj ověřený, označí ho jako neznámý. Nesmí zkoušet nebezpečný stav opakováním provozu jen pro doplnění popisu. Komunikační formulář propojuje odbornou terminologii se srozumitelným hlášením."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „Stroj má neobvyklý projev; příčinu nedokážete určit.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "Stroj má neobvyklý projev; příčinu nedokážete určit.",
+      "response": "Popíšu ověřené skutečnosti, neurčenou příčinu označím a předám záznam pověřené osobě.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Nejpravděpodobnější příčinu jako jistou.",
+      "Vymyšlenou diagnózu pro úplnost.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "diagnostika",
+        "meaning": "Odborné zjišťování stavu a příčiny závady."
+      },
+      {
+        "term": "projev závady",
+        "meaning": "Pozorovaný nevyhovující jev."
+      },
+      {
+        "term": "servisní záznam",
+        "meaning": "Dokumentace zjištění a předání prostředku."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co uvedete jako příčinu, pokud ji neznáte?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Příčina nebyla určena; popíšu zjištěný projev."
+          },
+          {
+            "id": "b",
+            "text": "Nejpravděpodobnější příčinu jako jistou."
+          },
+          {
+            "id": "c",
+            "text": "Vymyšlenou diagnózu pro úplnost."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Pracovník uvede, kdy byl projev zjištěn, zda se opakoval a jak byl prostředek předán. Nemá-li údaj ověřený, označí ho jako neznámý. Nesmí zkoušet nebezpečný stav opakováním provozu jen pro doplnění popisu. Komunikační formulář propojuje odbornou terminologii se srozumitelným hlášením."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Popíšu ověřené skutečnosti, neurčenou příčinu označím a předám záznam pověřené osobě."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Popis závady obsahuje identifikaci prostředku, pozorovaný projev, okolnosti a provedenou kontrolu v dovoleném rozsahu. Rozlišuje se pozorování a domněnka o příčině. Vyjádření „stroj nefunguje“ je příliš obecné. Přesný záznam pomůže určené osobě rozhodnout o dalším odborném posouzení."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Popis závady a předání servisu",
+      "prompt": "Vytvořte technicky věcný záznam bez domýšlení příčiny. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "V06",
+    "block": "V",
+    "subject": "forestry",
+    "title": "Provozní náplně, prostředí a evidence",
+    "goal": "Propojte technickou péči s ochranou prostředí a přesným záznamem.",
+    "minutes": 12,
+    "competencies": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "intro": "Propojte technickou péči s ochranou prostředí a přesným záznamem. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
+    "sections": [
+      {
+        "title": "Odborné souvislosti",
+        "body": "Paliva, maziva a provozní náplně se identifikují podle návodu a určeného značení. Nelze je zaměňovat podle barvy obalu nebo neověřeného doporučení. Výuka rozlišuje určenou manipulaci, skladování a hlášení nejasnosti. Pracovník zná hranici své odpovědnosti a vyhledá předepsaný postup pro dané pracoviště."
+      },
+      {
+        "title": "Rozhodování v rozsahu zadání",
+        "body": "Při zjištěném úniku se postupuje podle místních pokynů a hlásí se místo, prostředek a pozorovaný rozsah. Záznam spojuje ochranu prostředí s evidencí provozu a údržby. Neuvádí se odhad jako přesné množství. Rozhodnutí o odborném zásahu a dalším použití prostředku patří určené osobě."
+      },
+      {
+        "title": "Vedený nácvik a ověření",
+        "body": "V modelové situaci „U odstaveného prostředku zjistíte znečištění od provozní náplně.“ nejprve pojmenujte skutečně známé údaje a konkrétní nejasnost. Navržené řešení musí odpovídat zadání a vaší pravomoci. Zápis uvádí místo, zjištění a příjemce informace. Při společném nácviku instruktor porovná vaše vysvětlení s konkrétními podmínkami a stanoví, co lze předvést a co ještě vyžaduje podporu."
+      }
+    ],
+    "example": {
+      "situation": "U odstaveného prostředku zjistíte znečištění od provozní náplně.",
+      "response": "Předám přesné místo a pozorovaný stav a použiji předepsaný místní postup podle instruktáže.",
+      "why": "Řešení rozlišuje skutečné zjištění, hranici odpovědnosti a odborné potvrzení dalšího kroku."
+    },
+    "mistakes": [
+      "Podle barvy nádoby.",
+      "Podle podobnosti s jiným strojem.",
+      "Zaměnit písemný model za ověření výkonu na pracovišti."
+    ],
+    "terms": [
+      {
+        "term": "provozní náplň",
+        "meaning": "Látka určená k provozu konkrétního prostředku."
+      },
+      {
+        "term": "mazivo",
+        "meaning": "Látka používaná k předepsanému mazání."
+      },
+      {
+        "term": "evidence provozu",
+        "meaning": "Záznam provozu, kontrol a péče o prostředek."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Podle čeho určíte správnou provozní náplň?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Podle dokumentace konkrétního prostředku a značení."
+          },
+          {
+            "id": "b",
+            "text": "Podle barvy nádoby."
+          },
+          {
+            "id": "c",
+            "text": "Podle podobnosti s jiným strojem."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Při zjištěném úniku se postupuje podle místních pokynů a hlásí se místo, prostředek a pozorovaný rozsah. Záznam spojuje ochranu prostředí s evidencí provozu a údržby. Neuvádí se odhad jako přesné množství. Rozhodnutí o odborném zásahu a dalším použití prostředku patří určené osobě."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který záznam odpovídá uvedené situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nejasnost vynechám a uvedu vše jako potvrzené."
+          },
+          {
+            "id": "b",
+            "text": "Změním rozsah úkolu bez ověření."
+          },
+          {
+            "id": "c",
+            "text": "Předám přesné místo a pozorovaný stav a použiji předepsaný místní postup podle instruktáže."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Paliva, maziva a provozní náplně se identifikují podle návodu a určeného značení. Nelze je zaměňovat podle barvy obalu nebo neověřeného doporučení. Výuka rozlišuje určenou manipulaci, skladování a hlášení nejasnosti. Pracovník zná hranici své odpovědnosti a vyhledá předepsaný postup pro dané pracoviště."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak se navazuje na digitální přípravu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Samostatnou činností bez ověření podmínek."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétním nácvikem a pozorováním pověřeného instruktora."
+          },
+          {
+            "id": "c",
+            "text": "Automatickým potvrzením praktické způsobilosti."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Modelový písemný výstup a prakticky pozorovaný výkon se hodnotí odděleně."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Provozní náplně, prostředí a evidence",
+      "prompt": "Propojte technickou péči s ochranou prostředí a přesným záznamem. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+      "checks": [
+        "Používám odborné pojmy ve správném významu.",
+        "Odděluji známý údaj a nejasnost.",
+        "Uvádím konkrétní další krok a odpovědnou osobu."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "A01",
+    "block": "A",
+    "subject": "english",
+    "title": "Dřeviny a sadební materiál",
+    "goal": "Rozlište semenáček a sadební materiál a požádejte o kontrolu jeho stavu.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Rozlište semenáček a sadební materiál a požádejte o kontrolu jeho stavu.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: seedling = semenáček; planting stock = sadební materiál; bare-root plant = prostokořenná sazenice; root collar = kořenový krček. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Please check the planting stock. Protect the roots.“ Český význam: „Zkontrolujte sadební materiál. Chraňte kořeny.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Rozlište semenáček a sadební materiál a požádejte o kontrolu jeho stavu. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Please check the planting stock. Protect the roots.",
+      "why": "Zkontrolujte sadební materiál. Chraňte kořeny."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "seedling",
+        "meaning": "semenáček"
+      },
+      {
+        "term": "planting stock",
+        "meaning": "sadební materiál"
+      },
+      {
+        "term": "bare-root plant",
+        "meaning": "prostokořenná sazenice"
+      },
+      {
+        "term": "root collar",
+        "meaning": "kořenový krček"
+      }
+    ],
+    "english": {
+      "phrase": "Please check the planting stock. Protect the roots.",
+      "translation": "Zkontrolujte sadební materiál. Chraňte kořeny."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "What does planting stock mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sadební materiál."
+          },
+          {
+            "id": "b",
+            "text": "Pracovní výkaz."
+          },
+          {
+            "id": "c",
+            "text": "Řezivo."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Zkontrolujte sadební materiál. Chraňte kořeny."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Please check the planting stock. Protect the roots."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Rozlište semenáček a sadební materiál a požádejte o kontrolu jeho stavu. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "A02",
+    "block": "A",
+    "subject": "english",
+    "title": "Obnova a výsadba lesa",
+    "goal": "Popište určenou plochu výsadby a požádejte o ukázku hranice.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Popište určenou plochu výsadby a požádejte o ukázku hranice.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: planting = výsadba; root = kořen; soil = půda; natural regeneration = přirozená obnova. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „This area is marked for planting. Please show me the boundary.“ Český význam: „Tato plocha je vyznačena pro výsadbu. Ukažte mi prosím hranici.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Popište určenou plochu výsadby a požádejte o ukázku hranice. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "This area is marked for planting. Please show me the boundary.",
+      "why": "Tato plocha je vyznačena pro výsadbu. Ukažte mi prosím hranici."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "planting",
+        "meaning": "výsadba"
+      },
+      {
+        "term": "root",
+        "meaning": "kořen"
+      },
+      {
+        "term": "soil",
+        "meaning": "půda"
+      },
+      {
+        "term": "natural regeneration",
+        "meaning": "přirozená obnova"
+      }
+    ],
+    "english": {
+      "phrase": "This area is marked for planting. Please show me the boundary.",
+      "translation": "Tato plocha je vyznačena pro výsadbu. Ukažte mi prosím hranici."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Které slovo označuje kořen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Root."
+          },
+          {
+            "id": "b",
+            "text": "Log."
+          },
+          {
+            "id": "c",
+            "text": "Soil."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Tato plocha je vyznačena pro výsadbu. Ukažte mi prosím hranici."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: This area is marked for planting. Please show me the boundary."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Popište určenou plochu výsadby a požádejte o ukázku hranice. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "A03",
+    "block": "A",
+    "subject": "english",
+    "title": "Ochrana kultur a pracovní prostředky",
+    "goal": "Sdělte pozorování o oplocení a rozlište chráněnou dřevinu od nežádoucí vegetace.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Sdělte pozorování o oplocení a rozlište chráněnou dřevinu od nežádoucí vegetace.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: brush cutter = křovinořez; fence = oplocení; weed = plevel; accessory species = vedlejší dřevina. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Check the fence. Do not damage the planting stock.“ Český význam: „Zkontrolujte oplocení. Nepoškoďte sadební materiál.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Sdělte pozorování o oplocení a rozlište chráněnou dřevinu od nežádoucí vegetace. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Check the fence. Do not damage the planting stock.",
+      "why": "Zkontrolujte oplocení. Nepoškoďte sadební materiál."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "brush cutter",
+        "meaning": "křovinořez"
+      },
+      {
+        "term": "fence",
+        "meaning": "oplocení"
+      },
+      {
+        "term": "weed",
+        "meaning": "plevel"
+      },
+      {
+        "term": "accessory species",
+        "meaning": "vedlejší dřevina"
+      }
+    ],
+    "english": {
+      "phrase": "Check the fence. Do not damage the planting stock.",
+      "translation": "Zkontrolujte oplocení. Nepoškoďte sadební materiál."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co znamená brush cutter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Křovinořez."
+          },
+          {
+            "id": "b",
+            "text": "Oplocení."
+          },
+          {
+            "id": "c",
+            "text": "Traktor."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Zkontrolujte oplocení. Nepoškoďte sadební materiál."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Check the fence. Do not damage the planting stock."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Sdělte pozorování o oplocení a rozlište chráněnou dřevinu od nežádoucí vegetace. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "A04",
+    "block": "A",
+    "subject": "english",
+    "title": "Prořezávka, probírka a vývoj porostu",
+    "goal": "Pojmenujte druh zásahu a požádejte o potvrzení zadání v tyčovině.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Pojmenujte druh zásahu a požádejte o potvrzení zadání v tyčovině.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: cleaning = prořezávka; thinning = probírka; pole-stage stand = tyčovina; small pole stand = tyčkovina. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „This stand is marked for thinning. Please confirm the work order.“ Český význam: „Tento porost je vyznačen pro probírku. Potvrďte prosím pracovní zadání.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Pojmenujte druh zásahu a požádejte o potvrzení zadání v tyčovině. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "This stand is marked for thinning. Please confirm the work order.",
+      "why": "Tento porost je vyznačen pro probírku. Potvrďte prosím pracovní zadání."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "cleaning",
+        "meaning": "prořezávka"
+      },
+      {
+        "term": "thinning",
+        "meaning": "probírka"
+      },
+      {
+        "term": "pole-stage stand",
+        "meaning": "tyčovina"
+      },
+      {
+        "term": "small pole stand",
+        "meaning": "tyčkovina"
+      }
+    ],
+    "english": {
+      "phrase": "This stand is marked for thinning. Please confirm the work order.",
+      "translation": "Tento porost je vyznačen pro probírku. Potvrďte prosím pracovní zadání."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jaký je anglický ekvivalent probírky?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thinning."
+          },
+          {
+            "id": "b",
+            "text": "Cleaning."
+          },
+          {
+            "id": "c",
+            "text": "Planting."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Tento porost je vyznačen pro probírku. Potvrďte prosím pracovní zadání."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: This stand is marked for thinning. Please confirm the work order."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Pojmenujte druh zásahu a požádejte o potvrzení zadání v tyčovině. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "A05",
+    "block": "A",
+    "subject": "english",
+    "title": "Těžba dříví a základní sortimenty",
+    "goal": "Rozlište výřez a řezivo a zaznamenejte správnou délku s jednotkou.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Rozlište výřez a řezivo a zaznamenejte správnou délku s jednotkou.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: harvesting = těžba dřeva; log = výřez, kulatina; sawn timber = řezivo; assortment = sortiment. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Record the log length. This product is not sawn timber.“ Český význam: „Zaznamenejte délku výřezu. Tento produkt není řezivo.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Rozlište výřez a řezivo a zaznamenejte správnou délku s jednotkou. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Record the log length. This product is not sawn timber.",
+      "why": "Zaznamenejte délku výřezu. Tento produkt není řezivo."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "harvesting",
+        "meaning": "těžba dřeva"
+      },
+      {
+        "term": "log",
+        "meaning": "výřez, kulatina"
+      },
+      {
+        "term": "sawn timber",
+        "meaning": "řezivo"
+      },
+      {
+        "term": "assortment",
+        "meaning": "sortiment"
+      }
+    ],
+    "english": {
+      "phrase": "Record the log length. This product is not sawn timber.",
+      "translation": "Zaznamenejte délku výřezu. Tento produkt není řezivo."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co označuje sawn timber?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Řezivo."
+          },
+          {
+            "id": "b",
+            "text": "Sadební materiál."
+          },
+          {
+            "id": "c",
+            "text": "Kořenový krček."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Zaznamenejte délku výřezu. Tento produkt není řezivo."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Record the log length. This product is not sawn timber."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Rozlište výřez a řezivo a zaznamenejte správnou délku s jednotkou. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "A06",
+    "block": "A",
+    "subject": "english",
+    "title": "Technika a péče o prostředek",
+    "goal": "Pojmenujte prostředek a předání závady; neodvozujte obsluhu z jazykového cvičení.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Pojmenujte prostředek a předání závady; neodvozujte obsluhu z jazykového cvičení.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: chainsaw = řetězová pila; means of mechanization = mechanizační prostředky; timber processing = zpracování dříví; timber transport = doprava dříví. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Please check the manual. Report the fault before using the machine.“ Český význam: „Zkontrolujte prosím návod. Před použitím stroje ohlaste závadu.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Pojmenujte prostředek a předání závady; neodvozujte obsluhu z jazykového cvičení. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Please check the manual. Report the fault before using the machine.",
+      "why": "Zkontrolujte prosím návod. Před použitím stroje ohlaste závadu."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "chainsaw",
+        "meaning": "řetězová pila"
+      },
+      {
+        "term": "means of mechanization",
+        "meaning": "mechanizační prostředky"
+      },
+      {
+        "term": "timber processing",
+        "meaning": "zpracování dříví"
+      },
+      {
+        "term": "timber transport",
+        "meaning": "doprava dříví"
+      }
+    ],
+    "english": {
+      "phrase": "Please check the manual. Report the fault before using the machine.",
+      "translation": "Zkontrolujte prosím návod. Před použitím stroje ohlaste závadu."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co označuje chainsaw?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Řetězová pila."
+          },
+          {
+            "id": "b",
+            "text": "Výřez."
+          },
+          {
+            "id": "c",
+            "text": "Oplocení."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Zkontrolujte prosím návod. Před použitím stroje ohlaste závadu."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Please check the manual. Report the fault before using the machine."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Pojmenujte prostředek a předání závady; neodvozujte obsluhu z jazykového cvičení. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "B01",
+    "block": "B",
+    "subject": "english",
+    "title": "Převzetí a potvrzení pracovního zadání",
+    "goal": "Vlastními slovy zopakujte místo, úkol a požadovaný výsledek.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Vlastními slovy zopakujte místo, úkol a požadovaný výsledek.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: work order = pracovní zadání; boundary = hranice; area = plocha; quality = kvalita. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Let me repeat the work order: this area, this task, this quality.“ Český význam: „Zopakuji pracovní zadání: tato plocha, tento úkol, tato kvalita.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Vlastními slovy zopakujte místo, úkol a požadovaný výsledek. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Let me repeat the work order: this area, this task, this quality.",
+      "why": "Zopakuji pracovní zadání: tato plocha, tento úkol, tato kvalita."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "work order",
+        "meaning": "pracovní zadání"
+      },
+      {
+        "term": "boundary",
+        "meaning": "hranice"
+      },
+      {
+        "term": "area",
+        "meaning": "plocha"
+      },
+      {
+        "term": "quality",
+        "meaning": "kvalita"
+      }
+    ],
+    "english": {
+      "phrase": "Let me repeat the work order: this area, this task, this quality.",
+      "translation": "Zopakuji pracovní zadání: tato plocha, tento úkol, tato kvalita."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Která věta potvrzuje porozumění?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Let me repeat the work order."
+          },
+          {
+            "id": "b",
+            "text": "I will guess the task."
+          },
+          {
+            "id": "c",
+            "text": "The boundary is irrelevant."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Zopakuji pracovní zadání: tato plocha, tento úkol, tato kvalita."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Let me repeat the work order: this area, this task, this quality."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Vlastními slovy zopakujte místo, úkol a požadovaný výsledek. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "B02",
+    "block": "B",
+    "subject": "english",
+    "title": "Žádost o vysvětlení a ukázku",
+    "goal": "Požádejte o zopakování a referenční ukázku nejasného pokynu.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Požádejte o zopakování a referenční ukázku nejasného pokynu.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: please repeat = zopakujte prosím; show me = ukažte mi; confirm = potvrdit; instruction = pokyn. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Could you repeat that, please? Please show me an example.“ Český význam: „Můžete to prosím zopakovat? Ukažte mi prosím příklad.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Požádejte o zopakování a referenční ukázku nejasného pokynu. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Could you repeat that, please? Please show me an example.",
+      "why": "Můžete to prosím zopakovat? Ukažte mi prosím příklad."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "please repeat",
+        "meaning": "zopakujte prosím"
+      },
+      {
+        "term": "show me",
+        "meaning": "ukažte mi"
+      },
+      {
+        "term": "confirm",
+        "meaning": "potvrdit"
+      },
+      {
+        "term": "instruction",
+        "meaning": "pokyn"
+      }
+    ],
+    "english": {
+      "phrase": "Could you repeat that, please? Please show me an example.",
+      "translation": "Můžete to prosím zopakovat? Ukažte mi prosím příklad."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co říci, pokud pokynu nerozumíte?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Could you repeat that, please?"
+          },
+          {
+            "id": "b",
+            "text": "I understand everything, even when I do not."
+          },
+          {
+            "id": "c",
+            "text": "I will continue without asking."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Můžete to prosím zopakovat? Ukažte mi prosím příklad."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Could you repeat that, please? Please show me an example."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Požádejte o zopakování a referenční ukázku nejasného pokynu. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "B03",
+    "block": "B",
+    "subject": "english",
+    "title": "Bezpečná pracovní komunikace",
+    "goal": "Sdělte potřebu přerušení a ověřte místní pracovní dohodu.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Sdělte potřebu přerušení a ověřte místní pracovní dohodu.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: stop = zastavit; safe = bezpečný; workplace = pracoviště; supervisor = vedoucí. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Stop, please. I need to confirm the safe working conditions.“ Český význam: „Zastavte prosím. Potřebuji ověřit podmínky bezpečné práce.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Sdělte potřebu přerušení a ověřte místní pracovní dohodu. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Stop, please. I need to confirm the safe working conditions.",
+      "why": "Zastavte prosím. Potřebuji ověřit podmínky bezpečné práce."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "stop",
+        "meaning": "zastavit"
+      },
+      {
+        "term": "safe",
+        "meaning": "bezpečný"
+      },
+      {
+        "term": "workplace",
+        "meaning": "pracoviště"
+      },
+      {
+        "term": "supervisor",
+        "meaning": "vedoucí"
+      }
+    ],
+    "english": {
+      "phrase": "Stop, please. I need to confirm the safe working conditions.",
+      "translation": "Zastavte prosím. Potřebuji ověřit podmínky bezpečné práce."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co vyjadřuje Stop, please?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Žádost o zastavení."
+          },
+          {
+            "id": "b",
+            "text": "Potvrzení hotové práce."
+          },
+          {
+            "id": "c",
+            "text": "Pokyn ke zvýšení rychlosti."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Zastavte prosím. Potřebuji ověřit podmínky bezpečné práce."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Stop, please. I need to confirm the safe working conditions."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Sdělte potřebu přerušení a ověřte místní pracovní dohodu. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "B04",
+    "block": "B",
+    "subject": "english",
+    "title": "Hlášení závady a odchylky",
+    "goal": "Věcně popište poškození, místo a předání bez neověřené diagnózy.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Věcně popište poškození, místo a předání bez neověřené diagnózy.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: fault = závada; damage = poškození; report = hlásit; location = místo. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „There is damage to the guard. I have reported the fault.“ Český význam: „Ochranný prvek je poškozený. Závadu jsem ohlásil/a.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Věcně popište poškození, místo a předání bez neověřené diagnózy. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "There is damage to the guard. I have reported the fault.",
+      "why": "Ochranný prvek je poškozený. Závadu jsem ohlásil/a."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "fault",
+        "meaning": "závada"
+      },
+      {
+        "term": "damage",
+        "meaning": "poškození"
+      },
+      {
+        "term": "report",
+        "meaning": "hlásit"
+      },
+      {
+        "term": "location",
+        "meaning": "místo"
+      }
+    ],
+    "english": {
+      "phrase": "There is damage to the guard. I have reported the fault.",
+      "translation": "Ochranný prvek je poškozený. Závadu jsem ohlásil/a."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co znamená fault?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Závada."
+          },
+          {
+            "id": "b",
+            "text": "Probírka."
+          },
+          {
+            "id": "c",
+            "text": "Sazenice."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Ochranný prvek je poškozený. Závadu jsem ohlásil/a."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: There is damage to the guard. I have reported the fault."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Věcně popište poškození, místo a předání bez neověřené diagnózy. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "B05",
+    "block": "B",
+    "subject": "english",
+    "title": "Měření, jednotky a pracovní záznam",
+    "goal": "Zapište rozměr s jednotkou a označte údaj vyžadující ověření.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Zapište rozměr s jednotkou a označte údaj vyžadující ověření.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: length = délka; diameter = průměr; metre = metr; record = záznam. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „Please record the length in metres. The measurement needs checking.“ Český význam: „Zaznamenejte prosím délku v metrech. Měření je potřeba zkontrolovat.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Zapište rozměr s jednotkou a označte údaj vyžadující ověření. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "Please record the length in metres. The measurement needs checking.",
+      "why": "Zaznamenejte prosím délku v metrech. Měření je potřeba zkontrolovat."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "length",
+        "meaning": "délka"
+      },
+      {
+        "term": "diameter",
+        "meaning": "průměr"
+      },
+      {
+        "term": "metre",
+        "meaning": "metr"
+      },
+      {
+        "term": "record",
+        "meaning": "záznam"
+      }
+    ],
+    "english": {
+      "phrase": "Please record the length in metres. The measurement needs checking.",
+      "translation": "Zaznamenejte prosím délku v metrech. Měření je potřeba zkontrolovat."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co musí doprovázet číselný rozměr?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Příslušná jednotka."
+          },
+          {
+            "id": "b",
+            "text": "Jen jméno stroje."
+          },
+          {
+            "id": "c",
+            "text": "Jen barva označení."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Zaznamenejte prosím délku v metrech. Měření je potřeba zkontrolovat."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: Please record the length in metres. The measurement needs checking."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Zapište rozměr s jednotkou a označte údaj vyžadující ověření. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "B06",
+    "block": "B",
+    "subject": "english",
+    "title": "Předání výsledku v angličtině",
+    "goal": "Předejte dokončený rozsah, nejasnost a další krok v krátkém dialogu.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Odborný slovník → modelová věta → vlastní dialog. Předejte dokončený rozsah, nejasnost a další krok v krátkém dialogu.",
+    "sections": [
+      {
+        "title": "Pojmy a jejich význam",
+        "body": "Odborná angličtina je samostatný vyučovací předmět. V této lekci propojte český význam s anglickým výrazem: completed = dokončený; remaining = zbývající; check = kontrola; next step = další krok. Neučte se pouze pořadí slov v seznamu. Ukažte předmět nebo situaci a vysvětlete význam. U víceznačných výrazů určete pracovní kontext, aby překlad nepůsobil jako obecné označení jiné činnosti."
+      },
+      {
+        "title": "Modelový pracovní dialog",
+        "body": "Modelový pracovní dialog: „This area is completed. The remaining section needs your confirmation.“ Český význam: „Tato plocha je dokončena. Zbývající část potřebuje vaše potvrzení.“ Nejprve přečtěte větu a spojte ji s konkrétní situací. Potom ji použijte ve dvojici: jeden účastník předává informaci, druhý ji vlastními slovy potvrdí nebo požádá o vysvětlení. Srozumitelnost a správný odborný význam mají přednost před rychlostí projevu. Jazykový nácvik není pokynem k obsluze prostředku."
+      },
+      {
+        "title": "Použití a jazykové ověření",
+        "body": "Vlastní výstup: Předejte dokončený rozsah, nejasnost a další krok v krátkém dialogu. Napište dvě krátké anglické věty a připojte jejich český význam. Vyučující posuzuje správnost odborného výrazu, pochopitelnost sdělení a reakci na otázku partnera. Pokud pokynu nerozumíte, řekněte to a vyžádejte ukázku. Pro práci na českém pracovišti se samostatně ověřuje porozumění českým pokynům; absolvovaná angličtina tuto kontrolu nenahrazuje."
+      }
+    ],
+    "example": {
+      "situation": "Ve dvojici předejte tuto pracovní informaci.",
+      "response": "This area is completed. The remaining section needs your confirmation.",
+      "why": "Tato plocha je dokončena. Zbývající část potřebuje vaše potvrzení."
+    },
+    "mistakes": [
+      "Zaměnit odborný výraz za podobně znějící slovo.",
+      "Přikývnout bez skutečného porozumění.",
+      "Považovat jazykový dialog za ověření odborného výkonu."
+    ],
+    "terms": [
+      {
+        "term": "completed",
+        "meaning": "dokončený"
+      },
+      {
+        "term": "remaining",
+        "meaning": "zbývající"
+      },
+      {
+        "term": "check",
+        "meaning": "kontrola"
+      },
+      {
+        "term": "next step",
+        "meaning": "další krok"
+      }
+    ],
+    "english": {
+      "phrase": "This area is completed. The remaining section needs your confirmation.",
+      "translation": "Tato plocha je dokončena. Zbývající část potřebuje vaše potvrzení."
+    },
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Která věta odděluje dokončenou a zbývající práci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "This area is completed. The remaining section needs checking."
+          },
+          {
+            "id": "b",
+            "text": "Everything is completed, although part remains."
+          },
+          {
+            "id": "c",
+            "text": "There is no need to report the remaining section."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Správný význam vychází z odborného kontextu této lekce."
+      },
+      {
+        "id": "q2",
+        "prompt": "Který český význam odpovídá modelové větě?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jde o potvrzení všech praktických oprávnění."
+          },
+          {
+            "id": "b",
+            "text": "Jde o výzvu změnit zadání bez domluvy."
+          },
+          {
+            "id": "c",
+            "text": "Tato plocha je dokončena. Zbývající část potřebuje vaše potvrzení."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelová věta: This area is completed. The remaining section needs your confirmation."
+      },
+      {
+        "id": "q3",
+        "prompt": "Jak prokážete porozumění v dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Přikývnu i v případě nejistoty."
+          },
+          {
+            "id": "b",
+            "text": "Použiji pojem v situaci a ověřím význam sdělení."
+          },
+          {
+            "id": "c",
+            "text": "Pouze opíšu seznam slov."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Aktivní dialog ověřuje význam; případná nejistota musí být vyslovena."
+      }
+    ],
+    "task": {
+      "title": "Můj odborný dialog",
+      "prompt": "Předejte dokončený rozsah, nejasnost a další krok v krátkém dialogu. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+      "checks": [
+        "Používám nejméně dva výrazy z lekce.",
+        "Anglické věty mají jasný český význam.",
+        "Dialog obsahuje potvrzení nebo doplňující otázku."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "C01",
+    "block": "C",
+    "subject": "communication",
+    "title": "Převzetí pokynu a ověření porozumění",
+    "goal": "Ověřte porozumění pomocí vlastního zopakování a ukázky.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Ověřte porozumění pomocí vlastního zopakování a ukázky.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Pokyn musí být srozumitelný příjemci, nikoli pouze odesílateli. Při převzetí se shrne místo, rozsah, pěstební cíl a požadovaná kvalita. Ověření porozumění znamená vlastní zopakování a ukázání referenčního provedení. Samotné přikývnutí nebo odpověď „ano“ neposkytují dostatečný důkaz, že obě strany rozumějí stejně."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Vyučující IVP vede dvojici, která si střídá role zadavatele a příjemce. Pozoruje přesnost shrnutí a schopnost položit doplňující otázku. Odborný instruktor ověřuje věcnou správnost zadání. Komunikační nácvik má vlastní výstup a hodnocení; nezaniká uvnitř hodnocení lesnické operace."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Vedoucí předal několik pokynů najednou a není jasná hranice plochy. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Vedoucí předal několik pokynů najednou a není jasná hranice plochy.",
+      "response": "Zopakuji známé části a požádám o ukázání hranice.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Jen přikývnutím.",
+      "Tichým zahájením práce.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jak nejlépe ověříte porozumění?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vlastním zopakováním a referenční ukázkou."
+          },
+          {
+            "id": "b",
+            "text": "Jen přikývnutím."
+          },
+          {
+            "id": "c",
+            "text": "Tichým zahájením práce."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Pokyn musí být srozumitelný příjemci, nikoli pouze odesílateli. Při převzetí se shrne místo, rozsah, pěstební cíl a požadovaná kvalita. Ověření porozumění znamená vlastní zopakování a ukázání referenčního provedení. Samotné přikývnutí nebo odpověď „ano“ neposkytují dostatečný důkaz, že obě strany rozumějí stejně."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Zopakuji známé části a požádám o ukázání hranice."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Vyučující IVP vede dvojici, která si střídá role zadavatele a příjemce. Pozoruje přesnost shrnutí a schopnost položit doplňující otázku. Odborný instruktor ověřuje věcnou správnost zadání. Komunikační nácvik má vlastní výstup a hodnocení; nezaniká uvnitř hodnocení lesnické operace."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Ověřte porozumění pomocí vlastního zopakování a ukázky. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "C02",
+    "block": "C",
+    "subject": "communication",
+    "title": "Otázka, objasnění a pracovní dialog",
+    "goal": "Položte konkrétní otázku bez obavy z přiznání nejistoty.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Položte konkrétní otázku bez obavy z přiznání nejistoty.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Dobrá otázka označuje konkrétní nejasnost: místo, postup, pořadí, kvalitu nebo odpovědnost. Vyjádření „nevím, co dělat“ se doplní tím, která část pokynu je známá a která chybí. Pracovní dialog má končit potvrzenou dohodou. Srozumitelnost je podmínkou kvalitního výkonu, nikoli projevem nižší hodnoty pracovníka."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Nácvik využívá krátké scénáře a zpětnou vazbu k formulaci otázky. Vyučující IVP pomáhá rozlišit odbornou nejistotu a jazykovou obtíž. Příjemce může požádat o pomalejší tempo nebo ukázku. Odpověď se následně zopakuje vlastními slovy, aby se nejasnost pouze nepřesunula do další části práce."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Rozumíte místu zásahu, ale ne kritériu požadované kvality. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Rozumíte místu zásahu, ale ne kritériu požadované kvality.",
+      "response": "Zeptám se na konkrétní kritérium a referenční provedení.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Je všechno nějak v pořádku?",
+      "Mám prostě začít?",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jaká otázka je vhodná?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Podle jakého kritéria porovnáme kvalitu tohoto zásahu?"
+          },
+          {
+            "id": "b",
+            "text": "Je všechno nějak v pořádku?"
+          },
+          {
+            "id": "c",
+            "text": "Mám prostě začít?"
+          }
+        ],
+        "correct": "a",
+        "explanation": "Dobrá otázka označuje konkrétní nejasnost: místo, postup, pořadí, kvalitu nebo odpovědnost. Vyjádření „nevím, co dělat“ se doplní tím, která část pokynu je známá a která chybí. Pracovní dialog má končit potvrzenou dohodou. Srozumitelnost je podmínkou kvalitního výkonu, nikoli projevem nižší hodnoty pracovníka."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Zeptám se na konkrétní kritérium a referenční provedení."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Nácvik využívá krátké scénáře a zpětnou vazbu k formulaci otázky. Vyučující IVP pomáhá rozlišit odbornou nejistotu a jazykovou obtíž. Příjemce může požádat o pomalejší tempo nebo ukázku. Odpověď se následně zopakuje vlastními slovy, aby se nejasnost pouze nepřesunula do další části práce."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Položte konkrétní otázku bez obavy z přiznání nejistoty. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "C03",
+    "block": "C",
+    "subject": "communication",
+    "title": "Komunikace v jazykově různorodém týmu",
+    "goal": "Přizpůsobte předání pokynu bez snížení odborných požadavků.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Přizpůsobte předání pokynu bez snížení odborných požadavků.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Jazyková podpora vychází ze zjištěných potřeb jednotlivce. Státní příslušnost sama nevypovídá o porozumění češtině ani odbornosti. U pracovníků s jiným prvním jazykem, včetně ukrajinštiny, pomáhá krátký český pokyn, odborný obrazový pojem a předvedení. Každý významný krok se ověří zpětným zopakováním."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Pracovní čeština zajišťuje porozumění místním pokynům; odborná angličtina tvoří samostatný předmět. Nepředpokládá se, že angličtina automaticky vyřeší dorozumění celého týmu. Překlad pomůže při přípravě, ale neověřený automatický překlad nesmí být jediným podkladem důležité pracovní dohody."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Kolega rozumí odborné operaci, ale nerozumí rychle předanému českému pokynu. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Kolega rozumí odborné operaci, ale nerozumí rychle předanému českému pokynu.",
+      "response": "Pokyn rozdělím, ukážu a nechám vlastními slovy potvrdit.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Pouze zemi původu.",
+      "Pouze rychlost přikývnutí.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co ověříte u nového účastníka?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Skutečné porozumění pokynům a potřebnou podporu."
+          },
+          {
+            "id": "b",
+            "text": "Pouze zemi původu."
+          },
+          {
+            "id": "c",
+            "text": "Pouze rychlost přikývnutí."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Jazyková podpora vychází ze zjištěných potřeb jednotlivce. Státní příslušnost sama nevypovídá o porozumění češtině ani odbornosti. U pracovníků s jiným prvním jazykem, včetně ukrajinštiny, pomáhá krátký český pokyn, odborný obrazový pojem a předvedení. Každý významný krok se ověří zpětným zopakováním."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Pokyn rozdělím, ukážu a nechám vlastními slovy potvrdit."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Pracovní čeština zajišťuje porozumění místním pokynům; odborná angličtina tvoří samostatný předmět. Nepředpokládá se, že angličtina automaticky vyřeší dorozumění celého týmu. Překlad pomůže při přípravě, ale neověřený automatický překlad nesmí být jediným podkladem důležité pracovní dohody."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Přizpůsobte předání pokynu bez snížení odborných požadavků. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "C04",
+    "block": "C",
+    "subject": "communication",
+    "title": "Spolupráce a předání odpovědnosti",
+    "goal": "Dohodněte role, místo předání a příjemce informace.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Dohodněte role, místo předání a příjemce informace.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Spolupráce vyžaduje jasné rozdělení úkolů a odpovědnosti. Při předání se uvede, co bylo dokončeno, co zůstává otevřené a kdo potvrdí další krok. V týmu se ověřuje, že příjemce zprávu převzal. Nejasná dohoda může vytvořit mezeru v kontrole nebo vést k duplicitní práci na stejném místě."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Modelový nácvik pracuje se změnou složení týmu a navazujícím úkolem. Účastník vysvětlí vlastní roli a hranici svého rozhodování. Vyučující IVP hodnotí srozumitelnost dohody a navázání komunikace, odborný instruktor potvrzuje správnost pracovního obsahu. Oba závěry se zapisují odděleně."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Vaši část přebírá jiný pracovník. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Vaši část přebírá jiný pracovník.",
+      "response": "Předám stav, nejasnost, příjemce a ověřím převzetí zprávy.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Jen větu, že odcházím.",
+      "Pouze počet bodů v aplikaci.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co musí obsahovat předání?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Stav práce, otevřenou věc a potvrzenou návaznost."
+          },
+          {
+            "id": "b",
+            "text": "Jen větu, že odcházím."
+          },
+          {
+            "id": "c",
+            "text": "Pouze počet bodů v aplikaci."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Spolupráce vyžaduje jasné rozdělení úkolů a odpovědnosti. Při předání se uvede, co bylo dokončeno, co zůstává otevřené a kdo potvrdí další krok. V týmu se ověřuje, že příjemce zprávu převzal. Nejasná dohoda může vytvořit mezeru v kontrole nebo vést k duplicitní práci na stejném místě."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Předám stav, nejasnost, příjemce a ověřím převzetí zprávy."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Modelový nácvik pracuje se změnou složení týmu a navazujícím úkolem. Účastník vysvětlí vlastní roli a hranici svého rozhodování. Vyučující IVP hodnotí srozumitelnost dohody a navázání komunikace, odborný instruktor potvrzuje správnost pracovního obsahu. Oba závěry se zapisují odděleně."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Dohodněte role, místo předání a příjemce informace. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "C05",
+    "block": "C",
+    "subject": "communication",
+    "title": "Věcné hlášení rizika, závady a změny",
+    "goal": "Rozlište pozorování, domněnku a potřebné rozhodnutí.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Rozlište pozorování, domněnku a potřebné rozhodnutí.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Hlášení popisuje místo, zjištěný stav a dopad na zadanou práci. Pozorovaný fakt se odděluje od předpokládané příčiny. Pracovník neobviňuje kolegu bez podkladu a nezamlčuje neznámé údaje. Zpráva musí umožnit odpovědné osobě určit další krok, nikoli pouze vyjádřit nespokojenost."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Při nácviku se využije formulace: co jsem zjistil/a, kde, co jsem dosud provedl/a v dovoleném rozsahu a co potřebuji potvrdit. Zpětná vazba posuzuje konkrétnost, přiměřenost a správného příjemce. Naléhavá změna se předává bez zbytečného odkladu podle dohodnutého způsobu na pracovišti."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Najdete poškozenou část oplocení, ale neznáte příčinu. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Najdete poškozenou část oplocení, ale neznáte příčinu.",
+      "response": "Ohlásím místo a poškození; příčinu označím jako neurčenou.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Jako jisté pochybení kolegy.",
+      "Jako ověřený údaj bez podkladu.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jak formulujete neověřenou příčinu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jako nejistotu oddělenou od zjištěného stavu."
+          },
+          {
+            "id": "b",
+            "text": "Jako jisté pochybení kolegy."
+          },
+          {
+            "id": "c",
+            "text": "Jako ověřený údaj bez podkladu."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Hlášení popisuje místo, zjištěný stav a dopad na zadanou práci. Pozorovaný fakt se odděluje od předpokládané příčiny. Pracovník neobviňuje kolegu bez podkladu a nezamlčuje neznámé údaje. Zpráva musí umožnit odpovědné osobě určit další krok, nikoli pouze vyjádřit nespokojenost."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Ohlásím místo a poškození; příčinu označím jako neurčenou."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Při nácviku se využije formulace: co jsem zjistil/a, kde, co jsem dosud provedl/a v dovoleném rozsahu a co potřebuji potvrdit. Zpětná vazba posuzuje konkrétnost, přiměřenost a správného příjemce. Naléhavá změna se předává bez zbytečného odkladu podle dohodnutého způsobu na pracovišti."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Rozlište pozorování, domněnku a potřebné rozhodnutí. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "C06",
+    "block": "C",
+    "subject": "communication",
+    "title": "Pracovní konflikt a profesní respekt",
+    "goal": "Vyřešte neshodu pomocí věcného popisu a dohody.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Vyřešte neshodu pomocí věcného popisu a dohody.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Profesní respekt znamená jednat věcně i při rozdílné zkušenosti nebo jazyce. Neshoda se popíše konkrétním jednáním a dopadem na práci, nikoli nálepkou člověka. Cílem je potvrzené zadání a kvalitní spolupráce. Odborné rozhodnutí nepřechází na pracovníka jen proto, že mluví hlasitěji nebo je v týmu déle."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Vyučující IVP vede modelový rozhovor: pozorování, dopad, otázka a dohoda. Pokud tým nedokáže neshodu vyřešit ve své pravomoci, zapojí se odpovědná osoba. Hodnotí se schopnost vyslechnout druhou stranu a shrnout výsledek. Úspěch není ztotožněn s vítězstvím jedné strany sporu."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Dva kolegové rozdílně chápou stejné vyznačení. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Dva kolegové rozdílně chápou stejné vyznačení.",
+      "response": "Pojmenujeme rozdíl a vyžádáme potvrzení zadání odpovědnou osobou.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Prosadit vlastní názor za každou cenu.",
+      "Najít viníka před ověřením faktů.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co je cílem pracovního dialogu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ověřená dohoda a správné zadání."
+          },
+          {
+            "id": "b",
+            "text": "Prosadit vlastní názor za každou cenu."
+          },
+          {
+            "id": "c",
+            "text": "Najít viníka před ověřením faktů."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Profesní respekt znamená jednat věcně i při rozdílné zkušenosti nebo jazyce. Neshoda se popíše konkrétním jednáním a dopadem na práci, nikoli nálepkou člověka. Cílem je potvrzené zadání a kvalitní spolupráce. Odborné rozhodnutí nepřechází na pracovníka jen proto, že mluví hlasitěji nebo je v týmu déle."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Pojmenujeme rozdíl a vyžádáme potvrzení zadání odpovědnou osobou."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Vyučující IVP vede modelový rozhovor: pozorování, dopad, otázka a dohoda. Pokud tým nedokáže neshodu vyřešit ve své pravomoci, zapojí se odpovědná osoba. Hodnotí se schopnost vyslechnout druhou stranu a shrnout výsledek. Úspěch není ztotožněn s vítězstvím jedné strany sporu."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Vyřešte neshodu pomocí věcného popisu a dohody. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "D01",
+    "block": "D",
+    "subject": "communication",
+    "title": "Učení dospělých a vlastní plán pokroku",
+    "goal": "Stanovte konkrétní cíl a navazující nácvik.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Stanovte konkrétní cíl a navazující nácvik.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Dospělý účastník přináší předchozí zkušenost, kterou je potřeba ověřit v nových podmínkách. Vstupní rozhovor rozlišuje znalost pojmů, skutečně předvedený výkon a potřebnou jazykovou podporu. Individuální plán stanoví konkrétní dosažitelný krok a způsob ověření. První cíl nemá být obecné „zlepšit se ve všem“."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Vyučující IVP pomáhá účastníkovi spojit očekávaný výsledek s činností a termínem dalšího pozorování. Podpora se přizpůsobuje zjištěné potřebě, standard odborné kvality zůstává stejný. Účastník vidí, proč úkol plní a co mu umožní samostatnější výkon v konkrétně vymezené činnosti."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Účastník rozumí výsadbě, ale potřebuje procvičit věcné předání výsledku. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Účastník rozumí výsadbě, ale potřebuje procvičit věcné předání výsledku.",
+      "response": "Stanovím cíl: samostatně předat rozsah, kvalitu a odchylku podle kontrolní karty.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Pouze získat více bodů.",
+      "Být nejlepší v celé skupině.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jaký cíl je vhodný?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Konkrétní výkon se způsobem ověření."
+          },
+          {
+            "id": "b",
+            "text": "Pouze získat více bodů."
+          },
+          {
+            "id": "c",
+            "text": "Být nejlepší v celé skupině."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Dospělý účastník přináší předchozí zkušenost, kterou je potřeba ověřit v nových podmínkách. Vstupní rozhovor rozlišuje znalost pojmů, skutečně předvedený výkon a potřebnou jazykovou podporu. Individuální plán stanoví konkrétní dosažitelný krok a způsob ověření. První cíl nemá být obecné „zlepšit se ve všem“."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Stanovím cíl: samostatně předat rozsah, kvalitu a odchylku podle kontrolní karty."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Vyučující IVP pomáhá účastníkovi spojit očekávaný výsledek s činností a termínem dalšího pozorování. Podpora se přizpůsobuje zjištěné potřebě, standard odborné kvality zůstává stejný. Účastník vidí, proč úkol plní a co mu umožní samostatnější výkon v konkrétně vymezené činnosti."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Stanovte konkrétní cíl a navazující nácvik. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "D02",
+    "block": "D",
+    "subject": "communication",
+    "title": "Zpětná vazba k pozorovanému výkonu",
+    "goal": "Použijte popis výkonu, kritérium a další krok.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Použijte popis výkonu, kritérium a další krok.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Zpětná vazba vychází z pozorovaného jednání a předem známého kritéria. Rozlišuje, co účastník zvládl, co chybí a jaký další nácvik pomůže. Obecné pochvaly nebo označení člověka za neschopného nejsou vodítkem k opravě. Příjemce potřebuje rozumět vztahu mezi konkrétním výsledkem a požadavkem."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Účastník zopakuje doporučený další krok vlastními slovy. Vyučující IVP procvičuje předání a přijetí zpětné vazby na komunikační situaci. Odborný instruktor poskytuje věcná kritéria pracovního úkonu. Zápis odděluje pozorování, míru podpory a doporučení; samotný komentář nevydává za potvrzení celé kompetence."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Instruktor uvedl, že chybí místo zjištěné odchylky. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Instruktor uvedl, že chybí místo zjištěné odchylky.",
+      "response": "Doplním místo do záznamu a ověřím, zda je nyní dohledatelné.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Pouze známka bez komentáře.",
+      "Obecná nálepka účastníka.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co činí zpětnou vazbu použitelnou?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pozorování, kritérium a konkrétní další krok."
+          },
+          {
+            "id": "b",
+            "text": "Pouze známka bez komentáře."
+          },
+          {
+            "id": "c",
+            "text": "Obecná nálepka účastníka."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Zpětná vazba vychází z pozorovaného jednání a předem známého kritéria. Rozlišuje, co účastník zvládl, co chybí a jaký další nácvik pomůže. Obecné pochvaly nebo označení člověka za neschopného nejsou vodítkem k opravě. Příjemce potřebuje rozumět vztahu mezi konkrétním výsledkem a požadavkem."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Doplním místo do záznamu a ověřím, zda je nyní dohledatelné."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Účastník zopakuje doporučený další krok vlastními slovy. Vyučující IVP procvičuje předání a přijetí zpětné vazby na komunikační situaci. Odborný instruktor poskytuje věcná kritéria pracovního úkonu. Zápis odděluje pozorování, míru podpory a doporučení; samotný komentář nevydává za potvrzení celé kompetence."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Použijte popis výkonu, kritérium a další krok. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "D03",
+    "block": "D",
+    "subject": "communication",
+    "title": "Reflexe chyby a opakovaný nácvik",
+    "goal": "Proměňte zjištěnou chybu v konkrétní postup zlepšení.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Proměňte zjištěnou chybu v konkrétní postup zlepšení.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Reflexe popisuje situaci, vlastní rozhodnutí a rozdíl proti požadovanému výsledku. Nejde o hledání omluvy ani o sebekritiku bez návrhu řešení. Účastník identifikuje, který údaj přehlédl nebo kterému pokynu nerozuměl. Zvolí jeden konkrétní krok pro další pokus a stanoví, jak pozná zlepšení."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Opakovaný nácvik využívá zpětnou vazbu a ověřuje stejnou obtíž v mírně změněné situaci. Vyučující IVP podporuje seberegulaci a realistické plánování. Chyba v modelové úloze umožňuje učení bez předstírání praktického výkonu. Při skutečné práci je nejprve nutné postupovat podle pokynů odpovědné osoby."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Při prvním předání jste vynechali údaj o neprovedené části. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Při prvním předání jste vynechali údaj o neprovedené části.",
+      "response": "Pro další nácvik použiji kartu dokončeno – neprovedeno – další krok.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Pouze věta, že příště to bude lepší.",
+      "Přenesení veškeré odpovědnosti na kolegu.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jaký závěr reflexe je nejúčelnější?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Konkrétní změna postupu a ověření v dalším pokusu."
+          },
+          {
+            "id": "b",
+            "text": "Pouze věta, že příště to bude lepší."
+          },
+          {
+            "id": "c",
+            "text": "Přenesení veškeré odpovědnosti na kolegu."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Reflexe popisuje situaci, vlastní rozhodnutí a rozdíl proti požadovanému výsledku. Nejde o hledání omluvy ani o sebekritiku bez návrhu řešení. Účastník identifikuje, který údaj přehlédl nebo kterému pokynu nerozuměl. Zvolí jeden konkrétní krok pro další pokus a stanoví, jak pozná zlepšení."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Pro další nácvik použiji kartu dokončeno – neprovedeno – další krok."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Opakovaný nácvik využívá zpětnou vazbu a ověřuje stejnou obtíž v mírně změněné situaci. Vyučující IVP podporuje seberegulaci a realistické plánování. Chyba v modelové úloze umožňuje učení bez předstírání praktického výkonu. Při skutečné práci je nejprve nutné postupovat podle pokynů odpovědné osoby."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Proměňte zjištěnou chybu v konkrétní postup zlepšení. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "D04",
+    "block": "D",
+    "subject": "communication",
+    "title": "Pracovní záznam a digitální portfolio",
+    "goal": "Doložte vlastní výstup a správně označte jeho rozsah.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Doložte vlastní výstup a správně označte jeho rozsah.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Portfolio uchovává vlastní výstupy, modelové úlohy a případně skutečná pozorování. Každý záznam musí uvádět, z jaké situace pochází. Písemné řešení, vyřešený kvíz a výkon na pracovišti jsou různé druhy důkazů. Body zachycují aktivitu v aplikaci; neprokazují odbornou způsobilost."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Účastník zapíše konkrétní řešení, míru podpory a potřebný další krok. Nepřebírá cizí text jako vlastní zkušenost. Vyučující IVP učí výběru důkazů a srozumitelnému vyjádření výsledku. Pro prezentaci se používají výhradně ukázkové údaje; skutečné osobní záznamy vyžadují zabezpečený provozní systém."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: V aplikaci jste napsali řešení modelového hlášení závady. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "V aplikaci jste napsali řešení modelového hlášení závady.",
+      "response": "Označím je jako modelovou úlohu a oddělím je od skutečného předání na pracovišti.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Jen počet bodů.",
+      "Pouze atraktivní název.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Co musí být u důkazu jasné?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Situace, vlastní výstup a rozsah ověření."
+          },
+          {
+            "id": "b",
+            "text": "Jen počet bodů."
+          },
+          {
+            "id": "c",
+            "text": "Pouze atraktivní název."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Portfolio uchovává vlastní výstupy, modelové úlohy a případně skutečná pozorování. Každý záznam musí uvádět, z jaké situace pochází. Písemné řešení, vyřešený kvíz a výkon na pracovišti jsou různé druhy důkazů. Body zachycují aktivitu v aplikaci; neprokazují odbornou způsobilost."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Označím je jako modelovou úlohu a oddělím je od skutečného předání na pracovišti."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Účastník zapíše konkrétní řešení, míru podpory a potřebný další krok. Nepřebírá cizí text jako vlastní zkušenost. Vyučující IVP učí výběru důkazů a srozumitelnému vyjádření výsledku. Pro prezentaci se používají výhradně ukázkové údaje; skutečné osobní záznamy vyžadují zabezpečený provozní systém."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Doložte vlastní výstup a správně označte jeho rozsah. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "D05",
+    "block": "D",
+    "subject": "communication",
+    "title": "Čas, soustředění a organizace učení",
+    "goal": "Rozvrhněte přípravu, nácvik a zpětnou vazbu.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Rozvrhněte přípravu, nácvik a zpětnou vazbu.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Digitální příprava je rozdělena do krátkých lekcí s jasným cílem. Účastník plánuje čas na čtení, rozhodování a vlastní zápis. Délka digitální lekce je orientační a nenahrazuje hodinovou dotaci vedené výuky. Přestávky, pracovní směny a sezónní možnosti nácviku musí být zahrnuty v harmonogramu konkrétního běhu."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Motivaci podporuje viditelný pokrok ve třech samostatných předmětech a konkrétní využití naučeného. Při obtíži se zvolí menší krok a potřebná podpora místo pouhého zvyšování počtu úloh. Vyučující IVP vede plánování a reflexi; instruktor organizuje bezpečný praktický nácvik podle dostupných podmínek."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Máte připravenou lekci, ale chybí termín nácviku. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Máte připravenou lekci, ale chybí termín nácviku.",
+      "response": "Oddělím digitální přípravu a domluvím konkrétní příležitost s instruktorem.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Podle počtu otevřených stránek.",
+      "Podle bodů za kvíz.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jak evidujete čas výuky?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Podle skutečně realizované výuky a nácviku."
+          },
+          {
+            "id": "b",
+            "text": "Podle počtu otevřených stránek."
+          },
+          {
+            "id": "c",
+            "text": "Podle bodů za kvíz."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Digitální příprava je rozdělena do krátkých lekcí s jasným cílem. Účastník plánuje čas na čtení, rozhodování a vlastní zápis. Délka digitální lekce je orientační a nenahrazuje hodinovou dotaci vedené výuky. Přestávky, pracovní směny a sezónní možnosti nácviku musí být zahrnuty v harmonogramu konkrétního běhu."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Oddělím digitální přípravu a domluvím konkrétní příležitost s instruktorem."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Motivaci podporuje viditelný pokrok ve třech samostatných předmětech a konkrétní využití naučeného. Při obtíži se zvolí menší krok a potřebná podpora místo pouhého zvyšování počtu úloh. Vyučující IVP vede plánování a reflexi; instruktor organizuje bezpečný praktický nácvik podle dostupných podmínek."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Rozvrhněte přípravu, nácvik a zpětnou vazbu. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "D06",
+    "block": "D",
+    "subject": "communication",
+    "title": "Závěrečné předání a plán pokračování",
+    "goal": "Představte důkazy pokroku a další potřebné učení.",
+    "minutes": 10,
+    "competencies": [
+      "C13",
+      "C14"
+    ],
+    "intro": "Komunikace a profesní dovednosti · prostor pro výuku IVP. Představte důkazy pokroku a další potřebné učení.",
+    "sections": [
+      {
+        "title": "Profesní souvislost",
+        "body": "Závěrečný rozhovor propojuje odborné výstupy, jazykové dovednosti a profesní komunikaci. Každý předmět má vlastní závěr, aby jeho výsledky nezanikly v celkovém počtu bodů. Účastník vybere konkrétní důkaz, vysvětlí míru podpory a označí činnost, kterou dosud nemá prakticky ověřenou."
+      },
+      {
+        "title": "Nácvik s vyučujícím IVP",
+        "body": "Vyučující IVP vede sebereflexi a formulaci dalšího cíle. Odborný instruktor potvrzuje pouze skutečně pozorované výkony v určeném rozsahu. Anglický dialog se hodnotí jako jazykový úkol. Závěr krátkého programu se nevydává za výuční list ani osvědčení profesní kvalifikace bez příslušné formální zkoušky."
+      },
+      {
+        "title": "Pozorování a vlastní výstup",
+        "body": "Situace k nácviku: Máte dokončené kvízy, jazykový dialog a jeden pozorovaný pracovní úkon. Ve dvojici si vyměňte role a zaznamenejte konkrétní použitou formulaci. Po rozhovoru partner vlastními slovy zopakuje dohodu. Vyučující IVP poskytne popisnou zpětnou vazbu k tomu, co bylo srozumitelné a co vyžaduje doplnění. Vlastní záznam obsahuje formulaci, reakci partnera a jeden další krok; nevydává modelový rozhovor za skutečný výkon na pracovišti."
+      }
+    ],
+    "example": {
+      "situation": "Máte dokončené kvízy, jazykový dialog a jeden pozorovaný pracovní úkon.",
+      "response": "Představím tři odlišné důkazy a pro každý uvedu rozsah skutečného ověření.",
+      "why": "Reakce zpřesňuje dohodu, ověřuje porozumění a respektuje hranici odpovědnosti."
+    },
+    "mistakes": [
+      "Pouze společným počtem bodů.",
+      "Jako potvrzení všech činností oboru.",
+      "Zaměnit obecný dojem za konkrétní pozorování."
+    ],
+    "terms": [
+      {
+        "term": "Ověření porozumění",
+        "meaning": "Vlastní zopakování významu a potvrzení dohody."
+      },
+      {
+        "term": "Popisná zpětná vazba",
+        "meaning": "Informace o pozorovaném jednání, kritériu a dalším kroku."
+      },
+      {
+        "term": "Profesní kompetence",
+        "meaning": "Použití znalostí, dovedností a odpovědnosti v konkrétní situaci."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "q1",
+        "prompt": "Jak správně shrnete pokrok?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Odděleně pro odborný výkon, jazyk a komunikaci."
+          },
+          {
+            "id": "b",
+            "text": "Pouze společným počtem bodů."
+          },
+          {
+            "id": "c",
+            "text": "Jako potvrzení všech činností oboru."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Závěrečný rozhovor propojuje odborné výstupy, jazykové dovednosti a profesní komunikaci. Každý předmět má vlastní závěr, aby jeho výsledky nezanikly v celkovém počtu bodů. Účastník vybere konkrétní důkaz, vysvětlí míru podpory a označí činnost, kterou dosud nemá prakticky ověřenou."
+      },
+      {
+        "id": "q2",
+        "prompt": "Jaká reakce odpovídá modelové situaci?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pokračuji bez ověření dohody."
+          },
+          {
+            "id": "b",
+            "text": "Označím druhou stranu za neschopnou."
+          },
+          {
+            "id": "c",
+            "text": "Představím tři odlišné důkazy a pro každý uvedu rozsah skutečného ověření."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Vyučující IVP vede sebereflexi a formulaci dalšího cíle. Odborný instruktor potvrzuje pouze skutečně pozorované výkony v určeném rozsahu. Anglický dialog se hodnotí jako jazykový úkol. Závěr krátkého programu se nevydává za výuční list ani osvědčení profesní kvalifikace bez příslušné formální zkoušky."
+      },
+      {
+        "id": "q3",
+        "prompt": "Co uvedete do výstupu z nácviku?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Potvrzení všech praktických činností."
+          },
+          {
+            "id": "b",
+            "text": "Konkrétní formulaci, reakci partnera a další krok."
+          },
+          {
+            "id": "c",
+            "text": "Pouze obecnou pochvalu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Výstup musí umožnit zpětnou vazbu k pozorované situaci."
+      }
+    ],
+    "task": {
+      "title": "Záznam komunikačního nácviku",
+      "prompt": "Představte důkazy pokroku a další potřebné učení. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+      "checks": [
+        "Popisuji konkrétní situaci bez nálepkování lidí.",
+        "Ověřuji společné porozumění a dohodu.",
+        "Uvádím jeden navazující krok pro vlastní zlepšení."
+      ]
+    },
+    "sourceIds": []
+  }
+]

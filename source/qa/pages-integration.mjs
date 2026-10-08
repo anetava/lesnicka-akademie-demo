@@ -22,9 +22,9 @@ compile(read('lib/academy/forestry-curriculum.ts'),'forestry.mjs');
 let catalog=read('lib/academy/catalog.ts').replace("'./forestry-curriculum'","'./forestry.mjs'");
 catalog=catalog.replace(/import (\w+) from '([^']+\.json)';/g,(_,name,file)=>`const ${name}=${fs.readFileSync(path.resolve(root,'lib/academy',file),'utf8')};`);
 compile(catalog,'catalog.mjs');
-const units=json('lib/academy/study/units.json');
+const units=[...json('lib/academy/study/units.json'),...json('lib/academy/study/additional-units.json')];
 const sources=[];
-compile(read('lib/academy/study/config.ts')+'\nexport const studyUnits='+JSON.stringify(units)+';\nexport const studySources='+JSON.stringify(sources)+';\nexport const safeStudyUnit=u=>({...u,quiz:u.quiz.map(({correct,explanation,...q})=>q)});','study.mjs');
+compile(read('lib/academy/study/config.ts').replace("import additionalBlocks from './additional-blocks.json';",'const additionalBlocks='+JSON.stringify(json('lib/academy/study/additional-blocks.json'))+';').replace("export {subjects} from './program';",read('lib/academy/study/program.ts'))+'\nexport const studyUnits='+JSON.stringify(units)+';\nexport const studySources='+JSON.stringify(sources)+';\nexport const safeStudyUnit=u=>({...u,quiz:u.quiz.map(({correct,explanation,...q})=>q)});','study.mjs');
 fs.copyFileSync(path.join(root,'public/sql/sql-wasm.js'),path.join(out,'sql-wasm.cjs'));
 const require=createRequire(import.meta.url);
 const initSqlJs=require(path.join(out,'sql-wasm.cjs'));
@@ -87,7 +87,7 @@ await test('Browser-local session header opens the selected account and rejects 
 await test('SQLite WASM seed and role launcher persist 30 synthetic learners',async()=>{
  ok(await request(null,'launcher'));a1=await login('demo-a01');a2=await login('demo-a02');i1=await login('demo-i01');i2=await login('demo-i02');q=await login('demo-q01');
  assert.equal(ok(await request(q,'ivp')).summary.learners,30);assert.notEqual(a1,a2);
- const b=ok(await request(a1,'bootstrap'));assert.equal(b.competencies.length,14);assert.equal(b.questions,undefined);assert.equal(b.missions.length,17);
+ const b=ok(await request(a1,'bootstrap'));assert.equal(b.competencies.length,14);assert.equal(b.questions,undefined);assert.equal(b.missions.length,23);
 });
 await test('Role rules reject wrong-role and unassigned requests in the demo logic',async()=>{
  ok(await request(null,'bootstrap'),401);ok(await request(a1,'ivp'),403);ok(await request(a1,'portfolio?user=demo-a02'),403);ok(await request(i2,'learner/demo-a01'),403);
@@ -113,8 +113,8 @@ await test('Instructor return, learner correction, acceptance, portfolio and IVP
  const p=ok(await request(a1,'portfolio'));assert.equal(p.attempts.length,2);assert.equal(p.attempts[0].status,'accepted');assert.equal(p.attempts[1].status,'returned');assert.equal(p.points,20);assert.equal(p.practicalCompetencies,0);
  const ivp=ok(await request(q,'ivp'));assert.equal(ivp.summary.pending,0);assert(ivp.people.find(p=>p.id==='demo-a01').records.some(r=>r.id===correctedAttempt));
 });
-await test('36 lessons and 108 questions preserve content and six checkpoint links',async()=>{
- const study=ok(await request(a2,'study'));assert.equal(study.units.length,36);assert.equal(study.blocks.length,6);assert.equal(study.practiceCards.length,8);assert.equal(study.units.reduce((n,u)=>n+u.quiz.length,0),108);
+await test('72 lessons in three separate subjects preserve content and twelve checkpoint links',async()=>{
+ const study=ok(await request(a2,'study'));assert.equal(study.units.length,72);assert.equal(study.blocks.length,12);assert.equal(study.practiceCards.length,8);assert.equal(study.units.reduce((n,u)=>n+u.quiz.length,0),216);
  for(const u of study.units){assert(u.sections.length>=3);assert(u.sections.map(s=>s.body).join(' ').length>750);assert(u.quiz.every(q=>q.correct===undefined&&q.explanation===undefined));assert.deepEqual(u.sourceIds,[]);assert.equal(study.sources.length,0)}
  for(const block of study.blocks){assert.equal(study.units.filter(u=>u.block===block.id).length,6);ok(await request(a2,'mission/'+block.checkpoint))}
 });
@@ -170,6 +170,26 @@ await test('Forestry authoring and two reviews remain functional with hidden sou
  ok(await request(teacher,'content',{action:'publish',id:created.id}));
  const published=ok(await request(teacher,'content')).items.find(x=>x.id===created.id);
  assert.equal(published.status,'published_demo');assert.deepEqual(published.data.forestry.sources,[]);assert.equal(published.data.production_enabled,false);
+});
+
+await test('English and IVP communication have independent work, checkpoints and aggregate reporting',async()=>{
+ const a3=await login('demo-a03');const study=ok(await request(a3,'study'));
+ assert.deepEqual(['forestry','english','communication'].map(s=>study.units.filter(u=>u.subject===s).length),[48,12,12]);
+ for(const id of ['A01','C01']){
+  const unit=units.find(u=>u.id===id);const answers=Object.fromEntries(unit.quiz.map(q=>[q.id,q.correct]));
+  assert.equal(ok(await request(a3,'study-check',{unit:id,contentVersion:study.version,version:0,answers})).score,3);
+  ok(await request(a3,'study-work',{unit:id,contentVersion:study.version,version:0,text:id==='A01'?'Please check the planting stock. Protect the roots. Český význam: zkontrolujte sadební materiál a chraňte kořeny.':'Zopakuji místo, rozsah a požadovanou kvalitu. Nejasnou hranici si nechám ukázat a ověřím dohodu.'}));
+ }
+ const checkpoint=ok(await request(a3,'mission/AE01')).mission;assert.equal(checkpoint.subject,'english');
+ ok(await request(a3,'draft',{mission:'AE01',version:0,choice:json('lib/academy/study/additional-checkpoints.json').find(m=>m.id==='AE01').correct_option_id,answer:'Please check the planting stock. I will protect the roots. Jde o modelový jazykový dialog.',transfer:'Pro novou plochu ověřím význam pracovního pokynu.'}));
+ const attempt=ok(await request(a3,'submit',{mission:'AE01',version:1}));
+ assert(ok(await request(i1,'queue')).items.some(a=>a.id===attempt.id));
+ ok(await request(i1,'review',{...assess({outcome:'accepted',observation:'Odborné pojmy jsou použity s jasným českým významem.',next:'Procvičte pracovní dialog s vyučujícím angličtiny.'}),attemptId:attempt.id}));
+ const fresh=ok(await request(a3,'study'));assert(fresh.checkpoints.some(c=>c.mission==='AE01'&&c.status==='accepted'));
+ const overview=ok(await request(q,'study-overview'));const person=overview.people.find(p=>p.id==='demo-a03');
+ assert.equal(person.subjects.find(s=>s.subject==='forestry').works,0);assert.equal(person.subjects.find(s=>s.subject==='english').works,1);assert.equal(person.subjects.find(s=>s.subject==='communication').works,1);
+ assert.equal(person.passed,2);assert.equal(overview.summary.subjects.length,3);
+ assert.equal(ok(await request(a3,'portfolio')).practicalCompetencies,0);
 });
 
 const report={

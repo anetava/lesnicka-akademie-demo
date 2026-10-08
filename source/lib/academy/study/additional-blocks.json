@@ -1,0 +1,68 @@
+[
+  {
+    "id": "T",
+    "number": "07",
+    "subject": "forestry",
+    "title": "Probírky a základy těžební činnosti",
+    "subtitle": "Tyčovina, dospívající kmenovina, dříví a kontrola zásahu",
+    "scene": "M04",
+    "icon": "trees",
+    "checkpoint": "NT01",
+    "output": "Předám kartu menší probírky s vyznačením, kvalitou a hranicí odpovědnosti."
+  },
+  {
+    "id": "V",
+    "number": "08",
+    "subject": "forestry",
+    "title": "Mechanizace a technická péče",
+    "subtitle": "Dokumentace, kontrola, údržba a předání závady",
+    "scene": "M07",
+    "icon": "tool",
+    "checkpoint": "MV01",
+    "output": "Předám kontrolní a servisní záznam konkrétního prostředku."
+  },
+  {
+    "id": "A",
+    "number": "01",
+    "subject": "english",
+    "title": "Odborná lesnická angličtina",
+    "subtitle": "Dřeviny, pěstební činnost, výchova, dříví a technika",
+    "scene": "M01",
+    "icon": "compass",
+    "checkpoint": "AE01",
+    "output": "Použiji odborné pojmy ve dvojjazyčném pracovním dialogu."
+  },
+  {
+    "id": "B",
+    "number": "02",
+    "subject": "english",
+    "title": "Angličtina v pracovních situacích",
+    "subtitle": "Pokyn, otázka, bezpečnost, závada a předání",
+    "scene": "M01",
+    "icon": "team",
+    "checkpoint": "AE02",
+    "output": "Předám jednoduchý pokyn a ověřím jeho význam v angličtině."
+  },
+  {
+    "id": "C",
+    "number": "01",
+    "subject": "communication",
+    "title": "Pracovní komunikace a spolupráce",
+    "subtitle": "Výuka IVP · porozumění, různorodý tým a dohoda",
+    "scene": "D06",
+    "icon": "team",
+    "checkpoint": "IC01",
+    "output": "Předvedu převzetí pokynu, otázku a věcné předání výsledku."
+  },
+  {
+    "id": "D",
+    "number": "02",
+    "subject": "communication",
+    "title": "Profesní rozvoj a dovednosti pro učení",
+    "subtitle": "Výuka IVP · zpětná vazba, reflexe, plán a portfolio",
+    "scene": "D06",
+    "icon": "compass",
+    "checkpoint": "IC02",
+    "output": "Představím vlastní důkaz pokroku a plán dalšího nácviku."
+  }
+]

@@ -1,7 +1,8 @@
 import legacyMissions from './presentation-missions.json';
+import additionalCheckpoints from './study/additional-checkpoints.json';
 import brushcutterCheckpoint from './study/checkpoint.json';
 import {forestryMissions} from './forestry-curriculum';
-const missions:any[]=[...forestryMissions,brushcutterCheckpoint,...legacyMissions];
+const missions:any[]=[...forestryMissions,brushcutterCheckpoint,...legacyMissions,...additionalCheckpoints];
 import competencySource from './presentation-profile.json';
 import moduleSource from '../../zadani/data/moduly_navrh_v0_2.json';
 const questions:any[]=[];

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "NT01",
+    "version": "2026-10-08-predmety-v3",
+    "title": "Probírky a základy těžební činnosti: souhrnný výstup",
+    "status": "demo_only",
+    "source_reference": "",
+    "module_id": "M04",
+    "competency_ids": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 20,
+    "lesson_text": "Projděte šest lekcí bloku. Předám kartu menší probírky s vyznačením, kvalitou a hranicí odpovědnosti. Výstup má samostatné hodnocení příslušného předmětu.",
+    "scenario": "Zadaná část tyčoviny je dokončena, u okraje zůstalo nejasné vyznačení.",
+    "question": "Jak předáte částečně dokončenou práci?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Oddělím dokončený rozsah, nejasnost a další domluvený krok."
+      },
+      {
+        "id": "b",
+        "text": "Označím celou plochu jako hotovou."
+      },
+      {
+        "id": "c",
+        "text": "Nejasnou část v záznamu vynechám."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Vedoucí posuzuje, zda je potřebná náprava nebo navazující kontrola. Pracovník rozlišuje vlastní pozorování, orientační odhad a odborně potvrzený údaj. Do portfolia zaznamenává, co skutečně předvedl a s jakou podporou. Modelová situace z aplikace zůstává odlišena od pozorování na pracovišti.",
+    "submission_task": "Předám kartu menší probírky s vyznačením, kvalitou a hranicí odpovědnosti. Uveďte konkrétní situaci, vlastní řešení a způsob ověření. Doložte výsledek zásahu, kvalitu a navazující úkol. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+    "classroom_activity": "Vedený nácvik a popisná zpětná vazba. Referenční ukázka pod vedením odborného instruktora.",
+    "proposed_assessor_guidance": "Posuďte konkrétní výstup podle kritérií příslušného předmětu a uveďte další krok. Digitální úkol nepotvrzuje praktický výkon.",
+    "transfer_task": "Uplatněte stejné řešení v mírně změněné situaci. Popište, co je potřeba znovu ověřit.",
+    "reflection_prompt": "Co již zvládáte a co potřebujete dále procvičit?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false,
+    "subject": "forestry"
+  },
+  {
+    "id": "MV01",
+    "version": "2026-10-08-predmety-v3",
+    "title": "Mechanizace a technická péče: souhrnný výstup",
+    "status": "demo_only",
+    "source_reference": "",
+    "module_id": "M07",
+    "competency_ids": [
+      "C10",
+      "C11",
+      "C12",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 20,
+    "lesson_text": "Projděte šest lekcí bloku. Předám kontrolní a servisní záznam konkrétního prostředku. Výstup má samostatné hodnocení příslušného předmětu.",
+    "scenario": "U odstaveného prostředku zjistíte znečištění od provozní náplně.",
+    "question": "Podle čeho určíte správnou provozní náplň?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Podle dokumentace konkrétního prostředku a značení."
+      },
+      {
+        "id": "b",
+        "text": "Podle barvy nádoby."
+      },
+      {
+        "id": "c",
+        "text": "Podle podobnosti s jiným strojem."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Při zjištěném úniku se postupuje podle místních pokynů a hlásí se místo, prostředek a pozorovaný rozsah. Záznam spojuje ochranu prostředí s evidencí provozu a údržby. Neuvádí se odhad jako přesné množství. Rozhodnutí o odborném zásahu a dalším použití prostředku patří určené osobě.",
+    "submission_task": "Předám kontrolní a servisní záznam konkrétního prostředku. Uveďte konkrétní situaci, vlastní řešení a způsob ověření. Propojte technickou péči s ochranou prostředí a přesným záznamem. Použijte situaci z lekce a napište konkrétní zjištění, vlastní postup a potřebné potvrzení.",
+    "classroom_activity": "Vedený nácvik a popisná zpětná vazba. Referenční ukázka pod vedením odborného instruktora.",
+    "proposed_assessor_guidance": "Posuďte konkrétní výstup podle kritérií příslušného předmětu a uveďte další krok. Digitální úkol nepotvrzuje praktický výkon.",
+    "transfer_task": "Uplatněte stejné řešení v mírně změněné situaci. Popište, co je potřeba znovu ověřit.",
+    "reflection_prompt": "Co již zvládáte a co potřebujete dále procvičit?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false,
+    "subject": "forestry"
+  },
+  {
+    "id": "AE01",
+    "version": "2026-10-08-predmety-v3",
+    "title": "Odborná lesnická angličtina: souhrnný výstup",
+    "status": "demo_only",
+    "source_reference": "",
+    "module_id": "M06",
+    "competency_ids": [
+      "C13",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 20,
+    "lesson_text": "Projděte šest lekcí bloku. Použiji odborné pojmy ve dvojjazyčném pracovním dialogu. Výstup má samostatné hodnocení příslušného předmětu.",
+    "scenario": "Ve dvojici předejte tuto pracovní informaci.",
+    "question": "Co označuje chainsaw?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Řetězová pila."
+      },
+      {
+        "id": "b",
+        "text": "Výřez."
+      },
+      {
+        "id": "c",
+        "text": "Oplocení."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Správný význam vychází z odborného kontextu této lekce.",
+    "submission_task": "Použiji odborné pojmy ve dvojjazyčném pracovním dialogu. Uveďte konkrétní situaci, vlastní řešení a způsob ověření. Pojmenujte prostředek a předání závady; neodvozujte obsluhu z jazykového cvičení. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+    "classroom_activity": "Vedený nácvik a popisná zpětná vazba. Jazykový dialog s vyučujícím angličtiny.",
+    "proposed_assessor_guidance": "Posuďte konkrétní výstup podle kritérií příslušného předmětu a uveďte další krok. Digitální úkol nepotvrzuje praktický výkon.",
+    "transfer_task": "Uplatněte stejné řešení v mírně změněné situaci. Popište, co je potřeba znovu ověřit.",
+    "reflection_prompt": "Co již zvládáte a co potřebujete dále procvičit?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false,
+    "subject": "english"
+  },
+  {
+    "id": "AE02",
+    "version": "2026-10-08-predmety-v3",
+    "title": "Angličtina v pracovních situacích: souhrnný výstup",
+    "status": "demo_only",
+    "source_reference": "",
+    "module_id": "M06",
+    "competency_ids": [
+      "C13",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 20,
+    "lesson_text": "Projděte šest lekcí bloku. Předám jednoduchý pokyn a ověřím jeho význam v angličtině. Výstup má samostatné hodnocení příslušného předmětu.",
+    "scenario": "Ve dvojici předejte tuto pracovní informaci.",
+    "question": "Která věta odděluje dokončenou a zbývající práci?",
+    "options": [
+      {
+        "id": "a",
+        "text": "This area is completed. The remaining section needs checking."
+      },
+      {
+        "id": "b",
+        "text": "Everything is completed, although part remains."
+      },
+      {
+        "id": "c",
+        "text": "There is no need to report the remaining section."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Správný význam vychází z odborného kontextu této lekce.",
+    "submission_task": "Předám jednoduchý pokyn a ověřím jeho význam v angličtině. Uveďte konkrétní situaci, vlastní řešení a způsob ověření. Předejte dokončený rozsah, nejasnost a další krok v krátkém dialogu. Napište dvě anglické věty, český význam a odpověď partnera. Můžete použít vzor a změnit konkrétní údaj.",
+    "classroom_activity": "Vedený nácvik a popisná zpětná vazba. Jazykový dialog s vyučujícím angličtiny.",
+    "proposed_assessor_guidance": "Posuďte konkrétní výstup podle kritérií příslušného předmětu a uveďte další krok. Digitální úkol nepotvrzuje praktický výkon.",
+    "transfer_task": "Uplatněte stejné řešení v mírně změněné situaci. Popište, co je potřeba znovu ověřit.",
+    "reflection_prompt": "Co již zvládáte a co potřebujete dále procvičit?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false,
+    "subject": "english"
+  },
+  {
+    "id": "IC01",
+    "version": "2026-10-08-predmety-v3",
+    "title": "Pracovní komunikace a spolupráce: souhrnný výstup",
+    "status": "demo_only",
+    "source_reference": "",
+    "module_id": "M06",
+    "competency_ids": [
+      "C13",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 20,
+    "lesson_text": "Projděte šest lekcí bloku. Předvedu převzetí pokynu, otázku a věcné předání výsledku. Výstup má samostatné hodnocení příslušného předmětu.",
+    "scenario": "Dva kolegové rozdílně chápou stejné vyznačení.",
+    "question": "Co je cílem pracovního dialogu?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ověřená dohoda a správné zadání."
+      },
+      {
+        "id": "b",
+        "text": "Prosadit vlastní názor za každou cenu."
+      },
+      {
+        "id": "c",
+        "text": "Najít viníka před ověřením faktů."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Profesní respekt znamená jednat věcně i při rozdílné zkušenosti nebo jazyce. Neshoda se popíše konkrétním jednáním a dopadem na práci, nikoli nálepkou člověka. Cílem je potvrzené zadání a kvalitní spolupráce. Odborné rozhodnutí nepřechází na pracovníka jen proto, že mluví hlasitěji nebo je v týmu déle.",
+    "submission_task": "Předvedu převzetí pokynu, otázku a věcné předání výsledku. Uveďte konkrétní situaci, vlastní řešení a způsob ověření. Vyřešte neshodu pomocí věcného popisu a dohody. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+    "classroom_activity": "Vedený nácvik a popisná zpětná vazba. Komunikační scénář s vyučujícím IVP.",
+    "proposed_assessor_guidance": "Posuďte konkrétní výstup podle kritérií příslušného předmětu a uveďte další krok. Digitální úkol nepotvrzuje praktický výkon.",
+    "transfer_task": "Uplatněte stejné řešení v mírně změněné situaci. Popište, co je potřeba znovu ověřit.",
+    "reflection_prompt": "Co již zvládáte a co potřebujete dále procvičit?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false,
+    "subject": "communication"
+  },
+  {
+    "id": "IC02",
+    "version": "2026-10-08-predmety-v3",
+    "title": "Profesní rozvoj a dovednosti pro učení: souhrnný výstup",
+    "status": "demo_only",
+    "source_reference": "",
+    "module_id": "M06",
+    "competency_ids": [
+      "C13",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 20,
+    "lesson_text": "Projděte šest lekcí bloku. Představím vlastní důkaz pokroku a plán dalšího nácviku. Výstup má samostatné hodnocení příslušného předmětu.",
+    "scenario": "Máte dokončené kvízy, jazykový dialog a jeden pozorovaný pracovní úkon.",
+    "question": "Jak správně shrnete pokrok?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Odděleně pro odborný výkon, jazyk a komunikaci."
+      },
+      {
+        "id": "b",
+        "text": "Pouze společným počtem bodů."
+      },
+      {
+        "id": "c",
+        "text": "Jako potvrzení všech činností oboru."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Závěrečný rozhovor propojuje odborné výstupy, jazykové dovednosti a profesní komunikaci. Každý předmět má vlastní závěr, aby jeho výsledky nezanikly v celkovém počtu bodů. Účastník vybere konkrétní důkaz, vysvětlí míru podpory a označí činnost, kterou dosud nemá prakticky ověřenou.",
+    "submission_task": "Představím vlastní důkaz pokroku a plán dalšího nácviku. Uveďte konkrétní situaci, vlastní řešení a způsob ověření. Představte důkazy pokroku a další potřebné učení. Napište svou formulaci, očekávanou reakci partnera a konkrétní další krok.",
+    "classroom_activity": "Vedený nácvik a popisná zpětná vazba. Komunikační scénář s vyučujícím IVP.",
+    "proposed_assessor_guidance": "Posuďte konkrétní výstup podle kritérií příslušného předmětu a uveďte další krok. Digitální úkol nepotvrzuje praktický výkon.",
+    "transfer_task": "Uplatněte stejné řešení v mírně změněné situaci. Popište, co je potřeba znovu ověřit.",
+    "reflection_prompt": "Co již zvládáte a co potřebujete dále procvičit?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false,
+    "subject": "communication"
+  }
+]
