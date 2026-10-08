@@ -37,3 +37,5 @@ Nasazení samostatné verze: GitHub Pages workflow success, commit 6d804941bc0c8
 ## Oprava barev 8. 10. 2026
 
 Změna výhradně barev v kartách, navigaci, přehledech, blocích a lekcích. Obsah, účty a uložené výsledky se nemění. Nové sestavení a následná živá kontrola barev jsou součástí této opravy.
+
+Ověření opravy: produkční build PASS; živé karty, navigace a nadpisy všech tří předmětů PASS. Angličtina rgb(122,40,64), komunikace rgb(25,107,145), lesnické karty původní lesní rgb(18,71,84) se zlatou rgb(183,150,80). Uložený pokrok 0/48, 1/12, 1/12 zůstal zachován. Nasazení b9735fbd94bc945ee675c8ca06f6dc7f582e15c7: GitHub Pages workflow success.
