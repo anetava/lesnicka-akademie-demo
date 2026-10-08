@@ -2,7 +2,7 @@
 
 Aktualizace: 8. 10. 2026. Původní základ: d45f483d707a06dad7b40a7b1da313328ded75eb.
 Zdrojová větev: prezentace-odborne-upravy-20261008.
-Cíl nasazení: https://anetava.github.io/lesnicka-akademie-demo/prezentace/
+Zveřejněná adresa: https://anetava.github.io/lesnicka-akademie-demo/prezentace/
 Původní aplikace v kořenové složce se zachovává; nová sestava je v samostatné složce prezentace/.
 
 ## Obsah a metodika
@@ -26,8 +26,10 @@ Původní aplikace v kořenové složce se zachovává; nová sestava je v samos
 - Integrační testy: 18 PASS / 0 FAIL; 116 obnovení a 114 uložení skutečné SQLite WASM databáze.
 - Ověřeny původní i nové cykly odevzdání, hodnocení a portfolia; oddělený pokrok angličtiny a komunikace; jednorázové body; přílohy; atomická obnova po selhání ukládání; role LČR a dvě recenze učiva.
 - Kontrolní součty původních podkladů: PASS.
-- Živé ověření prohlížeče: čeká na dokončení samostatného nasazení; zatím není označeno PASS.
+- Živé ověření desktopového prohlížeče: PASS. Vstup A01, nativní přepínač A01/I01/L01, oddělené předměty, kvízy a výstupy A01/C01, zachování v IndexedDB po obnovení, přečtení vlastního výstupu u přiděleného instruktora, souhrnné ukazatele LČR a stažení JSON exportu, program a dotace. Barvy: bordová rgb(122,40,64); modrá rgb(25,107,145) na světlém modrém podkladu. Žádné rozbité obrázky ani vodorovné přetékání v testovaném desktopovém viewportu. Mobilní zařízení a dostupnost hlasu na jednotlivých platformách nebyly samostatně ověřeny.
 
 ## Provozní rozsah
 
 Samostatný web funguje bez otevřeného ChatGPT Work. Jde o prezentační demonstraci s veřejně přepínatelnými syntetickými účty a místním úložištěm prohlížeče. Skutečný sdílený provoz vyžaduje osobní přihlášení, serverová oprávnění, společnou databázi, zálohy a potvrzené odborné i organizační podmínky. Online body ani dokončení lekcí nevydávají osvědčení praktické způsobilosti.
+
+Nasazení samostatné verze: GitHub Pages workflow success, commit 6d804941bc0c8aaeff2bc33be13c5e54f041221c. Kontrola stromu: všech 230 původních souborů hlavní větve má původní SHA; přidána pouze složka prezentace/.

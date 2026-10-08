@@ -7,7 +7,7 @@
     "source_reference": "",
     "module_id": "M04",
     "competency_ids": [
-      "C10",
+      "C05",
       "C11",
       "C12",
       "C14"
@@ -51,10 +51,10 @@
     "source_reference": "",
     "module_id": "M07",
     "competency_ids": [
+      "C08",
+      "C09",
       "C10",
-      "C11",
-      "C12",
-      "C14"
+      "C12"
     ],
     "estimated_minutes_proposed": 20,
     "lesson_text": "Projděte šest lekcí bloku. Předám kontrolní a servisní záznam konkrétního prostředku. Výstup má samostatné hodnocení příslušného předmětu.",

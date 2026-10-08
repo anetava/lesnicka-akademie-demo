@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-08T19:34:52.928Z",
+  "testedAt": "2026-10-08T19:44:43.499Z",
   "environment": "Node executing actual sql.js WebAssembly, presentation SQLite adapter and academy service. Structured-cloned memory persistence simulates IndexedDB snapshots; every request reconstructs SQLite from persisted bytes.",
   "scope": "Public synthetic demonstration; role checks validate application behavior and are not a security boundary in a client-side application.",
   "pass": 18,
@@ -15,27 +15,27 @@
     {
       "name": "Browser-local launcher accepts a Request without a network Origin header",
       "status": "pass",
-      "ms": 61
+      "ms": 59
     },
     {
       "name": "Browser-local session header opens the selected account and rejects malformed tokens",
       "status": "pass",
-      "ms": 17
+      "ms": 15
     },
     {
       "name": "SQLite WASM seed and role launcher persist 30 synthetic learners",
       "status": "pass",
-      "ms": 56
+      "ms": 50
     },
     {
       "name": "Role rules reject wrong-role and unassigned requests in the demo logic",
       "status": "pass",
-      "ms": 10
+      "ms": 9
     },
     {
       "name": "D01 explanation and draft survive logout, relogin and engine recreation",
       "status": "pass",
-      "ms": 19
+      "ms": 17
     },
     {
       "name": "D01 duplicate submission creates one attempt and one reward",
@@ -50,27 +50,27 @@
     {
       "name": "72 lessons in three separate subjects preserve content and twelve checkpoint links",
       "status": "pass",
-      "ms": 36
+      "ms": 34
     },
     {
       "name": "Quiz gives explained correction and awards points once across repeated attempts",
       "status": "pass",
-      "ms": 26
+      "ms": 24
     },
     {
       "name": "Lesson work is durable, editable, exported and rewarded only once",
       "status": "pass",
-      "ms": 30
+      "ms": 26
     },
     {
       "name": "Attachment bytes survive engine recreation and follow demo ownership rules",
       "status": "pass",
-      "ms": 11
+      "ms": 9
     },
     {
       "name": "Storage failure never reports success and retries preserve one durable operation",
       "status": "pass",
-      "ms": 9
+      "ms": 7
     },
     {
       "name": "Storage failure atomically discards both new attachment and its record",
@@ -85,17 +85,17 @@
     {
       "name": "Presentation does not disclose internal requirements and LCR receives only aggregates",
       "status": "pass",
-      "ms": 28
+      "ms": 23
     },
     {
       "name": "Forestry authoring and two reviews remain functional with hidden sources",
       "status": "pass",
-      "ms": 36
+      "ms": 38
     },
     {
       "name": "English and IVP communication have independent work, checkpoints and aggregate reporting",
       "status": "pass",
-      "ms": 44
+      "ms": 39
     }
   ],
   "limitations": [

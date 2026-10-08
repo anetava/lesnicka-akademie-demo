@@ -7,10 +7,10 @@
     "goal": "Rozlište prořezávku a probírku v konkrétním porostu.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
-      "C12",
-      "C14"
+      "C01",
+      "C04",
+      "C05",
+      "C13"
     ],
     "intro": "Rozlište prořezávku a probírku v konkrétním porostu. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
     "sections": [
@@ -132,9 +132,9 @@
     "goal": "Převezměte zadání menší probírky a rozpoznejte hranici své odpovědnosti.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
-      "C12",
+      "C01",
+      "C05",
+      "C09",
       "C14"
     ],
     "intro": "Převezměte zadání menší probírky a rozpoznejte hranici své odpovědnosti. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
@@ -257,10 +257,9 @@
     "goal": "Rozpoznejte poškození ponechaných stromů, půdy a přirozené obnovy.",
     "minutes": 12,
     "competencies": [
+      "C05",
       "C10",
-      "C11",
-      "C12",
-      "C14"
+      "C11"
     ],
     "intro": "Rozpoznejte poškození ponechaných stromů, půdy a přirozené obnovy. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
     "sections": [
@@ -382,9 +381,8 @@
     "goal": "Sestavte kontrolu podmínek před vedeným nácvikem.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
-      "C12",
+      "C08",
+      "C09",
       "C14"
     ],
     "intro": "Sestavte kontrolu podmínek před vedeným nácvikem. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
@@ -507,10 +505,9 @@
     "goal": "Používejte přesnou dřevařskou terminologii při evidenci výsledku.",
     "minutes": 12,
     "competencies": [
-      "C10",
       "C11",
       "C12",
-      "C14"
+      "C13"
     ],
     "intro": "Používejte přesnou dřevařskou terminologii při evidenci výsledku. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
     "sections": [
@@ -632,7 +629,7 @@
     "goal": "Doložte výsledek zásahu, kvalitu a navazující úkol.",
     "minutes": 12,
     "competencies": [
-      "C10",
+      "C05",
       "C11",
       "C12",
       "C14"
@@ -757,10 +754,9 @@
     "goal": "Přiřaďte prostředek k operaci a podmínkám použití.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
-      "C12",
-      "C14"
+      "C08",
+      "C09",
+      "C13"
     ],
     "intro": "Přiřaďte prostředek k operaci a podmínkám použití. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
     "sections": [
@@ -882,10 +878,9 @@
     "goal": "Vyhledejte správný návod a ověřte shodu prostředku.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
+      "C08",
       "C12",
-      "C14"
+      "C13"
     ],
     "intro": "Vyhledejte správný návod a ověřte shodu prostředku. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
     "sections": [
@@ -1007,9 +1002,8 @@
     "goal": "Rozlište způsobilý prostředek a závadu vyžadující předání.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
-      "C12",
+      "C08",
+      "C09",
       "C14"
     ],
     "intro": "Rozlište způsobilý prostředek a závadu vyžadující předání. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
@@ -1132,9 +1126,8 @@
     "goal": "Rozlište dovolenou údržbu a zásah patřící odbornému servisu.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
-      "C12",
+      "C08",
+      "C09",
       "C14"
     ],
     "intro": "Rozlište dovolenou údržbu a zásah patřící odbornému servisu. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
@@ -1257,10 +1250,9 @@
     "goal": "Vytvořte technicky věcný záznam bez domýšlení příčiny.",
     "minutes": 12,
     "competencies": [
-      "C10",
-      "C11",
+      "C08",
       "C12",
-      "C14"
+      "C13"
     ],
     "intro": "Vytvořte technicky věcný záznam bez domýšlení příčiny. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
     "sections": [
@@ -1382,10 +1374,10 @@
     "goal": "Propojte technickou péči s ochranou prostředí a přesným záznamem.",
     "minutes": 12,
     "competencies": [
+      "C08",
+      "C09",
       "C10",
-      "C11",
-      "C12",
-      "C14"
+      "C12"
     ],
     "intro": "Propojte technickou péči s ochranou prostředí a přesným záznamem. Lekce propojuje odborné pojmy, rozhodování a pracovní záznam.",
     "sections": [
