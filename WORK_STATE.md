@@ -18,7 +18,7 @@ Aktualizace: 8. 10. 2026.
 - Ověřen celý D01 průchod: účastník → uložení → odevzdání → instruktor vrátí → oprava → potvrzení → portfolio se dvěma pokusy → IVP. Ověřeny jednorázové body, verze, přílohy a odmítnuté uložení bez ztráty předchozího stavu.
 - Kontrolní součty: původních 14 oblastí a 24 otevřených požadavků zachováno beze změny.
 - Kontrola veřejného sestavení na původní dokumenty, známé skutečné kontakty a přístupové údaje: PASS.
-- **Browser QA: IN_PROGRESS.** Veřejná stránka se načte, ale po volbě účtu ukáže 401 „Nejdříve otevřete svůj demonstrační účet.“ Prohlížeč nepředává lokálně sestavenou hlavičku Cookie do dalšího Request. Statická prezentační kopie nyní používá vlastní hlavičku s validovaným tokenem pouze pro `presentation-browser`; kontrola hashe, platnosti relace a platformy zůstává. Serverová větev používá Cookie a vlastní hlavičku nepřijímá. Živý web ještě běží na předchozím sestavení.
+- **Browser QA: IN_PROGRESS.** První oprava byla zveřejněna, ale živý test po volbě účtu stále ukázal 401. Důvod: prohlížeč nepředal místní `Set-Cookie` ze syntetické odpovědi do sessionStorage. Druhá oprava vrací token v těle odpovědi výhradně v `presentation-browser`, odkud ho místní adaptér uloží. Pro všechny další požadavky se používá validovaná vlastní hlavička; kontrola hashe, platnosti relace a platformy zůstává. Serverová větev používá Cookie a vlastní hlavičku nepřijímá. Druhá oprava čeká na živé ověření.
 
 ## Meze a další krok
 
@@ -26,7 +26,7 @@ Toto je veřejná prezentace se syntetickými údaji, nikoli bezpečný systém 
 
 GitHub Pages je zapnutý pro `main` a `/ (root)`. První nasazení bylo nefunkční: nahrávací rozhraní zkrátilo soubory nad 600 kB. Živý JavaScript měl 600 062 místo 938 654 bajtů a prohlížeč hlásil syntaktickou chybu; SQLite WASM měl 600 060 místo 659 806 bajtů. Oprava rozdělila výstupní JavaScript do modulů nejvýše 401 kB a WASM do tří ověřeně spojených částí po přibližně 220 kB. Původní neúplné soubory se z publikace odstraní.
 
-Po opravě přenosu relace: TypeScript PASS, produkční sestavení PASS, integrační test **15 PASS / 0 FAIL**, 78 obnovení a 76 uložení. Nový test ověřuje přístup se správnou místní hlavičkou i odmítnutí neplatného tokenu. Živý prohlížečový průchod zatím **PENDING**; neoznačovat za dokončené, dokud role a D01 nebudou ověřené. Nasazení změn do GitHub repozitáře aktuálně čeká na povolení zápisu v připojenom nástroji GitHub.
+Po druhé opravě přenosu relace: TypeScript PASS, produkční sestavení PASS, integrační test **15 PASS / 0 FAIL**, 78 obnovení a 76 uložení. Test ověřuje token v těle místní odpovědi, přístup se správnou hlavičkou i odmítnutí neplatného tokenu. Živý prohlížečový průchod zatím **PENDING**; neoznačovat za dokončené, dokud role a D01 nebudou ověřené.
 
 ## Repozitář
 
