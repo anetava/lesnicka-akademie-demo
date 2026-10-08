@@ -22,7 +22,9 @@ export async function installPresentation(){
   if(url.origin!==location.origin||!url.pathname.startsWith('/api/academy/'))return originalFetch(input,init);
   const run=async()=>{
    const headers=new Headers(init?.headers||(input instanceof Request?input.headers:undefined));
-   const cookie=sessionStorage.getItem('academy-demo-cookie');if(cookie)headers.set('Cookie',cookie);
+   const cookie=sessionStorage.getItem('academy-demo-cookie');
+   const token=cookie?.match(/^academy_session=([a-f0-9]{64})$/)?.[1];
+   if(token)headers.set('X-Academy-Demo-Session',token);
    const endpoint=url.pathname.split('/')[3];
    if(['shares','shared'].includes(endpoint))return Response.json({error:'Veřejné sdílení portfolia zde není dostupné. Použij export vybraných záznamů. Ukázkové údaje zůstávají v tomto prohlížeči.'},{status:409});
    const request=new Request(location.origin+url.pathname+url.search,{...init,headers});
