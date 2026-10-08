@@ -1,0 +1,117 @@
+{
+  "status": "presentation_proposal",
+  "competencies": [
+    {
+      "id": "C01",
+      "name": "Orientace v pracovním úkolu a porostu",
+      "independent_performance_verbatim": "Převezme pracovní zadání, určí místo a rozsah práce, připraví pracoviště, nářadí a potřebné prostředky. Rozumí základním lesnickým pojmům nezbytným pro prováděnou činnost.",
+      "judgement_within_assignment_verbatim": "Rozpozná základní dřeviny a základní vývojové fáze porostu potřebné pro svou práci. Chápe, čeho má prováděný zásah dosáhnout. Posoudí terénní a aktuální pracovní podmínky.",
+      "autonomy_boundary_verbatim": "Nemění svévolně cíl zásahu, jeho rozsah ani základní pěstební kritéria. Pokud je zadání nejasné nebo skutečný stav porostu zjevně neodpovídá zadání, vyžádá si upřesnění.",
+      "production_approved": false
+    },
+    {
+      "id": "C02",
+      "name": "Obnova lesa a výsadba",
+      "independent_performance_verbatim": "Správně manipuluje se sadebním materiálem, chrání jej před poškozením a vysycháním a provede výsadbu stanoveným způsobem a v požadované kvalitě.",
+      "judgement_within_assignment_verbatim": "Rozpozná základní druhy dřevin, zjevně nevhodný nebo poškozený sadební materiál a chyby při výsadbě. Průběžně kontroluje kvalitu vlastní práce.",
+      "autonomy_boundary_verbatim": "Nerozhoduje samostatně o změně dřevinné skladby, původu sadebního materiálu, plošném rozmístění nebo změně způsobu obnovy, pokud to nebylo součástí zadání.",
+      "production_approved": false
+    },
+    {
+      "id": "C03",
+      "name": "Péče o kultury a nárosty",
+      "independent_performance_verbatim": "Provádí běžnou péči o založené kultury a přirozenou obnovu, zejména mechanickou ochranu, ožínání a další zadané práce, aniž by poškozoval cílové dřeviny nebo přirozenou obnovu, která má být zachována.",
+      "judgement_within_assignment_verbatim": "Rozliší dřeviny, které mají být chráněny, od nežádoucí vegetace podle stanovených kritérií. Rozpozná běžné poškození kultur a nedostatky ochranných opatření.",
+      "autonomy_boundary_verbatim": "Sám neurčuje změnu způsobu ochrany nebo cíle péče. Významné poškození, neobvyklý zdravotní stav nebo situaci, u níž si není jistý dalším postupem, hlásí.",
+      "production_approved": false
+    },
+    {
+      "id": "C04",
+      "name": "Prořezávky a další výchovné zásahy v mladých porostech",
+      "independent_performance_verbatim": "Provede zadaný výchovný zásah podle stanovených kritérií, referenční ukázky nebo jiného jednoznačného pracovního zadání. Při práci respektuje požadovanou druhovou skladbu, prostorovou strukturu a stabilitu porostu.",
+      "judgement_within_assignment_verbatim": "Rozpozná základní cílové a nežádoucí dřeviny podle kritérií konkrétního zásahu, viditelné vady a poškození a posoudí, zda průběžný výsledek odpovídá zadání.",
+      "autonomy_boundary_verbatim": "Nestanovuje samostatně pěstební koncepci porostu ani zásadně nemění intenzitu nebo charakter zásahu. Pokud narazí na situaci, kterou daná pravidla jednoznačně neřeší, vyžádá si rozhodnutí odborného pracovníka.",
+      "production_approved": false
+    },
+    {
+      "id": "C05",
+      "name": "Probírky",
+      "independent_performance_verbatim": "V rozsahu, který bude LČR přesně definován, provádí probírkové práce podle pracovního zadání, vyznačení nebo stanovených kritérií a průběžně chrání ponechávaný porost.",
+      "judgement_within_assignment_verbatim": "Rozumí účelu konkrétní probírky a dokáže kontrolovat, zda jeho práce odpovídá požadované intenzitě a kvalitě zásahu.",
+      "autonomy_boundary_verbatim": "Rozsah samostatného výběru stromů při probírkách musí LČR ještě přesně stanovit. Práce s motorovou pilou nebo jiné činnosti vyžadující samostatnou způsobilost lze provádět pouze při splnění příslušných podmínek.",
+      "production_approved": false
+    },
+    {
+      "id": "C06",
+      "name": "Ochrana lesa a ochrana porostů",
+      "independent_performance_verbatim": "Provádí zadaná mechanická ochranná opatření, individuální ochranu dřevin, stavbu, kontrolu a běžnou opravu oplocenek a další stanovené ochranné práce.",
+      "judgement_within_assignment_verbatim": "Rozpozná běžné poškození způsobené zvěří, vegetací nebo jiné zjevné příznaky poškození a dokáže posoudit funkčnost provedeného ochranného opatření.",
+      "autonomy_boundary_verbatim": "Neprovádí odbornou diagnostiku škodlivého činitele ani samostatně nerozhoduje o použití přípravků na ochranu rostlin. Chemické zásahy lze zařadit pouze podle skutečného požadavku LČR a příslušných podmínek odborné způsobilosti.",
+      "production_approved": false
+    },
+    {
+      "id": "C07",
+      "name": "Klest, plochy po těžbě a jednoduché provozní práce",
+      "independent_performance_verbatim": "Provádí zadané práce s klestem, úpravu pracoviště po těžbě a další běžné pomocné provozní práce. Podle výsledného programu může zvládat také jednoduchou údržbu svodnic, příkopů nebo lesnických zařízení.",
+      "judgement_within_assignment_verbatim": "Posoudí, zda po provedené práci zůstává pracoviště bezpečné a zda byly splněny zadané podmínky.",
+      "autonomy_boundary_verbatim": "Nerozhoduje o změnách infrastruktury nebo jiných zásazích, které přesahují běžnou údržbu. Přesný rozsah těchto činností bude stanoven podle zadání LČR.",
+      "production_approved": false
+    },
+    {
+      "id": "C08",
+      "name": "Ruční nářadí a malá mechanizace",
+      "independent_performance_verbatim": "Volí z povolených prostředků nářadí odpovídající zadané práci, před použitím provede základní kontrolu jeho stavu, používá jej bezpečně a provádí běžnou údržbu v povoleném rozsahu.",
+      "judgement_within_assignment_verbatim": "Rozpozná zjevnou závadu, nevhodný nástroj nebo podmínky, při nichž nelze prostředek bezpečně použít.",
+      "autonomy_boundary_verbatim": "Neprovádí práci s prostředkem, k němuž nemá požadovanou způsobilost. Neprovádí opravy mimo stanovený rozsah. Motorová pila, křovinořez a případně další mechanizace musí být systémově odděleny podle skutečně požadovaných oprávnění.",
+      "production_approved": false
+    },
+    {
+      "id": "C09",
+      "name": "Bezpečnost práce a reakce na riziko",
+      "independent_performance_verbatim": "Před zahájením práce zkontroluje pracoviště, používá požadované OOPP, dodržuje bezpečné vzdálenosti a pracovní postupy a organizuje vlastní práci tak, aby neohrozil sebe ani ostatní. V případě úrazu dokáže přivolat pomoc a poskytnout základní první pomoc v rozsahu školení.",
+      "judgement_within_assignment_verbatim": "Průběžně vyhodnocuje změny počasí, terénu, stavu pracoviště, souběžné práce a technického stavu používaných prostředků.",
+      "autonomy_boundary_verbatim": "Pokud nelze v práci pokračovat bezpečně, práci přeruší. Nečeká, že mu nebezpečí musí nejprve oznámit nadřízený. O situaci informuje určenou osobu.",
+      "production_approved": false
+    },
+    {
+      "id": "C10",
+      "name": "Šetrnost k porostu a lesnímu prostředí",
+      "independent_performance_verbatim": "Při práci minimalizuje poškození ponechávaných stromů, přirozeného zmlazení, půdy, vody a dalších prvků, které mají být zachovány. Respektuje označené nebo předem vysvětlené prvky ochrany biodiverzity.",
+      "judgement_within_assignment_verbatim": "Chápe základní souvislost mezi způsobem provedení práce a následným vývojem porostu. Rozpozná, že jeho postup způsobuje nežádoucí škody, a upraví jej.",
+      "autonomy_boundary_verbatim": "Nerozhoduje samostatně o managementu biotopových stromů, bezzásahových prvků nebo jiných odborných opatřeních ochrany přírody.",
+      "production_approved": false
+    },
+    {
+      "id": "C11",
+      "name": "Kontrola kvality a pracovního výkonu",
+      "independent_performance_verbatim": "Po dokončení úkolu zkontroluje vlastní práci podle předem známých kritérií. Umí zjistit a odstranit běžnou chybu, pokud je její oprava v jeho kompetenci.",
+      "judgement_within_assignment_verbatim": "Porovná skutečný výsledek se vzorovým provedením nebo stanovenými kritérii kvality. Dokáže reálně sdělit rozsah vykonané práce.",
+      "autonomy_boundary_verbatim": "Nemění sám požadované normy ani parametry zásahu s cílem pouze zvýšit výkon. Závažnější odchylku od zadání hlásí.",
+      "production_approved": false
+    },
+    {
+      "id": "C12",
+      "name": "Evidence a předávání informací",
+      "independent_performance_verbatim": "Vyplní jednoduchý pracovní záznam v předepsané papírové nebo elektronické podobě. Předá nadřízenému stručnou a věcnou informaci o dokončené práci, problému nebo mimořádné situaci.",
+      "judgement_within_assignment_verbatim": "Rozliší informaci, kterou může vyřešit v rámci práce, od skutečnosti, kterou musí oznámit.",
+      "autonomy_boundary_verbatim": "Nezamlčuje chyby nebo neobvyklé situace a neprovádí odborná rozhodnutí pouze proto, aby nemusel žádat o další pokyn.",
+      "production_approved": false
+    },
+    {
+      "id": "C13",
+      "name": "Pracovní komunikace a odborná terminologie",
+      "independent_performance_verbatim": "Rozumí základní české odborné terminologii nezbytné k pracovnímu zadání, bezpečnosti a prováděným činnostem. Používá jednoduché a jednoznačné pracovní názvosloví. Zvládá předem vymezenou základní lesnickou a bezpečnostní terminologii v angličtině a němčině.",
+      "judgement_within_assignment_verbatim": "Umí si ověřit, zda správně pochopil pracovní pokyn, a v nejasné situaci se doptat.",
+      "autonomy_boundary_verbatim": "Cílem není obecná jazyková výuka ani akademická odborná angličtina či němčina. Bezpečnostní a pracovní pokyn nesmí pracovník provádět, pokud mu nerozumí.",
+      "production_approved": false
+    },
+    {
+      "id": "C14",
+      "name": "Spolupráce a pracovní odpovědnost",
+      "independent_performance_verbatim": "Dodržuje dohodnutý pracovní režim, spolupracuje s ostatními a respektuje rozdělení odpovědností na pracovišti. Pečuje o svěřené nářadí a prostředky a odpovídá za kvalitu vlastního pracovního výkonu.",
+      "judgement_within_assignment_verbatim": "Dokáže upravit organizaci své práce v rámci zadaného úkolu a upozornit na problém ovlivňující práci skupiny.",
+      "autonomy_boundary_verbatim": "Nemění svévolně práci ostatních nebo organizaci pracoviště v oblastech, za něž odpovídá jiná osoba.",
+      "production_approved": false
+    }
+  ]
+}

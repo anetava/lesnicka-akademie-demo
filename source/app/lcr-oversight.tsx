@@ -1,0 +1,23 @@
+import {useEffect,useState} from 'react';
+import {ShieldCheck,Users,BookOpen,ClipboardList,AlertTriangle,Calendar,Download,RefreshCw,ArrowRight} from 'lucide-react';
+import {ForestArt} from './forest-art';
+import {Button} from '@/components/ui/button';
+
+export function LcrOversight({user,api,nav}:any){
+ const [state,setState]=useState<any>(null),[error,setError]=useState(''),[busy,setBusy]=useState(false);
+ const refresh=async()=>{setBusy(true);try{const [overview,study]=await Promise.all([api('ivp'),api('study-overview')]);setState({overview,study});setError('')}catch(e:any){setError(e.message)}finally{setBusy(false)}};
+ useEffect(()=>{if(user.role==='lcr')void refresh()},[user.id]);
+ if(user.role!=='lcr')return <section className="card"><h1>Dohled nad vzděláváním LČR</h1><p>Pro tento přehled otevřete ukázkový účet L01 v přepínači účtů.</p></section>;
+ const exportReport=()=>{if(!state)return;const d={title:'Dohled nad vzděláváním LČR',scope:'Agregovaný přehled syntetických údajů',exportedAt:new Date().toISOString(),summary:state.overview.summary,learning:state.study.summary,schedule:state.overview.schedule};const url=URL.createObjectURL(new Blob([JSON.stringify(d,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='LCR_dohled_prezentacni_prehled.json';a.click();URL.revokeObjectURL(url)};
+ return <>
+  <div className="page-heading nature-heading nature-heading--left"><ForestArt scene="overview"/><div><p className="kicker">VEDENÍ LČR · DOHLED NAD VZDĚLÁVÁNÍM</p><h1>Dohled nad vzděláváním LČR</h1><p>Souhrnný přehled průběhu, výsledků a kvality vzdělávání pro vedení organizace.</p></div><Button variant="outline" disabled={busy} onClick={refresh}><RefreshCw/>Obnovit přehled</Button></div>
+  {error&&<div role="alert" className="message error">{error}</div>}
+  {!state?<p role="status">Načítání souhrnného přehledu…</p>:<>
+   <div className="stats-row four">{[[Users,state.overview.summary.learners,'účastníků v běhu'],[BookOpen,state.study.summary.passed,'úspěšně vyřešených kvízů'],[ClipboardList,state.overview.summary.pending,'misí čekajících na hodnocení'],[AlertTriangle,state.overview.summary.critical,'kritických odchylek v modelu']].map(([Icon,value,label]:any)=><section className="stat-card" key={label}><Icon size={25}/><div><b>{value}</b><p>{label}</p></div></section>)}</div>
+   <div className="two-cols"><section className="card"><span className="tag">PRŮBĚH UČENÍ</span><h2>Digitální příprava</h2><p><b>36 lekcí</b> v šesti výukových blocích; 108 rozhodovacích otázek a 36 vlastních výstupů.</p><dl className="lcr-indicators"><div><dt>Zahájené kvízy</dt><dd>{state.study.summary.started}</dd></div><div><dt>Uložené výstupy účastníků</dt><dd>{state.study.summary.works}</dd></div><div><dt>Praktické karty pro instruktora</dt><dd>8</dd></div></dl><Button variant="outline" onClick={()=>nav('/uceni')}>Obsah vzdělávání<ArrowRight/></Button></section>
+   <section className="card"><span className="tag">KVALITA A PODMÍNKY</span><h2>Návaznost na odbornou praxi</h2><dl className="lcr-indicators"><div><dt>Bez naplánované příležitosti k praxi</dt><dd>{state.overview.summary.noOpportunity}</dd></div><div><dt>Ověřené praktické výkony</dt><dd>{state.overview.summary.practicalVerified}</dd></div></dl><p>Výsledky digitální přípravy a výkon na pracovišti se hodnotí odděleně. Odborné ověření vyžaduje pověřeného instruktora, stanovená kritéria a záznam pozorování.</p></section></div>
+   <div className="two-cols"><section className="card"><h2><Calendar size={22}/> Organizace vzdělávání</h2><p>{state.overview.schedule.notes}</p><p>Harmonogram, pracoviště a sezónní podmínky se stanovují pro konkrétní běh.</p></section><section className="card"><h2><ShieldCheck size={22}/> Rozsah dohledu</h2><p>Přehled obsahuje agregované ukazatele. Osobní odpovědi, jmenné hodnocení a individuální reflexe účastníků se v této roli nezobrazují.</p><p>Ukázkový účet L01 předvádí roli vedení. Osobní přihlášení a provozní oprávnění budou součástí zabezpečené provozní verze.</p></section></div>
+   <Button variant="outline" onClick={exportReport}><Download/>Exportovat přehled pro vedení LČR</Button>
+  </>}
+ </>;
+}

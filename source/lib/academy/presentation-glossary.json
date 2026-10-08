@@ -1,0 +1,152 @@
+[
+  {
+    "term": "Lesní porost",
+    "english": "forest stand",
+    "meaning": "Soubor lesních dřevin rostoucích na určité ploše; posuzuje se jeho skladba, struktura, věk a stav."
+  },
+  {
+    "term": "Dřevinná skladba",
+    "english": "species composition",
+    "meaning": "Zastoupení jednotlivých druhů dřevin v porostu."
+  },
+  {
+    "term": "Obnova lesa",
+    "english": "forest regeneration",
+    "meaning": "Vznik nové generace lesních dřevin přirozeným, umělým nebo kombinovaným způsobem."
+  },
+  {
+    "term": "Přirozená obnova",
+    "english": "natural regeneration",
+    "meaning": "Vznik nové generace dřevin přirozeným rozmnožováním, zejména ze semen nebo vegetativně."
+  },
+  {
+    "term": "Umělá obnova",
+    "english": "artificial regeneration",
+    "meaning": "Založení nové generace lesních dřevin výsadbou sadebního materiálu nebo síjí."
+  },
+  {
+    "term": "Sadební materiál",
+    "english": "planting stock",
+    "meaning": "Rostliny určené k výsadbě při obnově lesa nebo zalesňování."
+  },
+  {
+    "term": "Semenáček",
+    "english": "seedling",
+    "meaning": "Rostlina vypěstovaná ze semene bez předchozího přesazení."
+  },
+  {
+    "term": "Sazenice",
+    "english": "transplant",
+    "meaning": "Sadební materiál vypěstovaný s přesazením; označení se odlišuje od semenáčku."
+  },
+  {
+    "term": "Prostokořenný sadební materiál",
+    "english": "bare-root planting stock",
+    "meaning": "Sadební materiál dodávaný s kořeny bez souvislého kořenového balu."
+  },
+  {
+    "term": "Krytokořenný sadební materiál",
+    "english": "containerized planting stock",
+    "meaning": "Sadební materiál s kořenovým systémem v balu pěstebního substrátu."
+  },
+  {
+    "term": "Kořenový krček",
+    "english": "root collar",
+    "meaning": "Přechodová oblast mezi kořenovým systémem a nadzemní částí rostliny."
+  },
+  {
+    "term": "Výsadba",
+    "english": "planting",
+    "meaning": "Uložení sadebního materiálu do připraveného místa stanoveným způsobem."
+  },
+  {
+    "term": "Síje",
+    "english": "seeding",
+    "meaning": "Zakládání obnovy výsevem lesního osiva do určených míst nebo ploch."
+  },
+  {
+    "term": "Vylepšování",
+    "english": "beating up / repair planting",
+    "meaning": "Doplňování výsadby v místech neúspěšné obnovy podle odborně stanoveného zadání."
+  },
+  {
+    "term": "Buřeň",
+    "english": "competing ground vegetation",
+    "meaning": "Konkurenční přízemní vegetace omezující vznik nebo odrůstání obnovy lesa."
+  },
+  {
+    "term": "Ožínání",
+    "english": "cutting competing vegetation",
+    "meaning": "Mechanické seřezávání buřeně v určeném rozsahu při ochraně kultur a nárostů."
+  },
+  {
+    "term": "Výchova porostů",
+    "english": "stand tending",
+    "meaning": "Pěstební zásahy usměrňující skladbu, strukturu, kvalitu, zdravotní stav a stabilitu porostu."
+  },
+  {
+    "term": "Prořezávka",
+    "english": "cleaning",
+    "meaning": "Výchovný zásah v mladém porostu, jehož hlavním účelem je usměrnění dalšího vývoje porostu."
+  },
+  {
+    "term": "Probírka",
+    "english": "thinning",
+    "meaning": "Výchovný zásah v pozdějším vývojovém stadiu porostu; získává se zpravidla využitelné dříví."
+  },
+  {
+    "term": "Kladný výběr",
+    "english": "positive selection",
+    "meaning": "Vyhledání perspektivních jedinců a jejich podpora omezením nežádoucí konkurence."
+  },
+  {
+    "term": "Záporný výběr",
+    "english": "negative selection",
+    "meaning": "Vyhledání a odstranění jedinců s nežádoucími vlastnostmi podle stanoveného pěstebního cíle."
+  },
+  {
+    "term": "Konkurence",
+    "english": "competition",
+    "meaning": "Vzájemné omezování organismů při využívání prostoru, světla, vody nebo živin."
+  },
+  {
+    "term": "Koruna",
+    "english": "crown",
+    "meaning": "Nadzemní větvená část dřeviny nesoucí listy nebo jehlice."
+  },
+  {
+    "term": "Terminální výhon",
+    "english": "terminal shoot",
+    "meaning": "Vrcholový výhon zajišťující hlavní výškový růst jedince."
+  },
+  {
+    "term": "Okus",
+    "english": "browsing",
+    "meaning": "Poškození výhonů, listů nebo pupenů jejich ukousnutím zvěří."
+  },
+  {
+    "term": "Ohryz",
+    "english": "bark browsing",
+    "meaning": "Poškození kůry zvěří s patrnými stopami okusování."
+  },
+  {
+    "term": "Loupání",
+    "english": "bark stripping",
+    "meaning": "Odstraňování větších částí kůry zvěří."
+  },
+  {
+    "term": "Klest",
+    "english": "slash / brushwood",
+    "meaning": "Větve a vrcholové části dřevin zbývající po těžební činnosti."
+  },
+  {
+    "term": "Křovinořez",
+    "english": "brush cutter",
+    "meaning": "Přenosný stroj s řezným nástrojem pro vegetaci v rozsahu použití stanoveném výrobcem."
+  },
+  {
+    "term": "Biodiverzita",
+    "english": "biodiversity",
+    "meaning": "Rozmanitost organismů, jejich genetické variability a ekosystémů."
+  }
+]

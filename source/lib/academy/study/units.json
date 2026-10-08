@@ -2,42 +2,42 @@
   {
     "id": "Z01",
     "block": "Z",
-    "title": "Proč děláme právě tuto práci",
-    "goal": "Z pracovního zadání vysvětlíš účel zásahu, očekávaný výsledek a jednu hranici vlastního rozhodování.",
+    "title": "Pěstební cíl a převzetí pracovního zadání",
+    "goal": "Z pracovního zadání vysvětlíte účel zásahu, očekávaný výsledek a jednu hranici vlastního rozhodování.",
     "minutes": 10,
     "competencies": [
       "C01",
       "C10",
       "C13"
     ],
-    "intro": "Lesnická práce má smysl podle toho, čemu pomůže. Stejně upravené plochy mohou mít různý výsledek pro stromky, které mají dál růst.",
+    "intro": "Lesnická činnost se posuzuje podle stanoveného pěstebního cíle a výsledného stavu porostu. Stejný pracovní úkon může v rozdílných porostních podmínkách vyžadovat odlišné provedení.",
     "sections": [
       {
-        "title": "Od úkonu k výsledku",
-        "body": "Výsadba zakládá nebo doplňuje novou generaci lesa. Péče o mladé stromky jim pomáhá růst; výchovný zásah ovlivňuje další vývoj porostu. LČR spojují pěstování s produkcí dřeva, pestrostí a stabilitou lesa. Proto otázka „Kolik toho uděláme?“ potřebuje doplnit otázku „Co má po práci zůstat a v jakém stavu?“"
+        "title": "Vztah pracovního úkonu a pěstebního cíle",
+        "body": "Výsadba zakládá nebo doplňuje novou generaci lesa. Péče o mladé dřeviny jim pomáhá růst; výchovný zásah ovlivňuje další vývoj porostu. LČR spojují pěstování s produkcí dřeva, druhovou rozmanitostí a stabilitou lesa. Proto otázka „Jaký rozsah pracovního výkonu je požadován?“ potřebuje doplnit otázku „Jaký výsledný stav porostu vyžaduje pěstební cíl?“"
       },
       {
-        "title": "Pět údajů před začátkem",
-        "body": "V zadání hledej místo, konkrétní činnost, rozsah, znaky dobrého výsledku a prvky k zachování. Nestačí „dnes půjdeme čistit“. Může jít o péči kolem určených sazenic, nikoli odstranění všeho zeleného. Vlastními slovy zopakuj, co uděláš. Odpovědná osoba tak může včas opravit rozdílné pochopení úkolu. Ke každému údaji zkus najít podklad: kartu, vysvětlení nebo ukázku. Co v nich opravdu je, odděl od toho, co teprve potřebuješ zjistit. Tím předejdeš domýšlení chybějících pracovních parametrů."
+        "title": "Náležitosti pracovního zadání",
+        "body": "Pracovní zadání musí vymezit pracoviště, činnost, rozsah, kritéria kvality a prvky určené k zachování. Obecný pokyn „provést pěstební práce“ tyto údaje nenahrazuje. Při péči o kultury může být cílem omezení konkurenční vegetace kolem určených sazenic, nikoli plošné odstranění vegetačního krytu. Vlastními slovy potvrďte porozumění zadání. Pro každý parametr určete podklad: pracovní kartu, vysvětlení odpovědné osoby nebo referenční ukázku. Chybějící parametry před zahájením ověřte."
       },
       {
-        "title": "Co smíš rozhodnout",
-        "body": "V rámci jasného zadání organizuješ svěřenou práci. Neměníš sám druhovou skladbu ani cíl zásahu. Jestli skutečnost neodpovídá podkladu, pojmenuj konkrétní rozdíl a vyžádej si upřesnění. Dobrý dotaz má obsah: „Na kartě je prázdná mezera, ale tady jsou mladé stromky. Mají zůstat?“"
+        "title": "Rozsah samostatného rozhodování",
+        "body": "V rámci potvrzeného zadání organizujete svěřenou práci. Samostatně neměníte druhovou skladbu ani pěstební cíl. Při rozporu skutečného stavu s podklady popište zjištění a vyžádejte si upřesnění. Příklad odborného dotazu: „V prostoru určeném k doplnění výsadby se nachází skupina mladých dřevin. Je určena k zachování a jak se upraví rozmístění sadebního materiálu?“"
       }
     ],
     "example": {
-      "situation": "Modelová karta žádá doplnit buk do označených mezer. Uprostřed jedné roste skupina neoznačených stromků.",
+      "situation": "Modelová karta žádá doplnit buk do označených mezer. Uprostřed jedné roste skupina neoznačených stromů.",
       "response": "Před prací v této mezeře ověřím, zda se skupina zachová a kam patří doplnění.",
       "why": "Nový nález může změnit provedení, ale nedává mi pravomoc změnit cíl obnovy."
     },
     "mistakes": [
-      "Považovat uklizený vzhled za jediný cíl může vést k odstranění žádoucích stromků.",
+      "Posuzování zásahu pouze podle vzhledu plochy může vést k odstranění žádoucích jedinců.",
       "Neurčitému zadání přisoudit vlastní význam znamená pracovat podle domněnky."
     ],
     "terms": [
       {
         "term": "Pěstební cíl",
-        "meaning": "Výsledek, kterému má práce pomoci při dalším vývoji lesa."
+        "meaning": "Požadovaný stav a směr vývoje porostu, kterému odpovídá stanovený pěstební zásah."
       },
       {
         "term": "Zadání",
@@ -67,7 +67,7 @@
       },
       {
         "id": "q2",
-        "prompt": "V mezeře určené k výsadbě objevíš skupinu stromků, kterou karta neřeší. Co následuje?",
+        "prompt": "V mezeře určené k výsadbě objevíte skupinu stromů, kterou karta neřeší. Co následuje?",
         "options": [
           {
             "id": "a",
@@ -107,48 +107,44 @@
       }
     ],
     "task": {
-      "title": "Převezmi úkol po svém",
-      "prompt": "Model: doplnit buk do označených mezer, zachovat vyznačené skupiny zmlazení. Napiš ve 2–4 větách účel a rozsah práce. Přidej konkrétní dotaz na údaj, který ti ještě chybí.",
+      "title": "Převezměte úkol po svém",
+      "prompt": "Model: doplnit buk do označených mezer, zachovat vyznačené skupiny zmlazení. Napište ve 2–4 větách účel a rozsah práce. Přidejte konkrétní dotaz na údaj, který vám ještě chybí.",
       "checks": [
         "Vysvětlí účel doplnění obnovy.",
         "Odliší místo výsadby od skupin k zachování.",
         "Položí otázku, která upřesňuje provedení."
       ]
     },
-    "sourceIds": [
-      "F-S1",
-      "F-S2",
-      "F-LCR-PEST"
-    ]
+    "sourceIds": []
   },
   {
     "id": "Z02",
     "block": "Z",
-    "title": "Smrk a jedle: najdi dva znaky",
-    "goal": "V modelovém porovnání smrku ztepilého a jedle bělokoré určíš dřevinu podle kombinace znaků a pojmenuješ nejistý případ.",
+    "title": "Rozlišovací znaky smrku ztepilého a jedle bělokoré",
+    "goal": "V modelovém porovnání smrku ztepilého a jedle bělokoré určíte dřevinu podle kombinace znaků a pojmenujete nejistý případ.",
     "minutes": 10,
     "competencies": [
       "C01",
       "C02",
       "C03"
     ],
-    "intro": "Mladé jehličnany bývají podobné a na sazenici obvykle nenajdeš šišky. Při práci potřebuješ vidět rozlišovací znaky přímo na větvičce.",
+    "intro": "Určování mladých jehličnatých dřevin vychází z více pozorovatelných morfologických znaků. Při absenci šišek se využívá zejména tvar a uspořádání jehlic a charakter větvičky.",
     "sections": [
       {
         "title": "Smrk ztepilý",
-        "body": "Jehlice smrku jsou zpravidla špičaté a čtyřhranné. Prohlédni několik jehlic a jejich tvar, ne pouze odstín zelené. Dospělé smrkové šišky visí dolů, ale tento znak na mladém stromku často chybí. Když šišku nevidíš, nevymýšlej si ji: zaznamenej pouze znaky, které skutečně pozoruješ."
+        "body": "Jehlice smrku jsou zpravidla špičaté a čtyřhranné. Prohlédněte několik jehlic a jejich tvar, ne pouze odstín zelené. Dospělé smrkové šišky visí dolů, ale tento znak na mladém stromu často chybí. Když šišku nevidíte, nevymýšlejte si ji: zaznamenejte pouze znaky, které skutečně pozorujete."
       },
       {
         "title": "Jedle bělokorá",
-        "body": "U jedle hledej ploché jehlice a dva světlé proužky na jejich spodní straně. Větvičku je proto potřeba prohlédnout také zespodu. Jedlové šišky stojí vzhůru. V této lekci rozhoduješ mezi smrkem a jedlí; dvojice znaků není univerzální klíč ke všem jehličnanům, které můžeš v lese potkat."
+        "body": "U jedle hledejte ploché jehlice a dva světlé proužky na jejich spodní straně. Větvičku je proto potřeba prohlédnout také zespodu. Jedlové šišky stojí vzhůru. V této lekci rozhodujete mezi smrkem a jedlí; dvojice znaků není univerzální klíč ke všem jehličnanům, které můžete v lese potkat."
       },
       {
         "title": "Od názvu k pracovnímu rozhodnutí",
-        "body": "Při nácviku nejprve popiš tvar jehlic a spodní stranu, teprve potom navrhni název. Používej skutečný vzorek nebo odborně ověřenou fotografii s detailem. Z názvu druhu ještě neplyne pokyn stromek odstranit. O jeho roli rozhoduje zadání. Nejasný nebo špatně viditelný vzorek předej k ověření před nevratným zásahem. Ve dvojici může jeden člověk popsat viděné znaky bez vyslovení názvu a druhý vybrat odpovídající vzorek. Potom si role vyměňte. Rozdílné odpovědi porovnejte přímo na větvičkách, nikoli hlasováním nebo podle sebejistoty."
+        "body": "Při nácviku nejprve popište tvar jehlic a spodní stranu, teprve potom navrhněte název. Používejte skutečný vzorek nebo odborně ověřenou fotografii s detailem. Z názvu druhu ještě neplyne pokyn strom odstranit. O jeho roli rozhoduje zadání. Nejasný nebo špatně viditelný vzorek předejte k ověření před nevratným zásahem. Ve dvojici může jeden člověk popsat viděné znaky bez vyslovení názvu a druhý vybrat odpovídající vzorek. Potom si role vyměňte. Rozdílné odpovědi porovnejte přímo na větvičkách, nikoli hlasováním nebo podle sebejistoty."
       }
     ],
     "example": {
-      "situation": "Vzorek A má ploché jehlice se dvěma světlými proužky vespod; vybíráš mezi smrkem a jedlí.",
+      "situation": "Vzorek A má ploché jehlice se dvěma světlými proužky vespod; vybíráte mezi smrkem a jedlí.",
       "response": "Navrhnu jedli a ukážu oba znaky na vzorku.",
       "why": "Rozhodnutí má konkrétní oporu, nikoli pouze dojem z celkové barvy."
     },
@@ -169,7 +165,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Vybíráš mezi smrkem a jedlí. Jehlice jsou ploché a vespod mají dva světlé proužky. Co odpovídá?",
+        "prompt": "Vybíráte mezi smrkem a jedlí. Jehlice jsou ploché a vespod mají dva světlé proužky. Co odpovídá?",
         "options": [
           {
             "id": "a",
@@ -189,7 +185,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Jaký znak běžně hledáš u jehlic smrku?",
+        "prompt": "Jaký znak běžně hledáte u jehlic smrku?",
         "options": [
           {
             "id": "a",
@@ -217,7 +213,7 @@
           },
           {
             "id": "b",
-            "text": "Všechny nejasné stromky odstraním."
+            "text": "Všechny nejasné stromy odstraním."
           },
           {
             "id": "c",
@@ -225,63 +221,59 @@
           }
         ],
         "correct": "c",
-        "explanation": "Když rozhodující znaky nevidíš, chybí důkaz. Četnost druhu ani potřeba rychle pokračovat jej nenahradí."
+        "explanation": "Když rozhodující znaky nevidíte, chybí důkaz. Četnost druhu ani potřeba rychle pokračovat jej nenahradí."
       }
     ],
     "task": {
       "title": "Popis před názvem",
-      "prompt": "Ve 2–4 větách porovnej modelové vzorky: A má ploché jehlice a dva světlé proužky vespod, B špičaté čtyřhranné jehlice. Přiřaď smrk a jedli. Přidej, co potřebuješ vědět, než bys některý stromek odstranil.",
+      "prompt": "Ve 2–4 větách porovnejte modelové vzorky: A má ploché jehlice a dva světlé proužky vespod, B špičaté čtyřhranné jehlice. Přiřaďte smrk a jedli. Přidejte, co potřebujete vědět, před rozhodnutím o odstranění stromu.",
       "checks": [
         "Přiřadí A k jedli a B ke smrku.",
         "Uvede pozorované znaky.",
         "Oddělí určení druhu od zadání zásahu."
       ]
     },
-    "sourceIds": [
-      "F-S2",
-      "F-MEN-SM",
-      "F-MEN-JD"
-    ]
+    "sourceIds": []
   },
   {
     "id": "Z03",
     "block": "Z",
-    "title": "Buk a dub: list i pupen",
-    "goal": "Odlišíš v modelu buk lesní od dubu letního podle listů a pupenů a vysvětlíš, proč neurčený listnáč není automaticky buřeň.",
+    "title": "Rozlišovací znaky buku lesního a dubu letního",
+    "goal": "Odlišíte v modelu buk lesní od dubu letního podle listů a pupenů a vysvětlíte, proč neurčený listnatý strom není automaticky buřeň.",
     "minutes": 10,
     "competencies": [
       "C01",
       "C02",
       "C03"
     ],
-    "intro": "Listnáče mezi sazenicemi mohou patřit k žádoucí obnově. Než rozhodneš o péči, potřebuješ spojit určení dřeviny s konkrétním zadáním.",
+    "intro": "Rozpoznání listnatých dřevin vychází z listů, pupenů a dalších morfologických znaků. Určení druhu se posuzuje odděleně od jeho pěstební funkce v konkrétním porostu.",
     "sections": [
       {
         "title": "Buk lesní",
-        "body": "Buk má eliptické až vejčité listy s vlnitým okrajem. Pomáhají také dlouhé, štíhlé a špičaté pupeny. Pupen je užitečný zejména tehdy, když stromek právě nemá listy. Prohlédni více částí větvičky; poškozený jednotlivý list může mít jiný obrys než zdravé listy stejné rostliny."
+        "body": "Buk má eliptické až vejčité listy s vlnitým okrajem. Pomáhají také dlouhé, štíhlé a špičaté pupeny. Pupen je užitečný zejména tehdy, když strom právě nemá listy. Prohlédněte více částí větvičky; poškozený jednotlivý list může mít jiný obrys než zdravé listy stejné rostliny."
       },
       {
         "title": "Dub letní",
-        "body": "List dubu letního má zaoblené laloky, krátký řapík a u báze drobné lalůčky. Pupeny jsou oproti bukovým kratší a vejčité, na konci výhonu nahloučené. Žaludy na dlouhé stopce jsou další vodítko dospělého stromu. Zde se učíš porovnat buk a dub letní, nikoli bezpečně určit všechny druhy dubů."
+        "body": "List dubu letního má zaoblené laloky, krátký řapík a u báze drobné lalůčky. Pupeny jsou oproti bukovým kratší a vejčité, na konci výhonu nahloučené. Žaludy na dlouhé stopce jsou další vodítko dospělého stromu. Zde se učíte porovnat buk a dub letní, nikoli bezpečně určit všechny druhy dubů."
       },
       {
         "title": "Zachovat, nebo ověřit",
-        "body": "Název dřeviny není příkaz k odstranění. I menší listnáč může být příměsí, kterou zadání chrání. U nejasného nálezu ukaž instruktorovi celý stromek a detail listu nebo pupenu. Připoj místo nálezu a otázku, jak s ním naložit. V terénu porovnávej skutečné vzorky nebo spolehlivé fotografie, ne ozdobné ilustrace. Při společném určování nejdřív ukaž konkrétní znak a teprve potom řekni název. Pokud druhý člověk znak nevidí, pomůže další vzorek nebo lepší detail. Pouhá jistota v hlase není důkaz správného určení."
+        "body": "Název dřeviny není příkaz k odstranění. I menší listnatý strom může být příměsí, kterou zadání chrání. U nejasného nálezu ukažte instruktorovi celý strom a detail listu nebo pupenu. Připojte místo nálezu a otázku, jak s ním naložit. V terénu porovnávejte skutečné vzorky nebo spolehlivé fotografie, ne ozdobné ilustrace. Při společném určování nejdřív ukažte konkrétní znak a teprve potom sdělte název. Pokud druhý člověk znak nevidí, pomůže další vzorek nebo lepší detail. Pouhá jistota v hlase není důkaz správného určení."
       }
     ],
     "example": {
-      "situation": "Zimní vzorek má dlouhé štíhlé špičaté pupeny. Vybíráš mezi bukem a dubem letním.",
+      "situation": "Zimní vzorek má dlouhé štíhlé špičaté pupeny. Vybíráte mezi bukem a dubem letním.",
       "response": "Navrhnu buk; na dalším vzorku si nechám potvrdit tvar pupenů.",
       "why": "Určení opírám o dostupný znak, i když teď nejsou listy."
     },
     "mistakes": [
-      "Označit každý listnáč za nežádoucí může poškodit plánovanou směs.",
+      "Označit každý listnatý strom za nežádoucí může poškodit plánovanou směs.",
       "Určení z jediného roztrhaného listu může přehlédnout skutečný tvar i jiné znaky."
     ],
     "terms": [
       {
         "term": "Pupen",
-        "meaning": "Základ budoucího výhonu, listů nebo květů; při určování sleduj jeho tvar a polohu."
+        "meaning": "Základ budoucího výhonu, listů nebo květů; při určování sledujte jeho tvar a polohu."
       },
       {
         "term": "Řapík",
@@ -307,11 +299,11 @@
           }
         ],
         "correct": "c",
-        "explanation": "Buk poznáváš kombinací listu a pupenu. Laloky s žaludy směřují k dubu."
+        "explanation": "Buk poznáváte kombinací listu a pupenu. Laloky s žaludy směřují k dubu."
       },
       {
         "id": "q2",
-        "prompt": "Jaké listy očekáváš u dubu letního?",
+        "prompt": "Jaké listy očekáváte u dubu letního?",
         "options": [
           {
             "id": "a",
@@ -327,11 +319,11 @@
           }
         ],
         "correct": "a",
-        "explanation": "U dubu letního sleduj celou kombinaci, ne pouze jeden výřez okraje."
+        "explanation": "U dubu letního sledujte celou kombinaci, ne pouze jeden výřez okraje."
       },
       {
         "id": "q3",
-        "prompt": "Karta chrání příměs buku. Najdeš malý stromek s odpovídajícími znaky mezi vyššími smrky. Co rozhoduje?",
+        "prompt": "Karta chrání příměs buku. Najdete malý strom s odpovídajícími znaky mezi vyššími smrky. Co rozhoduje?",
         "options": [
           {
             "id": "a",
@@ -351,25 +343,21 @@
       }
     ],
     "task": {
-      "title": "Vysvětli nález kolegovi",
-      "prompt": "Napiš ve 2–4 větách rozdíl mezi bukem a dubem letním pomocí listu a pupenu. Pak uveď, co uděláš s neurčeným listnáčem v ploše, kde se má zachovat příměs.",
+      "title": "Vysvětlete nález kolegovi",
+      "prompt": "Napište ve 2–4 větách rozdíl mezi bukem a dubem letním pomocí listu a pupenu. Pak uveďte, co uděláte s neurčeným listnatým stromem v ploše, kde se má zachovat příměs.",
       "checks": [
         "Uvede odlišné znaky obou dřevin.",
         "Nepoužije výšku jako určující znak.",
         "Nejasný nález nechá ověřit před odstraněním."
       ]
     },
-    "sourceIds": [
-      "F-S2",
-      "F-MEN-BK",
-      "F-MEN-DB"
-    ]
+    "sourceIds": []
   },
   {
     "id": "Z04",
     "block": "Z",
-    "title": "Kde práce začíná a končí",
-    "goal": "V modelovém zadání rozlišíš pracovní plochu, přístup a místo bez zásahu; najdeš nesoulad, který vyžaduje upřesnění.",
+    "title": "Vymezení pracoviště a orientace v porostu",
+    "goal": "V modelovém zadání rozlišíte pracovní plochu, přístup a místo bez zásahu; najdete nesoulad, který vyžaduje upřesnění.",
     "minutes": 10,
     "competencies": [
       "C01",
@@ -377,19 +365,19 @@
       "C10",
       "C12"
     ],
-    "intro": "Správný úkol provedený za špatnou hranicí je pořád chyba. Před prací potřebuješ propojit pracovní kartu, mapku a skutečné místo.",
+    "intro": "Před zahájením činnosti musí být jednoznačně určeno pracoviště, jeho hranice, přístupové trasy a prvky ponechávané bez zásahu. Pracovní podklady se ověřují podle skutečného stavu v terénu.",
     "sections": [
       {
         "title": "Tři různé informace",
-        "body": "Pracovní plocha říká, kde je zadaná činnost. Přístupová trasa říká, kudy se na místo dostaneš. Plocha nebo prvek bez zásahu určuje, co musí zůstat. Tyto informace mohou ležet těsně vedle sebe. Cesta přes sousední porost sama neopravňuje k práci v něm. V cvičné mapce si tyto tři informace pojmenuj zvlášť. U každé ukaž bod, podle kterého ji v terénu poznáš. Když nedokážeš vysvětlit, kde pracovní plocha končí, nejdřív si nech hranici znovu ukázat."
+        "body": "Pracovní plocha říká, kde je zadaná činnost. Přístupová trasa říká, kudy se na místo dostanete. Plocha nebo prvek bez zásahu určuje, co musí zůstat. Tyto informace mohou ležet těsně vedle sebe. Cesta přes sousední porost sama neopravňuje k práci v něm. V cvičné mapě si tyto tři informace pojmenujte zvlášť. U každé ukažte bod, podle kterého ji v terénu poznáte. Když nedokážete vysvětlit, kde pracovní plocha končí, nejdřív si nechte hranici znovu ukázat."
       },
       {
         "title": "Značení musí mít význam",
-        "body": "Zjisti, která verze mapky platí a jak číst její značky. Barvě pásky nebo značce na stromu nepřiřazuj význam ze zvyku z jiné plochy. Ověř s vedoucím začátek, konec a nejasná místa hranice. Pokud chybí označení, nenahrazuj ho odhadem jen proto, že podobný porost pokračuje dál."
+        "body": "Zjistěte, která verze mapy platí a jak číst její značky. Barvě pásky nebo značce na stromu nepřiřazujte význam ze zvyku z jiné plochy. Ověřte s vedoucím začátek, konec a nejasná místa hranice. Pokud chybí označení, nenahrazujte ho odhadem jen proto, že podobný porost pokračuje dál."
       },
       {
-        "title": "Nesoulad popiš přesně",
-        "body": "Když mapka ukazuje jiný průběh než vysvětlené značení, zastav rozhodnutí v nejasném místě a požádej o upřesnění. Pomůže věta: „Podle mapky hranice končí u křižovatky, v terénu vidím pásku dál po cestě.“ Fotografie může dotaz doplnit. Sama však neprokazuje, která hranice je závazná."
+        "title": "Nesoulad popište přesně",
+        "body": "Když mapa ukazuje jiný průběh než vysvětlené značení, zastavte rozhodnutí v nejasném místě a požádejte o upřesnění. Pomůže věta: „Podle mapy hranice končí u křižovatky, v terénu vidím pásku dál po cestě.“ Fotografie může dotaz doplnit. Sama však neprokazuje, která hranice je závazná."
       }
     ],
     "example": {
@@ -398,7 +386,7 @@
       "why": "Podobný vzhled a přístup nejsou rozšířením pracovního zadání."
     },
     "mistakes": [
-      "Použití staré mapky může přenést práci do nesprávného úseku.",
+      "Použití staré mapy může přenést práci do nesprávného úseku.",
       "Považovat všechny barevné značky za stejný pokyn přehlíží jejich místní význam."
     ],
     "terms": [
@@ -414,7 +402,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Mapka povoluje práci vlevo od cesty. Vpravo vede pouze přístup. Kde platí pracovní úkol?",
+        "prompt": "Mapa povoluje práci vlevo od cesty. Vpravo vede pouze přístup. Kde platí pracovní úkol?",
         "options": [
           {
             "id": "a",
@@ -434,7 +422,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Vidíš pásku stejné barvy jako na minulé zakázce. Co z toho bezpečně vyvodíš?",
+        "prompt": "Vidíte pásku stejné barvy jako na minulé zakázce. Co z toho bezpečně vyvodíte?",
         "options": [
           {
             "id": "a",
@@ -450,11 +438,11 @@
           }
         ],
         "correct": "b",
-        "explanation": "Značení čti podle aktuální instruktáže a legendy. Barva sama nepotvrzuje univerzální význam."
+        "explanation": "Značení čtěte podle aktuální instruktáže a legendy. Barva sama nepotvrzuje univerzální význam."
       },
       {
         "id": "q3",
-        "prompt": "Mapka a vysvětlená hranice v terénu si odporují. Co je užitečný dotaz?",
+        "prompt": "Mapa a vysvětlená hranice v terénu si odporují. Co je užitečný dotaz?",
         "options": [
           {
             "id": "a",
@@ -462,7 +450,7 @@
           },
           {
             "id": "b",
-            "text": "Mohu si vybrat hezčí mapku?"
+            "text": "Mohu si vybrat hezčí mapu?"
           },
           {
             "id": "c",
@@ -475,22 +463,20 @@
     ],
     "task": {
       "title": "Krátké hlášení o hranici",
-      "prompt": "Model: mapka končí u křižovatky, označení pokračuje dál a vedoucí není vedle tebe. Napiš ve 2–4 větách, co je nejasné, kterou část zatím neprovedeš a jakou odpověď potřebuješ.",
+      "prompt": "Model: mapa končí u křižovatky, označení pokračuje dál a vedoucí není vedle vás. Napište ve 2–4 větách, co je nejasné, kterou část zatím neprovedete a jakou odpověď potřebujete.",
       "checks": [
-        "Pojmenuje rozpor mapky a terénu.",
+        "Pojmenuje rozpor mapy a terénu.",
         "Neprodlouží sám pracovní plochu.",
         "Položí konkrétní otázku na závaznou hranici."
       ]
     },
-    "sourceIds": [
-      "F-S2"
-    ]
+    "sourceIds": []
   },
   {
     "id": "Z05",
     "block": "Z",
-    "title": "Připrav den, nejen nářadí",
-    "goal": "Sestavíš přípravu pracovního dne pro sebe, vybavení a tým a určíš změnu podmínek, kterou je potřeba řešit.",
+    "title": "Příprava pracoviště, pracovníka a vybavení",
+    "goal": "Sestavíte přípravu pracovního dne pro sebe, vybavení a tým a určíte změnu podmínek, kterou je potřeba řešit.",
     "minutes": 10,
     "competencies": [
       "C01",
@@ -498,24 +484,24 @@
       "C09",
       "C14"
     ],
-    "intro": "Příprava dne zahrnuje člověka, prostředky i domluvu. Zapomenutý důležitý údaj může zastavit práci stejně jako chybějící nářadí.",
+    "intro": "Příprava zahrnuje pracovní podmínky, vybavení, osobní ochranné pracovní prostředky a způsob komunikace. Způsobilost pracovníka a použitelnost prostředků se ověřují před zahájením činnosti.",
     "sections": [
       {
-        "title": "Já a podmínky dne",
-        "body": "Před odchodem porovnej očekávané počasí a skutečné podmínky s plánovanou činností. Připrav potřebné oblečení, pití a určené ochranné prostředky. Obtíž, která omezuje bezpečný výkon, sděl vedoucímu před prací. Neodvozuj vhodnost podmínek pouze z toho, že skupina pracovala na stejném místě včera."
+        "title": "Pracovník a aktuální podmínky",
+        "body": "Před odchodem porovnejte očekávané počasí a skutečné podmínky s plánovanou činností. Připravte potřebné oblečení, pití a určené ochranné prostředky. Obtíž, která omezuje bezpečný výkon, sděl vedoucímu před prací. Neodvozujte vhodnost podmínek pouze z toho, že skupina pracovala na stejném místě včera."
       },
       {
         "title": "Vybavení pro konkrétní úkol",
-        "body": "Zjisti, jaké prostředky máš přidělené a co s nimi smíš dělat. Ověř jejich stav v rozsahu svého zaškolení. Zjištěnou závadu popiš před použitím; nespoléhej na to, že ji do konce dne nahradí větší opatrnost. Telefon a pracovní podklady připrav tak, abys je dokázal použít v domluvené situaci."
+        "body": "Ověřte přidělené pracovní prostředky, dovolený rozsah jejich použití a technický stav v mezích svého zaškolení. Závadu oznamte před použitím; zvýšená opatrnost nenahrazuje funkční ochranný prvek. Komunikační prostředek a pracovní podklady připravte pro stanovené situace, včetně přivolání pomoci."
       },
       {
-        "title": "Domluva se skupinou",
-        "body": "Ještě před rozchodem si ujasněte místo práce, rozdělení úloh, způsob spojení a komu hlásit změnu. Potřebuješ vědět, jak se orientovat a jak přivolat pomoc. Během dne sleduj změny počasí, terénu i pohybu ostatních. Ranní domluva je výchozí stav; nové riziko se posuzuje, když nastane. U kontaktu ověř také záložní způsob domluvy pro případ, že běžné spojení nefunguje. Rozdělení práce zopakujte nahlas: kdo vede který úkol a kdo potřebuje vědět o jeho přerušení nebo dokončení dané části."
+        "title": "Dohoda se skupinou",
+        "body": "Ještě před rozchodem si ujasněte místo práce, rozdělení úloh, způsob spojení a komu hlásit změnu. Potřebujete vědět, jak se orientovat a jak přivolat pomoc. Během dne sledujte změny počasí, terénu i pohybu ostatních. Ranní dohoda je výchozí stav; nové riziko se posuzuje, když nastane. U kontaktu ověřte také záložní způsob dohody pro případ, že běžné spojení nefunguje. Rozdělení práce zopakujte nahlas: kdo vede který úkol a kdo potřebuje vědět o jeho přerušení nebo dokončení dané části."
       }
     ],
     "example": {
-      "situation": "Ráno je plocha přehledná. Později mlha zakryje část skupiny a domluvené spojení nefunguje.",
-      "response": "Nepokračuji podle předpokladu z rána; řeším bezpečné přerušení a obnovení domluvy s určenou osobou.",
+      "situation": "Ráno je plocha přehledná. Později mlha zakryje část skupiny a stanovené spojení nefunguje.",
+      "response": "Nepokračuji podle předpokladu z rána; řeším bezpečné přerušení a obnovení dohody s určenou osobou.",
       "why": "Podmínky potřebné pro spolupráci už nejsou stejné."
     },
     "mistakes": [
@@ -528,7 +514,7 @@
         "meaning": "Osobní ochranné pracovní prostředky určené pro konkrétní práci."
       },
       {
-        "term": "Domluvené spojení",
+        "term": "Stanovené spojení",
         "meaning": "Předem určený způsob, jak se pracovníci kontaktují a hlásí změny."
       }
     ],
@@ -547,7 +533,7 @@
           },
           {
             "id": "c",
-            "text": "Připravený člověk, vhodné prostředky a domluvený tým."
+            "text": "Připravený člověk, vhodné prostředky a stanovený tým."
           }
         ],
         "correct": "c",
@@ -571,11 +557,11 @@
           }
         ],
         "correct": "b",
-        "explanation": "Ranní potvrzení neplatí jako souhlas s libovolnou pozdější změnou. Přesun celé organizace si sám neurčuješ."
+        "explanation": "Ranní potvrzení neplatí jako souhlas s libovolnou pozdější změnou. Přesun celé organizace si samostatně neurčujete."
       },
       {
         "id": "q3",
-        "prompt": "Při ranní kontrole najdeš závadu přiděleného prostředku. Jak postupuješ?",
+        "prompt": "Při ranní kontrole najdete závadu přiděleného prostředku. Jak postupujete?",
         "options": [
           {
             "id": "a",
@@ -596,45 +582,43 @@
     ],
     "task": {
       "title": "Moje příprava směny",
-      "prompt": "Pro modelový den na vzdálenější ploše napiš 2–4 věty: co připravíš pro sebe, co ověříš u vybavení a na čem se domluvíš s týmem. Přidej jednu změnu, kterou během dne oznámíš.",
+      "prompt": "Pro modelový den na vzdálenější ploše napište 2–4 věty: co připravíte pro sebe, co ověříte u vybavení a na čem se domluvíte s týmem. Přidejte jednu změnu, kterou během dne oznámíte.",
       "checks": [
         "Zahrne všechny tři části přípravy.",
-        "Uvede konkrétní způsob organizační domluvy.",
+        "Uvede konkrétní způsob organizační dohody.",
         "Rozpozná změnu, která vyžaduje nové posouzení."
       ]
     },
-    "sourceIds": [
-      "F-S2"
-    ]
+    "sourceIds": []
   },
   {
     "id": "Z06",
     "block": "Z",
-    "title": "Rozumím slovu i pokynu",
-    "goal": "Přiřadíš základní české, anglické a německé výrazy a ověříš význam nejasného pracovního pokynu.",
+    "title": "Lesnická terminologie a porozumění pracovnímu pokynu",
+    "goal": "Přiřadíte základní české, anglické a německé výrazy a ověříte význam nejasného pracovního pokynu.",
     "minutes": 10,
     "competencies": [
       "C01",
       "C13",
       "C14"
     ],
-    "intro": "Cizí slovo má pomoci porozumět práci. Nestačí poznat název předmětu, pokud nerozumíš tomu, co s ním máš udělat.",
+    "intro": "Odborná terminologie podporuje přesné porozumění pracovnímu zadání. Znalost izolovaného výrazu nenahrazuje porozumění činnosti, jejímu rozsahu ani omezením.",
     "sections": [
       {
-        "title": "Malý slovník k pracovnímu místu",
-        "body": "Sazenice je v této lekci mladá rostlina určená k výsadbě: anglicky young plant, německy Jungpflanze. Kořen je root / Wurzel, jehlice needle / Nadel a list leaf / Blatt. Pracovní prostor je work area / Arbeitsbereich, hranice boundary / Grenze. Ukaž vždy také skutečný předmět nebo místo; samotné memorování dvojice slov ještě neověří porozumění."
+        "title": "Odborné pojmy pro pracovní zadání",
+        "body": "Sazenice je v této lekci mladá rostlina určená k výsadbě: anglicky transplant, německy Jungpflanze. Kořen je root / Wurzel, jehlice needle / Nadel a list leaf / Blatt. Pracovní prostor je work area / Arbeitsbereich, hranice boundary / Grenze. Ukažte vždy také skutečný předmět nebo místo; samotné memorování dvojice slov ještě neověří porozumění."
       },
       {
         "title": "Věta mění význam",
-        "body": "Porovnej „Leave this tree“ a „Diesen Baum stehen lassen“: obě věty zde znamenají tento strom ponechat. „Do not cut this tree“ a „Diesen Baum nicht schneiden“ zdůrazňují, že se nemá řezat. Slovo not nebo nicht může změnit pracovní pokyn. Pokud ho neslyšíš, nedoplňuj význam odhadem podle posledního úkolu. V pracovním slovníku si proto uchovávej také krátkou větu a situaci, ve které ji můžeš skutečně použít."
+        "body": "Porovnejte „Leave this tree“ a „Diesen Baum stehen lassen“: obě věty zde znamenají tento strom ponechat. „Do not cut this tree“ a „Diesen Baum nicht schneiden“ zdůrazňují, že se nemá řezat. Slovo not nebo nicht může změnit pracovní pokyn. Pokud ho neslyšíte, nedoplňujte význam odhadem podle posledního úkolu. V pracovním slovníku si proto uchovávejte také krátkou větu a situaci, ve které ji můžete skutečně použít."
       },
       {
         "title": "Doptání je součást práce",
-        "body": "Použij „Please show me“ / „Bitte zeigen Sie es mir“: prosím, ukažte mi to. Pro neporozumění řekni „I do not understand“ / „Ich verstehe nicht“. Pak vlastními slovy nebo ukázáním ověř konkrétní strom, hranici či činnost. Tyto věty nejsou náhradou místně dohodnutých bezpečnostních signálů a správného jazyka instruktáže."
+        "body": "Použijte „Please show me“ / „Bitte zeigen Sie es mir“: prosím, ukažte mi to. Pro neporozumění sdělte „I do not understand“ / „Ich verstehe nicht“. Pak vlastními slovy nebo ukázáním ověřte konkrétní strom, hranici či činnost. Tyto věty nejsou náhradou místně dohodnutých bezpečnostních signálů a správného jazyka instruktáže."
       }
     ],
     "example": {
-      "situation": "Slyšíš „Diesen Baum nicht schneiden“, ale zachytíš jen Baum a schneiden.",
+      "situation": "Slyšíte „Diesen Baum nicht schneiden“, ale zachytíte jen Baum a schneiden.",
       "response": "Před činností požádám o zopakování a ukázání stromu.",
       "why": "Znalost dvou slov nezaručuje, že jsem slyšel zákaz."
     },
@@ -645,7 +629,7 @@
     "terms": [
       {
         "term": "Boundary / Grenze",
-        "meaning": "Hranice; vždy ověř, hranice čeho a kde."
+        "meaning": "Hranice; vždy ověřte, hranice čeho a kde."
       },
       {
         "term": "Please show me / Bitte zeigen Sie es mir",
@@ -683,7 +667,7 @@
           },
           {
             "id": "b",
-            "text": "Přesadit všechny stromky."
+            "text": "Přesadit všechny stromy."
           },
           {
             "id": "c",
@@ -695,7 +679,7 @@
       },
       {
         "id": "q3",
-        "prompt": "Rozumíš názvu nástroje, ale ne činnosti v pokynu. Co uděláš?",
+        "prompt": "Rozumíte názvu nástroje, ale ne činnosti v pokynu. Co uděláte?",
         "options": [
           {
             "id": "a",
@@ -715,24 +699,21 @@
       }
     ],
     "task": {
-      "title": "Přelož význam, ověř pokyn",
-      "prompt": "Ve 2–4 větách napiš český význam work area / Arbeitsbereich a Do not cut this tree / Diesen Baum nicht schneiden. Přidej anglickou nebo německou žádost o ukázku a česky vysvětli, co si jí ověříš.",
+      "title": "Přelož význam, ověřte pokyn",
+      "prompt": "Ve 2–4 větách napište český význam work area / Arbeitsbereich a Do not cut this tree / Diesen Baum nicht schneiden. Přidejte anglickou nebo německou žádost o ukázku a česky vysvětlete, co si jí ověříte.",
       "checks": [
         "Správně vysvětlí oba významy.",
         "Použije větu pro vyjasnění.",
         "Ověřuje konkrétní činnost nebo místo, nikoli jen jednotlivé slovo."
       ]
     },
-    "sourceIds": [
-      "F-S1",
-      "F-S2"
-    ]
+    "sourceIds": []
   },
   {
     "id": "O01",
     "block": "O",
-    "title": "Odkud přichází nový les",
-    "goal": "Rozlišíš přirozenou, umělou a kombinovanou obnovu a popíšeš, co při práci zachovat.",
+    "title": "Přirozená, umělá a kombinovaná obnova lesa",
+    "goal": "Rozlišíte přirozenou, umělou a kombinovanou obnovu a popíšete, co při práci zachovat.",
     "minutes": 10,
     "competencies": [
       "C01",
@@ -740,24 +721,24 @@
       "C03",
       "C10"
     ],
-    "intro": "Nový les může vznikat ze semen okolních stromů, z výmladků i z výsadby nebo síje. Původ obnovy ovlivňuje, kde hledáš mladé stromky a co při práci chráníš.",
+    "intro": "Obnova lesa může být přirozená, umělá nebo kombinovaná. Způsob obnovy určuje rozmístění a původ nové generace dřevin a požadavky na její ochranu a následnou péči.",
     "sections": [
       {
         "title": "Přirozená obnova potřebuje podmínky",
-        "body": "Při přirozené obnově pochází nová generace z přirozeného rozmnožování stromů. Semenná obnova potřebuje zdroj semen a podmínky pro klíčení i další růst. Vegetativní obnova vzniká například výmladky. Ani přirozená obnova neznamená, že porost nepotřebuje péči: mladé stromky může omezit zvěř, konkurence nebo nevhodné světelné podmínky."
+        "body": "Při přirozené obnově pochází nová generace z přirozeného rozmnožování stromů. Semenná obnova potřebuje zdroj semen a podmínky pro klíčení i další růst. Vegetativní obnova vzniká například výmladky. Ani přirozená obnova neznamená, že porost nepotřebuje péči: mladé dřeviny může omezit zvěř, konkurence nebo nevhodné světelné podmínky."
       },
       {
         "title": "Výsadba, síje a kombinace",
         "body": "Umělá obnova vzniká výsadbou sadebního materiálu nebo výsevem osiva. Při kombinované obnově se na stejné ploše využívá obnova přirozená i umělá. Vysázené skupiny proto mohou sousedit s ponechaným zmlazením. Nepravidelné rozmístění samo neprokazuje chybu a pravidelná řada sama neprokazuje splnění zadání."
       },
       {
-        "title": "Nejdříve zjisti, co má zůstat",
-        "body": "Před zásahem porovnej pracovní mapu a ukázku s terénem: kde je plocha pro výsadbu, kde ponechané zmlazení a kudy vede přístup. Druh dřeviny a její úlohu ověřuj odděleně. Pionýrská dřevina nemusí být nežádoucí. Pokud označení chybí, poznamenej nejasné místo a před zásahem v této části si vyžádej upřesnění."
+        "title": "Nejdříve zjistěte, co má zůstat",
+        "body": "Před zásahem porovnejte pracovní mapu a ukázku s terénem: kde je plocha pro výsadbu, kde ponechané zmlazení a kudy vede přístup. Druh dřeviny a její úlohu ověřuj odděleně. Pionýrská dřevina nemusí být nežádoucí. Pokud označení chybí, poznamenej nejasné místo a před zásahem v této části si vyžádejte upřesnění."
       }
     ],
     "example": {
       "situation": "Uprostřed plochy určené k doplnění sazenic stojí skupina mladých buků označená k ponechání.",
-      "response": "Zachováš skupinu i její kořeny a výsadbu provedeš ve vymezené části.",
+      "response": "Zachováte skupinu i její kořeny a výsadbu provedete ve vymezené části.",
       "why": "Zadání využívá oba způsoby obnovy; plošné vyčištění by zničilo už existující část nového porostu."
     },
     "mistakes": [
@@ -777,7 +758,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Jen o přirozenou, protože už tam stromky byly."
+            "text": "Jen o přirozenou, protože už tam stromy byly."
           },
           {
             "id": "b",
@@ -785,7 +766,7 @@
           },
           {
             "id": "c",
-            "text": "Jen o umělou, protože část stromků byla vysázena."
+            "text": "Jen o umělou, protože část stromů byla vysázena."
           }
         ],
         "correct": "b",
@@ -821,7 +802,7 @@
           },
           {
             "id": "b",
-            "text": "Protože každý přirozeně vzniklý stromek musí být přesazen do řady."
+            "text": "Protože každý přirozeně vzniklý strom musí být přesazen do řady."
           },
           {
             "id": "c",
@@ -833,54 +814,49 @@
       }
     ],
     "task": {
-      "title": "Popiš hranici obnovy",
-      "prompt": "Představ si plochu se skupinou ponechaného zmlazení a pruhem určeným k výsadbě. Ve třech větách popiš oba způsoby obnovy, co musíš zachovat a podle čeho určíš hranici práce.",
+      "title": "Popište hranici obnovy",
+      "prompt": "Představte si plochu se skupinou ponechaného zmlazení a pruhem určeným k výsadbě. Ve třech větách popište oba způsoby obnovy, co musíte zachovat a podle čeho určíte hranici práce.",
       "checks": [
         "Správně pojmenuje kombinovanou obnovu.",
         "Výslovně zachová zmlazení a váže rozsah výsadby na mapu, označení nebo ukázku."
       ]
     },
-    "sourceIds": [
-      "MEN-OBN",
-      "MEN-PRIR",
-      "VUL-OBN-2023",
-      "VUL-PRIP-2022"
-    ]
+    "sourceIds": []
   },
   {
     "id": "O02",
     "block": "O",
-    "title": "Co skutečně říká sazenice",
-    "goal": "Rozlišíš prostokořenný a krytokořenný materiál a zaznamenáš konkrétní znaky jeho stavu.",
+    "title": "Morfologická a fyziologická kvalita sadebního materiálu",
+    "goal": "Rozlišíte prostokořenný a krytokořenný materiál a zaznamenáte konkrétní znaky jeho stavu.",
     "minutes": 10,
     "competencies": [
       "C02",
       "C11",
       "C12"
     ],
-    "intro": "Sazenici neposuzuj jen podle výšky. Pro ujmutí je důležitý kořenový systém, nadzemní část i stav rostliny, který nemusí být na první pohled vidět.",
+    "intro": "Kvalita sadebního materiálu zahrnuje morfologické vlastnosti i fyziologický stav. Posouzení samotné výšky nebo zbarvení rostliny nepostačuje k ověření její použitelnosti.",
     "sections": [
       {
-        "title": "Dva způsoby dodání kořenů",
+        "title": "Prostokořenný a krytokořenný sadební materiál",
         "body": "Prostokořenný materiál má při manipulaci kořeny bez souvislého kořenového balu. U krytokořenného materiálu zůstávají kořeny v balu substrátu. Bal usnadňuje zachování kořenového systému, ale není nepropustný zásobník vody. Také může vyschnout, rozpadnout se nebo být při výsadbě stlačený a deformovaný."
       },
       {
         "title": "Vzhled a životaschopnost nejsou totéž",
-        "body": "Morfologická kvalita popisuje stavbu rostliny: například kořenový systém, kořenový krček, větvení a nadzemní část. Fyziologická kvalita se týká jejího funkčního stavu. Stromek může vypadat zeleně, přesto utrpět stresem při manipulaci. Samotná barva nebo výška proto neumožňuje spolehlivě potvrdit celkovou kvalitu dodávky."
+        "body": "Morfologická kvalita popisuje stavbu rostliny: například kořenový systém, kořenový krček, větvení a nadzemní část. Fyziologická kvalita se týká jejího funkčního stavu. Strom může vypadat zeleně, přesto utrpět stresem při manipulaci. Samotná barva nebo výška proto neumožňuje spolehlivě potvrdit celkovou kvalitu dodávky."
       },
       {
         "title": "Přejímka začíná popisem",
-        "body": "Porovnej označení dodávky se zadáním a ukázaným materiálem. Zvlášť zaznamenej zlom, ránu na krčku, výrazně poškozené kořeny nebo rozpadající se bal. Odděl pozorování od rozhodnutí o použitelnosti. Věta ‚u osmi kusů je poraněný krček‘ je ověřitelnější než ‚celá dodávka je špatná‘. Podezřelé kusy udržuj stejně chráněné jako ostatní."
+        "body": "Porovnejte označení dodávky se zadáním a referenčním sadebním materiálem. Zaznamenejte zlomení, poranění kořenového krčku, poškození kořenů nebo nesoudržný kořenový bal. Oddělte popis morfologické vady od rozhodnutí o použitelnosti. Zápis „u osmi sazenic je poraněn kořenový krček“ vymezuje rozsah nálezu. Materiál vyčleněný k posouzení nadále chraňte podle stanoveného postupu."
       }
     ],
     "example": {
-      "situation": "Ve svazku stejně vysokých rostlin najdeš tři kusy s poškozeným kořenovým krčkem.",
-      "response": "Kusy označíš, ochráníš kořeny a uvedeš počet i konkrétní poškození.",
+      "situation": "Ve svazku stejně vysokých rostlin najdete tři kusy s poškozeným kořenovým krčkem.",
+      "response": "Kusy označíte, ochráníte kořeny a uvedete počet i konkrétní poškození.",
       "why": "Stejná výška nevyrovná poranění; přesný záznam umožní rozhodnout o dotčeném materiálu."
     },
     "mistakes": [
       "Zelená nadzemní část není důkaz, že kořeny nepřeschly.",
-      "Vyšší stromek není automaticky kvalitnější než nižší."
+      "Vyšší strom není automaticky kvalitnější než nižší."
     ],
     "terms": [
       {
@@ -952,31 +928,26 @@
     ],
     "task": {
       "title": "Záznam o třech kusech",
-      "prompt": "Ve dvou až čtyřech větách napiš záznam: v dodávce krytokořenných sazenic mají dva kusy rozpadlý bal a jeden zlomený výhon. Uveď druh dodaného materiálu, počet a znaky poškození i způsob, jak kusy zachováš pro posouzení.",
+      "prompt": "Ve dvou až čtyřech větách napište záznam: v dodávce krytokořenných sazenic mají dva kusy rozpadlý bal a jeden zlomený výhon. Uveďte druh dodaného materiálu, počet a znaky poškození i způsob, jak kusy zachováte pro posouzení.",
       "checks": [
         "Oddělí dva různé znaky a uvede jejich počty.",
         "Nezamění pozorované poškození za potvrzenou příčinu ani svévolné rozhodnutí o celé dodávce."
       ]
     },
-    "sourceIds": [
-      "VUL-KVAL-LAB",
-      "VUL-VADY-2019",
-      "VUL-MAN-2010",
-      "CLS-KRYT-2013"
-    ]
+    "sourceIds": []
   },
   {
     "id": "O03",
     "block": "O",
-    "title": "Kořeny chraň po celou cestu",
-    "goal": "Sestavíš postup přesunu a průběžného odběru sazenic, který omezuje vysychání a mechanické poškození.",
+    "title": "Manipulace se sadebním materiálem a ochrana kořenů",
+    "goal": "Sestavíte postup přesunu a průběžného odběru sazenic, který omezuje vysychání a mechanické poškození.",
     "minutes": 10,
     "competencies": [
       "C02",
       "C11",
       "C14"
     ],
-    "intro": "Dobře vypěstovanou sazenici lze poškodit mezi vyložením a zasazením. Ochrana kořenů proto musí navazovat při skladování, přenášení i samotné práci na ploše.",
+    "intro": "Manipulace, dočasné uložení a doprava sadebního materiálu musí chránit kořenový systém před vysycháním a mechanickým poškozením. Ochrana navazuje po celou dobu až do výsadby.",
     "sections": [
       {
         "title": "Poškození se může projevit později",
@@ -984,16 +955,16 @@
       },
       {
         "title": "Zásoba a pracovní dávka",
-        "body": "Hlavní zásobu ponech na určeném chráněném místě a k práci si odebírej zvládnutelné množství. Kořeny prostokořenného materiálu chraň předepsaným obalem nebo vlhkým krytím také při přenášení. Svazky neházej a netahej za citlivé části. Před běžnou přestávkou zabezpeč zbývající materiál. Nutný odchod do bezpečí ochranou sazenic nikdy nezdržuj."
+        "body": "Hlavní zásobu ponech na určeném chráněném místě a k práci si odebírej zvládnutelné množství. Kořeny prostokořenného materiálu chraňte předepsaným obalem nebo vlhkým krytím také při přenášení. Svazky neházej a netahej za citlivé části. Před běžnou přestávkou zabezpečte zbývající materiál. Nutný odchod do bezpečí ochranou sazenic nikdy nezdržuj."
       },
       {
         "title": "Bal potřebuje kontrolu také",
-        "body": "U krytokořenného materiálu sleduj neporušenost a stav balu. Suchý povrch a vlhký vnitřek nejsou totéž jako stejnoměrně vhodná vlhkost. Způsob zavlažení a dočasného uložení musí odpovídat materiálu a místnímu postupu. Pokud se ochrana při přesunu přeruší, zaznamenej dotčenou dodávku, místo a okolnosti; samotný odhad zelené barvy problém neuzavře."
+        "body": "U krytokořenného materiálu sledujte neporušenost a stav balu. Suchý povrch a vlhký vnitřek nejsou totéž jako stejnoměrně vhodná vlhkost. Způsob zavlažení a dočasného uložení musí odpovídat materiálu a místnímu postupu. Pokud se ochrana při přesunu přeruší, zaznamenejte dotčenou dodávku, místo a okolnosti; samotný odhad zelené barvy problém neuzavře."
       }
     ],
     "example": {
       "situation": "Skupina odchází na přestávku a otevřený svazek zůstává vedle pracovního místa.",
-      "response": "Nejdříve obnovíš ochranu kořenů a uložíš svazek na určené místo.",
+      "response": "Nejdříve obnovíte ochranu kořenů a uložíte svazek na určené místo.",
       "why": "Přestávka přerušuje práci, ale nevypíná ztrátu vody a působení slunce nebo větru."
     },
     "mistakes": [
@@ -1029,7 +1000,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Jak uspořádáš odběr z hlavní zásoby?",
+        "prompt": "Jak uspořádáte odběr z hlavní zásoby?",
         "options": [
           {
             "id": "a",
@@ -1049,7 +1020,7 @@
       },
       {
         "id": "q3",
-        "prompt": "Při běžném organizačním přerušení sázení zůstávají kořeny odkryté. Jak ochráníš materiál?",
+        "prompt": "Při běžném organizačním přerušení sázení zůstávají kořeny odkryté. Jak ochráníte materiál?",
         "options": [
           {
             "id": "a",
@@ -1070,23 +1041,19 @@
     ],
     "task": {
       "title": "Tři předání materiálu",
-      "prompt": "Napiš tři věty pro kolegu, který přebírá materiál z chráněného skladu, přenáší jej k práci a odchází na přestávku. U každé fáze uveď jednu konkrétní ochranu kořenů a její důvod.",
+      "prompt": "Napište tři věty pro kolegu, který přebírá materiál z chráněného skladu, přenáší jej k práci a odchází na přestávku. U každé fáze uveďte jednu konkrétní ochranu kořenů a její důvod.",
       "checks": [
         "Pokryje sklad, průběžný odběr i přestávku.",
         "Důvody propojí s vysycháním, přehříváním nebo mechanickým poškozením, nikoli jen s pořádkem."
       ]
     },
-    "sourceIds": [
-      "VUL-MAN-2010",
-      "LCR-JARO-2012",
-      "VUL-SUCHO"
-    ]
+    "sourceIds": []
   },
   {
     "id": "O04",
     "block": "O",
-    "title": "Připrav místo pro kořeny",
-    "goal": "Před výsadbou zkontroluješ zadání, vymezení místa a vhodnost prostoru pro dodaný kořenový systém.",
+    "title": "Příprava půdy a místa pro obnovu lesa",
+    "goal": "Před výsadbou zkontrolujete zadání, vymezení místa a vhodnost prostoru pro dodaný kořenový systém.",
     "minutes": 10,
     "competencies": [
       "C01",
@@ -1094,24 +1061,24 @@
       "C08",
       "C10"
     ],
-    "intro": "Příprava půdy má pomoci nové rostlině zakořenit a růst. Její rozsah závisí na stanovišti a způsobu obnovy; více odstraněného povrchu automaticky neznamená lepší práci.",
+    "intro": "Příprava půdy a místa výsadby vytváří podmínky pro založení a odrůstání obnovy. Rozsah opatření vychází ze stanoviště, použitého sadebního materiálu a stanoveného způsobu obnovy.",
     "sections": [
       {
-        "title": "Než uděláš první otvor",
-        "body": "Zkontroluj přidělenou plochu, druh a typ materiálu, rozmístění výsadby a ukázku požadovaného provedení. Najdi ponechané zmlazení, označené prvky a přístup. Zvolené nářadí musí odpovídat zadané metodě i velikosti kořenového systému. Sazenici nepřizpůsobuj násilím otvoru, který je pro ni malý."
+        "title": "Než uděláte první otvor",
+        "body": "Zkontrolujte přidělenou plochu, druh a typ materiálu, rozmístění výsadby a ukázku požadovaného provedení. Najděte ponechané zmlazení, označené prvky a přístup. Zvolené nářadí musí odpovídat zadané metodě i velikosti kořenového systému. Sazenici nepřizpůsobujte násilím otvoru, který je pro ni malý."
       },
       {
-        "title": "Půda má víc úloh než držet stromek",
-        "body": "Příprava může omezit konkurenční vegetaci nebo zlepšit podmínky pro klíčení. Její plošné provedení ale může odstranit část organické hmoty a živin. Pracuj proto v určeném rozsahu a rozlišuj překážku výsadby od povrchového materiálu, který má zůstat. Po přípravě musí být možné kořeny uložit bez nepřirozeného ohnutí a řádně zasypat."
+        "title": "Funkce půdy při obnově lesa",
+        "body": "Příprava může omezit konkurenční vegetaci nebo zlepšit podmínky pro klíčení. Její plošné provedení ale může odstranit část organické hmoty a živin. Pracujte proto v určeném rozsahu a rozlišuj překážku výsadby od povrchového materiálu, který má zůstat. Po přípravě musí být možné kořeny uložit bez nepřirozeného ohnutí a řádně zasypat."
       },
       {
         "title": "Síje je jiný úkol než sázení",
-        "body": "Při síji pracuješ s osivem, při výsadbě s hotovou rostlinou. Příprava se proto řídí odlišným zadáním. Množství osiva, hloubka, krytí i termín závisejí na druhu a podmínkách. Vzor pro jeden druh nebo stanoviště nelze automaticky přenést jinam. Před zahájením musí být jasné, podle čeho se správné provedení zkontroluje."
+        "body": "Při síji se používá osivo, při výsadbě sadební materiál. Příprava stanoviště se řídí zvoleným způsobem obnovy a pracovním zadáním. Množství osiva, hloubka síje, překrytí a termín závisí na druhu dřeviny a stanovištních podmínkách. Parametry jedné dřeviny nebo stanoviště nelze bez ověření převzít pro jiné podmínky. Před zahájením musí být stanovena kritéria kontroly provedení."
       }
     ],
     "example": {
       "situation": "Kořeny dodané sazenice se do připravené jamky vejdou pouze po zahnutí nahoru.",
-      "response": "Upravíš prostor v rámci zadané metody a porovnáš jej s ukázkou.",
+      "response": "Upravíte prostor v rámci zadané metody a porovnáte jej s ukázkou.",
       "why": "Kořenový systém potřebuje vhodný prostor; rychlé vmáčknutí vytváří skrytou vadu."
     },
     "mistakes": [
@@ -1188,50 +1155,46 @@
     ],
     "task": {
       "title": "Kontrola před prvním řádkem",
-      "prompt": "Ve třech větách připrav stručný kontrolní zápis pro zahájení výsadby. Uveď, které údaje porovnáš se zadáním, jak ověříš prostor pro kořeny a které prvky v okolí místa zachováš.",
+      "prompt": "Ve třech větách připravte stručný kontrolní zápis pro zahájení výsadby. Uveďte, které údaje porovnáte se zadáním, jak ověříte prostor pro kořeny a které prvky v okolí místa zachováte.",
       "checks": [
         "Zahrne materiál, vymezení či rozmístění a ukázku provedení.",
         "Výslovně ověří uložení kořenů bez ohnutí a respektuje ponechané zmlazení či půdní kryt."
       ]
     },
-    "sourceIds": [
-      "VUL-OBN-2023",
-      "VUL-BOR-2018",
-      "NSK-PEST-2022"
-    ]
+    "sourceIds": []
   },
   {
     "id": "O05",
     "block": "O",
-    "title": "Výsadba, která obstojí při kontrole",
-    "goal": "Vysvětlíš vztah mezi uložením kořenů, kontaktem s půdou a kvalitou výsadby a poznáš konkrétní chyby.",
+    "title": "Provedení a kontrola kvality výsadby",
+    "goal": "Vysvětlíte vztah mezi uložením kořenů, kontaktem s půdou a kvalitou výsadby a poznáte konkrétní chyby.",
     "minutes": 10,
     "competencies": [
       "C02",
       "C11"
     ],
-    "intro": "Rovná řada může skrývat špatně uložené kořeny. Kvalita výsadby vzniká pod povrchem i nad ním a ověřuje se už během práce.",
+    "intro": "Kontrola výsadby zahrnuje uložení kořenového systému, polohu kořenového krčku, zásyp a stav okolní půdy. Pravidelné rozmístění sazenic samo o sobě nepotvrzuje kvalitu provedení.",
     "sections": [
       {
-        "title": "Kořeny nesmějí končit v uzlu",
-        "body": "Prostokořenný materiál ulož do připraveného prostoru tak, aby kořeny nebyly násilně ohnuté vzhůru nebo smotané. Velikost otvoru přizpůsob zadanému materiálu. U krytokořenných sazenic zachovej celistvost balu a nedeformuj jej vmáčknutím. Hladce rozmazané a zhutněné stěny otvoru mohou zhoršit prorůstání kořenů."
+        "title": "Správné uložení kořenového systému",
+        "body": "Prostokořenný materiál uložte do připraveného prostoru tak, aby kořeny nebyly násilně ohnuté vzhůru nebo smotané. Velikost otvoru přizpůsobte zadanému materiálu. U krytokořenných sazenic zachovejte celistvost balu a nedeformuj jej vmáčknutím. Hladce rozmazané a zhutněné stěny otvoru mohou zhoršit prorůstání kořenů."
       },
       {
         "title": "Kořen potřebuje kontakt s půdou",
-        "body": "Zásyp proveď tak, aby kolem kořenů či balu nezůstávaly dutiny. Volný prostor není zásoba užitečného vzduchu, ale přerušení potřebného kontaktu. U krytokořenné výsadby nemá zůstávat odkrytý bal, který snadno vysychá. Poloha kořenového krčku a požadované dokončení odpovídají použitému materiálu, metodě a předvedenému vzoru."
+        "body": "Zásyp proveďte tak, aby kolem kořenů či balu nezůstávaly dutiny. Volný prostor není zásoba užitečného vzduchu, ale přerušení potřebného kontaktu. U krytokořenné výsadby nemá zůstávat odkrytý bal, který snadno vysychá. Poloha kořenového krčku a požadované dokončení odpovídají použitému materiálu, metodě a předvedenému vzoru."
       },
       {
-        "title": "Zkontroluj postup včas",
-        "body": "První kusy porovnej s ukázkou dříve, než stejnou chybu zopakuješ na celé ploše. Sleduj polohu rostliny, dokončení zásypu a povrch u balu. Samotná svislá poloha nepotvrzuje správný kořenový systém. Při pochybnosti o skryté vadě použij dohodnutý kontrolní postup; opakované vytahování hotových sazenic není běžná péče. Zjištěnou vadu oprav podle zadání a změň chybný pracovní pohyb."
+        "title": "Zkontrolujte postup včas",
+        "body": "První kusy porovnejte s ukázkou dříve, než stejnou chybu zopakujete na celé ploše. Sledujte polohu rostliny, dokončení zásypu a povrch u balu. Samotná svislá poloha nepotvrzuje správný kořenový systém. Při pochybnosti o skryté vadě použijte dohodnutý kontrolní postup; opakované vytahování hotových sazenic není běžná péče. Zjištěnou vadu opravte podle zadání a změňte chybný pracovní pohyb."
       }
     ],
     "example": {
       "situation": "Sazenice stojí rovně, ale horní část kořenového balu je odkrytá.",
-      "response": "Upravíš dokončení výsadby podle ukázky a zkontroluješ předchozí kusy.",
+      "response": "Upravíte dokončení výsadby podle ukázky a zkontrolujete předchozí kusy.",
       "why": "Vzhled korunky neodstraňuje riziko vysychání odkrytého balu a chyba se může opakovat."
     },
     "mistakes": [
-      "Pevné držení stromku samo neprokazuje správné rozložení kořenů.",
+      "Pevné držení stromu samo neprokazuje správné rozložení kořenů.",
       "Vzduchová dutina u kořenů není náhradou za správně provedený zásyp."
     ],
     "terms": [
@@ -1283,7 +1246,7 @@
       },
       {
         "id": "q3",
-        "prompt": "První tři sazenice mají stejnou chybu dokončení. Jak omezíš další ztráty?",
+        "prompt": "První tři sazenice mají stejnou chybu dokončení. Jak omezíte další ztráty?",
         "options": [
           {
             "id": "a",
@@ -1304,24 +1267,19 @@
     ],
     "task": {
       "title": "Vada, následek, oprava",
-      "prompt": "Vyber jednu ze situací: kořeny ohnuté vzhůru, odkrytý bal nebo dutina po zásypu. Ve třech větách popiš vadu, její možný následek a jak ověříš opravu podle předvedeného postupu.",
+      "prompt": "Vyberte jednu ze situací: kořeny ohnuté vzhůru, odkrytý bal nebo dutina po zásypu. Ve třech větách popište vadu, její možný následek a jak ověříte opravu podle předvedeného postupu.",
       "checks": [
         "Popíše konkrétní souvislost mezi vadou a kořenovým systémem či vysycháním.",
         "Opravu vztáhne ke správnému provedení a následné kontrole, nikoli pouze k rychlejšímu pracovnímu tempu."
       ]
     },
-    "sourceIds": [
-      "CLS-KRYT-2013",
-      "VUL-MAN-2010",
-      "LCR-JARO-2012",
-      "NSK-PEST-2022"
-    ]
+    "sourceIds": []
   },
   {
     "id": "O06",
     "block": "O",
-    "title": "Co kontrola obnovy skutečně ukáže",
-    "goal": "Odlišíš kontrolu provedení od pozdějšího sledování obnovy a napíšeš dohledatelný záznam bez domyšlené příčiny.",
+    "title": "Kontrola ujímavosti a vývoje obnovy",
+    "goal": "Odlišíte kontrolu provedení od pozdějšího sledování obnovy a napíšete dohledatelný záznam bez domyšlené příčiny.",
     "minutes": 10,
     "competencies": [
       "C02",
@@ -1329,29 +1287,29 @@
       "C11",
       "C12"
     ],
-    "intro": "Hotová výsadba a úspěšná obnova nejsou stejný okamžik. Nejdříve kontroluješ provedení práce, později sleduješ stav a vývoj nové generace stromů.",
+    "intro": "Přejímka výsadby hodnotí provedení práce. Následná kontrola obnovy sleduje ujímavost, zdravotní stav a odrůstání dřevin. Tyto kontroly mají odlišný účel a časové zařazení.",
     "sections": [
       {
         "title": "Dvě kontroly, různé otázky",
-        "body": "Při přejímce práce porovnáváš skutečnost se zadáním: materiál, umístění a provedení. Při následné pochůzce sleduješ, kde stromky žijí a rostou, kde chybějí a kde jsou poškozené. Přirozené zmlazení může být rozmístěné nerovnoměrně. Posuzování proto vyžaduje znalost zamýšlené obnovy, ne pouze hledání pravidelných řad."
+        "body": "Při přejímce práce porovnáváte skutečnost se zadáním: materiál, umístění a provedení. Při následné pochůzce sledujete, kde stromy žijí a rostou, kde chybějí a kde jsou poškozené. Přirozené zmlazení může být rozmístěné nerovnoměrně. Posuzování proto vyžaduje znalost zamýšlené obnovy, ne pouze hledání pravidelných řad."
       },
       {
-        "title": "Pozorování není automaticky příčina",
-        "body": "Uschlý stromek sám neřekne, zda byl problém v materiálu, manipulaci, výsadbě nebo v podmínkách po ní. Pro zjišťování příčin se používá více podkladů, někdy i odborné porovnávání stejných partií materiálu. V pracovním záznamu nejprve uveď to, co skutečně vidíš. Podezření jasně odděl od potvrzeného zjištění."
+        "title": "Rozlišení poškození a jeho příčiny",
+        "body": "Uschlý strom sám neřekne, zda byl problém v materiálu, manipulaci, výsadbě nebo v podmínkách po ní. Pro zjišťování příčin se používá více podkladů, někdy i odborné porovnávání stejných partií materiálu. V pracovním záznamu nejprve uveďte to, co skutečně vidíte. Podezření jasně oddělte od potvrzeného zjištění."
       },
       {
         "title": "Záznam musí jít znovu najít",
-        "body": "Použij stanovený způsob kontroly a popiš jeho rozsah. Uveď místo, datum, sledovanou skupinu a konkrétní znak, například chybějící terminál, odkrytý bal nebo zaschnutí. Pokud jsi prošel jen jeden úsek, nevydávej jeho výsledek za celou plochu. Fotografie s určeným místem může doplnit zápis, ale nenahradí údaj, co a v jakém rozsahu bylo kontrolováno."
+        "body": "Použijte stanovený způsob kontroly a popište jeho rozsah. Uveďte místo, datum, sledovanou skupinu a konkrétní znak, například chybějící terminál, odkrytý bal nebo zaschnutí. Pokud jste prošli jen jeden úsek, nevydávejte jeho výsledek za celou plochu. Fotografie s určeným místem může doplnit zápis, ale nenahradí údaj, co a v jakém rozsahu bylo kontrolováno."
       }
     ],
     "example": {
       "situation": "V kontrolovaném úseku dvaceti sazenic jsou čtyři suché a dvě mají poškozený vrchol.",
-      "response": "Zapíšeš rozsah, oba znaky a polohu úseku; příčinu suchých kusů zatím neurčíš.",
+      "response": "Zapíšete rozsah, oba znaky a polohu úseku; příčinu suchých kusů zatím neurčíte.",
       "why": "Výsledek je dohledatelný a nepřenáší pozorování malé části automaticky na celou obnovu."
     },
     "mistakes": [
       "Z jedné poškozené skupiny nelze bez dalšího spočítat stav celé plochy.",
-      "Zápis ‚špatná sadba‘ zaměňuje pozorovaný následek za neověřenou příčinu."
+      "Zápis ‚nevyhovující sadební materiál‘ zaměňuje pozorovaný následek za neověřenou příčinu."
     ],
     "terms": [
       {
@@ -1382,7 +1340,7 @@
       },
       {
         "id": "q2",
-        "prompt": "V jediném kontrolovaném úseku jsou čtyři z dvaceti sazenic suché. Co zapíšeš?",
+        "prompt": "V jediném kontrolovaném úseku jsou čtyři z dvaceti sazenic suché. Co zapíšete?",
         "options": [
           {
             "id": "a",
@@ -1390,7 +1348,7 @@
           },
           {
             "id": "b",
-            "text": "Celá plocha má přesně stejný podíl suchých stromků."
+            "text": "Celá plocha má přesně stejný podíl suchých stromů."
           },
           {
             "id": "c",
@@ -1414,7 +1372,7 @@
           },
           {
             "id": "c",
-            "text": "Protože poškozený vrchol vždy znamená odumření celého stromku."
+            "text": "Protože poškozený vrchol vždy znamená odumření celého stromu."
           }
         ],
         "correct": "b",
@@ -1423,58 +1381,53 @@
     ],
     "task": {
       "title": "Hlášení z jednoho úseku",
-      "prompt": "Napiš třívěté hlášení: dnes jsi v úseku u označeného bodu B zkontroloval dvacet sazenic, čtyři byly suché a dvě měly poškozený vrchol. Uveď rozsah a znaky; poslední větou odděl to, co zatím nelze spolehlivě říci o příčině nebo zbytku plochy.",
+      "prompt": "Napište třívěté hlášení: dnes jste v úseku u označeného bodu B zkontrolovali dvacet sazenic, čtyři byly suché a dvě měly poškozený vrchol. Uveďte rozsah a znaky; poslední větou oddělte to, co zatím nelze spolehlivě říci o příčině nebo zbytku plochy.",
       "checks": [
         "Uvede dohledatelné místo, datum či časové určení, rozsah a oba počty.",
         "Nepřipíše neověřenou příčinu a nevydává úsek za celou plochu."
       ]
     },
-    "sourceIds": [
-      "NSK-PEST-2022",
-      "VUL-KVAL-LAB",
-      "MEN-STUPNE",
-      "VUL-OBN-2023"
-    ]
+    "sourceIds": []
   },
   {
     "id": "P01",
     "block": "P",
-    "title": "Ožínání bez poškození stromků",
-    "goal": "Rozpoznáš chráněné stromky v buřeni a vysvětlíš, podle čeho zkontrolovat výsledek ožínání.",
+    "title": "Ochrana kultur a nárostů proti buřeni",
+    "goal": "Rozpoznáte chráněné stromy v buřeni a vysvětlíte, podle čeho zkontrolovat výsledek ožínání.",
     "minutes": 10,
     "competencies": [
       "C03",
       "C10",
       "C11"
     ],
-    "intro": "Péče o mladý porost pokračuje i po výsadbě. Tráva, byliny a keře mohou stromky přerůst. Úspěšný zásah jim umožní odrůstat a současně zachová nepoškozenou obnovu, o kterou pečuješ.",
+    "intro": "Buřeň může omezovat obnovu lesa konkurencí o světlo, vodu a živiny nebo mechanickým zalehnutím. Opatření proti buřeni musí zachovat nepoškozené cílové dřeviny a respektovat ochranu půdy.",
     "sections": [
       {
-        "title": "Co buřeň stromku bere",
-        "body": "Buřeň soutěží se stromkem o světlo, vodu, živiny a prostor. Vysoká vegetace může mladé dřeviny také zalehnout. Účinek závisí na druhu a hustotě vegetace i na podmínkách místa. Nízký rostlinný kryt má zároveň svou úlohu při ochraně povrchu půdy; odstranění všeho zeleného není samo o sobě cílem péče."
+        "title": "Konkurence buřeně a obnovy lesa",
+        "body": "Buřeň soutěží se stromem o světlo, vodu, živiny a prostor. Vysoká vegetace může mladé dřeviny také zalehnout. Účinek závisí na druhu a hustotě vegetace i na podmínkách místa. Nízký rostlinný kryt má zároveň svou úlohu při ochraně povrchu půdy; odstranění veškeré vegetace není samo o sobě cílem péče."
       },
       {
-        "title": "Stromek nejprve najdi",
-        "body": "Před ožínáním dohledáš sazenice i přirozené zmlazení určené k zachování. Nestačí předpokládat, že všechny stromky stojí v pravidelné řadě. Zakrytá sazenice je stále předmětem péče. Když poznáš její skutečnou polohu, můžeš uvolnit okolní vegetaci bez zásahu do kmínku nebo výhonu."
+        "title": "Lokalizace cílových jedinců před zásahem",
+        "body": "Před ožínáním dohledáte sazenice i přirozené zmlazení určené k zachování. Nestačí předpokládat, že všechny stromy stojí v pravidelné řadě. Zakrytá sazenice je stále předmětem péče. Když poznáte její skutečnou polohu, můžete uvolnit okolní vegetaci bez zásahu do kmínku nebo výhonu."
       },
       {
-        "title": "Rozliš výsledek jednotlivých metod",
-        "body": "Ožínání vegetaci seřezává; ošlapávání vhodnou měkkou buřeň poláme a přitlačí k zemi. Způsob a rozsah práce vycházejí ze zadání. Po zásahu ověř, že stromek zůstal celý a uvolněný. Sleduj také, kam se dostala posečená hmota: viditelná plocha nesmí zakrývat poškozené nebo zalehlé sazenice."
+        "title": "Rozlište výsledek jednotlivých metod",
+        "body": "Ožínání vegetaci seřezává; ošlapávání vhodnou měkkou buřeň poláme a přitlačí k zemi. Způsob a rozsah práce vycházejí ze zadání. Po zásahu ověřte, že strom zůstal celý a uvolněný. Sledujte také, kam se dostala posečená hmota: viditelná plocha nesmí zakrývat poškozené nebo zalehlé sazenice."
       }
     ],
     "example": {
-      "situation": "V trávě najdeš malý buk mimo řadu vysazených smrků. Zadání zachovává i bukové zmlazení.",
-      "response": "Buk zahrneš mezi chráněné stromky a při kontrole jej znovu dohledáš.",
+      "situation": "V trávě najdete malý buk mimo řadu vysazených smrků. Zadání zachovává i bukové zmlazení.",
+      "response": "Buk zahrnete mezi chráněné stromy a při kontrole jej znovu dohledáte.",
       "why": "Péče sleduje určenou obnovu v celé ploše, nejen pravidelně vysazené řady."
     },
     "mistakes": [
       "Začít naslepo v husté trávě: nástroj může zasáhnout skrytou sazenici.",
-      "Hodnotit pouze množství posečené trávy: přehlédneš stav stromků."
+      "Hodnotit pouze množství posečené trávy: přehlédnete stav stromů."
     ],
     "terms": [
       {
         "term": "Buřeň",
-        "meaning": "Přízemní vegetace, která může omezovat odrůstání lesních stromků."
+        "meaning": "Konkurenční přízemní vegetace, která omezuje vznik nebo odrůstání obnovy lesa."
       },
       {
         "term": "Ožínání",
@@ -1484,7 +1437,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Co musíš zjistit, když vysoká tráva zakrývá sazenici?",
+        "prompt": "Co musíte zjistit, když vysoká tráva zakrývá sazenici?",
         "options": [
           {
             "id": "a",
@@ -1492,7 +1445,7 @@
           },
           {
             "id": "b",
-            "text": "Skutečnou polohu chráněného stromku."
+            "text": "Skutečnou polohu chráněného stromu."
           },
           {
             "id": "c",
@@ -1516,7 +1469,7 @@
           },
           {
             "id": "c",
-            "text": "Určené stromky jsou uvolněné a nepoškozené."
+            "text": "Určené stromy jsou uvolněné a nepoškozené."
           }
         ],
         "correct": "c",
@@ -1536,7 +1489,7 @@
           },
           {
             "id": "c",
-            "text": "Je určeno k ohýbání konkurenčních stromků."
+            "text": "Je určeno k ohýbání konkurenčních stromů."
           }
         ],
         "correct": "a",
@@ -1544,68 +1497,64 @@
       }
     ],
     "task": {
-      "title": "Kontrola dvou stromků",
-      "prompt": "Na modelové ploše je jeden smrk v řadě a malý buk mimo řadu; oba mají zůstat. Napiš ve 2–4 větách, co zjistíš před ožínáním a jak u obou stromků poznáš správný výsledek. Uveď jednu chybu, kterou by samotná fotografie posečené plochy mohla skrýt.",
+      "title": "Kontrola dvou stromů",
+      "prompt": "Na modelové ploše je jeden smrk v řadě a malý buk mimo řadu; oba mají zůstat. Napište ve 2–4 větách, co zjistíte před ožínáním a jak u obou stromů poznáte správný výsledek. Uveďte jednu chybu, kterou by samotná fotografie posečené plochy mohla skrýt.",
       "checks": [
-        "Zahrnuješ vysazený smrk i bukové zmlazení.",
-        "Před prací zjišťuješ skutečnou polohu stromků.",
+        "Zahrnujete vysazený smrk i bukové zmlazení.",
+        "Před prací zjišťujete skutečnou polohu stromů.",
         "Kontrola popisuje uvolnění i nepoškozený stav."
       ]
     },
-    "sourceIds": [
-      "L02",
-      "P-L04",
-      "NSK-PEST-2022"
-    ]
+    "sourceIds": []
   },
   {
     "id": "P02",
     "block": "P",
-    "title": "Individuální ochrana, která plní účel",
-    "goal": "Porovnáš ochranu jednotlivého stromku s určeným vzorem a popíšeš konkrétní závadu její funkce.",
+    "title": "Individuální mechanická ochrana dřevin",
+    "goal": "Porovnáte ochranu jednotlivého stromu s určeným vzorem a popíšete konkrétní závadu její funkce.",
     "minutes": 10,
     "competencies": [
       "C06",
       "C11"
     ],
-    "intro": "Individuální ochrana se vztahuje ke konkrétnímu stromku. Nestačí přinést materiál na plochu nebo jej postavit vedle sazenice. Výsledek se pozná podle toho, zda správně umístěná ochrana plní určenou funkci.",
+    "intro": "Individuální mechanická ochrana se volí pro konkrétního jedince a stanovený druh poškození. Její účinnost závisí na vhodnosti prostředku, správné instalaci a průběžné kontrole.",
     "sections": [
       {
-        "title": "Co vlastně chráníš",
-        "body": "Mechanické prostředky mohou chránit jednotlivé výhony, kmínek nebo celý stromek. Patří sem například ochrany terminálu, tubusy a malé oplůtky. Jednotlivé výrobky mají rozdílný účel. Ochrana proti okusu proto nemusí zároveň řešit vytloukání; při porovnávání nejprve pojmenuj, která část stromku má být chráněna."
+        "title": "Co vlastně chráníte",
+        "body": "Mechanické prostředky mohou chránit jednotlivé výhony, kmínek nebo celý strom. Patří sem například ochrany terminálu, tubusy a malé oplůtky. Jednotlivé výrobky mají rozdílný účel. Ochrana proti okusu proto nemusí zároveň řešit vytloukání; při porovnávání nejprve pojmenujte, která část stromu má být chráněna."
       },
       {
         "title": "Rozhoduje provedení",
-        "body": "U tubusu je správná instalace podmínkou účinku. Při cvičení porovnávej skutečný výsledek s předvedeným vzorem: použitý díl, jeho polohu vůči stromku a upevnění. Rozměr či způsob spojení není vhodné odhadovat podle sousedního, odlišného výrobku. Přesná montáž vychází z návodu určeného typu ochrany."
+        "body": "U tubusu je správná instalace podmínkou účinku. Při cvičení porovnávejte skutečný výsledek s předvedeným vzorem: použitý díl, jeho polohu vůči stromu a upevnění. Rozměr či způsob spojení není vhodné odhadovat podle sousedního, odlišného výrobku. Přesná montáž vychází z návodu určeného typu ochrany."
       },
       {
-        "title": "Kontroluj stromek i ochranu",
-        "body": "Při kontrole se dívej na oba prvky společně. U stejného stromku zaznamenej stav ochrany a viditelné poškození dřeviny. Tím oddělíš otázku, zda je ochrana správně osazena, od otázky, zda již stromek utrpěl škodu. Záznam „materiál přítomen“ nemůže nahradit kontrolu funkčního provedení."
+        "title": "Kontrolujte strom i ochranu",
+        "body": "Při kontrole se dívejte na oba prvky společně. U stejného stromu zaznamenejte stav ochrany a viditelné poškození dřeviny. Tím oddělíte otázku, zda je ochrana správně osazena, od otázky, zda již strom utrpěl škodu. Záznam „materiál přítomen“ nemůže nahradit kontrolu funkčního provedení."
       }
     ],
     "example": {
-      "situation": "U sazenice leží uvolněný chránič. Na pracovním listu je stromek označen jako hotový.",
-      "response": "Popíšeš uvolnění a porovnáš opravu s montážním vzorem, než výsledek znovu označíš za dokončený.",
-      "why": "Počet vydaných chráničů dokládá spotřebu materiálu, nikoli počet správně chráněných stromků."
+      "situation": "U sazenice leží uvolněný chránič. Na pracovním listu je strom označen jako hotový.",
+      "response": "Popíšete uvolnění a porovnáte opravu s montážním vzorem, než výsledek znovu označíte za dokončený.",
+      "why": "Počet vydaných chráničů dokládá spotřebu materiálu, nikoli počet správně chráněných stromů."
     },
     "mistakes": [
       "Zaměnit podobné výrobky: jejich montáž a účel se mohou lišit.",
-      "Prohlédnout jen chránič: přehlédneš poškození samotné dřeviny."
+      "Prohlédnout jen chránič: přehlédnete poškození samotné dřeviny."
     ],
     "terms": [
       {
         "term": "Individuální ochrana",
-        "meaning": "Ochranné opatření určené pro jednotlivý stromek."
+        "meaning": "Ochranné opatření určené pro jednotlivý strom."
       },
       {
-        "term": "Terminál",
-        "meaning": "Hlavní vrcholový výhon stromku."
+        "term": "Terminální výhon",
+        "meaning": "Vrcholový výhon zajišťující hlavní výškový růst jedince."
       }
     ],
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Co porovnáš jako první, když dva chrániče vypadají odlišně?",
+        "prompt": "Co porovnáte jako první, když dva chrániče vypadají odlišně?",
         "options": [
           {
             "id": "a",
@@ -1625,11 +1574,11 @@
       },
       {
         "id": "q2",
-        "prompt": "Tubus leží vedle stromku. Jaký je závěr kontroly?",
+        "prompt": "Tubus leží vedle stromu. Jaký je závěr kontroly?",
         "options": [
           {
             "id": "a",
-            "text": "Stromek je chráněn, protože byl materiál vydán."
+            "text": "Strom je chráněn, protože byl materiál vydán."
           },
           {
             "id": "b",
@@ -1637,11 +1586,11 @@
           },
           {
             "id": "c",
-            "text": "Je prokázáno, že stromek poškodila zvěř."
+            "text": "Je prokázáno, že strom poškodila zvěř."
           }
         ],
         "correct": "b",
-        "explanation": "Uvolnění je konkrétní závada ochrany. Samo o sobě však neurčuje příčinu případného poškození stromku."
+        "explanation": "Uvolnění je konkrétní závada ochrany. Samo o sobě však neurčuje příčinu případného poškození stromu."
       },
       {
         "id": "q3",
@@ -1666,48 +1615,44 @@
     ],
     "task": {
       "title": "Záznam kontroly chrániče",
-      "prompt": "U označeného stromku najdeš chránič mimo montážní polohu; stromek má neporušený vrchol. Napiš ve 2–4 větách záznam pro navazující opravu. Rozliš zjištěnou závadu, stav stromku a znak, který po opravě porovnáš s ukázkou.",
+      "prompt": "U označeného stromu najdete chránič mimo montážní polohu; strom má neporušený vrchol. Napište ve 2–4 větách záznam pro navazující opravu. Rozlište zjištěnou závadu, stav stromu a znak, který po opravě porovnáte s ukázkou.",
       "checks": [
-        "Popisuješ skutečnou závadu bez domnělé příčiny.",
-        "Odděluješ stav ochrany od stavu stromku.",
-        "Výsledek opravy vztahuješ ke konkrétnímu montážnímu vzoru."
+        "Popisujete skutečnou závadu bez domnělé příčiny.",
+        "Oddělujete stav ochrany od stavu stromu.",
+        "Výsledek opravy vztahujete ke konkrétnímu montážnímu vzoru."
       ]
     },
-    "sourceIds": [
-      "V05",
-      "P-L05",
-      "NSK-PEST-2022"
-    ]
+    "sourceIds": []
   },
   {
     "id": "P03",
     "block": "P",
-    "title": "Oplocenka se kontroluje jako celek",
-    "goal": "Najdeš slabé místo modelové oplocenky a sestavíš dohledatelný záznam závady a následné kontroly.",
+    "title": "Kontrola funkčnosti oplocenek",
+    "goal": "Najdete slabé místo modelové oplocenky a sestavíte dohledatelný záznam závady a následné kontroly.",
     "minutes": 10,
     "competencies": [
       "C06",
       "C11",
       "C12"
     ],
-    "intro": "Oplocenka chrání skupinu stromků společnou bariérou. Její účinek závisí na skutečném stavu celé konstrukce. Hezký úsek u příchodu ještě neříká, zda ochrana funguje také na opačné straně plochy.",
+    "intro": "Oplocenka zajišťuje plošnou ochranu obnovy před zvěří. Funkčnost se posuzuje podle souvislosti a stavu celého oplocení, jeho vstupů a konstrukčních prvků.",
     "sections": [
       {
         "title": "Jedna konstrukce, místní podmínky",
-        "body": "Konstrukce oplocenky souvisí s druhy zvěře i podmínkami lokality, včetně sněhu. Používají se drátěné a dřevěné varianty. Rozdílné provedení tedy nemusí znamenat chybu. Pro kontrolu konkrétního objektu potřebuješ znát jeho určené provedení; přenášení rozměrů z jiné plochy není vhodným měřítkem."
+        "body": "Konstrukce oplocenky souvisí s druhy zvěře i podmínkami lokality, včetně sněhu. Používají se drátěné a dřevěné varianty. Rozdílné provedení tedy nemusí znamenat chybu. Pro kontrolu konkrétního objektu potřebujete znát jeho určené provedení; přenášení rozměrů z jiné plochy není vhodným měřítkem."
       },
       {
-        "title": "Hledej přerušení ochrany",
-        "body": "Ani správně postavené oplocení nezaručuje, že zůstane trvale neporušené. Kontrolní pochůzka sleduje navazující úseky, nikoli jen snadno viditelné části. V modelu hledej uvolněný díl, porušené pletivo nebo nedokončené uzavření vstupu. Každý nález popiš tak, aby další pracovník poznal přesné místo i povahu problému."
+        "title": "Hledejte přerušení ochrany",
+        "body": "Ani správně postavené oplocení nezaručuje, že zůstane trvale neporušené. Kontrolní pochůzka sleduje navazující úseky, nikoli jen snadno viditelné části. V modelu hledejte uvolněný díl, porušené pletivo nebo nedokončené uzavření vstupu. Každý nález popište tak, aby další pracovník poznal přesné místo i povahu problému."
       },
       {
         "title": "Oprava potřebuje vlastní kontrolu",
-        "body": "Nález závady, její oprava a ověření výsledku jsou tři různé kroky. Po zadané běžné opravě znovu porovnej dotčené místo s požadovaným provedením. V záznamu rozliš „nalezeno“, „opraveno“ a „čeká na řešení“. Pravidelné kontroly mají význam i u oplocenek, které byly při dokončení v pořádku."
+        "body": "Nález závady, její oprava a ověření výsledku jsou tři různé kroky. Po zadané běžné opravě znovu porovnejte dotčené místo s požadovaným provedením. V záznamu rozlište „nalezeno“, „opraveno“ a „čeká na řešení“. Pravidelné kontroly mají význam i u oplocenek, které byly při dokončení v pořádku."
       }
     ],
     "example": {
       "situation": "První strana oplocenky je nepoškozená, na zadní straně však jeden díl nenavazuje.",
-      "response": "Zaznamenáš konkrétní úsek a závadu; výsledek celé pochůzky označíš jako nález k řešení.",
+      "response": "Zaznamenáte konkrétní úsek a závadu; výsledek celé pochůzky označíte jako nález k řešení.",
       "why": "Závěr musí zahrnout skutečný stav obvodu. Neporušená přední strana nepokrývá závadu jinde."
     },
     "mistakes": [
@@ -1727,7 +1672,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Přední strana vypadá dobře. Co z toho můžeš vyvodit?",
+        "prompt": "Přední strana vypadá dobře. Co z toho můžete vyvodit?",
         "options": [
           {
             "id": "a",
@@ -1767,7 +1712,7 @@
       },
       {
         "id": "q3",
-        "prompt": "Který stav označíš jako dokončenou opravu?",
+        "prompt": "Který stav označíte jako dokončenou opravu?",
         "options": [
           {
             "id": "a",
@@ -1788,30 +1733,27 @@
     ],
     "task": {
       "title": "Předání nálezu z pochůzky",
-      "prompt": "Na modelovém plánku se úseky jmenují Sever, Jih, Východ a Západ. Na Západě je uvolněný díl, ostatní úseky jsi prošel bez nálezu. Napiš ve 2–4 větách předání další směně a odliš hotovou kontrolu od dosud neprovedené opravy.",
+      "prompt": "Na modelovém plánku se úseky jmenují Sever, Jih, Východ a Západ. Na Západě je uvolněný díl, ostatní úseky jste prošli bez nálezu. Napište ve 2–4 větách předání další směně a odlište dokončenou kontrolu od dosud neprovedené opravy.",
       "checks": [
         "Závada je dohledatelná podle názvu úseku.",
-        "Nepopisuješ opravu jako již dokončenou.",
-        "Uvádíš, co bude nutné po opravě ověřit."
+        "Nepopisujete opravu jako již dokončenou.",
+        "Uvádíte, co bude nutné po opravě ověřit."
       ]
     },
-    "sourceIds": [
-      "V05",
-      "NSK-PEST-2022"
-    ]
+    "sourceIds": []
   },
   {
     "id": "P04",
     "block": "P",
-    "title": "Poškození stromku popiš podle znaků",
-    "goal": "Rozlišíš poškození výhonu a kůry a sepíšeš věcné hlášení bez nepodložené diagnózy.",
+    "title": "Rozpoznávání a evidence poškození dřevin",
+    "goal": "Rozlišíte poškození výhonu a kůry a sepíšete věcné hlášení bez nepodložené diagnózy.",
     "minutes": 10,
     "competencies": [
       "C03",
       "C06",
       "C12"
     ],
-    "intro": "Včasný a přesný popis poškození pomáhá rozhodnout o další péči. Nejdříve sleduj, která část stromku je zasažena a jak rána vypadá. Jméno předpokládaného původce je až další otázka.",
+    "intro": "Evidence poškození uvádí zasaženou část dřeviny, charakter příznaku, rozsah a polohu nálezu. Určení příčiny vyžaduje odpovídající podklady a nesmí být zaměňováno se samotným pozorováním.",
     "sections": [
       {
         "title": "Výhon a kůra nejsou totéž",
@@ -1819,20 +1761,20 @@
       },
       {
         "title": "Příznak není úplná diagnóza",
-        "body": "Ze samotné rány nelze vždy spolehlivě určit konkrétní druh zvěře. Ani usychání sazenice nemá jedinou možnou příčinu: může souviset se suchem, chorobou nebo živočišným poškozením. V hlášení proto odděl pozorování „chybí vrcholový výhon“ od domněnky „způsobil to určitý živočich“."
+        "body": "Ze samotné rány nelze vždy spolehlivě určit konkrétní druh zvěře. Ani usychání sazenice nemá jedinou možnou příčinu: může souviset se suchem, chorobou nebo živočišným poškozením. V hlášení proto oddělte pozorování „chybí vrcholový výhon“ od domněnky „způsobil to určitý živočich“."
       },
       {
-        "title": "Zachyť místo i rozsah",
-        "body": "Užitečný záznam obsahuje dohledatelné místo, dřevinu, poškozenou část a informaci, zda jde o jeden stromek nebo skupinu. Fotografie detailu ukáže ránu; širší záběr pomůže pochopit okolí. Zaznamenej také stav ochrany, pokud je přítomna. Při opakované kontrole pak lze porovnat stejné místo, nikoli neurčitou vzpomínku."
+        "title": "Zachyťte místo i rozsah",
+        "body": "Užitečný záznam obsahuje dohledatelné místo, dřevinu, poškozenou část a informaci, zda jde o jeden strom nebo skupinu. Fotografie detailu ukáže ránu; širší záběr pomůže pochopit okolí. Zaznamenejte také stav ochrany, pokud je přítomna. Při opakované kontrole pak lze porovnat stejné místo, nikoli neurčitou vzpomínku."
       }
     ],
     "example": {
-      "situation": "Ve skupině buků chybějí hlavní výhony, ale původce jsi neviděl.",
-      "response": "Zapíšeš místo, druh dřeviny, výskyt ve skupině a vzhled poškozených konců; připojíš fotografii.",
+      "situation": "Ve skupině buků chybějí hlavní výhony, ale původce jste neviděli.",
+      "response": "Zapíšete místo, druh dřeviny, výskyt ve skupině a vzhled poškozených konců; připojíte fotografii.",
       "why": "Takový podklad zachovává pozorované skutečnosti a umožňuje další posouzení bez vymyšlené jistoty."
     },
     "mistakes": [
-      "Každý suchý stromek označit jako poškozený zvěří: předčasně zaměníš příznak za příčinu.",
+      "Každý suchý strom označit jako poškozený zvěří: předčasně zaměníte příznak za příčinu.",
       "Napsat jen „škody v lese“: nález nejde dohledat."
     ],
     "terms": [
@@ -1900,7 +1842,7 @@
           },
           {
             "id": "c",
-            "text": "Na ploše se stromkům nedaří."
+            "text": "Na ploše se stromům nedaří."
           }
         ],
         "correct": "a",
@@ -1909,30 +1851,27 @@
     ],
     "task": {
       "title": "Hlášení bez domněnek",
-      "prompt": "U vstupu do označené plochy najdeš skupinu mladých jedlí s chybějícími vrcholovými výhony; původce neznáš. Napiš ve 2–4 větách hlášení a popiš, jaké dva pohledy by měla zachytit dokumentace. Nepřidávej nepozorované okolnosti.",
+      "prompt": "U vstupu do označené plochy najdete skupinu mladých jedlí s chybějícími vrcholovými výhony; původce neznáte. Napište ve 2–4 větách hlášení a popište, jaké dva pohledy by měla zachytit dokumentace. Nepřidávejte nepozorované okolnosti.",
       "checks": [
-        "Uvádíš místo, dřevinu a poškozenou část.",
-        "Rozlišuješ skupinový výskyt od jednotlivého nálezu.",
+        "Uvádíte místo, dřevinu a poškozenou část.",
+        "Rozlišujete skupinový výskyt od jednotlivého nálezu.",
         "Dokumentace zahrnuje detail i souvislost s okolím."
       ]
     },
-    "sourceIds": [
-      "M04",
-      "P-L05"
-    ]
+    "sourceIds": []
   },
   {
     "id": "P05",
     "block": "P",
-    "title": "Klest a dokončení pracoviště",
-    "goal": "Vysvětlíš funkce klestu a sestavíš kontrolu úklidu podle zadání i zachovávaných prvků.",
+    "title": "Nakládání s klestem a dokončení pracoviště",
+    "goal": "Vysvětlíte funkce klestu a sestavíte kontrolu úklidu podle zadání i zachovávaných prvků.",
     "minutes": 10,
     "competencies": [
       "C07",
       "C10",
       "C11"
     ],
-    "intro": "Po těžbě zůstávají na ploše větve a vršky stromů. Mohou překážet navazující práci, ale zároveň jsou součástí lesního prostředí. Správně uklizená plocha proto vypadá různě podle stanoveného způsobu nakládání.",
+    "intro": "Klest a další těžební zbytky ovlivňují přístupnost pracoviště, obnovu lesa i koloběh živin. Způsob jejich soustředění, ponechání nebo odstranění stanovuje pracovní zadání.",
     "sections": [
       {
         "title": "Materiál, který vrací živiny",
@@ -1940,20 +1879,20 @@
       },
       {
         "title": "Úklid navazuje na další práci",
-        "body": "Klest lze podle zvoleného postupu uspořádat do hromad či řad nebo ponechat k rozkladu. Úklid může připravovat místa pro obnovu i chránit již přítomné zmlazení. Před přesunem materiálu si spoj tři informace: odkud se bere, kam patří a co v obou místech musí zůstat zachováno."
+        "body": "Klest lze podle zvoleného postupu uspořádat do hromad či řad nebo ponechat k rozkladu. Úklid může připravovat místa pro obnovu i chránit již přítomné zmlazení. Před přesunem materiálu si spojte tři informace: odkud se bere, kam patří a co v obou místech musí zůstat zachováno."
       },
       {
-        "title": "Zkontroluj původní i cílové místo",
-        "body": "V cvičném zadání s určeným uložením ověř, že materiál skutečně skončil ve vymezeném prostoru. Prohlédni také uvolněnou plochu, přístupy a zachovávané stromky. Přesun, který odstranil jednu překážku a zasypal zmlazení jinde, úkol nesplnil. Při předání popiš hotový rozsah i zbytky práce, které ještě čekají."
+        "title": "Zkontrolujte původní i cílové místo",
+        "body": "V cvičném zadání s určeným uložením ověřte, že materiál skutečně skončil ve vymezeném prostoru. Prohlédněte také uvolněnou plochu, přístupy a zachovávané stromy. Přesun, který odstranil jednu překážku a zasypal zmlazení jinde, úkol nesplnil. Při předání popište hotový rozsah i zbytky práce, které ještě čekají."
       }
     ],
     "example": {
       "situation": "Hromada v určeném místě roste směrem ke skupině zmlazení, která má zůstat volná.",
-      "response": "Upravíš organizaci ukládání v mezích vyznačeného prostoru a porovnáš výsledek s oběma podmínkami zadání.",
+      "response": "Upravíte organizaci ukládání v mezích vyznačeného prostoru a porovnáte výsledek s oběma podmínkami zadání.",
       "why": "Nestačí dodržet místo hromady; současně musí zůstat zachována určená obnova."
     },
     "mistakes": [
-      "Považovat ponechané větve vždy za nedodělek: přehlédneš účel jejich ponechání.",
+      "Považovat ponechané větve vždy za nedodělek: přehlédnete účel jejich ponechání.",
       "Kontrolovat jen uvolněnou plochu: škoda může vzniknout v místě uložení."
     ],
     "terms": [
@@ -1989,7 +1928,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Co zkontroluješ po přesunu klestu?",
+        "prompt": "Co zkontrolujete po přesunu klestu?",
         "options": [
           {
             "id": "a",
@@ -2030,53 +1969,49 @@
     ],
     "task": {
       "title": "Předávací kontrola plochy",
-      "prompt": "Modelové zadání požaduje uvolnit přístup a uložit klest do vyznačeného prostoru, mimo skupinu zmlazení. Napiš ve 2–4 větách kontrolní zápis po práci. Uveď konkrétní pozorování z původní plochy i místa uložení, nikoli jen slovo „hotovo“.",
+      "prompt": "Modelové zadání požaduje uvolnit přístup a uložit klest do vyznačeného prostoru, mimo skupinu zmlazení. Napište ve 2–4 větách kontrolní zápis po práci. Uveďte konkrétní pozorování z původní plochy i místa uložení, nikoli jen slovo „dokončeno“.",
       "checks": [
-        "Výslovně kontroluješ přístup.",
-        "Popisuješ uložení vůči vyznačenému prostoru.",
-        "Ověřuješ stav zachovávaného zmlazení."
+        "Výslovně kontrolujete přístup.",
+        "Popisujete uložení vůči vyznačenému prostoru.",
+        "Ověřujete stav zachovávaného zmlazení."
       ]
     },
-    "sourceIds": [
-      "V07",
-      "P-L06",
-      "NSK-PEST-2022"
-    ]
+    "sourceIds": []
   },
   {
     "id": "P06",
     "block": "P",
-    "title": "Půda, voda a biotopové stromy",
-    "goal": "Spojíš ponechané prvky s jejich ekologickou funkcí a popíšeš nežádoucí dopad práce na modelové ploše.",
+    "title": "Ochrana půdy, vodního režimu a biotopových stromů",
+    "goal": "Spojíte ponechané prvky s jejich ekologickou funkcí a popíšete nežádoucí dopad práce na modelové ploše.",
     "minutes": 10,
     "competencies": [
       "C10",
       "C11",
       "C12"
     ],
-    "intro": "Výsledek práce nekončí u uvolněného stromku nebo přesunuté větve. Záleží také na půdním povrchu, cestě vody a zachovaných stanovištích organismů. Závěrečná kontrola proto sleduje souvislosti v okolí práce.",
+    "intro": "Pěstební činnost musí respektovat ochranu půdy, vodní režim a určené ekologicky významné prvky. Kontrola hodnotí dopady zásahu také v okolí bezprostředně ošetřovaných dřevin.",
     "sections": [
       {
         "title": "Povrch půdy ovlivňuje vodu",
         "body": "Ležící větve a kmeny mohou zpomalovat povrchový odtok a podporovat vsakování. Organický kryt omezuje výpar a teplotní výkyvy. Klest v těžební lince může chránit půdu před zhutněním. Materiál ponechaný na místě tedy může plnit konkrétní funkci, kterou by dodatečný úklid změnil."
       },
       {
-        "title": "U toku sleduj širší souvislost",
-        "body": "Dřevo ve vodním toku ovlivňuje proudění i podobu koryta. Jeho úloha se posuzuje společně se stavem břehů a místními riziky. Při prohlídce zaznamenej polohu vůči vodě a viditelnou změnu po práci. Pouhé označení „překážka“ nestačí k vysvětlení, co se v místě skutečně děje."
+        "title": "U toku sledujte širší souvislost",
+        "body": "Dřevo ve vodním toku ovlivňuje proudění i podobu koryta. Jeho úloha se posuzuje společně se stavem břehů a místními riziky. Při prohlídce zaznamenejte polohu vůči vodě a viditelnou změnu po práci. Pouhé označení „překážka“ nestačí k vysvětlení, co se v místě skutečně děje."
       },
       {
-        "title": "Strom poskytuje více než dřevo",
-        "body": "Dutiny, trouchnivějící části a členitá kůra vytvářejí prostředí pro další organismy. LČR označují biotopové stromy svého programu zelenou vlnovkou; nejde o univerzální značku všech vlastníků. Při práci zachovávej určený strom i vysvětlené okolní prvky. Biologická hodnota a stav stromu jsou dvě informace, které je třeba vnímat současně."
+        "title": "Ekologická funkce biotopových stromů",
+        "body": "Dutiny, trouchnivějící části a členitá kůra vytvářejí prostředí pro další organismy. LČR označují biotopové stromy svého programu zelenou vlnovkou; nejde o univerzální značku všech vlastníků. Při práci zachovávejte určený strom i vysvětlené okolní prvky. Biologická hodnota a stav stromu jsou dvě informace, které je třeba vnímat současně."
       }
     ],
     "example": {
       "situation": "V modelu zbývá klest na lince a poblíž stojí označený biotopový strom. Závěrečný úklid má zachovat oba prvky.",
-      "response": "Při kontrole ověříš jejich ponechání a zaznamenáš případnou novou škodu na půdě nebo stromu.",
+      "response": "Při kontrole ověříte jejich ponechání a zaznamenáte případnou novou škodu na půdě nebo stromu.",
       "why": "Dokončení zahrnuje i to, co mělo zůstat zachováno a proč."
     },
     "mistakes": [
-      "Pokládat dutinu za pouhou vadu dřeva: přehlédneš stanoviště organismů.",
-      "Hodnotit čistotu podle holé půdy: zaměníš vzhled za ekologickou funkci."
+      "Pokládat dutinu za pouhou vadu dřeva: přehlédnete stanoviště organismů.",
+      "Hodnotit čistotu podle holé půdy: zaměníte vzhled za ekologickou funkci."
     ],
     "terms": [
       {
@@ -2152,29 +2087,26 @@
     ],
     "task": {
       "title": "Ekologická kontrola po práci",
-      "prompt": "Na modelové ploše jsou vyznačeny ochranný klest na lince, skupina zmlazení a biotopový strom. Napiš ve 2–4 větách kontrolní záznam ke dvěma z těchto prvků. U každého spoj pozorovaný stav s důvodem, proč má být zachován.",
+      "prompt": "Na modelové ploše jsou vyznačeny ochranný klest na lince, skupina zmlazení a biotopový strom. Napište ve 2–4 větách kontrolní záznam ke dvěma z těchto prvků. U každého spojte pozorovaný stav s důvodem, proč má být zachován.",
       "checks": [
-        "Vybereš dva konkrétní prvky.",
-        "U každého uvedeš stav i funkci.",
+        "Vyberete dva konkrétní prvky.",
+        "U každého uvedete stav i funkci.",
         "Záznam nezaměňuje označení prvku s oprávněním měnit jeho určení."
       ]
     },
-    "sourceIds": [
-      "V08",
-      "L03"
-    ]
+    "sourceIds": []
   },
   {
     "id": "R01",
     "block": "R",
-    "title": "Proč prořezávat: prostor pro další růst",
-    "goal": "Vysvětlit na konkrétní skupině stromků, komu má zásah prospět a podle čeho se pozná jeho smysl.",
+    "title": "Pěstební účel a zásady prořezávek",
+    "goal": "Vysvětlit na konkrétní skupině stromů, komu má zásah prospět a podle čeho se pozná jeho smysl.",
     "minutes": 10,
     "competencies": [
       "C04",
       "C01"
     ],
-    "intro": "Při prořezávce rozhodujete o budoucí podobě mladého porostu. Než začnete vybírat stromy k odstranění, potřebujete umět pojmenovat žádoucí výsledek na stromech, které zůstanou.",
+    "intro": "Prořezávka usměrňuje druhovou skladbu, hustotu, zdravotní stav a kvalitu mladého porostu. Odstraňování jedinců se řídí pěstebním cílem a vztahy mezi ponechávanými dřevinami.",
     "sections": [
       {
         "title": "Co se mění",
@@ -2186,16 +2118,16 @@
       },
       {
         "title": "Popište přínos před rozhodnutím",
-        "body": "Pro nácvik spojte tři údaje: který strom má zůstat, jaký vztah v jeho okolí vidíte a jakou změnu požaduje zadání. Pokud dokážete říci jen ‚tady je to husté‘, doplňte pozorování korun a druhů dřevin. Nejasný případ si připravte k ukázání vedoucímu."
+        "body": "Pro modelový nácvik spojte určení ponechávaného jedince, jeho konkurenční vztahy a změnu požadovanou pěstebním zadáním. Obecné konstatování o vysoké hustotě doplňte pozorováním korun, druhové skladby a prostorových vztahů. Nejednoznačný případ předložte instruktorovi k posouzení."
       }
     ],
     "example": {
-      "situation": "Zadání požaduje podpořit označený buk; vedle něj roste stromek, jehož koruna jej překrývá.",
+      "situation": "Zadání požaduje podpořit označený buk; vedle něj roste strom, jehož koruna jej překrývá.",
       "response": "Pracovník ukáže obě koruny a ověří, zda právě tento soused odpovídá domluvenému výběru.",
       "why": "Rozhodnutí váže na konkrétní přínos pro ponechaný strom a na zadání."
     },
     "mistakes": [
-      "Hodnotit úspěch jen podle množství vyřezaných stromků: přínos pro zbývající porost zůstane neověřený.",
+      "Hodnotit úspěch jen podle množství vyřezaných stromů: přínos pro zbývající porost zůstane neověřený.",
       "Přenést stejný zásah do odlišné směsi bez nového posouzení."
     ],
     "terms": [
@@ -2215,7 +2147,7 @@
           },
           {
             "id": "b",
-            "text": "V této části jsme zatím odstranili méně stromků než jinde."
+            "text": "V této části jsme zatím odstranili méně stromů než jinde."
           },
           {
             "id": "c",
@@ -2275,22 +2207,19 @@
         "Obsahuje konkrétní bod k ověření a nezavádí vlastní číselný předpis."
       ]
     },
-    "sourceIds": [
-      "r-csu-lesnictvi",
-      "r-vulhm-hydricke-2025"
-    ]
+    "sourceIds": []
   },
   {
     "id": "R02",
     "block": "R",
-    "title": "Výběr stromů podle domluvených kritérií",
+    "title": "Výběr jedinců podle pěstebních kritérií",
     "goal": "Rozlišit pozorovaný znak stromu od rozhodnutí o jeho odstranění a doložit rozhodnutí kritériem zadání.",
     "minutes": 10,
     "competencies": [
       "C04",
       "C01"
     ],
-    "intro": "Dva pracovníci mohou stejný strom posoudit různě, pokud každý používá jiné měřítko. Společná kritéria umožňují vysvětlit výběr a včas odhalit rozpor v pochopení práce.",
+    "intro": "Pěstební výběr využívá předem stanovená kritéria vitality, zdravotního stavu, kvality a prostorových vztahů. Kritéria se vysvětlují a ověřují na konkrétním porostu.",
     "sections": [
       {
         "title": "Nejprve si ujasněte výběr",
@@ -2298,7 +2227,7 @@
       },
       {
         "title": "Oddělte znak a závěr",
-        "body": "V zápisu rozlišujte pozorování ‚kmínek je vidličnatý‘ a závěr ‚strom se odstraní‘. Závěr musí navázat na domluvené kritérium a okolní stromy. Ve cvičení lze použít krátkou větu: vidím tento znak, podle tohoto bodu zadání navrhuji toto rozhodnutí. Takové zdůvodnění lze zkontrolovat přímo na místě."
+        "body": "V zápisu rozlišujte pozorování ‚kmínek je vidličnatý‘ a závěr ‚strom se odstraní‘. Závěr musí navázat na stanovené kritérium a okolní stromy. Ve cvičení lze použít krátkou větu: vidím tento znak, podle tohoto bodu zadání navrhuji toto rozhodnutí. Takové zdůvodnění lze zkontrolovat přímo na místě."
       },
       {
         "title": "Rozpor řešte na konkrétním místě",
@@ -2306,7 +2235,7 @@
       }
     ],
     "example": {
-      "situation": "Pracovník vidí křivý stromek, který je současně označen k ponechání jako žádoucí příměs.",
+      "situation": "Pracovník vidí křivý strom, který je současně označen k ponechání jako žádoucí příměs.",
       "response": "Předloží rozpor vedoucímu a vyžádá si vysvětlení priority kritérií.",
       "why": "Samotná křivost neopravňuje změnit význam vyznačení ani cíl příměsi."
     },
@@ -2384,29 +2313,26 @@
     ],
     "task": {
       "title": "Vyjasnění sporného stromu",
-      "prompt": "Na cvičné ploše je stromek s poškozeným vrcholem, ale značka u něj podle vašeho výkladu znamená ponechání. Napište dvě až čtyři věty pro vedoucího: co pozorujete, v čem je rozpor a jaké rozhodnutí potřebujete potvrdit. Neurčujte sami příčinu poškození.",
+      "prompt": "Na cvičné ploše je strom s poškozeným vrcholem, ale značka u něj podle vašeho výkladu znamená ponechání. Napište dvě až čtyři věty pro vedoucího: co pozorujete, v čem je rozpor a jaké rozhodnutí potřebujete potvrdit. Neurčujte sami příčinu poškození.",
       "checks": [
         "Odděluje viditelné poškození od domněnky o jeho příčině.",
         "Pojmenuje rozpor mezi znakem stromu a významem značení.",
         "Žádá rozhodnutí o konkrétním případu a nezaměňuje dotaz za svévolnou změnu výběru."
       ]
     },
-    "sourceIds": [
-      "r-mendelu-vyber",
-      "r-vulhm-malolesy-2023"
-    ]
+    "sourceIds": []
   },
   {
     "id": "R03",
     "block": "R",
-    "title": "Kladný a záporný výběr ve směsi",
+    "title": "Kladný a záporný výběr ve smíšeném porostu",
     "goal": "Rozpoznat oba způsoby výběru a vysvětlit, proč stejný druh nemusí mít v různých místech stejnou roli.",
     "minutes": 10,
     "competencies": [
       "C04",
       "C10"
     ],
-    "intro": "Ve smíšeném porostu nestačí znát jméno dřeviny. Rozhodnutí musí odpovídat její roli v daném místě a cíli, který má pracovní zásah podpořit.",
+    "intro": "Ve smíšeném porostu se výběr posuzuje podle funkce dřevin a stanoveného pěstebního cíle. Druhová příslušnost sama neurčuje ponechání ani odstranění jedince.",
     "sections": [
       {
         "title": "Dva směry uvažování",
@@ -2414,7 +2340,7 @@
       },
       {
         "title": "Příměs má konkrétní úlohu",
-        "body": "Méně zastoupená dřevina může být žádoucí součástí budoucího porostu. Náletové dřeviny navíc mohou v mezerách nebo kolem citlivějších stromků vytvářet užitečný kryt. Označení ‚nálet‘ proto samo neurčuje odstranění. Ptejte se, zda strom v tomto místě plní požadovanou funkci, nebo překáží konkrétnímu podporovanému jedinci."
+        "body": "Méně zastoupená dřevina může být žádoucí součástí budoucího porostu. Náletové dřeviny navíc mohou v mezerách nebo kolem citlivějších stromů vytvářet užitečný kryt. Označení ‚nálet‘ proto samo neurčuje odstranění. Ptejte se, zda strom v tomto místě plní požadovanou funkci, nebo překáží konkrétnímu podporovanému jedinci."
       },
       {
         "title": "Porovnejte dvě sousedství",
@@ -2507,15 +2433,12 @@
         "U kladného výběru jmenuje podporovaný strom, nikoli pouze strom odstraňovaný."
       ]
     },
-    "sourceIds": [
-      "r-mendelu-vyber",
-      "r-vulhm-malolesy-2023"
-    ]
+    "sourceIds": []
   },
   {
     "id": "R04",
     "block": "R",
-    "title": "Referenční úsek a průběžná kontrola",
+    "title": "Referenční úsek a průběžná kontrola zásahu",
     "goal": "Připravit záznam srovnání ukázkového a pracovního úseku a určit okamžik, kdy je potřeba nové upřesnění.",
     "minutes": 10,
     "competencies": [
@@ -2523,7 +2446,7 @@
       "C11",
       "C01"
     ],
-    "intro": "Slovní pokyn si každý může představit trochu jinak. Společně prohlédnutý referenční úsek umožní ukázat, jak se domluvená kritéria promítají do konkrétního porostu.",
+    "intro": "Referenční úsek převádí pěstební kritéria do názorného příkladu zásahu. Průběžná kontrola ověřuje shodu pracovního provedení s tímto zadáním a aktuálními podmínkami porostu.",
     "sections": [
       {
         "title": "Převeďte ukázku do slov",
@@ -2531,7 +2454,7 @@
       },
       {
         "title": "Srovnávejte odpovídající situace",
-        "body": "Pěstební postup se přizpůsobuje podmínkám porostu; intenzita nemusí být všude stejná. Referenci proto nepoužívejte jako šablonu stejných mezer. Při přechodu do jiné směsi či výrazně odlišné hustoty ověřte, co z ukázky dál platí. Rozdíl nejprve popište, potom si vyžádejte použitelné upřesnění."
+        "body": "Pěstební postup se přizpůsobuje podmínkám porostu; intenzita nemusí být všude stejná. Referenci proto nepoužívejte jako šablonu stejných mezer. Při přechodu do odlišné dřevinné skladby či výrazně odlišné hustoty ověřte, co z ukázky dál platí. Rozdíl nejprve popište, potom si vyžádejte použitelné upřesnění."
       },
       {
         "title": "Kontrolujte v průběhu",
@@ -2550,7 +2473,7 @@
     "terms": [
       {
         "term": "Referenční úsek",
-        "meaning": "Pro toto cvičení společně vysvětlené místo, podle kterého lze porovnávat použití domluvených kritérií."
+        "meaning": "Pro toto cvičení společně vysvětlené místo, podle kterého lze porovnávat použití stanovených kritérií."
       }
     ],
     "quiz": [
@@ -2624,15 +2547,12 @@
         "Formuluje otázku k zadání a ověřitelný znak výsledku."
       ]
     },
-    "sourceIds": [
-      "r-vulhm-malolesy-2023",
-      "r-mendelu-vychova"
-    ]
+    "sourceIds": []
   },
   {
     "id": "R05",
     "block": "R",
-    "title": "Chránit to, co má v porostu zůstat",
+    "title": "Ochrana ponechávaných jedinců a ekologicky významných prvků",
     "goal": "Popsat ochranu ponechané složky a předat konkrétní nález, který může změnit pracovní postup.",
     "minutes": 10,
     "competencies": [
@@ -2640,19 +2560,19 @@
       "C10",
       "C11"
     ],
-    "intro": "Výsledek prořezávky zahrnuje i stav ponechaných stromů a zachování dohodnutých přírodních prvků. Správný seznam odstraněných stromků sám o sobě kvalitu práce nedokládá.",
+    "intro": "Kvalita prořezávky zahrnuje stav ponechávaných jedinců, zachování určené příměsi a ochranu ekologicky významných prvků. Výčet odstraněných jedinců tuto kontrolu nenahrazuje.",
     "sections": [
       {
         "title": "Poznejte předem ponechané prvky",
-        "body": "Při převzetí práce si ukažte stromy a místa, která mají zůstat zachována. Do svého záznamu oddělte cílové stromky, požadovanou příměs a další výslovně určené prvky. U každého uveďte rozpoznatelný znak. Označení ‚všechno důležité ponechat‘ bez společného vysvětlení nepomůže při rozhodování mezi podobně vypadajícími místy."
+        "body": "Při převzetí práce si ukažte stromy a místa, která mají zůstat zachována. Do svého záznamu oddělte cílové stromy, požadovanou příměs a další výslovně určené prvky. U každého uveďte rozpoznatelný znak. Označení ‚všechno důležité ponechat‘ bez společného vysvětlení nepomůže při rozhodování mezi podobně vypadajícími místy."
       },
       {
         "title": "Přírodní hodnota může být nenápadná",
-        "body": "Druhová pestrost, vybrané habitatové stromy a mrtvé dřevo mohou podporovat lesní biodiverzitu. Habitatový strom poskytuje prostředí dalším organismům; jeho hodnota proto nespočívá jen v tvaru kmene. Nález takového prvku není automatickým pokynem k manipulaci. Nejasnou roli ověřte u vedoucího a sdělte přesné místo nálezu."
+        "body": "Druhová rozmanitost, vybrané habitatové stromy a mrtvé dřevo mohou podporovat lesní biodiverzitu. Habitatový strom poskytuje prostředí dalším organismům; jeho hodnota proto nespočívá jen v tvaru kmene. Nález takového prvku není automatickým pokynem k manipulaci. Nejasnou roli ověřte u vedoucího a sdělte přesné místo nálezu."
       },
       {
         "title": "Ověřte skutečný stav",
-        "body": "Ve cvičné kontrole po práci porovnejte domluvené ponechané prvky se skutečností. Zaznamenejte viditelné poškození, změněné označení nebo překrytý stromek. Popište rozsah a polohu, ale nepřisuzujte bez důkazů příčinu ani viníka. Ujištění ‚všechno je v pořádku‘ nahraďte konkrétním pozorováním a otevřenou otázkou tam, kde si nejste jistí."
+        "body": "Ve cvičné kontrole po práci porovnejte stanovené ponechané prvky se skutečností. Zaznamenejte viditelné poškození, změněné označení nebo překrytý strom. Popište rozsah a polohu, ale nepřisuzujte bez důkazů příčinu ani viníka. Ujištění ‚všechno je v pořádku‘ nahraďte konkrétním pozorováním a otevřenou otázkou tam, kde si nejste jistí."
       }
     ],
     "example": {
@@ -2677,7 +2597,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Společně ukázané stromky a srozumitelné určení, co má být zachováno."
+            "text": "Společně ukázané stromy a srozumitelné určení, co má být zachováno."
           },
           {
             "id": "b",
@@ -2693,7 +2613,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Na ponechaném stromku objevíte odřenou kůru. Co má obsahovat užitečné hlášení?",
+        "prompt": "Na ponechaném stromu objevíte odřenou kůru. Co má obsahovat užitečné hlášení?",
         "options": [
           {
             "id": "a",
@@ -2734,21 +2654,19 @@
     ],
     "task": {
       "title": "Předání dvou nálezů",
-      "prompt": "Při kontrole vidíte ohnutý ponechaný stromek pod větvemi a nejasně označený starší strom u hranice úseku. Napište dvě až čtyři věty pro vedoucího. Oddělte oba nálezy, popište jejich polohu a u každého uveďte, co potřebujete rozhodnout.",
+      "prompt": "Při kontrole vidíte ohnutý ponechaný strom pod větvemi a nejasně označený starší strom u hranice úseku. Napište dvě až čtyři věty pro vedoucího. Oddělte oba nálezy, popište jejich polohu a u každého uveďte, co potřebujete rozhodnout.",
       "checks": [
         "Záznam rozlišuje oba nálezy a umožňuje je lokalizovat.",
         "Popisuje pozorování bez nepodloženého určení příčiny nebo viníka.",
         "Obsahuje konkrétní otázku k postupu u obou míst."
       ]
     },
-    "sourceIds": [
-      "r-vulhm-biodiverzita"
-    ]
+    "sourceIds": []
   },
   {
     "id": "R06",
     "block": "R",
-    "title": "Kontrola výsledku a hranice zadání",
+    "title": "Kontrola výsledku prořezávky a rozsahu zadání",
     "goal": "Předat dokončený úsek se záznamem ověřených výsledků, výjimek a práce vyžadující nové rozhodnutí.",
     "minutes": 10,
     "competencies": [
@@ -2756,11 +2674,11 @@
       "C11",
       "C01"
     ],
-    "intro": "Dokončení úseku je okamžik pro srovnání skutečnosti se zadáním. Užitečné předání ukazuje, co jste ověřili, kde zůstává výjimka a co přesahuje domluvenou práci.",
+    "intro": "Závěrečná kontrola porovnává provedený zásah s pěstebním cílem, kritérii výběru a stanoveným rozsahem. Předání zaznamenává také odchylky a nevyřešené případy.",
     "sections": [
       {
         "title": "Zkontrolujte několik hledisek",
-        "body": "Pro závěrečnou prohlídku si připravte čtyři otázky: odpovídá výběr kritériím, zůstala požadovaná směs, jak vypadají ponechané stromky a jsou zaznamenány nevyřešené případy? Odpovědi propojte s místy. Samotná informace o dokončené ploše vypovídá o rozsahu práce, ale ještě neumožňuje prověřit její jednotlivé výsledky."
+        "body": "Pro závěrečnou prohlídku si připravte čtyři otázky: odpovídá výběr kritériím, zůstala požadovaná dřevinná skladba, jak vypadají ponechané stromy a jsou zaznamenány nevyřešené případy? Odpovědi propojte s místy. Samotná informace o dokončené ploše vypovídá o rozsahu práce, ale ještě neumožňuje prověřit její jednotlivé výsledky."
       },
       {
         "title": "Rozlišujte druh a rozsah práce",
@@ -2777,7 +2695,7 @@
       "why": "Doplňující pozorování nezaměňuje za oprávnění pokračovat stejným výběrem."
     },
     "mistakes": [
-      "Napsat ‚hotovo bez závad‘ bez prohlídky a bez zaznamenání známých výjimek.",
+      "Napsat ‚dokončeno bez závad‘ bez prohlídky a bez zaznamenání známých výjimek.",
       "Snažit se dohnat zanedbanou výchovu svévolným zesílením zásahu."
     ],
     "terms": [
@@ -2801,7 +2719,7 @@
           },
           {
             "id": "c",
-            "text": "Jen nejvyšší počet odstraněných stromků za směnu."
+            "text": "Jen nejvyšší počet odstraněných stromů za směnu."
           }
         ],
         "correct": "b",
@@ -2833,7 +2751,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Bez výjimky hotovo, protože rozhoduje pouze projitá plocha."
+            "text": "Bez výjimky dokončeno, protože rozhoduje pouze projitá plocha."
           },
           {
             "id": "b",
@@ -2845,53 +2763,49 @@
           }
         ],
         "correct": "c",
-        "explanation": "Předání má zachytit skutečný stav po částech. Přikrytí výjimky slovem hotovo ani popření veškeré provedené práce není přesné."
+        "explanation": "Předání má zachytit skutečný stav po částech. Přikrytí výjimky slovem dokončeno ani popření veškeré provedené práce není přesné."
       }
     ],
     "task": {
       "title": "Předání s jednou výjimkou",
-      "prompt": "Domluvený úsek je dokončený, ale u severního okraje zůstala skupina s nevyjasněným značením; za hranicí jste si všimli odlišného vyššího porostu. Napište tři nebo čtyři věty předání. Uveďte, co jste na hotové části ověřili, kde čekáte na rozhodnutí a co pouze oznamujete jako nový podnět.",
+      "prompt": "Stanovený úsek je dokončený, ale u severního okraje zůstala skupina s nevyjasněným značením; za hranicí jste si všimli odlišného vyššího porostu. Napište tři nebo čtyři věty předání. Uveďte, co jste na hotové části ověřili, kde čekáte na rozhodnutí a co pouze oznamujete jako nový podnět.",
       "checks": [
-        "Rozlišuje hotovou část, nevyřešenou výjimku a sousední porost mimo zadání.",
+        "Rozlišuje dokončenou část, nevyřešenou výjimku a sousední porost mimo zadání.",
         "Uvádí konkrétní kontrolované hledisko kvality.",
         "Přiřazuje místům jasný další krok bez vlastního rozšiřování práce."
       ]
     },
-    "sourceIds": [
-      "r-csu-lesnictvi",
-      "r-mendelu-vychova",
-      "r-vulhm-hydricke-2025"
-    ]
+    "sourceIds": []
   },
   {
     "id": "K01",
     "block": "K",
-    "title": "Stroj, návod a správná sestava",
-    "goal": "Dohledáš správný návod a ověříš, zda nástroj i ochranné vybavení patří k danému stroji.",
+    "title": "Identifikace křovinořezu a schválená pracovní sestava",
+    "goal": "Dohledáte správný návod a ověříte, zda nástroj i ochranné vybavení patří k danému stroji.",
     "minutes": 10,
     "competencies": [
       "C08",
       "C09",
       "C01"
     ],
-    "intro": "Křovinořez není jedna univerzální sestava. Před výběrem pracovního postupu potřebuješ spojit konkrétní stroj, řezný nástroj a druh porostu. Tím předcházíš používání příslušenství, které sice nasadíš, ale výrobce je neschválil.",
+    "intro": "Pracovní sestava křovinořezu zahrnuje konkrétní stroj, řezný nástroj a předepsané ochranné a upevňovací prvky. Použitelnost sestavy se ověřuje podle návodu daného výrobku.",
     "sections": [
       {
-        "title": "Začni označením stroje",
-        "body": "Vyhledej model a jeho provedení. V českém návodu najdi určené použití, schválené příslušenství, ochranné prvky a údržbu. U staršího stroje ověř i správnou verzi návodu. STIHL upozorňuje, že novější návod se může od staršího výrobku lišit. Obrázek podobného stroje není dostatečným podkladem."
+        "title": "Začněte označením stroje",
+        "body": "Vyhledejte model a jeho provedení. V českém návodu najděte určené použití, schválené příslušenství, ochranné prvky a údržbu. U staršího stroje ověřte i správnou verzi návodu. Novější vydání návodu nemusí odpovídat staršímu provedení výrobku. Obrázek podobného stroje není dostatečným podkladem."
       },
       {
         "title": "Nástroj funguje v sestavě",
-        "body": "Strunová hlava, nůž na trávu a pilový kotouč mají různé použití. V návodu Husqvarna řady 555 slouží pilový kotouč dřevnaté vegetaci. Správný nástroj potřebuje také předepsaný kryt, upevňovací díly a závěs. U vybraných pilových kotoučů STIHL je předepsán doraz. Samotný shodný otvor kotouče neprokazuje kompatibilitu."
+        "body": "Strunová hlava, nůž na trávu a pilový kotouč mají různé použití. Pilový kotouč určený pro dřevnatou vegetaci lze použít pouze ve výrobcem schválené sestavě. Správný nástroj potřebuje také předepsaný kryt, upevňovací díly a závěs. U některých sestav s pilovým kotoučem se používá výrobcem předepsaný doraz. Samotný shodný otvor kotouče neprokazuje kompatibilitu."
       },
       {
         "title": "Příprava a skutečná obsluha",
-        "body": "SÚIP neuvádí univerzální zákonný průkaz křovinořezníka; zaměstnavatel však zajišťuje odpovídající školení. U sedmnáctiletého se posuzují zákazy prací mladistvých, zdravotní způsobilost a konkrétní podmínky. Výjimky přípravy na povolání platí jen pro vyjmenované práce při splnění zákonných podmínek včetně soustavného odborného dozoru. Dokončená digitální lekce sama obsluhu nepovoluje."
+        "body": "Zaměstnavatel zajišťuje odpovídající školení a ověření předpokladů obsluhy pro konkrétní činnost. U sedmnáctiletého se posuzují zákazy prací mladistvých, zdravotní způsobilost a konkrétní podmínky. Výjimky přípravy na povolání platí jen pro vyjmenované práce při splnění zákonných podmínek včetně soustavného odborného dozoru. Dokončená digitální lekce sama obsluhu nepovoluje."
       }
     ],
     "example": {
-      "situation": "Dostaneš pilový kotouč, který lze nasadit, ale v tabulce příslušenství svého stroje ho nenajdeš.",
-      "response": "Sestavu nepoužiješ. Ověříš přesné označení nástroje, stroje a požadovaného ochranného vybavení.",
+      "situation": "Dostanete pilový kotouč, který lze nasadit, ale v tabulce příslušenství svého stroje ho nenajdete.",
+      "response": "Sestavu nepoužijete. Ověříte přesné označení nástroje, stroje a požadovaného ochranného vybavení.",
       "why": "Mechanické nasazení není důkaz schváleného a bezpečného použití."
     },
     "mistakes": [
@@ -2907,7 +2821,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Kotouč pasuje na hřídel. Co ještě potřebuješ ověřit?",
+        "prompt": "Kotouč pasuje na hřídel. Co ještě potřebujete ověřit?",
         "options": [
           {
             "id": "a",
@@ -2927,7 +2841,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Který podklad máš vybrat pro starší stroj?",
+        "prompt": "Který podklad máte vybrat pro starší stroj?",
         "options": [
           {
             "id": "a",
@@ -2968,49 +2882,42 @@
     ],
     "task": {
       "title": "Karta sestavy",
-      "prompt": "Napiš 2–4 věty: kde najdeš označení přiděleného stroje, kterou část návodu použiješ pro kontrolu příslušenství a jaký údaj zatím chybí. Nemáš-li stroj, pracuj s výslovně označeným vzorovým modelem.",
+      "prompt": "Napište 2–4 věty: kde najdete označení přiděleného stroje, kterou část návodu použijete pro kontrolu příslušenství a jaký údaj zatím chybí. Nemáte-li stroj, pracujte s výslovně označeným vzorovým modelem.",
       "checks": [
-        "Uvádíš konkrétní identifikaci nebo přiznáváš chybějící údaj.",
-        "Rozlišuješ nástroj a související ochranné díly."
+        "Uvádíte konkrétní identifikaci nebo přiznáváte chybějící údaj.",
+        "Rozlišujete nástroj a související ochranné díly."
       ]
     },
-    "sourceIds": [
-      "k-stihl-navody",
-      "k-husq-manual-555",
-      "k-stihl-doraz",
-      "k-suip-skoleni",
-      "k-mpsv-180",
-      "k-mpsv-zp"
-    ]
+    "sourceIds": []
   },
   {
     "id": "K02",
     "block": "K",
-    "title": "Kontrola před spuštěním a OOPP",
-    "goal": "Rozpoznáš závadu bránící použití a přiřadíš ochranné prostředky k rizikům.",
+    "title": "Předprovozní kontrola a osobní ochranné pracovní prostředky",
+    "goal": "Rozpoznáte závadu bránící použití a přiřadíte ochranné prostředky k rizikům.",
     "minutes": 10,
     "competencies": [
       "C08",
       "C09"
     ],
-    "intro": "Předprovozní kontrola hledá důvody, proč stroj ještě nespustit. Stejně důležitá je pro křovinořez i ruční nářadí: závada objevená na zemi se řeší lépe než při zatíženém nástroji.",
+    "intro": "Předprovozní kontrola ověřuje technický stav stroje, nářadí a ochranných prostředků. Zjištěné závady se řeší před použitím; kontrola pokračuje také v průběhu práce.",
     "sections": [
       {
-        "title": "Postupuj ve stejném pořadí",
-        "body": "Na bezpečně odstaveném stroji prohlédni řezný nástroj, jeho upevnění, správný kryt, rukojeti a nosný popruh. Zkontroluj rychlé uvolnění podle návodu. Prasklina, chybějící část či nefunkční ochranný prvek nejsou běžné opotřebení. Upevnění se neposuzuje jen pohledem; způsob kontroly a montážní údaje určuje výrobce. Kontroly pokračují také během práce."
+        "title": "Postupujte ve stejném pořadí",
+        "body": "Na bezpečně odstaveném stroji prohlédněte řezný nástroj, jeho upevnění, správný kryt, rukojeti a nosný popruh. Zkontrolujte rychlé uvolnění podle návodu. Prasklina, chybějící část či nefunkční ochranný prvek nejsou běžné opotřebení. Upevnění se neposuzuje jen pohledem; způsob kontroly a montážní údaje určuje výrobce. Kontroly pokračují také během práce."
       },
       {
-        "title": "Každý prostředek chrání něco jiného",
-        "body": "Odletující částice vysvětlují ochranu očí a obličeje. Síťový štít sám nestačí jako ochrana očí; výrobce vyžaduje i odpovídající brýle. Ochrana sluchu řeší hluk, vhodná obuv terén a mechanické ohrožení. Potřeba přilby souvisí například s padajícími částmi porostu. Soubor OOPP musí odpovídat návodu a rizikům práce; poškozenou ochranu nelze započítat jen proto, že ji máš na sobě."
+        "title": "Volba osobních ochranných pracovních prostředků",
+        "body": "Osobní ochranné pracovní prostředky se volí podle vyhodnocení rizik a návodu výrobce. Ochrana očí a obličeje omezuje ohrožení odletujícími částicemi; síťový štít nenahrazuje předepsanou ochranu očí. Ochrana sluchu reaguje na expozici hluku, pracovní obuv na terén a mechanická rizika. Použití přilby se stanoví podle ohrožení, včetně pádu částí porostu. Poškozený prostředek neposkytuje požadovanou ochranu."
       },
       {
-        "title": "Nezapomeň na ruční nářadí",
-        "body": "U sekery nebo motyky kontroluj pracovní část, násadu a jejich pevné spojení. Uvolněná hlava může při pohybu nástroj opustit. Ostří při přepravě chraň a nářadí odkládej tak, aby nezranilo dalšího člověka. Vlastní kontrolní seznam je užitečná pomůcka, musí však obsahovat skutečné body pro používané vybavení."
+        "title": "Nezapomeňte na ruční nářadí",
+        "body": "U sekery nebo motyky zkontrolujte pracovní část, násadu a jejich spojení. Uvolněná pracovní část představuje riziko zranění. Při přepravě chraňte ostří a nářadí odkládejte tak, aby neohrožovalo další osoby. Kontrolní seznam musí odpovídat skutečně používanému vybavení a rozsahu zaškolení."
       }
     ],
     "example": {
       "situation": "Popruh drží, ale rychlé uvolnění je poškozené. Kolega navrhuje začít, protože se zatím nikdy nepoužilo.",
-      "response": "Stroj v této sestavě nepřevezmeš k práci a závadu zaznamenáš.",
+      "response": "Stroj v této sestavě nepřevezmete k práci a závadu zaznamenáte.",
       "why": "Bezpečnostní funkce musí fungovat před událostí, při které bude potřeba."
     },
     "mistakes": [
@@ -3026,7 +2933,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Na nástroji najdeš prasklinu. Jaký je správný závěr kontroly?",
+        "prompt": "Na nástroji najdete prasklinu. Jaký je správný závěr kontroly?",
         "options": [
           {
             "id": "a",
@@ -3046,7 +2953,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Proč ke štítu potřebuješ předepsané ochranné brýle?",
+        "prompt": "Proč ke štítu potřebujete předepsané ochranné brýle?",
         "options": [
           {
             "id": "a",
@@ -3066,19 +2973,19 @@
       },
       {
         "id": "q3",
-        "prompt": "Sekera má uvolněné spojení hlavy a násady. Co uděláš?",
+        "prompt": "Sekera má uvolněné spojení hlavy a násady. Co uděláte?",
         "options": [
           {
             "id": "a",
-            "text": "Budeš ji držet blíž k hlavě a pokračuješ."
+            "text": "Budete ji držet blíž k hlavě a pokračujete."
           },
           {
             "id": "b",
-            "text": "Vyřadíš ji z použití do opravy nebo výměny."
+            "text": "Vyřadíte ji z použití do opravy nebo výměny."
           },
           {
             "id": "c",
-            "text": "Použiješ ji pouze na měkké dřevo."
+            "text": "Použijete ji pouze na měkké dřevo."
           }
         ],
         "correct": "b",
@@ -3087,49 +2994,43 @@
     ],
     "task": {
       "title": "Dvě vady a jejich význam",
-      "prompt": "Napiš 2–4 věty o dvou modelových závadách: jedné na stroji a jedné na OOPP nebo ručním nářadí. U každé vysvětli možné ohrožení a rozhodnutí před zahájením práce.",
+      "prompt": "Napište 2–4 věty o dvou modelových závadách: jedné na stroji a jedné na OOPP nebo ručním nářadí. U každé vysvětlete možné ohrožení a rozhodnutí před zahájením práce.",
       "checks": [
-        "Popisuješ konkrétní závadu, nikoli jen obecně špatný stav.",
-        "Každé vadě přiřadíš srozumitelný důvod a správné rozhodnutí."
+        "Popisujete konkrétní závadu, nikoli jen obecně špatný stav.",
+        "Každé vadě přiřadíte srozumitelný důvod a správné rozhodnutí."
       ]
     },
-    "sourceIds": [
-      "k-nv-339",
-      "k-husq-udrzba",
-      "k-stihl-oci",
-      "k-lcr-postupy",
-      "k-husq-manual-555"
-    ]
+    "sourceIds": []
   },
   {
     "id": "K03",
     "block": "K",
-    "title": "Pracoviště a ohrožený prostor",
-    "goal": "Vyznačíš ohrožený prostor a navrhneš řešení pohybu osob a skrytých překážek.",
+    "title": "Příprava pracoviště a vymezení ohroženého prostoru",
+    "goal": "Vyznačíte ohrožený prostor a navrhnete řešení pohybu osob a skrytých překážek.",
     "minutes": 10,
     "competencies": [
       "C09",
       "C01",
       "C14"
     ],
-    "intro": "Křovinořez může ohrozit člověka, který se nástroje vůbec nedotýká. Příprava plochy proto zahrnuje okolí, cesty a příchody dalších pracovníků, nejen místo, kde právě stojíš.",
+    "intro": "Příprava pracoviště pro křovinořez zahrnuje vyhodnocení terénu, překážek, přístupových tras a pohybu dalších osob. Ohrožený prostor se vymezuje podle platných požadavků a návodu výrobce.",
     "sections": [
       {
         "title": "Patnáct metrů znamená poloměr",
-        "body": "NV 339/2017 Sb., §5 odst.2, určuje ohrožený prostor jako kruhovou plochu o poloměru 15 metrů, pokud výrobce nestanoví poloměr větší. V prostoru nesmějí být kromě obsluhy další osoby. Poloměr měříš od obsluhy směrem ven, není to šířka celého kruhu. Větší požadavek výrobce se nezkracuje na zákonné minimum."
+        "body": "NV 339/2017 Sb., §5 odst.2, určuje ohrožený prostor jako kruhovou plochu o poloměru 15 metrů, pokud výrobce nestanoví poloměr větší. V prostoru nesmějí být kromě obsluhy další osoby. Poloměr měříte od obsluhy směrem ven, není to šířka celého kruhu. Větší požadavek výrobce se nezkracuje na zákonné minimum."
       },
       {
-        "title": "Prohlédni místo dřív než začneš",
+        "title": "Prohlédněte místo dřív než začnete",
         "body": "Ve vegetaci mohou být kameny, drát, zbytky oplocení nebo skryté nerovnosti. Překážka může změnit pohyb nástroje; hustý porost navíc zhoršuje přehled. Všímej si svahu, možností došlapu a směru příchodu lidí. Zákonná vzdálenost není slib, že všechna ostatní rizika za hranicí kruhu zmizí. Pracovní postup musí řešit skutečné podmínky."
       },
       {
-        "title": "Domluva musí fungovat za provozu",
-        "body": "Před zahájením si ujasni hranice úseku, pravidla kontaktu mezi pracovníky a reakci na příchod veřejnosti. Samotná výstražná tabulka nezaručuje, že někdo nevstoupí. Ve cvičném plánu proto u každé přístupové cesty napiš, jak bude vstup zachycen a práce včas přerušena. Nepřibližuj se ke kolegovi s běžícím strojem jen proto, abys mu něco řekl."
+        "title": "Dohoda musí fungovat za provozu",
+        "body": "Před zahájením vymezte pracovní úsek, pravidla komunikace a postup při vstupu nepovolané osoby. Výstražné označení samo nezajišťuje kontrolu vstupu. Ve cvičném plánu určete u každé přístupové cesty způsob zjištění vstupu a včasného přerušení práce. Ke kolegovi s běžícím křovinořezem nevstupujte do ohroženého prostoru za účelem předání sdělení."
       }
     ],
     "example": {
       "situation": "Z boku plochy přichází člověk se psem. Je za tabulkou a dál se přibližuje.",
-      "response": "Práci včas přerušíš a zajistíš bezpečný stav. Pokračuješ až po obnovení stanovených podmínek.",
+      "response": "Práci včas přerušíte a zajistíte bezpečný stav. Pokračujete až po obnovení stanovených podmínek.",
       "why": "Za nepřítomnost osob v ohroženém prostoru nelze považovat pouhé umístění upozornění."
     },
     "mistakes": [
@@ -3145,7 +3046,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Výrobce požaduje větší poloměr než 15 metrů. Které pravidlo použiješ?",
+        "prompt": "Výrobce požaduje větší poloměr než 15 metrů. Které pravidlo použijete?",
         "options": [
           {
             "id": "a",
@@ -3169,7 +3070,7 @@
         "options": [
           {
             "id": "a",
-            "text": "Otočit se k cestě zády, aby tě nic nerozptylovalo."
+            "text": "Otočit se k cestě zády, aby vás nic nerozptylovalo."
           },
           {
             "id": "b",
@@ -3185,7 +3086,7 @@
       },
       {
         "id": "q3",
-        "prompt": "Proč před prací hledáš drát a kameny ve vegetaci?",
+        "prompt": "Proč před prací hledáte drát a kameny ve vegetaci?",
         "options": [
           {
             "id": "a",
@@ -3206,47 +3107,42 @@
     ],
     "task": {
       "title": "Mapa přístupů",
-      "prompt": "Popiš ve 2–4 větách modelovou plochu se dvěma přístupy. Uveď, jak vymezíš ohrožený prostor a co se stane při příchodu člověka jednou z cest.",
+      "prompt": "Popište ve 2–4 větách modelovou plochu se dvěma přístupy. Uveďte, jak vymezíte ohrožený prostor a co se stane při příchodu člověka jednou z cest.",
       "checks": [
-        "Správně používáš poloměr 15 metrů nebo větší požadavek výrobce.",
-        "Navrhuješ konkrétní zachycení vstupu a přerušení práce."
+        "Správně používáte poloměr 15 metrů nebo větší požadavek výrobce.",
+        "Navrhujete konkrétní zachycení vstupu a přerušení práce."
       ]
     },
-    "sourceIds": [
-      "k-nv-339",
-      "k-husq-manual-555",
-      "k-lcr-postupy",
-      "k-nv-339-register"
-    ]
+    "sourceIds": []
   },
   {
     "id": "K04",
     "block": "K",
-    "title": "Zastavení, přesun a přeprava",
-    "goal": "Rozlišíš přesun po pracovišti od přepravy a popíšeš bezpečné odstavení stroje.",
+    "title": "Zastavení, přenášení a přeprava křovinořezu",
+    "goal": "Rozlišíte přesun po pracovišti od přepravy a popíšete bezpečné odstavení stroje.",
     "minutes": 10,
     "competencies": [
       "C08",
       "C09"
     ],
-    "intro": "Bezpečná práce zahrnuje i chvíle, kdy neřežeš. Při přecházení přes klest, rozhovoru nebo nakládání může být nekrytý či ještě pohybující se nástroj stejným problémem jako při vlastním záběru.",
+    "intro": "Bezpečné používání zahrnuje zastavení, zajištění, přenášení a přepravu stroje. Vypnutí pohonu se odlišuje od úplného zastavení řezného nástroje.",
     "sections": [
       {
         "title": "Nejdřív umět zastavit",
-        "body": "Ještě před skutečnou obsluhou najdi STOP a seznam se s jeho funkcí v návodu. Vypnutý motor a nehybný nástroj nejsou vždy tentýž okamžik. Před manipulací vyčkej na zastavení a proveď zajištění proti nechtěnému spuštění podle konkrétního pohonu. Při modelovém nácviku nejprve ukazuj ovládání na odstaveném stroji."
+        "body": "Ještě před skutečnou obsluhou najděte STOP a seznamte se s jeho funkcí v návodu. Vypnutý motor a nehybný nástroj nejsou vždy tentýž okamžik. Před manipulací vyčkejte na zastavení a proveďte zajištění proti nechtěnému spuštění podle konkrétního pohonu. Při modelovém nácviku nejprve ukažte ovládání na odstaveném stroji."
       },
       {
         "title": "Vzdálenost není jediné hledisko",
-        "body": "Podle NV 339/2017 se při přecházení po pracovišti nad 50 metrů motor zastavuje, nestanoví-li návod výrobce jinak. Podmínky bezpečné práce mohou vyžadovat zastavení už při menší vzdálenosti. Krátký přechod přes překážky proto neposuzuj jen podle počtu kroků. Vzorový návod Husqvarna navíc stanovuje vypnutí při přesunu do nové pracovní oblasti."
+        "body": "Při přecházení po pracovišti na vzdálenost větší než 50 metrů se motor zastavuje, pokud návod výrobce nestanoví jinak. Konkrétní bezpečnostní podmínky mohou vyžadovat zastavení již při menší vzdálenosti. Překážky, terén a přechod do jiného pracovního úseku posuzujte podle rizik a návodu; samotná délka přesunu bezpečnost nepotvrzuje."
       },
       {
         "title": "Přeprava chrání i ostatní",
-        "body": "Při přepravě má být křovinořez s demontovaným řezným nástrojem nebo s ochranným krytem ostří. Kryt používaný během práce a přepravní kryt ostří mají odlišnou úlohu. Ruční nářadí s ostřím také přepravuj chráněné. Před převzetím zpět do práce opět ověř sestavu a stav: bezpečně uložený stroj není automaticky připravený ke spuštění."
+        "body": "Křovinořez se přepravuje s demontovaným řezným nástrojem nebo s ochranným krytem ostří. Pracovní ochranný kryt a přepravní kryt ostří plní rozdílné funkce. Také ostří ručního nářadí musí být při přepravě chráněno. Před opětovným použitím zkontrolujte pracovní sestavu a technický stav podle návodu výrobce."
       }
     ],
     "example": {
-      "situation": "Potřebuješ přejít jen krátký úsek, ale vede přes hromadu klestu.",
-      "response": "Motor zastavíš a přesun připravíš podle podmínek a návodu.",
+      "situation": "Potřebujete přejít jen krátký úsek, ale vede přes hromadu klestu.",
+      "response": "Motor zastavíte a přesun připravíte podle podmínek a návodu.",
       "why": "Hranice vzdálenosti nepovoluje nebezpečný přechod s běžícím strojem."
     },
     "mistakes": [
@@ -3262,11 +3158,11 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Motor je vypnutý, ale kotouč se ještě otáčí. Smíš ho začít čistit?",
+        "prompt": "Motor je vypnutý, ale kotouč se ještě otáčí. Smíte ho začít čistit?",
         "options": [
           {
             "id": "a",
-            "text": "Ano, pokud máš rukavice."
+            "text": "Ano, pokud máte rukavice."
           },
           {
             "id": "b",
@@ -3274,7 +3170,7 @@
           },
           {
             "id": "c",
-            "text": "Ano, protože už nepřidáváš plyn."
+            "text": "Ano, protože už nepřidáváte plyn."
           }
         ],
         "correct": "b",
@@ -3282,7 +3178,7 @@
       },
       {
         "id": "q2",
-        "prompt": "Jak vyložíš pravidlo pro přecházení na vzdálenost nad 50 metrů?",
+        "prompt": "Jak vyložíte pravidlo pro přecházení na vzdálenost nad 50 metrů?",
         "options": [
           {
             "id": "a",
@@ -3294,7 +3190,7 @@
           },
           {
             "id": "c",
-            "text": "Zohledníš návod a nebezpečné podmínky, které mohou vyžadovat zastavení dříve."
+            "text": "Zohledníte návod a nebezpečné podmínky, které mohou vyžadovat zastavení dříve."
           }
         ],
         "correct": "c",
@@ -3323,48 +3219,42 @@
     ],
     "task": {
       "title": "Postup jednoho přesunu",
-      "prompt": "Ve 2–4 větách popiš přesun od místa práce přes nerovný úsek k vozidlu. Rozliš zastavení, zajištění stroje a ochranu ostří při přepravě.",
+      "prompt": "Ve 2–4 větách popište přesun od místa práce přes nerovný úsek k vozidlu. Rozlište zastavení, zajištění stroje a ochranu ostří při přepravě.",
       "checks": [
-        "Neodvozuješ bezpečnost jen od krátké vzdálenosti.",
-        "Rozlišuješ zastavení pohybu a přípravu na přepravu."
+        "Neodvozujete bezpečnost jen od krátké vzdálenosti.",
+        "Rozlišujete zastavení pohybu a přípravu na přepravu."
       ]
     },
-    "sourceIds": [
-      "k-nv-339",
-      "k-husq-manual-555",
-      "k-lcr-postupy",
-      "k-husq-start",
-      "k-nv-339-register"
-    ]
+    "sourceIds": []
   },
   {
     "id": "K05",
     "block": "K",
-    "title": "Běžná péče a hranice údržby",
-    "goal": "Sestavíš péči podle konkrétního návodu a rozlišíš vlastní úkon od servisního zásahu.",
+    "title": "Běžná údržba a rozsah oprávněných zásahů",
+    "goal": "Sestavíte péči podle konkrétního návodu a rozlišíte vlastní úkon od servisního zásahu.",
     "minutes": 10,
     "competencies": [
       "C08",
       "C09"
     ],
-    "intro": "Údržba není seznam stejných úkonů pro všechny stroje. Jejím smyslem je udržet funkční ochranné prvky, správné řezání a chlazení. Každý zásah začíná bezpečným odstavením, ne uchopením nářadí.",
+    "intro": "Běžná údržba vychází z návodu konkrétního stroje a rozsahu zaškolení obsluhy. Zásahům předchází bezpečné odstavení a zajištění proti neúmyslnému spuštění.",
     "sections": [
       {
-        "title": "Zajisti zdroj energie",
-        "body": "Před čištěním, kontrolou řezné části nebo údržbou zastav stroj a zajisti jej podle návodu. U akumulátorových křovinořezů výrobce požaduje před údržbou vyjmout akumulátor. Benzínový stroj má odlišné zajištění; před přípravou ke skladování se nechává vychladnout. Pouhá nehybnost nástroje neprokazuje, že se nemůže znovu rozběhnout."
+        "title": "Zajistěte zdroj energie",
+        "body": "Před čištěním, kontrolou řezné části nebo údržbou zastavte stroj a zajistěte jej podle návodu. U akumulátorových křovinořezů výrobce požaduje před údržbou vyjmout akumulátor. Benzínový stroj má odlišné zajištění; před přípravou ke skladování se nechává vychladnout. Pouhá nehybnost nástroje neprokazuje, že se nemůže znovu rozběhnout."
       },
       {
-        "title": "Čistota má technický důvod",
-        "body": "Zbytky trávy a prach odstraňuj způsobem určeným výrobcem. Znečištění chladicích míst omezuje chlazení a ponechané nečistoty mohou držet vlhkost. Kontroluj nástroj, kryt a předepsaná upevnění. Do plánu zapisuj skutečný návodový interval nebo stav vyžadující úkon, nikoli číslo zapamatované z jiného modelu. U akumulátorového stroje kontrola palivového filtru samozřejmě nedává smysl."
+        "title": "Čištění a zachování provozní funkčnosti",
+        "body": "Zbytky trávy a prach odstraňujte způsobem určeným výrobcem. Znečištění chladicích míst omezuje chlazení a ponechané nečistoty mohou držet vlhkost. Kontrolujte nástroj, kryt a předepsaná upevnění. Do plánu zapisuj skutečný návodový interval nebo stav vyžadující úkon, nikoli číslo zapamatované z jiného modelu. U akumulátorového stroje kontrola palivového filtru samozřejmě nedává smysl."
       },
       {
         "title": "Ostření neopraví poškozený nůž",
-        "body": "Husqvarna u nože na trávu požaduje před ostřením kontrolu prasklin, ohnutí a chybějících částí. Poškozený nůž se neostří ani improvizovaně nerovná. Nerovnoměrný úběr může způsobit nevyváženost a vibrace. Geometrii, pomůcky i povolený rozsah práce určuje návod. Specializované servisní zásahy nepatří do běžné péče jen proto, že máš potřebný šroubovák."
+        "body": "Před ostřením nože na trávu se podle návodu kontrolují praskliny, deformace a chybějící části. Poškozený nůž se neostří ani nevyrovnává improvizovaným postupem. Nerovnoměrný úběr materiálu může způsobit nevyváženost a vibrace. Geometrii ostří, pomůcky a dovolený rozsah údržby určuje návod. Specializované servisní zásahy provádí příslušně způsobilá osoba."
       }
     ],
     "example": {
       "situation": "Po práci je u řezné hlavy namotaná tráva. Akumulátor zůstal ve stroji.",
-      "response": "Nejdřív provedeš předepsané odstavení a vyjmeš akumulátor; až potom povolenou očistu.",
+      "response": "Nejdřív provedete předepsané odstavení a vyjmete akumulátor; až potom povolenou očistu.",
       "why": "Čištění u nástroje vyžaduje ochranu před nechtěným spuštěním."
     },
     "mistakes": [
@@ -3380,19 +3270,19 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Co uděláš před údržbou akumulátorového křovinořezu podle výrobního pokynu?",
+        "prompt": "Co uděláte před údržbou akumulátorového křovinořezu podle výrobního pokynu?",
         "options": [
           {
             "id": "a",
-            "text": "Zastavíš a zajistíš stroj včetně vyjmutí akumulátoru."
+            "text": "Zastavíte a zajistíte stroj včetně vyjmutí akumulátoru."
           },
           {
             "id": "b",
-            "text": "Pouze přestaneš mačkat ovládací páčku."
+            "text": "Pouze přestanete mačkat ovládací páčku."
           },
           {
             "id": "c",
-            "text": "Položíš stroj tak, aby tlačítko nebylo vidět."
+            "text": "Položíte stroj tak, aby tlačítko nebylo vidět."
           }
         ],
         "correct": "a",
@@ -3420,7 +3310,7 @@
       },
       {
         "id": "q3",
-        "prompt": "Odkud převezmeš interval a rozsah údržby?",
+        "prompt": "Odkud převezmete interval a rozsah údržby?",
         "options": [
           {
             "id": "a",
@@ -3441,48 +3331,43 @@
     ],
     "task": {
       "title": "Dvě položky plánu péče",
-      "prompt": "Napiš 2–4 věty se dvěma položkami péče pro zvolený typ pohonu. Uveď zdroj postupu, zajištění před úkonem a jeden zásah, který ponecháš servisu.",
+      "prompt": "Napište 2–4 věty se dvěma položkami péče pro zvolený typ pohonu. Uveďte zdroj postupu, zajištění před úkonem a jeden zásah, který ponecháte servisu.",
       "checks": [
         "Úkony odpovídají uvedenému pohonu.",
-        "Uvádíš zajištění energie a jasnou hranici vlastního zásahu."
+        "Uvádíte zajištění energie a jasnou hranici vlastního zásahu."
       ]
     },
-    "sourceIds": [
-      "k-husq-udrzba",
-      "k-husq-skladovani",
-      "k-husq-ostreni",
-      "k-stihl-udrzba"
-    ]
+    "sourceIds": []
   },
   {
     "id": "K06",
     "block": "K",
-    "title": "Závada, odstavení a předání",
-    "goal": "Rozlišíš pozorovaný příznak od domnělé příčiny a napíšeš použitelné hlášení závady.",
+    "title": "Evidence závad, odstavení a předání stroje",
+    "goal": "Rozlišíte pozorovaný příznak od domnělé příčiny a napíšete použitelné hlášení závady.",
     "minutes": 10,
     "competencies": [
       "C08",
       "C09",
       "C12"
     ],
-    "intro": "Dobré hlášení závady šetří čas a chrání dalšího člověka. Nestačí říci, že stroj zlobí. Potřebuješ zaznamenat, co se změnilo, za jakých okolností a v jakém stavu jsi vybavení předal.",
+    "intro": "Hlášení závady rozlišuje pozorovaný provozní příznak od nepotvrzené příčiny. Evidence musí zajistit jednoznačnou identifikaci stroje, jeho provozního stavu a odpovědného příjemce.",
     "sections": [
       {
         "title": "Příznak je důvod ke kontrole",
-        "body": "Neobvyklé vibrace, kouř, výrazně změněný hluk nebo opakované zastavování nejsou důvodem přidat výkon a dokončit úsek. Husqvarna při těchto projevech doporučuje používání přerušit. Po nárazu nebo změně chování nejdřív bezpečně odstav a postupuj podle kontroly konkrétního stroje. Přesná příčina se může ukázat až při prohlídce."
+        "body": "Neobvyklé vibrace, kouř, výrazně změněný hluk nebo opakované zastavování nejsou důvodem přidat výkon a dokončit úsek. Tyto projevy vyžadují přerušení používání a kontrolu podle návodu výrobce. Po nárazu nebo změně chování nejdřív bezpečně odstav a postupujte podle kontroly konkrétního stroje. Přesná příčina se může ukázat až při prohlídce."
       },
       {
-        "title": "Nehádej příčinu podle jediného projevu",
-        "body": "Pokles výkonu může souviset například s přívodem vzduchu, paliva nebo přehříváním. Z věty ztrácí výkon proto automaticky neplyne vadný karburátor. Zapiš rozdíl mezi během bez zatížení a při práci, okolnost vzniku a pozorovanou změnu. Neprováděj nahodilé seřizování, které může původní projev zakrýt nebo změnit bezpečné chování stroje."
+        "title": "Rozlišení provozního příznaku a příčiny závady",
+        "body": "Pokles výkonu může souviset například s přívodem vzduchu, paliva nebo přehříváním. Z věty ztrácí výkon proto automaticky neplyne vadný karburátor. Zapište rozdíl mezi během bez zatížení a při práci, okolnost vzniku a pozorovanou změnu. Neprovádějte nahodilé seřizování, které může původní projev zakrýt nebo změnit bezpečné chování stroje."
       },
       {
         "title": "Předání musí zabránit omylu",
-        "body": "Pro cvičení použij záznam: identifikace stroje a nástroje, pozorovaný příznak, okolnosti, provedené odstavení a komu byl problém oznámen. Podle místního systému jasně odliš vybavení vyřazené z používání od připraveného. Samotné očištění není odstranění závady. Vrácení do provozu musí následovat až po příslušném řešení a ověření, nikoli po vymazání poznámky."
+        "body": "Pro cvičení použijte záznam: identifikace stroje a nástroje, pozorovaný příznak, okolnosti, provedené odstavení a komu byl problém oznámen. Podle místního systému jasně odlište vybavení vyřazené z používání od připraveného. Samotné očištění není odstranění závady. Vrácení do provozu musí následovat až po příslušném řešení a ověření, nikoli po vymazání poznámky."
       }
     ],
     "example": {
-      "situation": "Po kontaktu s překážkou se objevily vibrace. Po odložení stroje je už nevidíš.",
-      "response": "Zapíšeš návaznost na náraz a stroj nepředáš jako bezvadný jen proto, že odstavený nevibruje.",
+      "situation": "Po kontaktu s překážkou se objevily vibrace. Po odložení stroje je už nevidíte.",
+      "response": "Zapíšete návaznost na náraz a stroj nepředáte jako bezvadný jen proto, že odstavený nevibruje.",
       "why": "Projev při provozu nelze vyvrátit pozorováním vypnutého stroje."
     },
     "mistakes": [
@@ -3559,23 +3444,19 @@
     ],
     "task": {
       "title": "Hlášení bez domněnek",
-      "prompt": "Napiš 2–4 věty hlášení: stroj při práci začal ztrácet výkon a nezvykle vibrovat. Uveď pozorovaný projev, okolnost a stav předání, ale nevymýšlej nepotvrzenou diagnózu.",
+      "prompt": "Napište 2–4 věty hlášení: stroj při práci začal ztrácet výkon a nezvykle vibrovat. Uveďte pozorovaný projev, okolnost a stav předání, ale nevymýšlejte nepotvrzenou diagnózu.",
       "checks": [
-        "Odlišuješ příznaky od domnělé příčiny.",
+        "Odlišujete příznaky od domnělé příčiny.",
         "Je jasné, zda lze stroj použít a komu se předává informace."
       ]
     },
-    "sourceIds": [
-      "k-husq-ztrata",
-      "k-husq-plny-plyn",
-      "k-suip-skoleni"
-    ]
+    "sourceIds": []
   },
   {
     "id": "S01",
     "block": "S",
-    "title": "Když se změní riziko",
-    "goal": "V modelové situaci rozhodneš o přerušení práce, pojmenuješ změnu a předáš podmínku pro další pokračování.",
+    "title": "Vyhodnocení změn pracovních podmínek a rizik",
+    "goal": "V modelové situaci rozhodnete o přerušení práce, pojmenujete změnu a předáte podmínku pro další pokračování.",
     "minutes": 10,
     "competencies": [
       "C08",
@@ -3583,19 +3464,19 @@
       "C12",
       "C14"
     ],
-    "intro": "Bezpečná situace se může během směny změnit. Rozhodnutí z rána proto musíš porovnávat s tím, co se děje právě teď.",
+    "intro": "Změna počasí, terénu, technického stavu nebo pohybu osob vyžaduje nové posouzení bezpečnosti. Původní příprava nenahrazuje průběžné vyhodnocování pracovních podmínek.",
     "sections": [
       {
         "title": "Všímej si rozdílu",
-        "body": "Sleduj počasí, terén, stav prostředku a pohyb lidí i dalších prací. Užitečné pozorování je konkrétní: „Na cestu vstoupili lidé“ nebo „Povolila část vybavení“. Věta „nějak se mi to nelíbí“ může být začátek, ale při předání doplň, co jsi viděl a kde. Příčinu, kterou neznáš, nevydávej za jistou. Při cvičení si ke každému hlášení polož dvě otázky: co bylo původně domluveno a co je teď jinak? Toto porovnání pomůže vysvětlit, proč se nejedná jen o běžnou změnu vzhledu plochy."
+        "body": "Sledujte počasí, terén, stav pracovních prostředků, pohyb osob a souběžné činnosti. Hlášení musí určit konkrétní změnu a její místo, například vstup osob na přístupovou cestu nebo uvolnění části vybavení. Neověřenou příčinu oddělte od pozorovaného projevu. Při cvičení porovnejte původně potvrzené podmínky se skutečným stavem a vysvětlete vliv změny na bezpečné pokračování."
       },
       {
         "title": "Nejdřív přerušit, potom vyjasnit",
-        "body": "Když nelze bezpečně pokračovat, přeruš činnost podle naučeného postupu. Nečekej na zprávu v aplikaci ani na souhlas kolegy s vyšším počtem hotových kusů. Nevstupuj kvůli fotografii nebo zkoušení závady do nebezpečí. Upozorni určenou osobu a sděl, jak se změna dotýká pokračování práce."
+        "body": "Když nelze bezpečně pokračovat, přerušte činnost podle naučeného postupu. Nečekejte na zprávu v aplikaci ani na souhlas kolegy s vyšším počtem hotových kusů. Nevstupuj kvůli fotografii nebo zkoušení závady do nebezpečí. Upozorni určenou osobu a sděl, jak se změna dotýká pokračování práce."
       },
       {
         "title": "Pokračování má podmínku",
-        "body": "Samotné odeslání zprávy problém neodstraňuje. Potřebuješ obnovené bezpečné podmínky a jasný další postup v rozsahu své práce. Pokud řešení zahrnuje opravu, nové vybavení nebo změnu organizace, nevymýšlej náhradu mimo své oprávnění. Záznam má oddělit pozorovanou změnu, vlastní reakci a dosud nevyřešený bod."
+        "body": "Samotné odeslání zprávy problém neodstraňuje. Potřebujete obnovené bezpečné podmínky a jasný další postup v rozsahu své práce. Pokud řešení zahrnuje opravu, nové vybavení nebo změnu organizace, nevymýšlejte náhradu mimo své oprávnění. Záznam má oddělit pozorovanou změnu, vlastní reakci a dosud nevyřešený bod."
       }
     ],
     "example": {
@@ -3620,7 +3501,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Nové riziko brání bezpečnému pokračování. Vedoucí právě neodpovídá v aplikaci. Co uděláš?",
+        "prompt": "Nové riziko brání bezpečnému pokračování. Vedoucí právě neodpovídá v aplikaci. Co uděláte?",
         "options": [
           {
             "id": "a",
@@ -3628,7 +3509,7 @@
           },
           {
             "id": "b",
-            "text": "Přeruším podle postupu a použiji domluvený způsob kontaktu."
+            "text": "Přeruším podle postupu a použiji stanovený způsob kontaktu."
           },
           {
             "id": "c",
@@ -3660,7 +3541,7 @@
       },
       {
         "id": "q3",
-        "prompt": "Závadu jsi nahlásil, ale ještě nebyla vyřešena. Co z toho plyne?",
+        "prompt": "Závadu jste nahlásil, ale ještě nebyla vyřešena. Co z toho plyne?",
         "options": [
           {
             "id": "a",
@@ -3668,7 +3549,7 @@
           },
           {
             "id": "b",
-            "text": "Musíš závadu sám opravit jakýmkoli způsobem."
+            "text": "Musíte závadu sám opravit jakýmkoli způsobem."
           },
           {
             "id": "c",
@@ -3681,22 +3562,20 @@
     ],
     "task": {
       "title": "Hlášení změny",
-      "prompt": "Model: do pracovního prostoru vstoupili lidé a nelze pokračovat podle původní domluvy. Napiš 2–4 věty: co se změnilo, co uděláš teď a jakou podmínku je potřeba vyřešit pro pokračování.",
+      "prompt": "Model: do pracovního prostoru vstoupili lidé a nelze pokračovat podle původní dohody. Napište 2–4 věty: co se změnilo, co uděláte teď a jakou podmínku je potřeba vyřešit pro pokračování.",
       "checks": [
         "Pojmenuje konkrétní změnu.",
         "Přeruší bez čekání na digitální hodnocení.",
         "Rozliší nahlášení od odstranění problému."
       ]
     },
-    "sourceIds": [
-      "F-S2"
-    ]
+    "sourceIds": []
   },
   {
     "id": "S02",
     "block": "S",
-    "title": "Přivolej pomoc a popiš místo",
-    "goal": "Připravíš stručné hlášení zdravotní události s místem, popisem situace a odpověďmi pro operátora.",
+    "title": "Přivolání pomoci a lokalizace pracoviště",
+    "goal": "Připravíte stručné hlášení zdravotní události s místem, popisem situace a odpověďmi pro operátora.",
     "minutes": 10,
     "competencies": [
       "C01",
@@ -3704,19 +3583,19 @@
       "C12",
       "C13"
     ],
-    "intro": "V lese nestačí říct „jsme mezi stromy“. Pomoc potřebuje dohledatelné místo a srozumitelný popis. Orientaci si připrav ještě před začátkem práce.",
+    "intro": "Přivolání pomoci vyžaduje srozumitelný popis události a dohledatelnou polohu pracoviště. Orientační údaje a způsob předání polohy se připravují před zahájením práce.",
     "sections": [
       {
         "title": "Co říct při volání",
-        "body": "Při náhlém závažném zdravotním problému nebo úrazu volej zdravotnickou záchrannou službu na 155. Sděl místo, komu voláš pomoc a co se stalo. Popisuj pozorování, nikoli domnělou diagnózu. Nech se vést otázkami operátora a jeho pokyny. Je-li možné bezpečně volat u postiženého, můžeš poskytovat přesnější aktuální informace."
+        "body": "Při náhlém závažném zdravotním problému nebo úrazu volejte zdravotnickou záchrannou službu na 155. Sděl místo, komu voláte pomoc a co se stalo. Popisuj pozorování, nikoli domnělou diagnózu. Nechte se vést otázkami operátora a jeho pokyny. Je-li možné bezpečně volat u postiženého, můžete poskytovat přesnější aktuální informace."
       },
       {
         "title": "Jak pomůže orientace",
-        "body": "Bod záchrany je označené místo s jedinečným kódem, který pomáhá záchranným složkám při lokalizaci. V lese mohou pomoci také názvy rozcestí, značené trasy a další ověřitelné body. Řekni, zda jsi přímo u uvedeného bodu, nebo jinde poblíž. Přesnou polohu nevydávej za známou, pokud ji teprve upřesňuješ."
+        "body": "Bod záchrany je označené místo s jedinečným kódem, který pomáhá záchranným složkám při lokalizaci. V lese mohou pomoci také názvy rozcestí, značené trasy a další ověřitelné body. Sdělte, zda jste přímo u uvedeného bodu, nebo jinde poblíž. Přesnou polohu nevydávejte za známou, pokud ji teprve upřesňujete."
       },
       {
-        "title": "Připrav údaje včas",
-        "body": "Při ranní domluvě zjisti název místa práce a způsob, jak předat jeho polohu. V modelovém cvičení si připrav první větu hovoru, ale skutečnou tísňovou linku nevolej. Při události neodkládej přivolání pomoci kvůli vyplňování školního formuláře. Další postup řídí situace, domluvená organizace a pokyny operátora, nikoli quiz v telefonu. Pro přípravu využij skutečné údaje pracovního místa; v učební ukázce výslovně rozlišuj vymyšlené rozcestí od ověřené polohy a skutečného identifikačního kódu tabulky."
+        "title": "Připravte údaje včas",
+        "body": "Při ranní dohodě zjistěte název místa práce a způsob, jak předat jeho polohu. V modelovém cvičení si připravte první větu hovoru, ale skutečnou tísňovou linku nevolejte. Při události neodkládejte přivolání pomoci kvůli vyplňování školního formuláře. Další postup řídí situace, stanovená organizace a pokyny operátora, nikoli kvíz v telefonu. Pro přípravu využijte skutečné údaje pracovního místa; v učební ukázce výslovně rozlišuj vymyšlené rozcestí od ověřené polohy a skutečného identifikačního kódu tabulky."
       }
     ],
     "example": {
@@ -3741,7 +3620,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Jaké číslo v ČR voláš pro zdravotnickou záchrannou službu?",
+        "prompt": "Jaké číslo v ČR voláte pro zdravotnickou záchrannou službu?",
         "options": [
           {
             "id": "a",
@@ -3757,23 +3636,23 @@
           }
         ],
         "correct": "c",
-        "explanation": "155 je linka zdravotnické záchranné služby. V tomto cvičení číslo pouze určuješ, skutečně nevoláš."
+        "explanation": "155 je linka zdravotnické záchranné služby. V tomto cvičení číslo pouze určujete, skutečně nevoláte."
       },
       {
         "id": "q2",
-        "prompt": "Jsi asi dál od známého bodu záchrany. Co sdělíš operátorovi?",
+        "prompt": "Jste asi dál od známého bodu záchrany. Co sdělíte operátorovi?",
         "options": [
           {
             "id": "a",
-            "text": "Že stojíš přímo u tabulky, aby byla odpověď kratší."
+            "text": "Že stojíte přímo u tabulky, aby byla odpověď kratší."
           },
           {
             "id": "b",
-            "text": "Který bod znáš a že se nacházíš jinde; necháš si pomoci polohu upřesnit."
+            "text": "Který bod znáte a že se nacházíte jinde; necháte si pomoci polohu upřesnit."
           },
           {
             "id": "c",
-            "text": "Jen že jsi v lese."
+            "text": "Jen že jste v lese."
           }
         ],
         "correct": "b",
@@ -3802,25 +3681,20 @@
     ],
     "task": {
       "title": "První věty modelového hovoru",
-      "prompt": "Napiš 2–4 věty pro cvičnou situaci: jednomu pracovníkovi je náhle vážně zle u rozcestí U Buku, stojíte přímo u tabulky bodu záchrany. Uveď koho a kam žádáš o pomoc, co popíšeš a co uděláš s kódem. Žádný skutečný kód si nevymýšlej.",
+      "prompt": "Napište 2–4 věty pro cvičnou situaci: jednomu pracovníkovi je náhle vážně zle u rozcestí U Buku, stojíte přímo u tabulky bodu záchrany. Uveďte koho a kam žádáte o pomoc, co popíšete a co uděláte s kódem. Žádný skutečný kód si nevymýšlejte.",
       "checks": [
         "Uvede zdravotní událost a správnou linku.",
         "Popíše místo bez smyšlené polohy.",
         "Počítá s přečtením kódu a otázkami operátora."
       ]
     },
-    "sourceIds": [
-      "F-S2",
-      "F-ZZS-155",
-      "F-ZZS-ORIENT",
-      "F-LCR-BODY"
-    ]
+    "sourceIds": []
   },
   {
     "id": "S03",
     "block": "S",
-    "title": "Kvalita není počet kusů",
-    "goal": "Porovnáš modelový pracovní výkaz s kritérii kvality a navrhneš další krok při opakované vadě.",
+    "title": "Hodnocení kvality a rozsahu pracovního výkonu",
+    "goal": "Porovnáte modelový pracovní výkaz s kritérii kvality a navrhnete další krok při opakované vadě.",
     "minutes": 10,
     "competencies": [
       "C02",
@@ -3828,25 +3702,25 @@
       "C11",
       "C12"
     ],
-    "intro": "Počet kusů, plocha a čas popisují rozsah práce. O kvalitě rozhoduje také stav výsledku a shoda s předem známým zadáním.",
+    "intro": "Rozsah pracovního výkonu a kvalita provedení se evidují odděleně. Hodnocení kvality vychází ze stanovených kritérií a doložené kontroly skutečného výsledku.",
     "sections": [
       {
         "title": "Dvě různé otázky",
-        "body": "Otázka „Kolik je hotovo?“ potřebuje měřitelný údaj. Otázka „Je to správně?“ potřebuje kritérium a kontrolu. Při péči o sazenice může být úsek ošetřený, ale některé cílové stromky poškozené. Samotné vykázání plochy poškození nevyřeší. Výkon a kvalitu proto zaznamenávej jako dvě související, ale odlišné informace."
+        "body": "Otázka „Kolik je dokončeno?“ potřebuje měřitelný údaj. Otázka „Je to správně?“ potřebuje kritérium a kontrolu. Při péči o sazenice může být úsek ošetřený, ale některé cílové stromy poškozené. Samotné vykázání plochy poškození nevyřeší. Výkon a kvalitu proto zaznamenávej jako dvě související, ale odlišné informace."
       },
       {
-        "title": "Kontroluj podle vzoru",
-        "body": "Před prací si nech vysvětlit znaky přijatelného výsledku a typickou chybu. Porovnej vlastní první provedení s ukázkou, potom kontroluj podle domluveného postupu. Když je kritérium nejasné, zeptej se dřív, než stejnou chybu zopakuješ na velkém úseku. Fotografie může ukázat část výsledku, ne všechno, co během práce proběhlo. Rozlišuj také zkontrolovaný vzorek a celý dokončený úsek. Zjištění z jednoho místa nepřepisuj automaticky jako jistotu o celé ploše. Rozsah další kontroly domluv podle nálezu a odpovědnosti určené pro konkrétní práci."
+        "title": "Kontrolujte podle vzoru",
+        "body": "Před zahájením ověřte kritéria přijatelného výsledku a typické vady. První pracovní výkon porovnejte s referenční ukázkou a pokračujte ve stanovené průběžné kontrole. Nejasné kritérium upřesněte před rozšířením činnosti na další úsek. Fotografie dokládá pouze zachycenou část výsledku. V záznamu rozlišujte kontrolovaný vzorek a celý pracovní úsek; rozsah další kontroly určete s odpovědnou osobou podle zjištěných odchylek."
       },
       {
         "title": "Chyba potřebuje další krok",
-        "body": "Opakovanou vadu nezakrývej rychlejším tempem. Urči, kde se projevuje, informuj instruktora a domluv kontrolu již provedené části. Opravuj pouze v dovoleném rozsahu a po opravě znovu porovnej výsledek. Pravdivé označení nevyřešené části umožní navázat; falešné „hotovo bez vad“ bere skupině důležitou informaci."
+        "body": "Při opakované vadě určete místo a rozsah výskytu, informujte instruktora a dohodněte kontrolu provedené části. Opravu provádějte v dovoleném rozsahu a výsledek opět zkontrolujte. Nevyřešenou odchylku výslovně zaznamenejte, aby navazující pracovník obdržel úplnou informaci o stavu úkolu."
       }
     ],
     "example": {
-      "situation": "Model: dva pracovníci ošetřili stejné množství stromků. U druhého se při kontrole ukáže opakované poškození ponechaných sazenic.",
+      "situation": "Model: dva pracovníci ošetřili stejné množství stromů. U druhého se při kontrole ukáže opakované poškození ponechaných sazenic.",
       "response": "Stejný počet neznamená stejnou kvalitu. Vyžádám kontrolu postupu a dohodu o nápravě.",
-      "why": "Požadovaný výsledek zahrnuje i zachování stromků bez zadaným postupem způsobených škod."
+      "why": "Požadovaný výsledek zahrnuje i zachování stromů bez zadaným postupem způsobených škod."
     },
     "mistakes": [
       "Zvýšit tempo při opakované vadě zvětšuje množství práce k nápravě.",
@@ -3865,7 +3739,7 @@
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Dva lidé ošetřili stejný počet stromků. Co z toho víš?",
+        "prompt": "Dva lidé ošetřili stejný počet stromů. Co z toho víte?",
         "options": [
           {
             "id": "a",
@@ -3905,7 +3779,7 @@
       },
       {
         "id": "q3",
-        "prompt": "Co nejlépe dokládá, že jsi zkontroloval konkrétní výsledek?",
+        "prompt": "Co nejlépe dokládá, že jste zkontroloval konkrétní výsledek?",
         "options": [
           {
             "id": "a",
@@ -3913,7 +3787,7 @@
           },
           {
             "id": "b",
-            "text": "Pouhé slovo hotovo."
+            "text": "Pouhé slovo dokončeno."
           },
           {
             "id": "c",
@@ -3925,42 +3799,40 @@
       }
     ],
     "task": {
-      "title": "Odděl výkon a kvalitu",
-      "prompt": "Model: celá domluvená řada byla ošetřena; u části stromků se ukazuje poškození, jehož rozsah ještě neznáš. Napiš ve 2–4 větách, co smíš vykázat jako provedené, co ještě nepotvrdíš a jaký další krok navrhneš.",
+      "title": "Oddělte výkon a kvalitu",
+      "prompt": "Model: celá stanovená řada byla ošetřena; u části stromů se ukazuje poškození, jehož rozsah ještě neznáte. Napište ve 2–4 větách, co smíte vykázat jako provedené, co ještě nepotvrdíte a jaký další krok navrhnete.",
       "checks": [
         "Odliší dokončení činnosti od bezvadnosti.",
         "Nepřidá smyšlený počet poškození.",
         "Navrhne konkrétní kontrolu a dohodu o nápravě."
       ]
     },
-    "sourceIds": [
-      "F-S2"
-    ]
+    "sourceIds": []
   },
   {
     "id": "S04",
     "block": "S",
-    "title": "Předání, podle kterého lze pokračovat",
-    "goal": "Vytvoříš krátký pracovní záznam oddělující dokončenou práci, kontrolu, vadu a nevyřešenou část.",
+    "title": "Evidence a předání provedené práce",
+    "goal": "Vytvoříte krátký pracovní záznam oddělující dokončenou práci, kontrolu, vadu a nevyřešenou část.",
     "minutes": 10,
     "competencies": [
       "C11",
       "C12",
       "C14"
     ],
-    "intro": "Dobrý záznam pomáhá dalšímu člověku navázat bez hádání. Nemusí být dlouhý, ale musí rozlišovat jistá zjištění, domněnky a další krok.",
+    "intro": "Předávací záznam umožňuje dohledat činnost, místo, rozsah, kontrolu a nevyřešené odchylky. Rozlišuje ověřená zjištění od nepotvrzených údajů a stanovuje další postup.",
     "sections": [
       {
         "title": "Čtyři části předání",
-        "body": "Začni místem a provedenou činností. Potom napiš skutečný rozsah dokončení, co jsi kontroloval a co zůstává otevřené. Pokud pracoviště používá předepsaný formulář, drž se jeho polí a jednotek. Nezaměň odpracovaný čas za hotovou plochu. Když údaj neznáš, označ ho jako neověřený místo doplnění odhadu. Člověk, který na místě nebyl, musí poznat, ke kterému úkolu zpráva patří. Proto udržuj shodu označení plochy a činnosti s pracovním zadáním. Podobný název sousední lokality může záznam připojit ke špatné práci."
+        "body": "Záznam vymezte místem, činností a skutečným rozsahem dokončení. Uveďte rozsah kontroly a nevyřešené části. Dodržujte předepsaný formulář, označení ploch a měrné jednotky. Odpracovaný čas nenahrazuje údaj o provedeném výkonu. Neověřený údaj takto označte. Shoda identifikace pracoviště a činnosti se zadáním umožňuje dohledatelné předání."
       },
       {
         "title": "Pozorování není diagnóza",
-        "body": "Věta „u branky je mezera v oplocení“ říká, co může druhý ověřit. Věta „včera ji rozbila zvěř“ přidává příčinu a čas, které nemusíš znát. Přiložený snímek označ místem a obsahem. Fotografie bez souvislostí ani pěkný název souboru neřeknou, zda byla zkontrolována celá plocha."
+        "body": "Popis „u vstupu je porušeno pletivo oplocenky“ uvádí ověřitelný nález. Určení původce a doby vzniku vyžaduje samostatný podklad. Fotografii označte místem, datem a předmětem pozorování. Snímek nenahrazuje údaj o rozsahu provedené kontroly."
       },
       {
         "title": "Předání má adresáta",
-        "body": "Uveď, komu problém předáváš a co od něj potřebuješ: upřesnit zadání, posoudit vadu nebo domluvit opravu. Závažnou aktuální situaci oznam přímo podle domluvy, ne pouze pozdějším zápisem. Když zjistíš chybu ve svém záznamu, oprav ji průhledně. Z původního tvrzení nesmí bez vysvětlení zmizet důležitá odchylka."
+        "body": "Uveďte, komu problém předáváte a co od něj potřebujete: upřesnit zadání, posoudit vadu nebo domluvit opravu. Závažnou aktuální situaci oznamte přímo podle dohody, ne pouze pozdějším zápisem. Když zjistíte chybu ve svém záznamu, opravte ji průhledně. Z původního tvrzení nesmí bez vysvětlení zmizet důležitá odchylka."
       }
     ],
     "example": {
@@ -3979,13 +3851,13 @@
       },
       {
         "term": "Neověřený údaj",
-        "meaning": "Informace, pro kterou zatím nemáš dostatečný podklad."
+        "meaning": "Informace, pro kterou zatím nemáte dostatečný podklad."
       }
     ],
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Prošel jsi jen západní polovinu oplocenky. Jak to zapíšeš?",
+        "prompt": "Prošel jste jen západní polovinu oplocenky. Jak to zapíšete?",
         "options": [
           {
             "id": "a",
@@ -4037,7 +3909,7 @@
           },
           {
             "id": "c",
-            "text": "Komu ji předáváš a jaký další krok potřebuješ."
+            "text": "Komu ji předáváte a jaký další krok potřebujete."
           }
         ],
         "correct": "c",
@@ -4046,41 +3918,39 @@
     ],
     "task": {
       "title": "Čtyři věty do záznamu",
-      "prompt": "Napiš 2–4 věty k modelu oplocenky: západ zkontrolován, u branky mezera, východ nezkontrolován, oprava ještě nezadána. Odděl zjištěný stav od žádosti vedoucímu. Nepřidávej příčinu ani čas poškození.",
+      "prompt": "Napište 2–4 věty k modelu oplocenky: západ zkontrolován, u branky mezera, východ nezkontrolován, oprava ještě nezadána. Oddělte zjištěný stav od žádosti vedoucímu. Nepřidávejte příčinu ani čas poškození.",
       "checks": [
         "Přesně vymezí rozsah kontroly.",
         "Věcně uvede závadu bez domnělé příčiny.",
         "Předá nevyřešenou opravu odpovědné osobě."
       ]
     },
-    "sourceIds": [
-      "F-S2"
-    ]
+    "sourceIds": []
   },
   {
     "id": "S05",
     "block": "S",
-    "title": "Zopakuj pokyn a ověř shodu",
-    "goal": "Předvedeš v krátkém textu ověření pracovního pokynu a použiješ jednoduchou anglickou nebo německou větu pro nejasnost.",
+    "title": "Ověření porozumění pracovním pokynům",
+    "goal": "Předvedete v krátkém textu ověření pracovního pokynu a použijete jednoduchou anglickou nebo německou větu pro nejasnost.",
     "minutes": 10,
     "competencies": [
       "C12",
       "C13",
       "C14"
     ],
-    "intro": "Souhlasné přikývnutí ještě neříká, že dva lidé chápou stejný úkol. Krátké zopakování odhalí omyl dřív, než se promění v pracovní chybu.",
+    "intro": "Porozumění pokynu se ověřuje shrnutím místa, činnosti, rozsahu a omezení. Jazyková shoda musí zahrnovat význam zadání, nikoli pouze jednotlivé odborné výrazy.",
     "sections": [
       {
-        "title": "Řekni, co skutečně uděláš",
-        "body": "Po převzetí úkolu zopakuj místo, činnost a důležité omezení. Například: „Pracuji v levé části, zachovám označené skupiny a končím u cesty. Rozumím tomu správně?“ Druhý člověk potvrdí nebo opraví konkrétní obsah. Opakování všech jeho slov bez pochopení nestačí; ukaž také místo, ke kterému se věta vztahuje. Ve dvojici si role vystřídejte: jeden zadává, druhý shrnuje. Nakonec společně ukažte hranici i předmět úkolu na modelové ploše."
+        "title": "Sdělte, co skutečně uděláte",
+        "body": "Po převzetí úkolu zopakujte místo, činnost a důležité omezení. Například: „Pracuji v levé části, zachovám označené skupiny a končím u cesty. Rozumím tomu správně?“ Druhý člověk potvrdí nebo opraví konkrétní obsah. Opakování všech jeho slov bez pochopení nestačí; ukažte také místo, ke kterému se věta vztahuje. Ve dvojici si role vystřídejte: jeden zadává, druhý shrnuje. Nakonec společně ukažte hranici i předmět úkolu na modelové ploše."
       },
       {
         "title": "Když si nerozumíte jazykově",
-        "body": "„Please repeat the instruction“ znamená prosím, zopakujte pokyn. Německy použij „Bitte wiederholen Sie die Anweisung“. „Which tree should stay?“ / „Welcher Baum soll stehen bleiben?“ se ptá, který strom má zůstat. Větu spoj s ukázáním příslušné skupiny. Nestačí, že oba rozumíte slovu strom, pokud každý ukazujete na jiný."
+        "body": "„Please repeat the instruction“ znamená prosím, zopakujte pokyn. Německy použijte „Bitte wiederholen Sie die Anweisung“. „Which tree should stay?“ / „Welcher Baum soll stehen bleiben?“ se ptá, který strom má zůstat. Větu spojte s ukázáním příslušné skupiny. Nestačí, že oba rozumíte slovu strom, pokud každý ukazujete na jiný."
       },
       {
         "title": "Změnu předáváme celé dotčené skupině",
-        "body": "Když vedoucí změní domluvu, ověř, koho se změna týká a kdo ji předá ostatním. Neměň sám úkol kolegy ani nezačínej práci na jeho místě. Při bezpečnostním problému používej místně dohodnuté signály a postup. Anglické „Stop work“ a německé „Arbeit stoppen“ v tomto cvičení znamenají přerušit práci; nenahrazují prakticky nacvičenou domluvu týmu."
+        "body": "Když vedoucí změní dohodu, ověřte, koho se změna týká a kdo ji předá ostatním. Samostatně neměňte úkol kolegy ani nezačínej práci na jeho místě. Při bezpečnostním problému používejte místně dohodnuté signály a postup. Anglické „Stop work“ a německé „Arbeit stoppen“ v tomto cvičení znamenají přerušit práci; nenahrazují prakticky nacvičenou dohodu týmu."
       }
     ],
     "example": {
@@ -4095,7 +3965,7 @@
     "terms": [
       {
         "term": "Zpětné ověření pokynu",
-        "meaning": "Vlastními slovy a podle potřeby ukázáním potvrdíš, co máš udělat."
+        "meaning": "Vlastními slovy a podle potřeby ukázáním potvrdíte, co máte udělat."
       },
       {
         "term": "Please repeat / Bitte wiederholen",
@@ -4141,7 +4011,7 @@
           }
         ],
         "correct": "a",
-        "explanation": "Stay zde označuje ponechání konkrétního stromu. Ukázáním ověř i to, o který jde."
+        "explanation": "Stay zde označuje ponechání konkrétního stromu. Ukázáním ověřte i to, o který jde."
       },
       {
         "id": "q3",
@@ -4161,28 +4031,25 @@
           }
         ],
         "correct": "b",
-        "explanation": "Společná práce potřebuje společně pochopenou aktuální domluvu."
+        "explanation": "Společná práce potřebuje společně pochopenou aktuální dohodu."
       }
     ],
     "task": {
-      "title": "Ověř pokyn ve dvojici",
-      "prompt": "Napiš modelovou odpověď o 2–4 větách. Zadání: pracovat vlevo od cesty, ponechat označenou jedli, pravou část neřešit. Zopakuj význam česky a přidej anglickou nebo německou otázku, kterou si necháš ukázat správný strom.",
+      "title": "Ověřte pokyn ve dvojici",
+      "prompt": "Napište modelovou odpověď o 2–4 větách. Zadání: pracovat vlevo od cesty, ponechat označenou jedli, pravou část neřešit. Zopakujte význam česky a přidejte anglickou nebo německou otázku, kterou si necháte ukázat správný strom.",
       "checks": [
         "Zopakuje místo i omezení.",
         "Správně použije otázku na ponechávaný strom.",
         "Vyžádá si konkrétní potvrzení, nikoli jen obecný souhlas."
       ]
     },
-    "sourceIds": [
-      "F-S1",
-      "F-S2"
-    ]
+    "sourceIds": []
   },
   {
     "id": "S06",
     "block": "S",
-    "title": "Jedna plocha, více odpovědností",
-    "goal": "Vyřešíš modelové předání plochy s chráněným prvkem, nejasným zásahem a návrhem změnit mechanickou práci na chemickou.",
+    "title": "Rozdělení odpovědností na lesním pracovišti",
+    "goal": "Vyřešíte modelové předání plochy s chráněným prvkem, nejasným zásahem a návrhem změnit mechanickou práci na chemickou.",
     "minutes": 10,
     "competencies": [
       "C01",
@@ -4193,23 +4060,23 @@
       "C12",
       "C14"
     ],
-    "intro": "Na jednom pracovišti se setkává cíl péče, bezpečnost i ochrana prostředí. Dobrý pracovník je propojí a pozná rozhodnutí, která mu nebyla svěřena.",
+    "intro": "Organizace lesnického pracoviště vymezuje odpovědnosti za pěstební cíl, bezpečnost a ochranu prostředí. Pracovník musí rozpoznat rozhodnutí přesahující svěřený rozsah činnosti.",
     "sections": [
       {
         "title": "Co má na ploše zůstat",
-        "body": "V zadání ověř ponechávané dřeviny, přirozené zmlazení a vysvětlené prvky ochrany prostředí. Biotopové stromy poskytují prostor různým organismům; LČR je ve svém programu označují zelenou vlnovkou. Značka není pracovní pokyn k přiblížení nebo řezu. Pokud chráněný prvek koliduje s prací, předej situaci k odbornému i bezpečnostnímu posouzení."
+        "body": "V zadání ověřte ponechávané dřeviny, přirozené zmlazení a vysvětlené prvky ochrany prostředí. Biotopové stromy poskytují prostor různým organismům; LČR je ve svém programu označují zelenou vlnovkou. Značka není pracovní pokyn k přiblížení nebo řezu. Pokud chráněný prvek koliduje s prací, předejte situaci k odbornému i bezpečnostnímu posouzení."
       },
       {
         "title": "Změna metody není drobná improvizace",
-        "body": "Pokyn k mechanické péči neopravňuje k vlastnímu výběru chemického přípravku. Nepřidávej zásah jen proto, že by vypadal rychlejší. Také zadání výchovy mladého porostu nelze libovolně rozšířit na probírku sousedního porostu. Rozsah činnosti, podmínky a případná zvláštní způsobilost se řeší samostatně, před provedením."
+        "body": "Pokyn k mechanické péči neopravňuje k vlastnímu výběru chemického přípravku. Nepřidávejte zásah jen proto, že by vypadal rychlejší. Také zadání výchovy mladého porostu nelze libovolně rozšířit na probírku sousedního porostu. Rozsah činnosti, podmínky a případná zvláštní způsobilost se řeší samostatně, před provedením."
       },
       {
-        "title": "Slož zprávu pro další rozhodnutí",
-        "body": "Odděl jasnou část úkolu od nejasných míst. U každého otevřeného bodu řekni, co pozoruješ, co zatím neprovedeš a čí rozhodnutí potřebuješ. Nedoplňuj vlastní intenzitu zásahu ani jednotný rozestup stromů. Kvalitní předání může obsahovat i rozhodnutí nepokračovat, pokud zadání nebo bezpečné podmínky nejsou vyjasněné. Udělej si krátké rozdělení: jasně zadáno, potřebuji vysvětlit, nebylo svěřeno. Toto rozdělení je podklad pro rozhovor s vedoucím. Samo ještě nepovoluje pokračování v části, kde okolní nebezpečí může ovlivnit i ostatní práci."
+        "title": "Sestavte zprávu pro další rozhodnutí",
+        "body": "Oddělte jasnou část úkolu od nejasných míst. U každého otevřeného bodu sdělte, co pozorujete, co zatím neprovedete a čí rozhodnutí potřebujete. Nedoplňujte vlastní intenzitu zásahu ani jednotný rozestup stromů. Kvalitní předání může obsahovat i rozhodnutí nepokračovat, pokud zadání nebo bezpečné podmínky nejsou vyjasněné. Proveďte si krátké rozdělení: jasně zadáno, potřebuji vysvětlit, nebylo svěřeno. Toto rozdělení je podklad pro rozhovor s vedoucím. Samo ještě nepovoluje pokračování v části, kde okolní nebezpečí může ovlivnit i ostatní práci."
       }
     ],
     "example": {
-      "situation": "Model: pečuješ o určené sazenice. U okraje je biotopový strom, sousední starší porost nemá zadání a kolega nabízí postřik místo mechanické práce.",
+      "situation": "Model: pečujete o určené sazenice. U okraje je biotopový strom, sousední starší porost nemá zadání a kolega nabízí postřik místo mechanické práce.",
       "response": "Vyžádám řešení okraje; sousední porost ani chemickou změnu sám nezahrnu do úkolu.",
       "why": "Tři návrhy znamenají různé odborné otázky, ne volné rozšíření původní práce."
     },
@@ -4224,13 +4091,13 @@
       },
       {
         "term": "Rozsah oprávnění",
-        "meaning": "Činnosti a rozhodnutí, které máš skutečně svěřené a pro které splňuješ podmínky."
+        "meaning": "Činnosti a rozhodnutí, které máte skutečně svěřené a pro které splňujete podmínky."
       }
     ],
     "quiz": [
       {
         "id": "q1",
-        "prompt": "Máš zadánu mechanickou péči. Kolega nabízí chemický přípravek jako rychlejší řešení. Co uděláš?",
+        "prompt": "Máte zadánu mechanickou péči. Kolega nabízí chemický přípravek jako rychlejší řešení. Co uděláte?",
         "options": [
           {
             "id": "a",
@@ -4291,16 +4158,13 @@
     ],
     "task": {
       "title": "Předání složitého okraje",
-      "prompt": "K modelu z ukázky napiš 2–4 věty pro vedoucího. Uveď původní práci, problém u biotopového stromu a rozhodnutí o sousedním porostu i návrhu postřiku. Požádej o přesné upřesnění dalšího postupu.",
+      "prompt": "K modelu z ukázky napište 2–4 věty pro vedoucího. Uveďte původní práci, problém u biotopového stromu a rozhodnutí o sousedním porostu i návrhu postřiku. Požádejte o přesné upřesnění dalšího postupu.",
       "checks": [
         "Zachová původní rozsah úkolu.",
         "Neprovede samovolný chemický ani sousední zásah.",
         "Předá konkrétní otázku k ochraně a bezpečnosti okraje."
       ]
     },
-    "sourceIds": [
-      "F-S2",
-      "F-LCR-BIOTOP"
-    ]
+    "sourceIds": []
   }
 ]

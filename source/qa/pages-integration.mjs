@@ -23,7 +23,7 @@ let catalog=read('lib/academy/catalog.ts').replace("'./forestry-curriculum'","'.
 catalog=catalog.replace(/import (\w+) from '([^']+\.json)';/g,(_,name,file)=>`const ${name}=${fs.readFileSync(path.resolve(root,'lib/academy',file),'utf8')};`);
 compile(catalog,'catalog.mjs');
 const units=json('lib/academy/study/units.json');
-const sources=json('lib/academy/study/sources.json');
+const sources=[];
 compile(read('lib/academy/study/config.ts')+'\nexport const studyUnits='+JSON.stringify(units)+';\nexport const studySources='+JSON.stringify(sources)+';\nexport const safeStudyUnit=u=>({...u,quiz:u.quiz.map(({correct,explanation,...q})=>q)});','study.mjs');
 fs.copyFileSync(path.join(root,'public/sql/sql-wasm.js'),path.join(out,'sql-wasm.cjs'));
 const require=createRequire(import.meta.url);
@@ -87,7 +87,7 @@ await test('Browser-local session header opens the selected account and rejects 
 await test('SQLite WASM seed and role launcher persist 30 synthetic learners',async()=>{
  ok(await request(null,'launcher'));a1=await login('demo-a01');a2=await login('demo-a02');i1=await login('demo-i01');i2=await login('demo-i02');q=await login('demo-q01');
  assert.equal(ok(await request(q,'ivp')).summary.learners,30);assert.notEqual(a1,a2);
- const b=ok(await request(a1,'bootstrap'));assert.equal(b.competencies.length,14);assert.equal(b.questions.filter(x=>x.answer===null).length,24);assert.equal(b.missions.length,17);
+ const b=ok(await request(a1,'bootstrap'));assert.equal(b.competencies.length,14);assert.equal(b.questions,undefined);assert.equal(b.missions.length,17);
 });
 await test('Role rules reject wrong-role and unassigned requests in the demo logic',async()=>{
  ok(await request(null,'bootstrap'),401);ok(await request(a1,'ivp'),403);ok(await request(a1,'portfolio?user=demo-a02'),403);ok(await request(i2,'learner/demo-a01'),403);
@@ -115,7 +115,7 @@ await test('Instructor return, learner correction, acceptance, portfolio and IVP
 });
 await test('36 lessons and 108 questions preserve content and six checkpoint links',async()=>{
  const study=ok(await request(a2,'study'));assert.equal(study.units.length,36);assert.equal(study.blocks.length,6);assert.equal(study.practiceCards.length,8);assert.equal(study.units.reduce((n,u)=>n+u.quiz.length,0),108);
- for(const u of study.units){assert(u.sections.length>=3);assert(u.sections.map(s=>s.body).join(' ').length>750);assert(u.quiz.every(q=>q.correct===undefined&&q.explanation===undefined));assert(u.sourceIds.every(id=>study.sources.some(s=>s.id===id)))}
+ for(const u of study.units){assert(u.sections.length>=3);assert(u.sections.map(s=>s.body).join(' ').length>750);assert(u.quiz.every(q=>q.correct===undefined&&q.explanation===undefined));assert.deepEqual(u.sourceIds,[]);assert.equal(study.sources.length,0)}
  for(const block of study.blocks){assert.equal(study.units.filter(u=>u.block===block.id).length,6);ok(await request(a2,'mission/'+block.checkpoint))}
 });
 await test('Quiz gives explained correction and awards points once across repeated attempts',async()=>{
@@ -151,6 +151,25 @@ await test('Storage failure atomically discards both new attachment and its reco
 await test('Persisted SQLite snapshot is consistent and contains no practical qualification',async()=>{
  assert.equal(persistedRows('PRAGMA integrity_check')[0].integrity_check,'ok');assert.deepEqual(persistedRows('PRAGMA foreign_key_check'),[]);assert.equal(ok(await request(q,'ivp')).summary.practicalVerified,0);assert.equal(ok(await request(a1,'portfolio')).awardStatus,'Čeká na schválení programu');
  assert(loads>50);assert(saves>50);
+});
+
+await test('Presentation does not disclose internal requirements and LCR receives only aggregates',async()=>{
+ const lcr=await login('demo-l01');const boot=ok(await request(lcr,'bootstrap'));assert.equal(boot.questions,undefined);
+ const ivp=ok(await request(lcr,'ivp'));assert.deepEqual(ivp.people,[]);assert.equal(ivp.questions,undefined);assert.equal(ivp.summary.openQuestions,undefined);
+ const study=ok(await request(lcr,'study-overview'));assert.deepEqual(study.people,[]);assert(study.summary.passed>=1);
+ ok(await request(lcr,'study?user=demo-a01'),403);ok(await request(lcr,'portfolio?user=demo-a01'),403);ok(await request(lcr,'review',{...assess(),attemptId:correctedAttempt}),403);
+});
+
+await test('Forestry authoring and two reviews remain functional with hidden sources',async()=>{
+ const teacher=await login('demo-t01'),expert=await login('demo-o01'),didactic=await login('demo-p01');
+ const base=ok(await request(teacher,'content')).items.find(x=>x.mission==='P01'&&x.status==='published_demo').data;
+ const created=ok(await request(teacher,'content',{action:'create',mission:'P01',title:base.title,lesson:base.lesson_text,scenario:base.scenario,task:base.submission_task,transfer:base.transfer_task,criteria:base.proposed_assessor_guidance,forestry:base.forestry,decision:{question:base.question,options:base.options,correct_option_id:base.correct_option_id,feedback:base.feedback}}));
+ ok(await request(teacher,'content',{action:'publish',id:created.id}),409);
+ ok(await request(expert,'content',{action:'approve',id:created.id,note:'Modelová odborná recenze této přesné verze.'}));
+ ok(await request(didactic,'content',{action:'approve',id:created.id,note:'Modelová didaktická recenze této přesné verze.'}));
+ ok(await request(teacher,'content',{action:'publish',id:created.id}));
+ const published=ok(await request(teacher,'content')).items.find(x=>x.id===created.id);
+ assert.equal(published.status,'published_demo');assert.deepEqual(published.data.forestry.sources,[]);assert.equal(published.data.production_enabled,false);
 });
 
 const report={

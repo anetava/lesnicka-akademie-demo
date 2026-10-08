@@ -23,15 +23,15 @@ export const forestScenes = {
   "M05": "Plánování v porostu",
   "M06": "Klest na okraji cesty",
   "M07": "Uložené vybavení",
-  "P01": "Pozorování stromků",
+  "P01": "Pozorování stromů",
   "P02": "Obnova v lesní mezeře",
   "P03": "Chráněný sadební materiál",
   "P04": "Učení na modelu",
-  "P05": "Světlo pro mladý stromek",
-  "P06": "Pozorování ochrany stromku",
+  "P05": "Světlo pro mladý strom",
+  "P06": "Pozorování ochrany stromu",
   "R01": "Rozhovor o růstu porostu",
   "R02": "Porovnání mladých stromů",
-  "R03": "Domluva před prací",
+  "R03": "Dohoda před prací",
   "R04": "Kontrola a předání porostu",
   "D01": "Vyjasnění místa práce",
   "D02": "Kontrola záznamu",
@@ -43,5 +43,5 @@ export const forestScenes = {
 export type ForestScene = keyof typeof forestScenes;
 export function ForestArt({scene, placement='heading'}: {scene: string; placement?: 'heading' | 'home' | 'aside' | 'entry' | 'colophon'}) {
   if (!Object.prototype.hasOwnProperty.call(forestScenes, scene)) return null;
-  return <span className={`forest-art forest-art--${placement}`} data-forest-scene={scene} aria-hidden="true"><img src={`/lesnicka-akademie-demo/storybook/${scene==='K01'?'M07':scene}.webp`} alt="" width="768" height="512" loading={placement==='aside'||placement==='colophon'?'lazy':'eager'} decoding="async" draggable={false}/></span>;
+  return <span className={`forest-art forest-art--${placement}`} data-forest-scene={scene} aria-hidden="true"><img src={`./storybook/${scene==='K01'?'M07':scene}.webp`} alt="" width="768" height="512" loading={placement==='aside'||placement==='colophon'?'lazy':'eager'} decoding="async" draggable={false}/></span>;
 }

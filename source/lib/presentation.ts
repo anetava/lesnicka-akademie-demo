@@ -3,7 +3,7 @@ import {createDemoEngine} from './presentation-db';
 import first from '../drizzle/0000_short_guardian.sql?raw';
 import second from '../drizzle/0001_clear_grey_gargoyle.sql?raw';
 import third from '../drizzle/0002_tidy_tiger_shark.sql?raw';
-const databaseName='lesnicka-akademie-presentation-v1';
+const databaseName='lesnicka-akademie-prezentace-v2';
 export async function installPresentation(){
  const parts=await Promise.all(['sql-wasm.wasm.00','sql-wasm.wasm.01','sql-wasm.wasm.02'].map(async name=>{
   const response=await fetch(import.meta.env.BASE_URL+'sql/'+name);

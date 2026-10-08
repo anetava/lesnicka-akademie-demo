@@ -2,8 +2,8 @@
 import {BookOpen,Target,Trees} from 'lucide-react';
 
 const phases = [
-  {id:'understand', title:'Pochopím proč', description:'Krátké vysvětlení a ukázka', Icon:BookOpen},
-  {id:'try', title:'Vyzkouším si', description:'Rozhodnutí s vysvětlením chyby', Icon:Target},
+  {id:'understand', title:'Porozumím účelu', description:'Krátké vysvětlení a ukázka', Icon:BookOpen},
+  {id:'try', title:'Procvičím rozhodování', description:'Rozhodnutí s vysvětlením chyby', Icon:Target},
   {id:'practice', title:'Předvedu v praxi', description:'Nácvik a pozorování instruktora', Icon:Trees},
 ] as const;
 
