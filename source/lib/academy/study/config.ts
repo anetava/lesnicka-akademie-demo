@@ -1,3 +1,4 @@
+import programmePracticeCards from './programme-practice-cards.json';
 import additionalBlocks from './additional-blocks.json';
 export {subjects} from './program';
 export const studyVersion='2026-10-08-predmety-v3';
@@ -9,13 +10,4 @@ export const studyBlocks=[
  {id:'K',number:'05',title:'Křovinořez a pracovní prostředky',subtitle:'Stroj, vybavení, prostor a péče',scene:'M07',icon:'tool',checkpoint:'K01',output:'Připravím plán kontroly stroje a pracoviště.'},
  {id:'S',number:'06',title:'Bezpečnost, kvalita a odpovědnost',subtitle:'Riziko, pomoc, kvalita a předání práce',scene:'D06',icon:'team',checkpoint:'D06',output:'Věcně předám výsledek, odchylku a další krok.'}
 ].map(b=>({...b,subject:'forestry'})).concat(additionalBlocks);
-export const practiceCards=[
- {id:'zadani',title:'Převezmu pracovní zadání',block:'Z',competencies:['C01','C13'],mission:'D01',scope:'Modelové předání a orientace před prací',criteria:['Ukáže místo a hranice úkolu.','Vlastními slovy zopakuje cíl a požadovanou kvalitu.','Pojmenuje nejasnost a domluví její vyřešení.']},
- {id:'sazenice',title:'Připravím sadební materiál',block:'O',competencies:['C02'],mission:'P03',scope:'Vedený nácvik s určeným sadebním materiálem',criteria:['Rozliší typ materiálu a jeho označení.','Předvede ochranu kořenů podle podmínek pracoviště.','Oddělí a ohlásí zjevně nevhodný materiál.']},
- {id:'vysadba',title:'Provedu a zkontroluji výsadbu',block:'O',competencies:['C02','C11'],mission:'P04',scope:'Výsadba podle předepsaného způsobu a ukázky instruktora',criteria:['Vysvětlí konkrétní zadání výsadby.','Provede úkon pod vedením a nepoškodí kořeny.','Porovná provedení se vzorem a opraví dovolenou chybu.']},
- {id:'ochrana',title:'Zkontroluji ochranu lesních kultur',block:'P',competencies:['C03','C06'],mission:'P06',scope:'Mechanická ochrana a kontrola oplocení',criteria:['Rozpozná cílové dřeviny a místo poškození.','Zhodnotí funkčnost zadané ochrany.','Zvolí opravu v dovoleném rozsahu a zachová okolní porost.']},
- {id:'prorezavka',title:'Porovnám zásah se vzorem',block:'R',competencies:['C04','C10','C11'],mission:'R04',scope:'Pozorování a vedený nácvik ve vybraném mladém porostu',criteria:['Vysvětlí cíl zásahu a konkrétní kritéria výběru.','Zdůvodní rozhodnutí na referenční ukázce.','Průběžně kontroluje směs, ponechané stromy a škody.']},
- {id:'krov-priprava',title:'Připravím stroj a pracoviště',block:'K',competencies:['C08','C09'],mission:'K01',scope:'Kontrola konkrétního křovinořezu bez spuštění',criteria:['Najde návod konkrétního stroje a schválené osazení.','Předvede předepsanou kontrolu a vyřadí závadný prostředek.','Vysvětlí ochranné vybavení, prostor a komunikaci.']},
- {id:'krov-nacvik',title:'Předvedu vedený nácvik se strojem',block:'K',competencies:['C08','C09','C03'],mission:'K01',scope:'Pouze po skutečném ověření předpokladů, instruktáži a určení pracoviště',criteria:['Dodrží konkrétní návod a pracovní postup.','Udrží bezpečný prostor a reaguje na jeho narušení.','Chrání cílové dřeviny; bezpečně ukončí práci a předá závadu.']},
- {id:'predani',title:'Zkontroluji a předám výsledek',block:'S',competencies:['C10','C11','C12','C14'],mission:'D06',scope:'Kontrola výsledku a záznam po zadané práci',criteria:['Popíše skutečně provedený rozsah bez zkreslení.','Doloží kontrolu kvality a zaznamená odchylku.','Předá informaci určené osobě a domluví návaznost.']}
-] as const;
+export const practiceCards=programmePracticeCards;

@@ -1,4 +1,4 @@
-/** Atmospheric storybook scenes are decorative, never a species or procedure reference. */
+/** Licensed photographs provide context. They are not proof of a correct forestry procedure. */
 export const forestScenes = {
   "welcome": "Vstup do akademie",
   "K01": "Příprava vybavení pro křovinořez",
@@ -41,7 +41,12 @@ export const forestScenes = {
   "D06": "Předání kolegovi"
 } as const;
 export type ForestScene = keyof typeof forestScenes;
-export function ForestArt({scene, placement='heading'}: {scene: string; placement?: 'heading' | 'home' | 'aside' | 'entry' | 'colophon'}) {
-  if (!Object.prototype.hasOwnProperty.call(forestScenes, scene)) return null;
-  return <span className={`forest-art forest-art--${placement}`} data-forest-scene={scene} aria-hidden="true"><img src={`./storybook/${scene==='K01'?'M07':scene}.webp`} alt="" width="768" height="512" loading={placement==='aside'||placement==='colophon'?'lazy':'eager'} decoding="async" draggable={false}/></span>;
+const photoForScene:Record<string,string>={
+ welcome:'canopy',home:'canopy',journey:'regeneration',team:'canopy',portfolio:'timber',practice:'regeneration',support:'forest-light',content:'nursery',overview:'canopy',questions:'forest-light',schedule:'winter',settings:'timber',guide:'canopy',shared:'forest-light',offline:'winter',
+ M01:'canopy',M02:'nursery',M03:'fence',M04:'regeneration',M05:'canopy',M06:'timber',M07:'timber',K01:'timber',
+ P01:'regeneration',P02:'regeneration',P03:'nursery',P04:'nursery',P05:'regeneration',P06:'fence',R01:'regeneration',R02:'regeneration',R03:'canopy',R04:'regeneration',D01:'canopy',D02:'timber',D03:'forest-light',D04:'forest-light',D05:'winter',D06:'timber'
+};
+export function ForestArt({scene,placement='heading'}:{scene:string;placement?:'heading'|'home'|'aside'|'entry'|'colophon'}){
+ const photo=photoForScene[scene];if(!photo)return null;
+ return <span className={`forest-art forest-art--${placement}`} data-forest-scene={scene} data-real-photo={photo} aria-hidden="true"><img src={`./photos/${photo}.jpg`} alt="" width="1400" height="933" loading={placement==='aside'||placement==='colophon'?'lazy':'eager'} decoding="async" draggable={false}/></span>;
 }

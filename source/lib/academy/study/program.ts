@@ -1,18 +1,11 @@
+import reference from './programme-reference.json';
 export const subjects=[
- {id:'forestry',path:'/lesnictvi',title:'Lesnické odborné předměty',short:'Lesnictví',hours:180,units:48,lead:'Odborný instruktor',description:'Obnova lesa, ochrana kultur, výchova porostů, prořezávky, menší probírky a technická péče.'},
- {id:'english',path:'/anglictina',title:'Odborná lesnická angličtina',short:'Angličtina',hours:24,units:12,lead:'Vyučující angličtiny',description:'Lesnické a dřevařské pojmy, modelové věty, porozumění a vlastní pracovní dialog.'},
- {id:'communication',path:'/komunikace',title:'Komunikace a profesní dovednosti',short:'Komunikace · IVP',hours:24,units:12,lead:'Prostor pro výuku IVP',description:'Pracovní dohoda, jazykově různorodý tým, zpětná vazba, reflexe a vlastní rozvoj.'}
+ {id:'forestry',path:'/lesnictvi',title:'Lesnické odborné předměty',short:'Lesnictví',hours:216,units:48,lead:'Odborný instruktor',description:'Sedm odborných předmětů: les, obnova, ochrana, výchova porostů, dříví, mechanizace a bezpečnost.'},
+ {id:'english',path:'/anglictina',title:'Odborná lesnická angličtina',short:'Angličtina',hours:64,units:12,lead:'Jazykový lektor',description:'100 odborných výrazů, 20 pracovních vět, porozumění pokynům a tři pracovní rozhovory.'},
+ {id:'communication',path:'/komunikace',title:'Pracovní komunikace a spolupráce',short:'Komunikace · IVP',hours:24,units:12,lead:'Lektor IVP',description:'Převzetí zadání, hlášení problému, spolupráce, řešení nedorozumění a předání práce.'},
+ {id:'organization',path:'/organizace',title:'Organizace práce a pracovní evidence',short:'Organizace · IVP',hours:16,units:6,lead:'Lektor IVP',description:'Příprava úkolu, pořadí kroků, sebekontrola, pracovní výkaz a souhrnné předání výsledku.'}
 ] as const;
-// Authored proposal for this short programme, not the hour requirements of an RVP.
-export const programmeHours=[
- {title:'Dřeviny a pracovní zadání',theory:6,practice:12,total:18},
- {title:'Obnova lesa a výsadba',theory:8,practice:34,total:42},
- {title:'Ochrana kultur a péče o půdu',theory:6,practice:24,total:30},
- {title:'Výchova porostů a prořezávky',theory:6,practice:24,total:30},
- {title:'Menší probírky a základy těžební činnosti',theory:10,practice:26,total:36},
- {title:'Mechanizace, křovinořez a technická péče',theory:8,practice:12,total:20},
- {title:'BOZP, kvalita a předání',theory:4,practice:0,total:4},
- {title:'Odborná lesnická angličtina',theory:18,practice:6,total:24},
- {title:'Komunikace a profesní dovednosti · IVP',theory:18,practice:6,total:24},
- {title:'Souhrnné ověření a závěrečný rozhovor',theory:0,practice:12,total:12}
-] as const;
+export const programme=reference;
+export const programmeHours=reference.courses;
+export const programmeTotals={teachingVH:320,teachingMinutes:14400,practiceHours:360,practiceMinutes:21600,totalHours:600,beforeFinalPracticeHours:358,participants:30,groups:2,groupSize:15,days:40,blocks:20};
+export function theoryPass(exam:string,score:number,safety:number){if(exam==='final')return Number.isInteger(score)&&Number.isInteger(safety)&&score>=16&&score<=20&&safety===5&&score>=safety;return /^D[1-4]$/.test(exam)&&Number.isInteger(score)&&Number.isInteger(safety)&&score>=8&&score<=10&&safety===3&&score>=safety;}

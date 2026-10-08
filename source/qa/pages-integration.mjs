@@ -22,9 +22,9 @@ compile(read('lib/academy/forestry-curriculum.ts'),'forestry.mjs');
 let catalog=read('lib/academy/catalog.ts').replace("'./forestry-curriculum'","'./forestry.mjs'");
 catalog=catalog.replace(/import (\w+) from '([^']+\.json)';/g,(_,name,file)=>`const ${name}=${fs.readFileSync(path.resolve(root,'lib/academy',file),'utf8')};`);
 compile(catalog,'catalog.mjs');
-const units=[...json('lib/academy/study/units.json'),...json('lib/academy/study/additional-units.json')];
+const units=[...json('lib/academy/study/units.json'),...json('lib/academy/study/additional-units.json'),...json('lib/academy/study/organization-units.json')];
 const sources=[];
-compile(read('lib/academy/study/config.ts').replace("import additionalBlocks from './additional-blocks.json';",'const additionalBlocks='+JSON.stringify(json('lib/academy/study/additional-blocks.json'))+';').replace("export {subjects} from './program';",read('lib/academy/study/program.ts'))+'\nexport const studyUnits='+JSON.stringify(units)+';\nexport const studySources='+JSON.stringify(sources)+';\nexport const safeStudyUnit=u=>({...u,quiz:u.quiz.map(({correct,explanation,...q})=>q)});','study.mjs');
+compile(read('lib/academy/study/config.ts').replace("import additionalBlocks from './additional-blocks.json';",'const additionalBlocks='+JSON.stringify(json('lib/academy/study/additional-blocks.json'))+';').replace("import programmePracticeCards from './programme-practice-cards.json';",'const programmePracticeCards='+JSON.stringify(json('lib/academy/study/programme-practice-cards.json'))+';').replace("export {subjects} from './program';",read('lib/academy/study/program.ts').replace("import reference from './programme-reference.json';",'const reference='+JSON.stringify(json('lib/academy/study/programme-reference.json'))+';'))+'\nexport const studyUnits='+JSON.stringify(units)+';\nexport const studySources='+JSON.stringify(sources)+';\nexport const safeStudyUnit=u=>({...u,quiz:u.quiz.map(({correct,explanation,...q})=>q)});','study.mjs');
 fs.copyFileSync(path.join(root,'public/sql/sql-wasm.js'),path.join(out,'sql-wasm.cjs'));
 const require=createRequire(import.meta.url);
 const initSqlJs=require(path.join(out,'sql-wasm.cjs'));
@@ -87,7 +87,7 @@ await test('Browser-local session header opens the selected account and rejects 
 await test('SQLite WASM seed and role launcher persist 30 synthetic learners',async()=>{
  ok(await request(null,'launcher'));a1=await login('demo-a01');a2=await login('demo-a02');i1=await login('demo-i01');i2=await login('demo-i02');q=await login('demo-q01');
  assert.equal(ok(await request(q,'ivp')).summary.learners,30);assert.notEqual(a1,a2);
- const b=ok(await request(a1,'bootstrap'));assert.equal(b.competencies.length,14);assert.equal(b.questions,undefined);assert.equal(b.missions.length,23);
+ const b=ok(await request(a1,'bootstrap'));assert.equal(b.competencies.length,14);assert.equal(b.questions,undefined);assert.equal(b.missions.length,24);
 });
 await test('Role rules reject wrong-role and unassigned requests in the demo logic',async()=>{
  ok(await request(null,'bootstrap'),401);ok(await request(a1,'ivp'),403);ok(await request(a1,'portfolio?user=demo-a02'),403);ok(await request(i2,'learner/demo-a01'),403);
@@ -113,10 +113,30 @@ await test('Instructor return, learner correction, acceptance, portfolio and IVP
  const p=ok(await request(a1,'portfolio'));assert.equal(p.attempts.length,2);assert.equal(p.attempts[0].status,'accepted');assert.equal(p.attempts[1].status,'returned');assert.equal(p.points,20);assert.equal(p.practicalCompetencies,0);
  const ivp=ok(await request(q,'ivp'));assert.equal(ivp.summary.pending,0);assert(ivp.people.find(p=>p.id==='demo-a01').records.some(r=>r.id===correctedAttempt));
 });
-await test('72 lessons in three separate subjects preserve content and twelve checkpoint links',async()=>{
- const study=ok(await request(a2,'study'));assert.equal(study.units.length,72);assert.equal(study.blocks.length,12);assert.equal(study.practiceCards.length,8);assert.equal(study.units.reduce((n,u)=>n+u.quiz.length,0),216);
+await test('78 lessons preserve four distinct learning routes and thirteen checkpoint links',async()=>{
+ const study=ok(await request(a2,'study'));assert.equal(study.units.length,78);assert.equal(study.blocks.length,13);assert.equal(study.practiceCards.length,20);assert.equal(study.units.reduce((n,u)=>n+u.quiz.length,0),234);
  for(const u of study.units){assert(u.sections.length>=3);assert(u.sections.map(s=>s.body).join(' ').length>750);assert(u.quiz.every(q=>q.correct===undefined&&q.explanation===undefined));assert.deepEqual(u.sourceIds,[]);assert.equal(study.sources.length,0)}
  for(const block of study.blocks){assert.equal(study.units.filter(u=>u.block===block.id).length,6);ok(await request(a2,'mission/'+block.checkpoint))}
+});
+await test('Attachment programme preserves all hour budgets and critical knowledge thresholds',async()=>{
+ const {programme,programmeHours,programmeTotals,theoryPass}=await import(path.join(out,'study.mjs'));
+ assert.equal(programmeHours.length,10);assert.equal(programmeHours.reduce((n,c)=>n+c.hours,0),320);
+ assert.equal(programme.periods.reduce((n,p)=>n+p.hours,0),320);assert.equal(programme.periods.reduce((n,p)=>n+p.practice,0),360);assert.equal(programme.periods.reduce((n,p)=>n+p.days,0),40);
+ assert.equal(programme.practice.reduce((n,p)=>n+p.hours,0),360);assert.equal(320*45/60+360,600);assert.equal(programmeTotals.beforeFinalPracticeHours+2,360);
+ assert.deepEqual(programmeHours.slice(7).map(c=>c.hours),[64,24,16]);assert.equal(programme.english.reduce((n,p)=>n+p.hours,0),64);
+ assert.equal(programme.final.reduce((n,f)=>n+f.minutes,0),180);
+ assert.equal(theoryPass('D1',8,3),true);assert.equal(theoryPass('D4',9,2),false);assert.equal(theoryPass('D2',7,3),false);assert.equal(theoryPass('D3',11,3),false);
+ assert.equal(theoryPass('final',16,5),true);assert.equal(theoryPass('final',19,4),false);assert.equal(theoryPass('final',15,5),false);assert.equal(theoryPass('D5',10,3),false);
+ const core=json('lib/academy/study/english-core.json');assert.equal(core.words.length,100);assert.equal(new Set(core.words.map(w=>w.english)).size,100);assert.equal(core.phrases.length,20);
+});
+await test('Organisation is a separate course with durable work and no duplicate qualification',async()=>{
+ const actor=await login('demo-a05'),study=ok(await request(actor,'study')),unit=units.find(u=>u.id==='E03');
+ assert.equal(unit.subject,'organization');const answers=Object.fromEntries(unit.quiz.map(q=>[q.id,q.correct]));
+ assert.equal(ok(await request(actor,'study-check',{unit:unit.id,contentVersion:study.version,version:0,answers})).score,3);
+ ok(await request(actor,'study-work',{unit:unit.id,contentVersion:study.version,version:0,text:'Modelový výkaz: plocha DEMO-Sever, výsadba 92 sazenic; osm kusů vyřazeno, skutečný rozsah a důvod předány instruktorovi.'}));
+ engine=createDemoEngine(SQL,schema,handleAcademy,storage);const fresh=ok(await request(actor,'study'));assert(fresh.works.some(w=>w.unit==='E03'));
+ const report=ok(await request(i1,'study-overview')).people.find(p=>p.id==='demo-a05');assert.equal(report.subjects.find(s=>s.subject==='organization').works,1);assert.equal(report.subjects.find(s=>s.subject==='communication').works,0);
+ assert.equal(ok(await request(actor,'mission/IO01')).mission.subject,'organization');assert.equal(ok(await request(actor,'portfolio')).practicalCompetencies,0);
 });
 await test('Quiz gives explained correction and awards points once across repeated attempts',async()=>{
  const unit=units[0],study=ok(await request(a2,'study'));const answers=Object.fromEntries(unit.quiz.map(q=>[q.id,q.correct]));const wrong={...answers,[unit.quiz[0].id]:unit.quiz[0].options.find(o=>o.id!==unit.quiz[0].correct).id};
@@ -188,7 +208,7 @@ await test('English and IVP communication have independent work, checkpoints and
  const fresh=ok(await request(a3,'study'));assert(fresh.checkpoints.some(c=>c.mission==='AE01'&&c.status==='accepted'));
  const overview=ok(await request(q,'study-overview'));const person=overview.people.find(p=>p.id==='demo-a03');
  assert.equal(person.subjects.find(s=>s.subject==='forestry').works,0);assert.equal(person.subjects.find(s=>s.subject==='english').works,1);assert.equal(person.subjects.find(s=>s.subject==='communication').works,1);
- assert.equal(person.passed,2);assert.equal(overview.summary.subjects.length,3);
+ assert.equal(person.passed,2);assert.equal(overview.summary.subjects.length,4);
  assert.equal(ok(await request(a3,'portfolio')).practicalCompetencies,0);
 });
 

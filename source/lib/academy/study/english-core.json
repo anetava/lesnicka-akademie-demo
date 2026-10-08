@@ -1,0 +1,706 @@
+{
+  "words": [
+    {
+      "english": "spruce",
+      "term": "smrk",
+      "category": "Dřeviny",
+      "meaning": "Pro přesné druhové určení doplňte název druhu; spruce je rodové označení."
+    },
+    {
+      "english": "fir",
+      "term": "jedle",
+      "category": "Dřeviny",
+      "meaning": "Rodové označení; jedle bělokorá se označuje silver fir."
+    },
+    {
+      "english": "pine",
+      "term": "borovice",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "beech",
+      "term": "buk",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "oak",
+      "term": "dub",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "larch",
+      "term": "modřín",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "birch",
+      "term": "bříza",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "alder",
+      "term": "olše",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "ash",
+      "term": "jasan",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "maple",
+      "term": "javor",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "hornbeam",
+      "term": "habr",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "aspen",
+      "term": "osika",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "lime",
+      "term": "lípa",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "rowan",
+      "term": "jeřáb",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "willow",
+      "term": "vrba",
+      "category": "Dřeviny",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "tree",
+      "term": "strom",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "root",
+      "term": "kořen",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "root collar",
+      "term": "kořenový krček",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "stem",
+      "term": "kmen",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "bark",
+      "term": "kůra",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "branch",
+      "term": "větev",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "crown",
+      "term": "koruna",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "bud",
+      "term": "pupen",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "needle",
+      "term": "jehlice",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "leaf",
+      "term": "list",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "cone",
+      "term": "šiška",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "seed",
+      "term": "semeno",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "forest stand",
+      "term": "lesní porost",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "mixed stand",
+      "term": "smíšený porost",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "species composition",
+      "term": "dřevinná skladba",
+      "category": "Strom a porost",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "forest regeneration",
+      "term": "obnova lesa",
+      "category": "Obnova lesa",
+      "meaning": "Vznik nové generace lesních dřevin."
+    },
+    {
+      "english": "natural regeneration",
+      "term": "přirozená obnova",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "artificial regeneration",
+      "term": "umělá obnova",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "planting stock",
+      "term": "sadební materiál",
+      "category": "Obnova lesa",
+      "meaning": "Souhrnné označení rostlin určených pro výsadbu."
+    },
+    {
+      "english": "seedling",
+      "term": "semenáček",
+      "category": "Obnova lesa",
+      "meaning": "V odborném rozlišení semenáček ze semene bez předchozího přesazení."
+    },
+    {
+      "english": "transplant",
+      "term": "sazenice vypěstovaná s přesazením",
+      "category": "Obnova lesa",
+      "meaning": "V odborném rozlišení sazenice vzniklá s přesazením."
+    },
+    {
+      "english": "bare-root plant",
+      "term": "prostokořenná sazenice",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "containerized plant",
+      "term": "krytokořenná rostlina",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "root ball",
+      "term": "kořenový bal",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "planting",
+      "term": "výsadba",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "sowing",
+      "term": "síje",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "spacing",
+      "term": "spon",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "forest nursery",
+      "term": "lesní školka",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "soil",
+      "term": "půda",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "soil moisture",
+      "term": "půdní vlhkost",
+      "category": "Obnova lesa",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "weed",
+      "term": "buřeň",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "weed control",
+      "term": "potlačování buřeně",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "browsing",
+      "term": "okus",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "bark stripping",
+      "term": "loupání kůry zvěří",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "fence",
+      "term": "oplocení",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "tree shelter",
+      "term": "individuální ochranný tubus",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "forest protection",
+      "term": "ochrana lesa",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "pest",
+      "term": "škodlivý organismus",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "bark beetle",
+      "term": "kůrovec",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "damage",
+      "term": "poškození",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "soil conservation",
+      "term": "ochrana půdy",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "soil erosion",
+      "term": "půdní eroze",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "water",
+      "term": "voda",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "biodiversity",
+      "term": "biologická rozmanitost",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "habitat",
+      "term": "stanoviště organismu",
+      "category": "Ochrana a stanoviště",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "silviculture",
+      "term": "pěstování lesa",
+      "category": "Výchova porostů",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "cleaning",
+      "term": "prořezávka",
+      "category": "Výchova porostů",
+      "meaning": "Zásah v mladém porostu; zde odborný význam prořezávka, nikoli běžný úklid."
+    },
+    {
+      "english": "thinning",
+      "term": "probírka",
+      "category": "Výchova porostů",
+      "meaning": "Výchovný zásah v určeném starším porostu; význam se neodvozuje jako plošné ředění."
+    },
+    {
+      "english": "pole-stage stand",
+      "term": "tyčovina",
+      "category": "Výchova porostů",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "small pole stand",
+      "term": "tyčkovina",
+      "category": "Výchova porostů",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "dominant tree",
+      "term": "nadúrovňový strom",
+      "category": "Výchova porostů",
+      "meaning": "Popis sociálního postavení stromu, nikoli automatický pokyn k jeho ponechání."
+    },
+    {
+      "english": "suppressed tree",
+      "term": "potlačený strom",
+      "category": "Výchova porostů",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "selection",
+      "term": "výběr",
+      "category": "Výchova porostů",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "stand density",
+      "term": "hustota porostu",
+      "category": "Výchova porostů",
+      "meaning": "Hustota a zakmenění nejsou při odborném posouzení automaticky zaměnitelné veličiny."
+    },
+    {
+      "english": "increment",
+      "term": "přírůst",
+      "category": "Výchova porostů",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "timber",
+      "term": "dříví v pracovním kontextu",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "wood",
+      "term": "dřevo jako materiál",
+      "category": "Dříví a těžební práce",
+      "meaning": "Materiálový pojem. Dříví jako obchodní nebo pracovní objekt se podle kontextu označuje timber."
+    },
+    {
+      "english": "log",
+      "term": "výřez",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "assortment",
+      "term": "sortiment",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "felling",
+      "term": "kácení",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "delimbing",
+      "term": "odvětvování",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "cross-cutting",
+      "term": "krácení a druhování",
+      "category": "Dříví a těžební práce",
+      "meaning": "Rozdělení dříví na části podle zadání; překlad závisí na pracovním kontextu."
+    },
+    {
+      "english": "stump",
+      "term": "pařez",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "slash",
+      "term": "klest",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "rot",
+      "term": "hniloba",
+      "category": "Dříví a těžební práce",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "chainsaw",
+      "term": "řetězová pila",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "brush cutter",
+      "term": "křovinořez",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "axe",
+      "term": "sekera",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "spade",
+      "term": "rýč",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "hoe",
+      "term": "motyka",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "safety helmet",
+      "term": "ochranná přilba",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "gloves",
+      "term": "rukavice",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "eye protection",
+      "term": "ochrana zraku",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "hearing protection",
+      "term": "ochrana sluchu",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "maintenance",
+      "term": "údržba",
+      "category": "Nářadí a vybavení",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "length",
+      "term": "délka",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "diameter",
+      "term": "tloušťka nebo průměr podle měřeného předmětu",
+      "category": "Měření a evidence",
+      "meaning": "U stromu či dříví se v české terminologii používá také tloušťka."
+    },
+    {
+      "english": "volume",
+      "term": "objem",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "quantity",
+      "term": "množství",
+      "category": "Měření a evidence",
+      "meaning": "Množství musí být doplněno jednotkou a způsobem zjištění."
+    },
+    {
+      "english": "metre",
+      "term": "metr",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "centimetre",
+      "term": "centimetr",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "cubic metre",
+      "term": "metr krychlový",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "measurement",
+      "term": "měření",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "work record",
+      "term": "pracovní záznam",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    },
+    {
+      "english": "work site",
+      "term": "pracoviště",
+      "category": "Měření a evidence",
+      "meaning": "Použijte pojem v souvislosti s konkrétním předmětem, pracovištěm nebo zadanou činností."
+    }
+  ],
+  "phrases": [
+    {
+      "english": "Please show me the work site.",
+      "czech": "Prosím, ukažte mi pracoviště.",
+      "situation": "Převzetí zadání"
+    },
+    {
+      "english": "What is the purpose of this task?",
+      "czech": "Jaký je účel tohoto úkolu?",
+      "situation": "Převzetí zadání"
+    },
+    {
+      "english": "Which area is assigned to me?",
+      "czech": "Která plocha je mi přidělena?",
+      "situation": "Převzetí zadání"
+    },
+    {
+      "english": "Please confirm the species and spacing.",
+      "czech": "Prosím, potvrďte dřevinu a spon.",
+      "situation": "Převzetí zadání"
+    },
+    {
+      "english": "Please repeat the instruction slowly.",
+      "czech": "Prosím, zopakujte pokyn pomalu.",
+      "situation": "Ověření porozumění"
+    },
+    {
+      "english": "Could you show me an example?",
+      "czech": "Můžete mi ukázat příklad?",
+      "situation": "Ověření porozumění"
+    },
+    {
+      "english": "I do not understand this marking.",
+      "czech": "Nerozumím tomuto vyznačení.",
+      "situation": "Ověření porozumění"
+    },
+    {
+      "english": "I will check the planting stock first.",
+      "czech": "Nejprve zkontroluji sadební materiál.",
+      "situation": "Příprava práce"
+    },
+    {
+      "english": "The roots must not dry out.",
+      "czech": "Kořeny nesmějí vyschnout.",
+      "situation": "Příprava práce"
+    },
+    {
+      "english": "These seedlings are damaged.",
+      "czech": "Tyto semenáčky jsou poškozené.",
+      "situation": "Hlášení problému"
+    },
+    {
+      "english": "Please stop work.",
+      "czech": "Prosím, zastavte práci.",
+      "situation": "Bezpečnost"
+    },
+    {
+      "english": "There is a person in the work area.",
+      "czech": "V pracovním prostoru je osoba.",
+      "situation": "Bezpečnost"
+    },
+    {
+      "english": "I need help at this location.",
+      "czech": "Potřebuji pomoc na tomto místě.",
+      "situation": "Bezpečnost"
+    },
+    {
+      "english": "There is a defect in the equipment.",
+      "czech": "Na vybavení je závada.",
+      "situation": "Hlášení problému"
+    },
+    {
+      "english": "The fence is damaged in this section.",
+      "czech": "Oplocení je v tomto úseku poškozené.",
+      "situation": "Hlášení problému"
+    },
+    {
+      "english": "What should I do next?",
+      "czech": "Co mám udělat dále?",
+      "situation": "Hlášení problému"
+    },
+    {
+      "english": "The length is two metres.",
+      "czech": "Délka je dva metry.",
+      "situation": "Měření a evidence"
+    },
+    {
+      "english": "I planted ten seedlings.",
+      "czech": "Vysadil jsem deset semenáčků.",
+      "situation": "Měření a evidence"
+    },
+    {
+      "english": "This section is completed and checked.",
+      "czech": "Tento úsek je dokončený a zkontrolovaný.",
+      "situation": "Předání výsledku"
+    },
+    {
+      "english": "The remaining section needs checking.",
+      "czech": "Zbývající úsek potřebuje kontrolu.",
+      "situation": "Předání výsledku"
+    }
+  ]
+}

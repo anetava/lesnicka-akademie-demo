@@ -64,5 +64,16 @@
     "icon": "compass",
     "checkpoint": "IC02",
     "output": "Představím vlastní důkaz pokroku a plán dalšího nácviku."
+  },
+  {
+    "id": "E",
+    "number": "01",
+    "subject": "organization",
+    "title": "Organizace práce a pracovní evidence",
+    "subtitle": "IVP · příprava, pořadí kroků, výkaz a předání",
+    "scene": "portfolio",
+    "icon": "compass",
+    "checkpoint": "IO01",
+    "output": "Připravím proveditelný postup a předám úplný pracovní záznam skutečného úkolu."
   }
 ]

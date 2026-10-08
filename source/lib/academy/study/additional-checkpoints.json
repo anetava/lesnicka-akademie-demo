@@ -254,5 +254,47 @@
     "requires_real_tools": false,
     "production_enabled": false,
     "subject": "communication"
+  },
+  {
+    "id": "IO01",
+    "version": "2026-10-08-predmety-v3",
+    "title": "Organizace práce a evidence: souhrnný výstup",
+    "status": "demo_only",
+    "source_reference": "",
+    "module_id": "M06",
+    "competency_ids": [
+      "C13",
+      "C14"
+    ],
+    "estimated_minutes_proposed": 20,
+    "lesson_text": "Připravte postup pro potvrzený modelový úkol a úplný pracovní záznam. Oddělte skutečné a modelové údaje, plán a účast; čas započítejte pouze jednou.",
+    "scenario": "Po opravě oplocenky předáváte výkaz a hlášení zbývající závady.",
+    "question": "Co uvádí správný pracovní výkaz?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skutečné místo, činnost, rozsah, jednotku, kontrolu a zbývající problém."
+      },
+      {
+        "id": "b",
+        "text": "Pouze plánované množství."
+      },
+      {
+        "id": "c",
+        "text": "Pouze počet bodů z kvízu."
+      }
+    ],
+    "correct_option_id": "a",
+    "feedback": "Pracovní záznam zachycuje skutečný výkon, ne původně plánované množství. Zpracování stejného záznamu se časově nezapočítává dvakrát.",
+    "submission_task": "Předložte přípravu postupu a pracovní výkaz: místo, datum, činnost, skutečný nebo modelový rozsah a jednotka, výsledek kontroly, hlášení problému a domluvené předání. Modelové údaje výslovně označte.",
+    "classroom_activity": "Čtyři části po 4 VH. Pracovní postup a evidence s lektorem IVP; technickou správnost potvrzuje odborný instruktor.",
+    "proposed_assessor_guidance": "Ověřte proveditelné pořadí kroků v mezích zadání a úplný záznam skutečného rozsahu ve správných jednotkách. Modelový výstup není praktická zkouška D6.",
+    "transfer_task": "Upravte výkaz pro jinou činnost a změňte příslušnou jednotku.",
+    "reflection_prompt": "Co již zvládáte a co potřebujete dále procvičit?",
+    "evidence_scope": "classroom_scenario_only",
+    "confirms_real_practical_competence": false,
+    "requires_real_tools": false,
+    "production_enabled": false,
+    "subject": "organization"
   }
 ]

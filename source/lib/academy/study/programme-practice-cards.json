@@ -1,0 +1,359 @@
+[
+  {
+    "id": "dreviny",
+    "exam": "D1",
+    "title": "Rozpoznám dřeviny a potřebné pojmy",
+    "block": "Z",
+    "mission": "D01",
+    "competencies": [
+      "C01"
+    ],
+    "scope": "Rozpoznání na skutečných vzorcích a vysvětlení potřebných lesnických pojmů.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "zadani",
+    "exam": "D1",
+    "title": "Převezmu a potvrdím zadání",
+    "block": "Z",
+    "mission": "D01",
+    "competencies": [
+      "C01"
+    ],
+    "scope": "Místo, hranice, rozsah, účel a požadovaná kvalita svěřené práce.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "prostredky",
+    "exam": "D1",
+    "title": "Zkontroluji nářadí a ochranné prostředky",
+    "block": "K",
+    "mission": "K01",
+    "competencies": [
+      "C08"
+    ],
+    "scope": "Konkrétní pracovní prostředek, jeho dokumentace a stanovené ochranné vybavení.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "udrzba",
+    "exam": "D1",
+    "title": "Provedu obslužnou údržbu",
+    "block": "V",
+    "mission": "MV01",
+    "competencies": [
+      "C09"
+    ],
+    "scope": "Pouze stanovená obslužná péče o konkrétní prostředek; ne úplná servisní oprava.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "zavada",
+    "exam": "D1",
+    "title": "Rozpoznám a předám závadu",
+    "block": "V",
+    "mission": "MV01",
+    "competencies": [
+      "C09"
+    ],
+    "scope": "Popis konkrétní závady, odstavení podle místního postupu a předání určené osobě.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "zastaveni",
+    "exam": "D1",
+    "title": "Zastavím práci v nebezpečné situaci",
+    "block": "S",
+    "mission": "D06",
+    "competencies": [
+      "C10"
+    ],
+    "scope": "Modelová situace podle místního bezpečnostního postupu; bezpečnostní část před navazující praxí.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "pomoc",
+    "exam": "D1",
+    "title": "Předvedu přivolání pomoci a první pomoc",
+    "block": "S",
+    "mission": "D06",
+    "competencies": [
+      "C10"
+    ],
+    "scope": "Samostatná karta kroků nacvičeného postupu s lektorem první pomoci.",
+    "criteria": [
+      "Podle samostatné karty předvede lektorem nacvičené přivolání pomoci a příslušné kroky první pomoci.",
+      "Lektor posoudí provedení podle této karty; požadavky pro práci v porostu se nepoužijí."
+    ]
+  },
+  {
+    "id": "sazenice",
+    "exam": "D2",
+    "title": "Ochráním sadební materiál",
+    "block": "O",
+    "mission": "P03",
+    "competencies": [
+      "C02"
+    ],
+    "scope": "Manipulace, ochrana kořenů a rozpoznání nevhodného materiálu.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "vysadba",
+    "exam": "D2",
+    "title": "Provedu výsadbu a kontrolu",
+    "block": "O",
+    "mission": "P04",
+    "competencies": [
+      "C02"
+    ],
+    "scope": "Nejméně 10 sazenic u každého předepsaného způsobu výsadby; kvalita usazení podle zadání.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "ztraty",
+    "exam": "D2",
+    "title": "Rozpoznám a ohlásím ztráty obnovy",
+    "block": "O",
+    "mission": "P04",
+    "competencies": [
+      "C02"
+    ],
+    "scope": "Následná kontrola na vymezené ploše; skutečný nález a dohledatelné hlášení.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "ozinani",
+    "exam": "D3",
+    "title": "Provedu ožínání bez poškození sazenic",
+    "block": "P",
+    "mission": "P06",
+    "competencies": [
+      "C03"
+    ],
+    "scope": "Nejméně 10 sazenic; zachování cílových dřevin a stanovené kvality práce.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "individualni",
+    "exam": "D3",
+    "title": "Provedu individuální ochranu",
+    "block": "P",
+    "mission": "P06",
+    "competencies": [
+      "C06"
+    ],
+    "scope": "Individuální mechanická ochrana nejméně tří jedinců podle zadání.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "oplocenka",
+    "exam": "D3",
+    "title": "Zhotovím nebo opravím pole oplocenky",
+    "block": "P",
+    "mission": "P06",
+    "competencies": [
+      "C06"
+    ],
+    "scope": "Jedno pole oplocenky; kontrola funkčnosti po provedení práce.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "poskozeni",
+    "exam": "D3",
+    "title": "Rozpoznám a oznámím poškození",
+    "block": "P",
+    "mission": "P06",
+    "competencies": [
+      "C06"
+    ],
+    "scope": "Místo, viditelný stav, rozsah zjištění a potřebný další pokyn.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "prorezavka",
+    "exam": "D4",
+    "title": "Provedu prořezávku podle kritérií",
+    "block": "R",
+    "mission": "R04",
+    "competencies": [
+      "C04"
+    ],
+    "scope": "Samostatný prořezávkový úkol a referenční ukázka; ochrana ponechaných stromů a směsi podle zadání.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "probirka",
+    "exam": "D4",
+    "title": "Provedu zadaný probírkový úkol",
+    "block": "T",
+    "mission": "NT01",
+    "competencies": [
+      "C05"
+    ],
+    "scope": "Vybraná tyčovina nebo dospívající kmenovina; vyznačení nebo výslovně stanovená pravidla výběru. Rozsah potvrzuje odborný garant.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "navazujici",
+    "exam": "D4",
+    "title": "Provedu potvrzené navazující práce",
+    "block": "T",
+    "mission": "NT01",
+    "competencies": [
+      "C05"
+    ],
+    "scope": "Odvětvení a krácení výhradně v potvrzeném rozsahu po ověření předpokladů; ne automatické oprávnění k motomanuální těžbě.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "sortimenty",
+    "exam": "D4",
+    "title": "Určím základní vady a sortimenty",
+    "block": "T",
+    "mission": "NT01",
+    "competencies": [
+      "C07"
+    ],
+    "scope": "Odborné rozlišení dříví podle skutečných vzorků a stanoveného zadání.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "mereni",
+    "exam": "D4",
+    "title": "Změřím dříví a zapíšu údaje",
+    "block": "T",
+    "mission": "NT01",
+    "competencies": [
+      "C07"
+    ],
+    "scope": "Délka, tloušťka, stanovený způsob měření a správné jednotky; odhad oddělen od měření.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  },
+  {
+    "id": "klest",
+    "exam": "D4",
+    "title": "Dokončím pracoviště a uklidím klest",
+    "block": "P",
+    "mission": "NT01",
+    "competencies": [
+      "C11"
+    ],
+    "scope": "Nakládání s klestem v určeném rozsahu; ochrana půdy, obnovy a ponechaného porostu.",
+    "criteria": [
+      "Potvrdí místo, rozsah a účel; připraví určené prostředky.",
+      "Provede stanovený postup bez navádění v rozhodujícím kroku.",
+      "Výsledek odpovídá konkrétní kartě úkolu.",
+      "Nepoškodí chráněné a ponechávané prvky pracoviště.",
+      "Zkontroluje výsledek, sám napraví dovolenou drobnou vadu a pravdivě předá práci i problém."
+    ]
+  }
+]

@@ -1,0 +1,361 @@
+{
+  "courses": [
+    {
+      "id": "N",
+      "title": "Nauka o lese a odborné názvosloví",
+      "outcome": "rozliší hlavní dřeviny a fáze vývoje porostu, vysvětlí účel zásahu a používá potřebné lesnické pojmy.",
+      "hours": 32,
+      "subject": "forestry",
+      "blocks": [
+        "Z"
+      ]
+    },
+    {
+      "id": "O",
+      "title": "Obnova lesa a sadební materiál",
+      "outcome": "ochrání sadební materiál, provede výsadbu, zkontroluje usazení sazenic a později zjistí a ohlásí ztráty.",
+      "hours": 32,
+      "subject": "forestry",
+      "blocks": [
+        "O"
+      ]
+    },
+    {
+      "id": "P",
+      "title": "Péče o kultury a ochrana lesa",
+      "outcome": "provede ožínání, mechanickou ochranu a opravu oplocenky; pozná a oznámí poškození.",
+      "hours": 32,
+      "subject": "forestry",
+      "blocks": [
+        "P"
+      ]
+    },
+    {
+      "id": "R",
+      "title": "Výchova porostů",
+      "outcome": "provede prořezávku v mladých porostech a zadanou probírku ve vybraných tyčovinách a dospívajících kmenovinách; chrání ponechané stromy.",
+      "hours": 48,
+      "subject": "forestry",
+      "blocks": [
+        "R",
+        "T"
+      ]
+    },
+    {
+      "id": "T",
+      "title": "Dříví a navazující těžební práce",
+      "outcome": "rozliší základní vady a sortimenty, změří dříví; provede odvětvení, krácení a úklid klestu v dohodnutém rozsahu.",
+      "hours": 24,
+      "subject": "forestry",
+      "blocks": [
+        "T"
+      ]
+    },
+    {
+      "id": "V",
+      "title": "Nářadí a malá mechanizace",
+      "outcome": "zkontroluje nářadí a používané stroje, provede obslužnou údržbu a rozpozná závadu vyžadující opravu.",
+      "hours": 24,
+      "subject": "forestry",
+      "blocks": [
+        "K",
+        "V"
+      ]
+    },
+    {
+      "id": "S",
+      "title": "Bezpečnost a první pomoc",
+      "outcome": "připraví pracoviště, použije ochranné prostředky, rozpozná důvod k přerušení práce a předvede přivolání pomoci i základní první pomoc.",
+      "hours": 24,
+      "subject": "forestry",
+      "blocks": [
+        "S"
+      ]
+    },
+    {
+      "id": "A",
+      "title": "Odborná angličtina",
+      "outcome": "rozumí základnímu lesnickému a dřevařskému názvosloví a zvládne nacvičené pracovní rozhovory.",
+      "hours": 64,
+      "subject": "english",
+      "blocks": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Pracovní komunikace a spolupráce — IVP",
+      "outcome": "upřesní zadání, oznámí chybu či závadu a domluví návaznost práce s ostatními.",
+      "hours": 24,
+      "subject": "communication",
+      "blocks": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "E",
+      "title": "Organizace práce a pracovní evidence — IVP",
+      "outcome": "připraví svěřený úkol, zkontroluje výsledek a odevzdá srozumitelný pracovní záznam.",
+      "hours": 16,
+      "subject": "organization",
+      "blocks": [
+        "E"
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "title": "Říjen–listopad 2027",
+      "hours": 64,
+      "days": 8,
+      "practice": 60,
+      "content": "Vstupní příprava, dřeviny, bezpečnost a nářadí; podzimní výsadba a ochrana podle podmínek."
+    },
+    {
+      "title": "Prosinec 2027–únor 2028",
+      "hours": 80,
+      "days": 10,
+      "practice": 90,
+      "content": "Výchova porostů na vhodných pracovištích, navazující práce se dřívím, měření a údržba."
+    },
+    {
+      "title": "Březen–květen 2028",
+      "hours": 80,
+      "days": 10,
+      "practice": 96,
+      "content": "Výsadba, kontrola obnovy, péče o kultury a oplocenky; další nácvik výchovných zásahů."
+    },
+    {
+      "title": "Červen–srpen 2028",
+      "hours": 64,
+      "days": 8,
+      "practice": 90,
+      "content": "Ožínání, ochrana a prořezávky; samostatné pracovní úkoly a jejich kontrola."
+    },
+    {
+      "title": "Září 2028",
+      "hours": 32,
+      "days": 4,
+      "practice": 24,
+      "content": "22 hodin přípravy a dílčího ověřování; 2 hodiny závěrečné praktické zkoušky. Ostatní části závěrečné zkoušky jsou zahrnuty ve výuce."
+    }
+  ],
+  "practice": [
+    {
+      "id": "renewal",
+      "title": "Obnova lesa a výsadba",
+      "hours": 72
+    },
+    {
+      "id": "protection",
+      "title": "Péče o kultury, ochrana a oplocenky",
+      "hours": 84
+    },
+    {
+      "id": "cleaning",
+      "title": "Prořezávky",
+      "hours": 84
+    },
+    {
+      "id": "thinning",
+      "title": "Probírky a navazující práce se dřívím",
+      "hours": 84
+    },
+    {
+      "id": "tools",
+      "title": "Nářadí, práce s klestem a určené provozní práce",
+      "hours": 36
+    }
+  ],
+  "plantingMethod": [
+    {
+      "time": "0–10 minut",
+      "activity": "Porovnání správně a chybně provedené výsadby. Účastníci určí rozdíl; instruktor vysvětlí jeho důsledek."
+    },
+    {
+      "time": "10–25 minut",
+      "activity": "Předvedení celého postupu a zacházení se sadebním materiálem. Každý vidí nářadí i rozhodující části postupu zblízka."
+    },
+    {
+      "time": "25–45 minut",
+      "activity": "První pokus každého účastníka pod přímým vedením. Instruktor opraví chybu v okamžiku jejího vzniku."
+    },
+    {
+      "time": "45–75 minut",
+      "activity": "Opakování na dalších sazenicích; účastníci kontrolují vlastní výsledek podle krátké karty. Instruktor průběžně ověřuje kvalitu."
+    },
+    {
+      "time": "75–90 minut",
+      "activity": "Instruktor vybere výsledek každého účastníka ke kontrole. Účastník pojmenuje chybu či riziko a vysvětlí nápravu; dostane konkrétní zadání pro další nácvik."
+    }
+  ],
+  "english": [
+    {
+      "title": "Les, dřeviny a vybavení",
+      "content": "Dřeviny a části stromu; nářadí, stroje a ochranné prostředky.",
+      "hours": 12
+    },
+    {
+      "title": "Pěstební a výchovné práce",
+      "content": "Výsadba, ožínání, ochrana, prořezávka a probírka; jednoduché pokyny k práci.",
+      "hours": 16
+    },
+    {
+      "title": "Dříví a údaje o práci",
+      "content": "Základní sortimenty a vady; délka, průměr, množství, jednotky a pracovní záznam.",
+      "hours": 12
+    },
+    {
+      "title": "Pracovní domluva",
+      "content": "Převzetí úkolu, ověření porozumění, hlášení závady, žádost o pomoc a předání výsledku.",
+      "hours": 16
+    },
+    {
+      "title": "Opakování a zkouška",
+      "content": "Poslech, krátké rozhovory a reakce v nacvičených pracovních situacích.",
+      "hours": 8
+    }
+  ],
+  "exams": [
+    {
+      "id": "D1",
+      "title": "Zadání a bezpečnost",
+      "requirements": "Rozpoznání dřevin a pojmů; převzetí zadání, kontrola nářadí a ochranných prostředků. Obslužná údržba a rozpoznání závady. Zastavení práce v modelové nebezpečné situaci a praktický úkol první pomoci.",
+      "assessor": "Po příslušné výuce; bezpečnostní část před navazující praxí. Odborný instruktor a lektor bezpečnosti / první pomoci."
+    },
+    {
+      "id": "D2",
+      "title": "Obnova lesa",
+      "requirements": "Manipulace se sadebním materiálem; nejméně 10 sazenic u každého předepsaného způsobu výsadby a kontrola výsledku. Následně rozpoznání a ohlášení ztrát na vymezené ploše obnovy.",
+      "assessor": "Při výsadbě a následné kontrole obnovy; odborný instruktor."
+    },
+    {
+      "id": "D3",
+      "title": "Péče a ochrana",
+      "requirements": "Ožínání nejméně 10 sazenic; individuální ochrana 3 jedinců; zhotovení nebo oprava jednoho pole oplocenky. Rozpoznání a oznámení poškození. Každá činnost musí být splněna.",
+      "assessor": "V termínech jednotlivých prací; odborný instruktor."
+    },
+    {
+      "id": "D4",
+      "title": "Výchova a dříví",
+      "requirements": "Odděleně prořezávka a probírkový úkol; navazující práce v potvrzeném rozsahu. Určení základních vad a sortimentů, měření dříví a úklid klestu.",
+      "assessor": "Po příslušné praxi; odborný instruktor, kontrola odborného garanta."
+    },
+    {
+      "id": "D5",
+      "title": "Angličtina",
+      "requirements": "20 úloh k názvosloví a porozumění; tři rozhovory: převzetí úkolu, oznámení problému a předání výsledku.",
+      "assessor": "V závěrečné části programu; jazykový lektor."
+    },
+    {
+      "id": "D6",
+      "title": "Komunikace a organizace",
+      "requirements": "Upřesnění neúplného zadání a hlášení problému. K jednomu úkolu příprava postupu a úplný pracovní záznam.",
+      "assessor": "Po profesních předmětech; lektor IVP."
+    }
+  ],
+  "criteria": [
+    {
+      "title": "1. Převzetí a příprava",
+      "description": "Účastník správně určí místo, rozsah a cíl práce; připraví potřebné prostředky a ověří zadání."
+    },
+    {
+      "title": "2. Pracovní postup",
+      "description": "Zvolí a provede postup odpovídající zadání, bez navádění v rozhodujícím pracovním kroku."
+    },
+    {
+      "title": "3. Kvalita výsledku",
+      "description": "Výsledek odpovídá kritériím pro danou činnost. U výsadby například druhu, umístění a kvalitě usazení sazenice."
+    },
+    {
+      "title": "4. Ochrana pracoviště",
+      "description": "Dodrží stanovená omezení a nepoškodí chráněné či ponechávané prvky porostu, obnovu a zařízení."
+    },
+    {
+      "title": "5. Kontrola a předání",
+      "description": "Zkontroluje výsledek, sám napraví odstranitelnou vadu a pravdivě předá práci i zjištěný problém."
+    }
+  ],
+  "final": [
+    {
+      "title": "Znalosti 30 minut",
+      "requirements": "20 otázek: 15 odborných a 5 bezpečnostních. Nejméně 16 správně celkem a všech 5 bezpečnostních správně.",
+      "minutes": 30
+    },
+    {
+      "title": "Praktická práce 120 minut",
+      "requirements": "Souhrnný úkol na vhodném pracovišti: příprava, provedení a vlastní kontrola. Splní všech pět požadavků; formální předání se dokončí v navazující části níže.",
+      "minutes": 120
+    },
+    {
+      "title": "Angličtina 15 minut",
+      "requirements": "Nová obměna rozhovoru ze známého pracovního okruhu. Stejná tři kritéria jako u D5.",
+      "minutes": 15
+    },
+    {
+      "title": "Záznam a předání 15 minut",
+      "requirements": "Evidence a ústní předání skutečného závěrečného úkolu podle D6. Dokončí se posouzení požadavku 5 praktické práce; nejde o druhý pracovní výkon.",
+      "minutes": 15
+    }
+  ],
+  "partners": [
+    {
+      "title": "LČR",
+      "responsibility": "Stanovit povinné práce, požadovanou kvalitu a pravidla samostatnosti. Zajistit účastníky, dohodnuté odborné lektory a provozní podmínky."
+    },
+    {
+      "title": "Lesy ČZU a LČR",
+      "responsibility": "Přiřadit praxi ke konkrétním porostům a pracovištím, určit instruktory a vybavení. Potvrdit roční rozpis včetně náhradních termínů."
+    },
+    {
+      "title": "IVP ČZU",
+      "responsibility": "Zpracovat osnovy, pracovní karty a zadání zkoušek; vyučovat profesní předměty. Připravit lektory na výuku a hodnocení, vést přehled výsledků a řešit odchylky v kvalitě výuky."
+    },
+    {
+      "title": "Rektorát ČZU",
+      "responsibility": "Koordinovat institucionální a smluvní zajištění, schvalovací postup programu a podmínky vydání mikrocertifikátu. S LČR připravit memorandum pro zahraniční partnery."
+    }
+  ],
+  "decisions": [
+    {
+      "title": "1. Jaká práce má být na konci samostatná?",
+      "responsibility": "LČR: potvrdit seznam činností a u probírek rozhodnout, zda absolvent provádí vyznačený zásah, nebo vybírá stromy podle stanovených pravidel. Určit rozsah navazujících prací se dřívím."
+    },
+    {
+      "title": "2. S jakou připraveností účastníci nastoupí?",
+      "responsibility": "LČR a ČZU: potvrdit vstupní dovednosti pro pilu a křovinořez a způsob doplnění chybějícího výcviku. LČR zajistí předání informace o předchozí praxi; vstupní úkol ověří porozumění zadání."
+    },
+    {
+      "title": "3. Je zajištěn roční provoz výuky a praxe?",
+      "responsibility": "Lesy ČZU a LČR: potvrdit pracoviště, instruktory, vybavení a termíny. ČZU: lektory předmětů a hodnotitele. Rozvrh musí rozlišit souběh a střídání skupin a čas potřebný na individuální zkoušení."
+    },
+    {
+      "title": "4. Za jakých podmínek lze program otevřít?",
+      "responsibility": "Rektorát ČZU a LČR: potvrdit přijímací a certifikační režim, schválený obsah, cenu, úhrady a odpovědnosti partnerů. Teprve poté nabídnout účast."
+    }
+  ],
+  "preparation": [
+    {
+      "date": "Do 14 dnů od jednání o tomto návrhu",
+      "output": "LČR: seznam povinných činností, kritéria kvality a kontaktní odborníci. Lesy ČZU s LČR: předběžná kapacita pracovišť a instruktorů."
+    },
+    {
+      "date": "Do 20. listopadu 2026",
+      "output": "IVP s odborníky LČR: upravený profil absolventa a obsahový a časový rámec pro jednání V4 ve dnech 22.–23. listopadu. Rektorát s LČR: podklad memoranda."
+    },
+    {
+      "date": "Leden–březen 2027",
+      "output": "IVP a odborní garanti: osnovy, pracovní karty a zkoušky; přiřazení předmětů i praxe k obdobím a minut zkoušek k dotacím. ČZU a LČR: rozpočet, podmínky realizace a rozhodnutí o otevření."
+    },
+    {
+      "date": "Duben–červen 2027",
+      "output": "IVP a instruktoři: ověření dvou vzorových lekcí s cílovými účastníky včetně zadání zkoušky a potřebného času; úprava materiálů. Partneři: rozvrh výuky a individuálního zkoušení s personálním obsazením."
+    },
+    {
+      "date": "Září 2027",
+      "output": "IVP a odborný garant: příprava instruktorů, společné hodnocení vzorového výkonu a kontrola připravenosti. LČR: seznam účastníků pro říjnové zahájení."
+    }
+  ]
+}

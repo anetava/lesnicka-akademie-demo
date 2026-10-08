@@ -1,0 +1,716 @@
+[
+  {
+    "id": "E01",
+    "subject": "organization",
+    "block": "E",
+    "title": "Příprava svěřeného pracovního úkolu",
+    "goal": "Připravím místo, prostředky a ověřené zadání před zahájením práce.",
+    "minutes": 12,
+    "competencies": [
+      "C12",
+      "C14"
+    ],
+    "intro": "Organizace práce propojuje potvrzené zadání, skutečné provedení a dohledatelný záznam. V této lekci nacvičíte konkrétní výstup pro samostatný předmět IVP; odbornou správnost pracovního postupu nadále určuje instruktor.",
+    "sections": [
+      {
+        "title": "Co musí být potvrzeno",
+        "body": "Příprava začíná skutečným místem, hranicemi pracoviště, činností a požadovanou kvalitou. Účastník neodvozuje pěstební cíl z vlastního odhadu. Pokud chybí rozsah, způsob výsadby nebo pravidlo výběru při probírce, vyžádá upřesnění. Žádost o objasnění nejasného zadání není naváděním v rozhodujícím pracovním kroku."
+      },
+      {
+        "title": "Prostředky a návaznosti",
+        "body": "Do přípravy patří určené nářadí, pracovní prostředky, ochranné vybavení, materiál a dohodnuté převzetí práce. Kontrola se vztahuje ke konkrétnímu prostředku a místním podmínkám. Nedostatečný materiál nebo závada se zaznamená a předá odpovědné osobě. Účastník si nerozšiřuje rozsah oprávněného zásahu jen proto, aby nemusel čekat na další rozhodnutí."
+      },
+      {
+        "title": "Srozumitelný plán",
+        "body": "Plán uvede místo, účel, potvrzené činnosti, prostředky a kontrolní okamžiky. Převzetí zadání ověří vlastními slovy nebo ukázkou. Lektor IVP posuzuje úplnost přípravy a přenos informace; odborný instruktor určuje technicky správné provedení. Stejnou strukturu přípravy lze použít na papíře i při digitálním odevzdání."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pracovní evidence",
+        "meaning": "Záznam skutečného místa, činnosti a rozsahu práce v příslušných jednotkách."
+      },
+      {
+        "term": "Předání práce",
+        "meaning": "Úplné sdělení výsledku, kontroly, odchylky a dohodnutého dalšího kroku."
+      }
+    ],
+    "example": {
+      "situation": "Pro opravu pole oplocenky je připraven jiný materiál, než vyžaduje potvrzené zadání.",
+      "response": "Popíšu místo a rozdíl, ověřím potřebné doplnění a předložím postup v mezích potvrzeného úkolu.",
+      "why": "Samostatnost znamená připravit proveditelnou práci, nikoli svévolně změnit technické řešení."
+    },
+    "mistakes": [
+      "Vykázat plánované množství jako skutečně provedené.",
+      "Zaměnit digitální přípravu za pozorovaný praktický výkon.",
+      "Započítat jeden časový úsek do výuky i praxe."
+    ],
+    "quiz": [
+      {
+        "id": "E01-q1",
+        "prompt": "U opravy oplocenky chybí potvrzení vhodného materiálu. Co připravíte?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Popis místa a potřebného doplnění; technické řešení si nechám potvrdit."
+          },
+          {
+            "id": "b",
+            "text": "Nahradím materiál podle svého odhadu."
+          },
+          {
+            "id": "c",
+            "text": "Vynechám kontrolu, aby práce začala včas."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Popis místa a potřebného doplnění; technické řešení si nechám potvrdit. Samostatnost znamená připravit proveditelnou práci, nikoli svévolně změnit technické řešení."
+      },
+      {
+        "id": "E01-q2",
+        "prompt": "Co ověřujete při převzetí pracovního úkolu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pouze čas konce směny."
+          },
+          {
+            "id": "b",
+            "text": "Pouze počet digitálních bodů."
+          },
+          {
+            "id": "c",
+            "text": "Místo, hranice, rozsah, účel a požadovanou kvalitu."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Místo, hranice, rozsah, účel a požadovanou kvalitu. Samostatnost znamená připravit proveditelnou práci, nikoli svévolně změnit technické řešení."
+      },
+      {
+        "id": "E01-q3",
+        "prompt": "Jak rozlišíte úlohu IVP a odborného instruktora?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Odborný instruktor řeší jen docházku."
+          },
+          {
+            "id": "b",
+            "text": "IVP posuzuje úplnost přípravy a sdělení, instruktor technickou správnost."
+          },
+          {
+            "id": "c",
+            "text": "IVP automaticky povoluje všechny odborné zásahy."
+          }
+        ],
+        "correct": "b",
+        "explanation": "IVP posuzuje úplnost přípravy a sdělení, instruktor technickou správnost. Samostatnost znamená připravit proveditelnou práci, nikoli svévolně změnit technické řešení."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Příprava svěřeného pracovního úkolu",
+      "prompt": "Použijte modelovou situaci této lekce. Napište místo a činnost, skutečný nebo modelový rozsah s jednotkou, vlastní kontrolu a co předáte odpovědné osobě. Modelové údaje označte.",
+      "checks": [
+        "Místo, činnost a rozsah jsou jednoznačné.",
+        "Odlišuji potvrzené údaje od odhadu.",
+        "Uvádím kontrolu, případný problém a další krok."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "E02",
+    "subject": "organization",
+    "block": "E",
+    "title": "Pořadí prací a kontrolní okamžiky",
+    "goal": "Sestavím proveditelné pořadí kroků a určím, kdy kontroluji výsledek.",
+    "minutes": 12,
+    "competencies": [
+      "C12",
+      "C14"
+    ],
+    "intro": "Organizace práce propojuje potvrzené zadání, skutečné provedení a dohledatelný záznam. V této lekci nacvičíte konkrétní výstup pro samostatný předmět IVP; odbornou správnost pracovního postupu nadále určuje instruktor.",
+    "sections": [
+      {
+        "title": "Návaznost kroků",
+        "body": "Úkol se rozdělí na převzetí a přípravu, provedení, průběžnou kontrolu a předání. Pořadí vychází z konkrétního zadání a podmínek pracoviště. U obnovy například musí být před zahájením ověřen vhodný sadební materiál a určený způsob výsadby. Účastník nevykazuje čekání na instruktora jako vlastní řízený nácvik."
+      },
+      {
+        "title": "Průběžná sebekontrola",
+        "body": "Kontrolní okamžik se naplánuje předem. Účastník porovná výsledek s referenční ukázkou a známými požadavky dříve, než stejnou vadu zopakuje na celé ploše. Včasná samostatná oprava drobné vady je přípustná; o nejasnosti nebo změně rozhodujících podmínek informuje instruktora. Návazný krok se začne až po potvrzení potřebného rozhodnutí."
+      },
+      {
+        "title": "Čas a skutečný výkon",
+        "body": "Pracovní plán rozlišuje čistou výuku, řízenou praxi, přestávku a ostatní pracovní dobu. Jeden úsek není zároveň cvičením předmětu i praxí. V evidenci se uvede skutečný interval a druh činnosti. Předpokládaný čas je údaj plánu; skutečně odpracované minuty a skutečný rozsah se zaznamenají až po činnosti."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pracovní evidence",
+        "meaning": "Záznam skutečného místa, činnosti a rozsahu práce v příslušných jednotkách."
+      },
+      {
+        "term": "Předání práce",
+        "meaning": "Úplné sdělení výsledku, kontroly, odchylky a dohodnutého dalšího kroku."
+      }
+    ],
+    "example": {
+      "situation": "První kontrola odhalí opakovanou vadu výsadby.",
+      "response": "Přeruším opakování vadného postupu, doložím zjištění a podle potvrzené nápravy znovu ověřím výsledek.",
+      "why": "Kontrola během práce brání rozšíření vady na další sazenice."
+    },
+    "mistakes": [
+      "Vykázat plánované množství jako skutečně provedené.",
+      "Zaměnit digitální přípravu za pozorovaný praktický výkon.",
+      "Započítat jeden časový úsek do výuky i praxe."
+    ],
+    "quiz": [
+      {
+        "id": "E02-q1",
+        "prompt": "První kontrola odhalí opakovanou vadu výsadby. Jak změníte postup?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Stejným postupem dokončím celou plochu."
+          },
+          {
+            "id": "b",
+            "text": "Odložím kontrolu na konec měsíce."
+          },
+          {
+            "id": "c",
+            "text": "Přeruším opakování vady a podle potvrzené nápravy znovu ověřím výsledek."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Přeruším opakování vady a podle potvrzené nápravy znovu ověřím výsledek. Kontrola během práce brání rozšíření vady na další sazenice."
+      },
+      {
+        "id": "E02-q2",
+        "prompt": "Kam zařadíte kontrolní okamžik?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Není třeba ho plánovat."
+          },
+          {
+            "id": "b",
+            "text": "Do plánu předem a také průběžně během provádění."
+          },
+          {
+            "id": "c",
+            "text": "Až po formálním převzetí hotové práce."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Do plánu předem a také průběžně během provádění. Kontrola během práce brání rozšíření vady na další sazenice."
+      },
+      {
+        "id": "E02-q3",
+        "prompt": "Čekáte na instruktora bez vlastní činnosti. Jak tento čas vykážete?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Odděleně; nezapočítám jej jako řízený nácvik."
+          },
+          {
+            "id": "b",
+            "text": "Jako plně absolvovanou praxi."
+          },
+          {
+            "id": "c",
+            "text": "Současně jako dvě VH i dvě hodiny praxe."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Odděleně; nezapočítám jej jako řízený nácvik. Kontrola během práce brání rozšíření vady na další sazenice."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Pořadí prací a kontrolní okamžiky",
+      "prompt": "Použijte modelovou situaci této lekce. Napište místo a činnost, skutečný nebo modelový rozsah s jednotkou, vlastní kontrolu a co předáte odpovědné osobě. Modelové údaje označte.",
+      "checks": [
+        "Místo, činnost a rozsah jsou jednoznačné.",
+        "Odlišuji potvrzené údaje od odhadu.",
+        "Uvádím kontrolu, případný problém a další krok."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "E03",
+    "subject": "organization",
+    "block": "E",
+    "title": "Pracovní výkaz a správné jednotky",
+    "goal": "Zapíšu skutečné místo, činnost a rozsah práce ve správných jednotkách.",
+    "minutes": 12,
+    "competencies": [
+      "C12",
+      "C14"
+    ],
+    "intro": "Organizace práce propojuje potvrzené zadání, skutečné provedení a dohledatelný záznam. V této lekci nacvičíte konkrétní výstup pro samostatný předmět IVP; odbornou správnost pracovního postupu nadále určuje instruktor.",
+    "sections": [
+      {
+        "title": "Co patří do výkazu",
+        "body": "Záznam identifikuje datum, pracoviště, zadání, skutečně provedenou činnost a její rozsah. Uvede příslušnou jednotku a informaci, která umožňuje údaj ověřit. Počet sazenic, délka opraveného oplocení a rozměr dříví nejsou zaměnitelné údaje. Lektor IVP vede správné předání a zápis; odborný lektor učí příslušné měření a jednotky."
+      },
+      {
+        "title": "Odhad není měření",
+        "body": "Údaj vzniklý odhadem se tak označí. Účastník nepřepíše přibližný rozsah na přesný údaj bez podkladu. Záznam odliší hotovou, nedokončenou a zkontrolovanou část. Pokud není možné množství potvrdit, uvede, co ještě potřebuje ověřit. Chybějící číslo se nenahrazuje smyšlenou hodnotou ani množstvím původně uvedeným v plánu."
+      },
+      {
+        "title": "Jedna činnost, jeden čas",
+        "body": "Stejný záznam může sloužit vyučujícímu i převzetí práce. Zpracování však nelze započítat dvakrát. Plánovaných 600 hodin se vede odděleně od skutečné účasti. U výuky je jednotkou VH po 45 minutách, u praxe hodina po 60 minutách; docházka vychází ze skutečných minut. Povinný digitální úkol se započítá jen v potvrzeném rozsahu výuky."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pracovní evidence",
+        "meaning": "Záznam skutečného místa, činnosti a rozsahu práce v příslušných jednotkách."
+      },
+      {
+        "term": "Předání práce",
+        "meaning": "Úplné sdělení výsledku, kontroly, odchylky a dohodnutého dalšího kroku."
+      }
+    ],
+    "example": {
+      "situation": "Výkaz uvádí 100 sazenic, ale skutečně jste vysadili 92 a osm bylo vyřazeno.",
+      "response": "Uvedu 92 skutečně vysazených sazenic a odděleně osm vyřazených kusů s důvodem a předáním informace.",
+      "why": "Výkaz zachycuje skutečný výsledek, ne požadované číslo zadání."
+    },
+    "mistakes": [
+      "Vykázat plánované množství jako skutečně provedené.",
+      "Zaměnit digitální přípravu za pozorovaný praktický výkon.",
+      "Započítat jeden časový úsek do výuky i praxe."
+    ],
+    "quiz": [
+      {
+        "id": "E03-q1",
+        "prompt": "Z plánovaných 100 sazenic jste vysadili 92. Co zapíšete?",
+        "options": [
+          {
+            "id": "a",
+            "text": "100, pokud mám fotografii celé plochy."
+          },
+          {
+            "id": "b",
+            "text": "92 vysazených; osm vyřazených odděleně s důvodem."
+          },
+          {
+            "id": "c",
+            "text": "100 podle původního plánu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "92 vysazených; osm vyřazených odděleně s důvodem. Výkaz zachycuje skutečný výsledek, ne požadované číslo zadání."
+      },
+      {
+        "id": "E03-q2",
+        "prompt": "Které časové jednotky používá program?",
+        "options": [
+          {
+            "id": "a",
+            "text": "VH má 45 minut, hodina řízené praxe 60 minut."
+          },
+          {
+            "id": "b",
+            "text": "Každá VH i hodina praxe má 60 minut."
+          },
+          {
+            "id": "c",
+            "text": "Obě mají automaticky 45 minut."
+          }
+        ],
+        "correct": "a",
+        "explanation": "VH má 45 minut, hodina řízené praxe 60 minut. Výkaz zachycuje skutečný výsledek, ne požadované číslo zadání."
+      },
+      {
+        "id": "E03-q3",
+        "prompt": "Rozsah oplocení jste jen odhadli. Jak uvedete množství?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Zapíšu odhad jako přesný změřený údaj."
+          },
+          {
+            "id": "b",
+            "text": "Nahradím jej plánovaným množstvím."
+          },
+          {
+            "id": "c",
+            "text": "Označím odhad a potřebu ověření; nevydávám jej za měření."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Označím odhad a potřebu ověření; nevydávám jej za měření. Výkaz zachycuje skutečný výsledek, ne požadované číslo zadání."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Pracovní výkaz a správné jednotky",
+      "prompt": "Použijte modelovou situaci této lekce. Napište místo a činnost, skutečný nebo modelový rozsah s jednotkou, vlastní kontrolu a co předáte odpovědné osobě. Modelové údaje označte.",
+      "checks": [
+        "Místo, činnost a rozsah jsou jednoznačné.",
+        "Odlišuji potvrzené údaje od odhadu.",
+        "Uvádím kontrolu, případný problém a další krok."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "E04",
+    "subject": "organization",
+    "block": "E",
+    "title": "Záznam závady a odchylky od zadání",
+    "goal": "Spojím věcné hlášení s dohledatelným pracovním záznamem.",
+    "minutes": 12,
+    "competencies": [
+      "C12",
+      "C14"
+    ],
+    "intro": "Organizace práce propojuje potvrzené zadání, skutečné provedení a dohledatelný záznam. V této lekci nacvičíte konkrétní výstup pro samostatný předmět IVP; odbornou správnost pracovního postupu nadále určuje instruktor.",
+    "sections": [
+      {
+        "title": "Identifikace problému",
+        "body": "Hlášení uvede konkrétní místo, prostředek nebo část porostu, činnost a pozorovaný problém. Popisuje to, co účastník zjistil, a nerozšiřuje pozorování na nepotvrzenou příčinu. U závady stroje rozliší vlastní obslužnou kontrolu a opravu vyžadující určenou osobu. Zastavení a další nakládání se řídí místním postupem a konkrétní dokumentací."
+      },
+      {
+        "title": "Co potřebuji rozhodnout",
+        "body": "Účastník uvede dopad na svěřený úkol a požadovaný další pokyn. U oplocenky může jít o chybějící materiál a nefunkční ochranu; u probírky o nejasné vyznačení. Technické řešení potvrzuje odborný instruktor. IVP posuzuje, zda příjemce dostal správnou a úplnou informaci a zda je zřejmá hranice vlastního rozhodování."
+      },
+      {
+        "title": "Dohledatelná návaznost",
+        "body": "Záznam uvede komu a kdy bylo hlášení předáno, jaké rozhodnutí bylo potvrzeno a co zůstává otevřené. Fotografie může doložit místo a viditelný stav, ne sama potvrdit technickou příčinu. Oprava zápisu zachová důvod změny. Nepotvrzená dohoda ani neprovedená oprava se neuvádějí jako hotový výsledek."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pracovní evidence",
+        "meaning": "Záznam skutečného místa, činnosti a rozsahu práce v příslušných jednotkách."
+      },
+      {
+        "term": "Předání práce",
+        "meaning": "Úplné sdělení výsledku, kontroly, odchylky a dohodnutého dalšího kroku."
+      }
+    ],
+    "example": {
+      "situation": "Na pracovišti zjistíte poškození individuální ochrany, ale náhradní prostředek není k dispozici.",
+      "response": "Zapíšu místo a stav ochrany, doložím rozsah zjištění a vyžádám pokyn k potřebnému doplnění.",
+      "why": "Návazná osoba musí poznat, co je skutečně zjištěno a co čeká na rozhodnutí."
+    },
+    "mistakes": [
+      "Vykázat plánované množství jako skutečně provedené.",
+      "Zaměnit digitální přípravu za pozorovaný praktický výkon.",
+      "Započítat jeden časový úsek do výuky i praxe."
+    ],
+    "quiz": [
+      {
+        "id": "E04-q1",
+        "prompt": "Ve stroji zjistíte viditelnou závadu. Co obsahuje hlášení?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Prostředek, místo, pozorovaný problém, dopad na úkol a požadovaný pokyn."
+          },
+          {
+            "id": "b",
+            "text": "Pouze domněnku o příčině bez označení stroje."
+          },
+          {
+            "id": "c",
+            "text": "Pouze údaj, že jsem dokončil kvíz."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Prostředek, místo, pozorovaný problém, dopad na úkol a požadovaný pokyn. Návazná osoba musí poznat, co je skutečně zjištěno a co čeká na rozhodnutí."
+      },
+      {
+        "id": "E04-q2",
+        "prompt": "Je nedostatečný materiál pro opravu oplocenky důvodem k vlastní změně konstrukce?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ano, pokud chci pracovat samostatně."
+          },
+          {
+            "id": "b",
+            "text": "Ano, protože domluva není součástí výkonu."
+          },
+          {
+            "id": "c",
+            "text": "Ne; popíšu omezení a vyžádám rozhodnutí o dalším postupu."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Ne; popíšu omezení a vyžádám rozhodnutí o dalším postupu. Návazná osoba musí poznat, co je skutečně zjištěno a co čeká na rozhodnutí."
+      },
+      {
+        "id": "E04-q3",
+        "prompt": "Co lze doložit běžnou fotografií závady?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jistotu, že je oprava hotová."
+          },
+          {
+            "id": "b",
+            "text": "Viditelné místo a stav v záběru, nikoli automaticky technickou příčinu."
+          },
+          {
+            "id": "c",
+            "text": "Všechny skryté části stroje."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Viditelné místo a stav v záběru, nikoli automaticky technickou příčinu. Návazná osoba musí poznat, co je skutečně zjištěno a co čeká na rozhodnutí."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Záznam závady a odchylky od zadání",
+      "prompt": "Použijte modelovou situaci této lekce. Napište místo a činnost, skutečný nebo modelový rozsah s jednotkou, vlastní kontrolu a co předáte odpovědné osobě. Modelové údaje označte.",
+      "checks": [
+        "Místo, činnost a rozsah jsou jednoznačné.",
+        "Odlišuji potvrzené údaje od odhadu.",
+        "Uvádím kontrolu, případný problém a další krok."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "E05",
+    "subject": "organization",
+    "block": "E",
+    "title": "Vlastní kontrola kvality a rozsahu",
+    "goal": "Porovnám výsledek s pěti požadavky a oddělím nedokončené části.",
+    "minutes": 12,
+    "competencies": [
+      "C12",
+      "C14"
+    ],
+    "intro": "Organizace práce propojuje potvrzené zadání, skutečné provedení a dohledatelný záznam. V této lekci nacvičíte konkrétní výstup pro samostatný předmět IVP; odbornou správnost pracovního postupu nadále určuje instruktor.",
+    "sections": [
+      {
+        "title": "Kontrola podle zadání",
+        "body": "Kontrola vychází z účelu konkrétního úkolu a předem známé pracovní karty. Účastník ověří převzetí a přípravu, pracovní postup, kvalitu výsledku, ochranu pracoviště a kontrolu s předáním. Kritéria upřesní odborný garant pro danou činnost. U výsadby se například posuzuje druh, umístění a kvalita usazení sazenice."
+      },
+      {
+        "title": "Samostatná náprava",
+        "body": "Drobnou odstranitelnou vadu může účastník včas napravit sám v mezích zadání a znovu ji zkontrolovat. Navádění v rozhodujícím kroku, neopravená vada a kritická chyba znamenají nesplnění výkonu. Při nebezpečném postupu instruktor práci ihned zastaví. Ochrana ponechávaných stromů, obnovy a půdy je součástí výsledku, ne doplňkovým požadavkem."
+      },
+      {
+        "title": "Přehled skutečného stavu",
+        "body": "Kontrola rozliší co je provedeno, co je vlastní kontrolou doloženo, co se nepodařilo a co potřebuje rozhodnutí. Splnění digitálního kvízu se neoznačuje jako pozorování práce. Každý povinný praktický výkon D1–D4 vyžaduje dvě úspěšná pozorování v různých dnech, druhé při dílčí zkoušce; každý záznam má datum, podmínky a hodnotitele."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pracovní evidence",
+        "meaning": "Záznam skutečného místa, činnosti a rozsahu práce v příslušných jednotkách."
+      },
+      {
+        "term": "Předání práce",
+        "meaning": "Úplné sdělení výsledku, kontroly, odchylky a dohodnutého dalšího kroku."
+      }
+    ],
+    "example": {
+      "situation": "Prořezávka je provedena v potvrzeném úseku, navazující probírka dosud nebyla ověřena.",
+      "response": "Zaznamenám stav každého výkonu zvlášť a nevydávám úspěšnou prořezávku za splnění probírky.",
+      "why": "Každá povinná část musí být ověřena samostatně, bez průměrování výsledků."
+    },
+    "mistakes": [
+      "Vykázat plánované množství jako skutečně provedené.",
+      "Zaměnit digitální přípravu za pozorovaný praktický výkon.",
+      "Započítat jeden časový úsek do výuky i praxe."
+    ],
+    "quiz": [
+      {
+        "id": "E05-q1",
+        "prompt": "Prořezávka je ověřena, probírka ne. Jak shrnete výsledek?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Úspěšná prořezávka nahradí probírku."
+          },
+          {
+            "id": "b",
+            "text": "Zprůměruji obě části jako splněné."
+          },
+          {
+            "id": "c",
+            "text": "Každý výkon uvedu zvlášť; probírka zůstává neověřená."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Každý výkon uvedu zvlášť; probírka zůstává neověřená. Každá povinná část musí být ověřena samostatně, bez průměrování výsledků."
+      },
+      {
+        "id": "E05-q2",
+        "prompt": "Kdy může včasná oprava drobné vady zachovat splnění?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Když instruktor navádí rozhodující pracovní krok."
+          },
+          {
+            "id": "b",
+            "text": "Když ji účastník v mezích zadání napraví samostatně a znovu zkontroluje."
+          },
+          {
+            "id": "c",
+            "text": "Když ji zakryje v záznamu."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Když ji účastník v mezích zadání napraví samostatně a znovu zkontroluje. Každá povinná část musí být ověřena samostatně, bez průměrování výsledků."
+      },
+      {
+        "id": "E05-q3",
+        "prompt": "Jak se ověřuje povinný praktický výkon D1–D4?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dvakrát úspěšně v různých dnech, podruhé při dílčí zkoušce."
+          },
+          {
+            "id": "b",
+            "text": "Dvěma kliknutími na stejný kvíz."
+          },
+          {
+            "id": "c",
+            "text": "Pouze celkovým počtem bodů."
+          }
+        ],
+        "correct": "a",
+        "explanation": "Dvakrát úspěšně v různých dnech, podruhé při dílčí zkoušce. Každá povinná část musí být ověřena samostatně, bez průměrování výsledků."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Vlastní kontrola kvality a rozsahu",
+      "prompt": "Použijte modelovou situaci této lekce. Napište místo a činnost, skutečný nebo modelový rozsah s jednotkou, vlastní kontrolu a co předáte odpovědné osobě. Modelové údaje označte.",
+      "checks": [
+        "Místo, činnost a rozsah jsou jednoznačné.",
+        "Odlišuji potvrzené údaje od odhadu.",
+        "Uvádím kontrolu, případný problém a další krok."
+      ]
+    },
+    "sourceIds": []
+  },
+  {
+    "id": "E06",
+    "subject": "organization",
+    "block": "E",
+    "title": "Souhrnné předání výsledku a evidence",
+    "goal": "Předám úplný záznam skutečného úkolu a domluvím návaznost.",
+    "minutes": 12,
+    "competencies": [
+      "C12",
+      "C14"
+    ],
+    "intro": "Organizace práce propojuje potvrzené zadání, skutečné provedení a dohledatelný záznam. V této lekci nacvičíte konkrétní výstup pro samostatný předmět IVP; odbornou správnost pracovního postupu nadále určuje instruktor.",
+    "sections": [
+      {
+        "title": "Jednoznačné předání",
+        "body": "Ústní předání navazuje na skutečný pracovní záznam. Účastník uvede místo, činnost, dokončený rozsah, výsledek kontroly, závadu a požadovaný další krok. Příjemce musí rozumět, co může převzít a co zůstává neověřené. Výřečnost nenahrazuje správnost údajů; stručná a úplná informace je pro pracovní návaznost účinnější."
+      },
+      {
+        "title": "D6 a závěrečná část",
+        "body": "D6 zahrnuje obě komunikační situace, přípravu postupu a úplný pracovní záznam. Závěrečných 15 minut organizace práce slouží evidenci a ústnímu předání skutečného závěrečného úkolu. Dokončuje se pátý požadavek praktické práce, nikoli druhý samostatný pracovní výkon. Tento čas je zahrnut do 16 VH předmětu."
+      },
+      {
+        "title": "Doklad a další krok",
+        "body": "Záznam předávaný do portfolia odliší vlastní řešení, podporu lektora a pozorovaný výkon instruktora. Účastník neuvádí modelový výstup jako potvrzenou odbornou způsobilost. Po neúspěchu dostane konkrétní přípravu k nápravě; u každé nesplněné zkušební části jsou dva opravné pokusy. Nad řádný plán se vedou opravné zkoušky i další příprava."
+      }
+    ],
+    "terms": [
+      {
+        "term": "Pracovní evidence",
+        "meaning": "Záznam skutečného místa, činnosti a rozsahu práce v příslušných jednotkách."
+      },
+      {
+        "term": "Předání práce",
+        "meaning": "Úplné sdělení výsledku, kontroly, odchylky a dohodnutého dalšího kroku."
+      }
+    ],
+    "example": {
+      "situation": "Závěrečný pracovní úkol je dokončen, ale v záznamu chybí skutečné množství a jednotka.",
+      "response": "Předám ověřené údaje nebo přesně označím chybějící ověření; samotné dokončení úkonu neoznačím za úplné předání.",
+      "why": "Pátý požadavek zahrnuje pravdivou kontrolu a předání práce i zjištěného problému."
+    },
+    "mistakes": [
+      "Vykázat plánované množství jako skutečně provedené.",
+      "Zaměnit digitální přípravu za pozorovaný praktický výkon.",
+      "Započítat jeden časový úsek do výuky i praxe."
+    ],
+    "quiz": [
+      {
+        "id": "E06-q1",
+        "prompt": "Co tvoří závěrečných 15 minut organizace práce?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Doplnění výcviku motorové pily."
+          },
+          {
+            "id": "b",
+            "text": "Záznam a ústní předání skutečného závěrečného úkolu."
+          },
+          {
+            "id": "c",
+            "text": "Druhý samostatný pracovní výkon na jiné ploše."
+          }
+        ],
+        "correct": "b",
+        "explanation": "Záznam a ústní předání skutečného závěrečného úkolu. Pátý požadavek zahrnuje pravdivou kontrolu a předání práce i zjištěného problému."
+      },
+      {
+        "id": "E06-q2",
+        "prompt": "D6 má splněnou komunikaci, ale chybí pracovní záznam. Jaký je závěr?",
+        "options": [
+          {
+            "id": "a",
+            "text": "D6 není splněna; všechny povinné části musí být splněny."
+          },
+          {
+            "id": "b",
+            "text": "Komunikace sama stačí."
+          },
+          {
+            "id": "c",
+            "text": "Chybějící záznam nahradí anglický rozhovor."
+          }
+        ],
+        "correct": "a",
+        "explanation": "D6 není splněna; všechny povinné části musí být splněny. Pátý požadavek zahrnuje pravdivou kontrolu a předání práce i zjištěného problému."
+      },
+      {
+        "id": "E06-q3",
+        "prompt": "Kolik opravných pokusů připouští návrh pro každou nesplněnou zkušební část?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jeden pro celý program bez přípravy."
+          },
+          {
+            "id": "b",
+            "text": "Neomezené pokusy započítané do řádného plánu."
+          },
+          {
+            "id": "c",
+            "text": "Dva po doplnění přípravy; běžný nácvik se nepočítá jako pokus."
+          }
+        ],
+        "correct": "c",
+        "explanation": "Dva po doplnění přípravy; běžný nácvik se nepočítá jako pokus. Pátý požadavek zahrnuje pravdivou kontrolu a předání práce i zjištěného problému."
+      }
+    ],
+    "task": {
+      "title": "Pracovní karta: Souhrnné předání výsledku a evidence",
+      "prompt": "Použijte modelovou situaci této lekce. Napište místo a činnost, skutečný nebo modelový rozsah s jednotkou, vlastní kontrolu a co předáte odpovědné osobě. Modelové údaje označte.",
+      "checks": [
+        "Místo, činnost a rozsah jsou jednoznačné.",
+        "Odlišuji potvrzené údaje od odhadu.",
+        "Uvádím kontrolu, případný problém a další krok."
+      ]
+    },
+    "sourceIds": []
+  }
+]
