@@ -68,6 +68,11 @@ await test('Source invariants: 14 areas, 42 original performance fields, 24 unan
  for(const c of profile.competencies){assert(c.independent_performance_verbatim);assert(c.judgement_within_assignment_verbatim);assert(c.autonomy_boundary_verbatim);assert(!c.production_approved)}
  const questions=json('zadani/data/otevrene_otazky.json');assert.equal(questions.length,24);assert(questions.every(x=>x.answer===null));
 });
+await test('Browser-local launcher accepts a Request without a network Origin header',async()=>{
+ const response=await engine(new Request('https://academy.presentation/api/academy/launcher',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({account:'demo-a01'})}));
+ assert.equal(response.status,200,(await response.clone().json()).error);
+ assert.equal((await response.json()).user.id,'demo-a01');
+});
 await test('SQLite WASM seed and role launcher persist 30 synthetic learners',async()=>{
  ok(await request(null,'launcher'));a1=await login('demo-a01');a2=await login('demo-a02');i1=await login('demo-i01');i2=await login('demo-i02');q=await login('demo-q01');
  assert.equal(ok(await request(q,'ivp')).summary.learners,30);assert.notEqual(a1,a2);

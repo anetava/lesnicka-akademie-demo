@@ -21,11 +21,11 @@ export async function installPresentation(){
   const url=new URL(input instanceof Request?input.url:String(input),location.href);
   if(url.origin!==location.origin||!url.pathname.startsWith('/api/academy/'))return originalFetch(input,init);
   const run=async()=>{
-   const headers=new Headers(init?.headers||(input instanceof Request?input.headers:undefined));headers.set('Origin','https://academy.presentation');
+   const headers=new Headers(init?.headers||(input instanceof Request?input.headers:undefined));
    const cookie=sessionStorage.getItem('academy-demo-cookie');if(cookie)headers.set('Cookie',cookie);
    const endpoint=url.pathname.split('/')[3];
    if(['shares','shared'].includes(endpoint))return Response.json({error:'Veřejné sdílení portfolia zde není dostupné. Použij export vybraných záznamů. Ukázkové údaje zůstávají v tomto prohlížeči.'},{status:409});
-   const request=new Request('https://academy.presentation'+url.pathname+url.search,{...init,headers});
+   const request=new Request(location.origin+url.pathname+url.search,{...init,headers});
    try{
     const response=await execute(request);
     const setCookie=response.headers.get('set-cookie');if(setCookie){const pair=setCookie.split(';')[0];if(pair==='academy_session=')sessionStorage.removeItem('academy-demo-cookie');else sessionStorage.setItem('academy-demo-cookie',pair)}

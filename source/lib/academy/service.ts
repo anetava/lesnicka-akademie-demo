@@ -72,7 +72,7 @@ async function mutate(c:Ctx,u:User,b:any,fn:()=>Promise<any>){
 }
 export async function handleAcademy(r:Request,c:Ctx):Promise<Response>{c={...c,operation:new URL(r.url).pathname};let u:User|undefined;try{
  const url=new URL(r.url);const p=url.pathname.replace(/^\/api\/academy\/?/,'').split('/').filter(Boolean);const method=r.method;
- if(method!=='GET'&&method!=='HEAD'){const origin=r.headers.get('origin');if(!origin||origin!==url.origin)fail(403,'Požadavek musí pocházet z této aplikace.');if(Number(r.headers.get('content-length')||0)>5_500_000)fail(413,'Soubor je příliš velký.');}
+ if(method!=='GET'&&method!=='HEAD'){if(c.platform!=='presentation-browser'){const origin=r.headers.get('origin');if(!origin||origin!==url.origin)fail(403,'Požadavek musí pocházet z této aplikace.');}if(Number(r.headers.get('content-length')||0)>5_500_000)fail(413,'Soubor je příliš velký.');}
  if(p[0]==='launcher'){
   if(!c.launcherAllowed)fail(403,'Demonstrační účty otevírá pouze vlastník soukromé ukázky.');await seedDemo(c);if(method==='GET')return json({accounts:(await rows(c,"SELECT * FROM users WHERE active=1 AND org='demo-akademie' ORDER BY role,id")).map(publicUser),demo:true});
   const b:any=await readBody(r);const account=await one(c,'SELECT * FROM users WHERE id=? AND active=1',str(b.account));if(!account)fail(404,'Účet nebyl nalezen.');const token=rawToken();await run(c,'INSERT INTO sessions VALUES (?,?,?,?)',await hash(token),account.id,c.platform,Date.now()+8*3600000);await log(c,account,'demo_session_opened',account.id);return json({user:publicUser(account)},200,{'Set-Cookie':`academy_session=${token}; Path=/; HttpOnly; SameSite=Strict; Max-Age=28800${url.protocol==='https:'?'; Secure':''}`});
