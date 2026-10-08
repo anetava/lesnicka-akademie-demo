@@ -1,6 +1,7 @@
 /* Each page gets its own painted scene, framed in the academy's gold. */
 .forest-art { display:block; flex:0 0 auto; pointer-events:none; user-select:none; line-height:0; overflow:hidden; border:1px solid #b49753; border-radius:5px; background:#12364a; box-shadow:0 4px 14px #12364a0d; aspect-ratio:3 / 2; }
 .forest-art img { display:block; width:100%; height:100%; object-fit:contain; }
+.forest-art[data-real-photo] img { object-fit:cover!important; object-position:center; }
 .forest-art--heading { width:clamp(9rem,17vw,13rem); }
 .nature-heading { align-items:center; gap:1.5rem; }
 .nature-heading > div { flex:1; min-width:0; }
