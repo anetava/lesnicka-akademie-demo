@@ -1,0 +1,2 @@
+import {v4Project} from './v4-project-data.js';
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-copy]');if(!b)return;const i=Number(b.dataset.copy),field=v4Project.englishConcept[i];if(!Number.isInteger(i)||!field)return;const status=document.querySelector('#copy-status');try{await navigator.clipboard.writeText(field.text);status.textContent='Text zkopírován. Nepotvrzené údaje doplňte před podáním.';}catch{status.textContent='Kopírování není dostupné. Označte text a zkopírujte jej ručně.';}});

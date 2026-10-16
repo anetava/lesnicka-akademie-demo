@@ -31,3 +31,8 @@ Po druhé opravě přenosu relace: TypeScript PASS, produkční sestavení PASS,
 ## Repozitář
 
 Veřejný repozitář `anetava/lesnicka-akademie-demo` má povolený přístup připojené aplikace. Původní nahrání vytvořilo commit `bf63e9364195edcd0d31e8e7e6df179e092d1aa6`, ale tři cesty s velkými soubory mají jiné kontrolní součty než místní sestavení. Právě tyto cesty musí nahradit opravené menší soubory a po novém commitu je nutné porovnat SHA každé změněné cesty.
+
+## Oddělená stránka Nanečisto (16. 10. 2026)
+
+- Do samostatného podadresáře `nanecisto/` byla přidána statická ukázka bez změny souborů Lesnické akademie. Obsahuje 12 dvojjazyčných modelových situací pro KPV a UPV. Pracovní Word dokument byl z veřejného balíku vynechán.
+- Kontroly zdrojového Nanečisto: `npm run check` PASS, syntaktická kontrola obou nových modulů PASS, strukturální kontrola 12 dvojjazyčných případů PASS. Živé zobrazení bude ověřeno po publikaci; test Lesnické akademie nebyl znovu spuštěn, její soubory nejsou změněny.
